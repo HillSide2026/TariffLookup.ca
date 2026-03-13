@@ -203,6 +203,65 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses a normalized eu row for plastic bags resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "polyethylene shipping bags",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "3923.21",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "6.50%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for wooden office furniture resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "wooden office filing cabinet",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9403.30",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
   it("returns an explicit eu seed fallback for unmatched low-confidence descriptions", async () => {
     const response = await createApp().inject({
       method: "POST",

@@ -1,9 +1,9 @@
 {
   "jurisdiction": "European Union",
-  "status": "first-verified-local-records",
+  "status": "step-3-threshold-reached",
   "notes": [
     "This manifest identifies the official source package for the first real-data jurisdiction.",
-    "First verified local EU tariff rows are now committed for HS 8208.30, HS 0901.21, HS 6109.10, and HS 9403.60.",
+    "First verified local EU tariff rows are now committed for HS 8208.30, HS 0901.21, HS 6109.10, HS 9403.60, HS 3923.21, and HS 9403.30.",
     "Coverage remains intentionally partial and is not yet a production-grade EU tariff schedule."
   ],
   "artifacts": [

@@ -298,6 +298,123 @@
           "No separate Canada tariff-preference measure appears in the summary because the ERGA OMNES third-country duty is already 0%."
         ]
       }
+    },
+    {
+      "query": {
+        "product": "392321",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/392321/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Of polymers of ethylene"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9822610",
+            "startDate": "01/01/1999",
+            "endDate": "01/01/3000",
+            "tariffFormula": "6.50%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "regulationId": "R1815170",
+            "startDate": "01/11/2018",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "regulationId": "D1700370",
+            "startDate": "21/09/2017",
+            "endDate": null,
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single sacks-and-bags branch for polymers of ethylene, so the prototype can normalize HS 3923.21 directly.",
+          "The base ERGA OMNES duty is 6.50%, while the Canada tariff preference shown in the same snapshot is 0%.",
+          "The same official snapshot includes conditional ship-platform and airworthiness suspension measures, but those conditional measures are not treated as the base customs duty in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "940330",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940330/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Desks",
+          "Other",
+          "Cupboards with doors, shutters or flaps; filing, card-index and other cabinets",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9822610",
+            "startDate": "01/01/1999",
+            "endDate": "01/01/3000",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "regulationId": "R1815170",
+            "startDate": "01/11/2018",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "710",
+            "origin": "ERGA OMNES",
+            "type": "Import control - CITES",
+            "regulationId": "R2309660",
+            "startDate": "20/05/2023",
+            "endDate": "01/01/3000",
+            "tariffFormula": null
+          }
+        ],
+        "notes": [
+          "All returned wooden-office-furniture branches share the same 0% ERGA OMNES third-country duty, so the prototype can safely normalize the base duty at HS 9403.30.",
+          "The same official snapshot includes conditional end-use, airworthiness, and CITES measures, but those auxiliary measures are not treated as the base customs duty in the normalized record.",
+          "No separate Canada tariff-preference measure appears in the summary because the ERGA OMNES third-country duty is already 0%."
+        ]
+      }
     }
   ]
 }

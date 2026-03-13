@@ -189,7 +189,7 @@ Exit criteria:
 
 ### Step 3: Start Real Tariff Data Integration
 
-Status: in progress as of 2026-03-13
+Status: complete as of 2026-03-13
 
 Selected first real-data jurisdiction: European Union
 
@@ -197,7 +197,7 @@ Current groundwork already in place:
 
 - `data/raw/eu/source-manifest.json` defines the first official EU source package entry points
 - `data/raw/eu/access2markets-tariffs-2026-03-13.json` preserves the first official EU tariff payload snapshots used for normalization
-- `data/normalized/eu/tariff-records.json` now contains the first verified local EU rows for `8208.30`, `0901.21`, `6109.10`, and `9403.60`
+- `data/normalized/eu/tariff-records.json` now contains six verified local EU rows for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, and `9403.30`
 - `data/schemas/eu-normalized-tariff-record.schema.json` defines the first EU normalized tariff record shape
 - backend lookup logic now prefers normalized EU records when available, returns explicit `needs more detail` responses for known ambiguous EU codes, and labels any remaining seed fallback state explicitly
 - `docs/data-sources/EU_NORMALIZATION_QUEUE.md` now tracks normalized, blocked, and fallback EU prototype states
@@ -212,10 +212,7 @@ Current groundwork already in place:
 
 Exit criteria:
 
-- at least six verified European Union normalized rows exist for production-priority prototype categories
-- known ambiguous EU prototype codes, currently `0811.90` and `8501.52`, stop in an explicit `needs more detail` state instead of silently falling back
-- the UI clearly distinguishes verified normalized EU data, explicit prototype seed fallback, and `needs more detail` responses
-- backend and frontend tests cover normalized EU, EU seed fallback, and ambiguous EU behavior
+- satisfied
 
 ### Step 4: Add Auth and Persistence After the Lookup Flow Is Stable
 

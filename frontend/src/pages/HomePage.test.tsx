@@ -70,6 +70,43 @@ const detailRequestResponse = {
   },
 } as const;
 
+const seedFallbackResponse = {
+  lookupId: "lookup-456",
+  query: {
+    hsCode: "8479.89",
+    submittedHsCode: null,
+    productDescription: "custom factory automation assembly module",
+    destinationCountry: "European Union",
+    inputMode: "description",
+  },
+  classification: {
+    probableHsCode: "8479.89",
+    confidence: "low",
+    method: "fallback-seed-classification",
+    rationale:
+      "No direct keyword match was found, so the app returned a low-confidence seed classification.",
+  },
+  result: {
+    mfnTariffRate: "2.5% (seed demo)",
+    preferentialTariffRate: "0.0% (seed demo)",
+    agreementBasis:
+      "CETA treatment not yet normalized for this prototype fallback record",
+    eligibilityNotes: [
+      "Seed/demo fallback record for unclassified industrial machines and mechanical appliances.",
+      "This row is intentionally retained as an explicit EU prototype fallback for uncovered low-confidence product descriptions.",
+    ],
+    source: "TariffLookup internal seed/demo dataset",
+    effectiveDate: "2026-03-13",
+  },
+  meta: {
+    source: "seed-demo-data",
+    supportedDestinations: marketsResponse.markets,
+    coverageStatus: "seed-fallback",
+    coverageNote:
+      "No verified EU normalized row exists for HS code 8479.89 yet, so the prototype returned the internal seed/demo fallback dataset.",
+  },
+} as const;
+
 describe("HomePage", () => {
   const fetchMock = vi.fn<
     (input: RequestInfo | URL, init?: RequestInit) => Promise<Response>
@@ -195,6 +232,62 @@ describe("HomePage", () => {
     expect(
       await screen.findByText(
         /motor use or application, such as civil aircraft, conveyor equipment, or general industrial machinery/i,
+      ),
+    ).toBeInTheDocument();
+  });
+
+  it("shows an explicit seed-fallback state for uncovered eu prototype lookups", async () => {
+    const user = userEvent.setup();
+
+    fetchMock.mockImplementation(async (input) => {
+      const url = String(input);
+
+      if (url.endsWith("/api/meta/markets")) {
+        return new Response(JSON.stringify(marketsResponse), {
+          status: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+
+      if (url.endsWith("/api/lookups")) {
+        return new Response(JSON.stringify(seedFallbackResponse), {
+          status: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+
+      throw new Error(`Unexpected fetch URL: ${url}`);
+    });
+
+    render(<HomePage />);
+
+    await user.clear(screen.getByLabelText("Product description"));
+    await user.type(
+      screen.getByLabelText("Product description"),
+      "custom factory automation assembly module",
+    );
+    await user.selectOptions(
+      screen.getByLabelText("Destination"),
+      "European Union",
+    );
+    await user.click(
+      screen.getByRole("button", { name: "Resolve and look up" }),
+    );
+
+    expect(await screen.findByText("2.5% (seed demo)")).toBeInTheDocument();
+    expect(
+      await screen.findByText(/Source tier: Seed demo data\./i),
+    ).toBeInTheDocument();
+    expect(
+      await screen.findByText(/Coverage state: Prototype seed fallback\./i),
+    ).toBeInTheDocument();
+    expect(
+      await screen.findByText(
+        /No verified EU normalized row exists for HS code 8479.89 yet/i,
       ),
     ).toBeInTheDocument();
   });

@@ -41,6 +41,23 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "3923.21",
+    label: "Plastic sacks and bags",
+    keywords: [
+      "plastic",
+      "polyethylene",
+      "bag",
+      "bags",
+      "sack",
+      "sacks",
+      "packaging",
+      "shipping",
+      "pouch",
+    ],
+    phrases: ["plastic bag", "plastic bags", "polyethylene bag", "shipping bag"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "8501.52",
     label: "Electric motors",
     keywords: [
@@ -55,6 +72,21 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "ambiguous",
   },
   {
+    probableHsCode: "9403.30",
+    label: "Wooden office furniture",
+    keywords: [
+      "office",
+      "desk",
+      "filing",
+      "cabinet",
+      "cupboard",
+      "wood",
+      "wooden",
+    ],
+    phrases: ["office desk", "wooden office desk", "filing cabinet", "office cabinet"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "9403.60",
     label: "Wooden furniture",
     keywords: [
@@ -63,13 +95,11 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "chair",
       "table",
       "furniture",
-      "desk",
-      "cabinet",
       "shop",
       "dining",
       "living",
     ],
-    phrases: ["wooden furniture", "wooden table", "wooden desk"],
+    phrases: ["wooden furniture", "wooden table", "dining room table"],
     euPriority: "normalized",
   },
 ];
