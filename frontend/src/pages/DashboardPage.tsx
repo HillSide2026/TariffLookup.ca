@@ -7,12 +7,13 @@ const dashboardCards = [
   {
     title: "Supported markets",
     value: "6",
-    detail: "US, EU, UK, Japan, South Korea, and Australia are in MVP scope.",
+    detail: "US, EU, UK, Japan, Brazil, and China are in MVP scope.",
   },
   {
     title: "Backend status",
-    value: "Mocked",
-    detail: "Frontend is scaffolded against a placeholder lookup API response.",
+    value: "Seed data",
+    detail:
+      "Frontend is wired to a local seed dataset lookup flow with description-based HS classification.",
   },
 ];
 

@@ -1,0 +1,55 @@
+{
+  "jurisdiction": "European Union",
+  "status": "first-verified-local-records",
+  "notes": [
+    "This manifest identifies the official source package for the first real-data jurisdiction.",
+    "First verified local EU tariff rows are now committed for HS 8208.30 and HS 0901.21.",
+    "Coverage remains intentionally partial and is not yet a production-grade EU tariff schedule."
+  ],
+  "artifacts": [
+    {
+      "kind": "raw-api-snapshot",
+      "path": "data/raw/eu/access2markets-tariffs-2026-03-13.json",
+      "description": "Raw official Access2Markets tariff payloads captured for the first verified EU rows."
+    },
+    {
+      "kind": "normalized-records",
+      "path": "data/normalized/eu/tariff-records.json",
+      "description": "Normalized EU tariff records currently preferred by the backend for matching EU lookups."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Access2Markets tariff endpoint",
+      "kind": "official-api-endpoint",
+      "url": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/{product}/{origin}/{destination}?lang=EN",
+      "purpose": "Official EU tariff/measure payload used for the first normalized European Union lookup rows."
+    },
+    {
+      "name": "EU Customs Tariff (TARIC) overview",
+      "kind": "official-reference-page",
+      "url": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods/eu-customs-tariff-taric_en",
+      "purpose": "Primary tariff-system reference and entry point for EU tariff consultation and raw-data guidance."
+    },
+    {
+      "name": "Combined Nomenclature",
+      "kind": "official-reference-page",
+      "url": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods/combined-nomenclature_en",
+      "purpose": "Official nomenclature reference for goods classification and annual code structure updates."
+    },
+    {
+      "name": "Tariff classification of goods",
+      "kind": "official-reference-page",
+      "url": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods_en",
+      "purpose": "Classification guidance context for EU customs treatment."
+    },
+    {
+      "name": "EU Binding Tariff Information (BTI)",
+      "kind": "official-reference-page",
+      "url": "https://taxation-customs.ec.europa.eu/customs/common-customs-tariff-cct/tariff-classification-goods/eu-binding-tariff-information-bti_en",
+      "purpose": "Classification certainty reference for difficult product-description-to-code cases."
+    }
+  ],
+  "lastReviewed": "2026-03-13",
+  "owner": "TariffLookup.ca engineering"
+}

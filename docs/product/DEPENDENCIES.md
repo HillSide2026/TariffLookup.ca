@@ -24,10 +24,11 @@ Use this file to confirm required dependencies are available before committing m
 - Issue-tracking process and support queue
 
 ## Data and Logic Dependencies
-- Tariff schedules by HS code for United States, European Union, United Kingdom, Japan, South Korea, and Australia
+- Tariff schedules by HS code for United States, European Union, United Kingdom, Japan, Brazil, and China
 - Preferential tariff schedules for relevant trade agreements by jurisdiction
 - Agreement eligibility rule definitions required to generate notes/conditions
 - HS code normalization and validation rules
+- Product-description-to-HS-code classification rules or model behavior with confidence/rationale output
 - Defined tariff-data refresh process with source timestamp tracking
 
 ## Launch / Adoption Dependencies

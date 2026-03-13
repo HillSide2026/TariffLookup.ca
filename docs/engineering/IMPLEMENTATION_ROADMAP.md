@@ -13,8 +13,9 @@ It is aligned to the MVP described in:
 ## MVP Summary
 
 - Target users: Canadian exporters and trade consultants
-- Core workflow: one HS code + one destination country -> tariff result
+- Core workflow: one product description or one HS code + one destination country -> probable HS code + tariff result
 - Initial output:
+  - probable HS code
   - MFN tariff rate
   - preferential tariff rate, if applicable
   - agreement basis
@@ -24,8 +25,8 @@ It is aligned to the MVP described in:
   - European Union
   - United Kingdom
   - Japan
-  - South Korea
-  - Australia
+  - Brazil
+  - China
 
 ## Initial Stack
 
@@ -75,9 +76,10 @@ Supabase is reserved for user accounts, saved lookup history, and subscription s
 
 - Create a health endpoint
 - Create a lookup endpoint that accepts:
+  - `productDescription`
   - `hsCode`
   - `destinationCountry`
-- Return a temporary mocked response shape matching the planned tariff result model
+- Return a temporary mocked response shape matching the planned classification + tariff result model
 - Add request validation and error handling
 
 ### Phase 4: Domain Data Model
@@ -114,7 +116,7 @@ Supabase is reserved for user accounts, saved lookup history, and subscription s
 ### Phase 8: Reliability and Usability
 
 - Improve error handling
-- Improve validation guidance for HS code and country input
+- Improve validation guidance for product description, HS code, and country input
 - Add instrumentation, monitoring, and support workflows
 - Expand test coverage across frontend, backend, and data logic
 
@@ -127,12 +129,106 @@ Supabase is reserved for user accounts, saved lookup history, and subscription s
 - Opportunity recommendation engine
 - Overbuilt role systems or broad integrations before MVP validation
 
-## Immediate Build Goal
+## Current Repository Status (2026-03-13)
 
-Complete Phase 1 and Phase 2 scaffolding so the repo has:
+The repository has already moved beyond the initial scaffolding target:
 
-- a working frontend shell
-- a working backend shell
-- basic routing
-- a product-aligned lookup-first UI direction
-- a clear path into real tariff data integration
+- `frontend/` exists with React, TypeScript, Vite, Tailwind, and route scaffolding for `/`, `/login`, `/dashboard`, `/profile`, and `/settings`
+- the home page is now wired to a dataset-backed prototype lookup flow with visible probable-HS-code and tariff result rendering
+- `backend/` now uses extracted classification and lookup services behind a thin route layer
+- `node` and `npm` are available locally, and frontend/backend builds have been verified successfully
+- `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
+- `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
+- Step 3 has moved from groundwork into first verified EU ingestion, with raw official Access2Markets snapshots and the first normalized European Union rows committed for `8208.30` and `0901.21`
+- authentication, persistence, billing, observability, and production-grade test coverage are still pending
+
+## Execution Status And Next Steps
+
+### Step 0: Restore a Working Local Node Environment
+
+Status: complete as of 2026-03-13
+
+- `node` is available on `PATH`
+- `npm` is available for workspace package installation and local scripts
+- the repository README has been updated to reflect the active implementation baseline
+- frontend and backend dependencies/builds have been verified locally
+
+Exit criteria:
+
+- satisfied
+
+### Step 1: Complete the End-to-End Mocked Lookup Flow
+
+Status: complete as of 2026-03-13
+
+- the home page form is wired to the backend `POST /api/lookups` endpoint for description-first lookups
+- supported destinations are loaded from `GET /api/meta/markets`
+- client-side loading, validation, and error states exist around the live classification + tariff response
+- the UI visibly renders a mocked probable HS code plus mocked tariff response from the backend contract
+
+Exit criteria:
+
+- satisfied
+
+### Step 2: Freeze the Lookup Contract and Service Boundaries
+
+Status: complete as of 2026-03-13
+
+- the lookup request shape is frozen around `productDescription?`, `hsCode?`, and `destinationCountry`
+- the success response shape is frozen around `query`, `classification`, `result`, and `meta`
+- backend classification logic has been extracted into a dedicated service
+- backend lookup logic has been extracted into a dataset-backed lookup service
+- the route is now focused on validation, orchestration, and HTTP response formatting
+- a first local seed tariff dataset now powers actual prototype lookups for seeded HS code and destination pairs
+- backend tests cover description-only, hsCode-only, hsCode-plus-description, and validation-error scenarios
+- a frontend test confirms the visible result cards update after a lookup
+
+Exit criteria:
+
+- satisfied
+
+### Step 3: Start Real Tariff Data Integration
+
+Status: in progress as of 2026-03-13
+
+Selected first real-data jurisdiction: European Union
+
+Current groundwork already in place:
+
+- `data/raw/eu/source-manifest.json` defines the first official EU source package entry points
+- `data/raw/eu/access2markets-tariffs-2026-03-13.json` preserves the first official EU tariff payload snapshots used for normalization
+- `data/normalized/eu/tariff-records.json` now contains the first verified local EU rows for `8208.30` and `0901.21`
+- `data/schemas/eu-normalized-tariff-record.schema.json` defines the first EU normalized tariff record shape
+- backend lookup logic now prefers normalized EU records when available and falls back to seed data for EU codes that are not normalized yet
+
+- Document the first source-data package and refresh conventions under `docs/data-sources/`
+- Add initial schemas and normalization outputs under `data/schemas/` and `data/normalized/`
+- Define and document the first real product-description-to-HS-code classification path
+- Implement the European Union end-to-end with real tariff schedule data before expanding to the rest of the market set
+- Replace seed/demo result fields with real rate, agreement-basis, and eligibility-note generation for the European Union path first
+- expand beyond the first verified EU rows so the European Union path covers a materially useful set of production-priority codes without seed fallback
+
+Exit criteria:
+
+- the backend can return a materially useful slice of European Union tariff results from normalized local data, and any remaining seed fallback behavior is explicit in code and docs
+
+### Step 4: Add Auth and Persistence After the Lookup Flow Is Stable
+
+- Add Supabase schema and application wiring for `profiles` and `lookup_history`
+- Protect saved-history and account routes while keeping the public lookup entry path lightweight
+- Persist successful lookups for authenticated users and expose them in the dashboard
+
+Exit criteria:
+
+- authenticated users can review prior lookups without changing the core public lookup workflow
+
+### Step 5: Prepare Reliability, Billing, and Launch Controls
+
+- Add structured logging, monitoring, and failure diagnostics around the lookup path
+- Expand automated coverage across UI, API, and data normalization logic
+- Add Stripe only after the tariff-result workflow is trusted and supportable
+- Define release, support, and refresh procedures for tariff-data updates
+
+Exit criteria:
+
+- the product can be operated, supported, and monetized without relying on manual intervention

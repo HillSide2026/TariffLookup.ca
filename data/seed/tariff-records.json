@@ -1,0 +1,236 @@
+[
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "United States",
+    "mfnRate": "2.8% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CUSMA preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "Assumes preferential treatment when origin conditions are satisfied."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "3.7% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CETA preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "CETA treatment depends on product-specific origin rules."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "3.2% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "Preferential treatment assumes qualifying Canadian origin."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "Japan",
+    "mfnRate": "3.1% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "CPTPP treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "South Korea",
+    "mfnRate": "5.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-Korea Free Trade Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "Preferential treatment assumes compliance with CKFTA origin rules."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "Australia",
+    "mfnRate": "2.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for interchangeable cutting blades.",
+      "Preferential rate assumes qualifying origin and documentary support."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "0901.21",
+    "destinationCountry": "United States",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CUSMA treatment not required where MFN is already zero (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for roasted coffee, not decaffeinated.",
+      "MFN and preferential outcomes may converge for some agricultural goods."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "0901.21",
+    "destinationCountry": "European Union",
+    "mfnRate": "7.5% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CETA preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for roasted coffee, not decaffeinated.",
+      "Preferential outcome assumes origin rules are met."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "0901.21",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "2.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for roasted coffee, not decaffeinated.",
+      "Preferential treatment assumes qualifying origin documentation."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "0901.21",
+    "destinationCountry": "Japan",
+    "mfnRate": "12.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for roasted coffee, not decaffeinated.",
+      "CPTPP treatment assumes origin criteria are met."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8501.52",
+    "destinationCountry": "United States",
+    "mfnRate": "2.5% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CUSMA preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for AC electric motors.",
+      "Preferential treatment depends on origin analysis for the assembled motor."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8501.52",
+    "destinationCountry": "European Union",
+    "mfnRate": "4.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CETA preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for AC electric motors.",
+      "Preferential result assumes product-specific origin rules are satisfied."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8501.52",
+    "destinationCountry": "Japan",
+    "mfnRate": "4.2% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for AC electric motors.",
+      "Preferential treatment assumes qualifying origin and correct classification."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8501.52",
+    "destinationCountry": "Brazil",
+    "mfnRate": "14.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for AC electric motors.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "8501.52",
+    "destinationCountry": "China",
+    "mfnRate": "10.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for AC electric motors.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6109.10",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "12.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton T-shirts.",
+      "Preferential treatment depends on textile origin rules."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6109.10",
+    "destinationCountry": "South Korea",
+    "mfnRate": "13.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-Korea Free Trade Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton T-shirts.",
+      "Preferential treatment assumes qualifying origin and correct fiber classification."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6109.10",
+    "destinationCountry": "Australia",
+    "mfnRate": "5.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton T-shirts.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  }
+]

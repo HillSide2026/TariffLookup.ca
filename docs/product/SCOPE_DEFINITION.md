@@ -12,9 +12,9 @@ TariffLookup.ca for Canadian exporters evaluating new destination markets.
 
 ## In Scope
 - Target users: Canadian exporters and trade consultants supporting export-market evaluation.
-- User inputs: one HS code and one destination country per query.
-- User outputs: MFN tariff, preferential tariff (if applicable), agreement basis, and eligibility notes.
-- Initial jurisdictions: United States, European Union, United Kingdom, Japan, South Korea, Australia.
+- User inputs: one crude product description or one HS code, plus one destination country per query.
+- User outputs: probable HS code, MFN tariff, preferential tariff (if applicable), agreement basis, and eligibility notes.
+- Initial jurisdictions: United States, European Union, United Kingdom, Japan, Brazil, China.
 - Minimum dataset elements per jurisdiction:
   - tariff schedule by HS code
   - preferential tariff schedules under applicable trade agreements
@@ -33,9 +33,10 @@ TariffLookup.ca for Canadian exporters evaluating new destination markets.
 
 ## Illustrative Query (MVP)
 - Input:
-  - HS Code: `8208.30`
+  - Product description: `stainless steel kitchen knife blades`
   - Destination: `Japan`
 - Output format:
+  - Probable HS code
   - MFN tariff rate
   - Preferential tariff rate (if applicable)
   - Agreement basis (if applicable)

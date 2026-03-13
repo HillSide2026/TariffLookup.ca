@@ -1,0 +1,31 @@
+[
+  {
+    "hsCode": "8208.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "1.70%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 820830, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "MFN basis is the ERGA OMNES third-country duty shown as 1.70%; the Canada tariff preference shown in the same snapshot is 0% from 2017-09-21."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "0901.21",
+    "destinationCountry": "European Union",
+    "mfnRate": "7.50%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090121, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "MFN basis is the ERGA OMNES third-country duty shown as 7.50%; the Canada tariff preference shown in the same snapshot is 0% from 2017-09-21.",
+      "The same source snapshot lists an additional-duty measure tied to exports from the Russian Federation or Belarus; that contingent measure is not used as the base EU tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
+  }
+]

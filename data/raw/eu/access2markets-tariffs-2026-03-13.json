@@ -1,0 +1,180 @@
+{
+  "retrievedAt": "2026-03-13",
+  "source": "European Commission Access2Markets tariff endpoint",
+  "notes": [
+    "Destination Germany is used because the official endpoint requires an EU member-state destination code.",
+    "These raw payloads support the first verified normalized European Union tariff rows committed in this repository."
+  ],
+  "records": [
+    {
+      "query": {
+        "product": "820830",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/820830/CA/DE?lang=EN",
+      "response": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "1.70%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "For kitchen appliances or for machines used by the food industry",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "090121",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090121/CA/DE?lang=EN",
+      "response": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9922040",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "7.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Additional duties",
+              "measureType": "695",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R2512270",
+              "regulationOrderNumber": null,
+              "startDate": "20/07/2025",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": "Belarus, Russian Federation",
+              "tariffFormula": null,
+              "footnotes": [
+                {
+                  "code": 1026,
+                  "type": "TM",
+                  "text": "In case the goods are exported directly or indirectly from the Russian Federation or from Belarus, the additional customs duty based on Council Regulation (EU) 2025/1227 is applied."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the amount of the action",
+                  "certificateType": "Y",
+                  "certificateNumber": "155",
+                  "certificateDescription": "Products exported directly or indirectly from the Russian Federation or Belarus",
+                  "conditionExpression": null,
+                  "tariffFormula": "50.00%"
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "9",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the amount of the action",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": "0%"
+                }
+              ]
+            }
+          ],
+          "description": "Not decaffeinated",
+          "code": null
+        }
+      ]
+    }
+  ]
+}

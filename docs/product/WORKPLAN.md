@@ -18,25 +18,26 @@ Prepare implementation authorization for one specific product concept: TariffLoo
 - Typical user profiles: manufacturers, food producers, industrial suppliers, consumer product companies, and trade consultants supporting exporters.
 
 ### Core Problem
-Exporters evaluating a new market must determine MFN tariffs, preferential tariffs, and agreement basis across multiple jurisdictions and data sources, which is currently manual and time-consuming.
+Exporters evaluating a new market often do not know the correct HS code at the start, yet still need to determine MFN tariffs, preferential tariffs, and agreement basis across multiple jurisdictions and data sources. That classification and tariff work is currently manual and time-consuming.
 
 ### Core Software Function
-Given HS code and destination country input, return:
+Given a crude product description or HS code and a destination country, return:
+- probable HS code
 - MFN tariff rate
 - Preferential tariff rate (if applicable)
 - Relevant trade agreement basis
 - Eligibility notes or conditions
 
 ### MVP Feature Set
-- Tariff lookup for one HS code and one destination at a time.
-- Initial jurisdiction set: United States, European Union, United Kingdom, Japan, South Korea, Australia.
-- Results display for MFN rate, preferential rate, agreement basis, and notes.
+- Tariff lookup for one crude product description or one HS code and one destination at a time.
+- Initial jurisdiction set: United States, European Union, United Kingdom, Japan, Brazil, China.
+- Results display for probable HS code, MFN rate, preferential rate, agreement basis, and notes.
 
 ## Project Scope
 
 ### In Scope
 - One product: TariffLookup.ca.
-- Single primary workflow: HS code + destination -> tariff and agreement output.
+- Single primary workflow: product description or HS code + destination -> probable HS code + tariff and agreement output.
 - Initial jurisdiction coverage limited to six jurisdictions.
 - Core data model for tariff schedules, preferential schedules, agreement basis, and HS mappings.
 - Frontend search-and-results interface with backend query and rule logic.

@@ -6,8 +6,9 @@ The product is aimed at businesses and trade advisors who need a fast way to che
 
 ## MVP Definition
 
-- Input: one HS code and one destination country per query
+- Input: one crude product description or one HS code, plus one destination country per query
 - Output:
+  - probable HS code
   - MFN tariff rate
   - preferential tariff rate, if applicable
   - agreement basis, if applicable
@@ -17,8 +18,8 @@ The product is aimed at businesses and trade advisors who need a fast way to che
   - European Union
   - United Kingdom
   - Japan
-  - South Korea
-  - Australia
+  - Brazil
+  - China
 
 ## Repository Purpose
 
@@ -45,12 +46,11 @@ Key files include:
 
 ## Current Status
 
-This repo is being reset into a clean product codebase. The legacy legal-operations scripts have been removed from the active baseline, and application scaffolding has not started yet.
+This repo now contains active frontend and backend scaffolding for the MVP, including a mocked lookup flow that can resolve a probable HS code from a product description before returning tariff output.
 
 ## Near-Term Priorities
 
-- finalize repo cleanup from the prior repository state
-- lock initial frontend and backend stack choices
+- replace the mocked description-to-HS resolver with a data-backed classification workflow
 - define data ingestion and normalization boundaries for the MVP jurisdictions
 - document tariff data sources, agreement logic boundaries, and validation rules
 - add test and CI foundations once the first services are in place

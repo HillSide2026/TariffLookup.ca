@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tarifflookup.ca/schemas/eu-normalized-tariff-record.schema.json",
+  "title": "EU Normalized Tariff Record",
+  "description": "Normalized European Union tariff record shape for Step 3 local-data ingestion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "hsCode",
+    "destinationCountry",
+    "mfnRate",
+    "preferentialRate",
+    "agreement",
+    "eligibilityNotes",
+    "source",
+    "effectiveDate"
+  ],
+  "properties": {
+    "hsCode": {
+      "type": "string",
+      "description": "HS/CN/TARIC code normalized into the lookup contract.",
+      "minLength": 4
+    },
+    "destinationCountry": {
+      "type": "string",
+      "const": "European Union"
+    },
+    "mfnRate": {
+      "type": "string",
+      "description": "MFN or erga omnes duty representation as displayed by the prototype."
+    },
+    "preferentialRate": {
+      "type": "string",
+      "description": "Preferential duty representation when available for the current product path."
+    },
+    "agreement": {
+      "type": "string",
+      "description": "Agreement or tariff-basis label presented to the user."
+    },
+    "eligibilityNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "source": {
+      "type": "string",
+      "description": "Human-readable source attribution."
+    },
+    "effectiveDate": {
+      "type": "string",
+      "description": "Effective date or source snapshot date used by the local normalized record."
+    }
+  }
+}

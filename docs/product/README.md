@@ -12,9 +12,9 @@ Define and authorize a controlled implementation model for TariffLookup.ca under
 
 ## Selected Planning Candidate
 - Product: TariffLookup.ca
-- User input: HS code + destination country
-- Output: MFN tariff, preferential tariff (if applicable), agreement basis, and eligibility notes
-- Initial jurisdiction scope: United States, European Union, United Kingdom, Japan, South Korea, Australia
+- User input: crude product description or HS code + destination country
+- Output: probable HS code, MFN tariff, preferential tariff (if applicable), agreement basis, and eligibility notes
+- Initial jurisdiction scope: United States, European Union, United Kingdom, Japan, Brazil, China
 
 ## Planning Status (2026-03-12)
 - Initiation gate is approved and planning is authorized.
