@@ -31,3 +31,11 @@ sharepoint_sources.yaml
 # Runtime artifacts
 state/
 06_RUNS/ops/gmail_fetch_latest.json
+
+# JavaScript / TypeScript
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+*.tsbuildinfo
