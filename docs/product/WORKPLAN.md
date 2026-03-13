@@ -105,6 +105,7 @@ Any scope expansion requires explicit ML1 approval before execution.
 ### Systems / Tools
 - Product code repository
 - Hosting/runtime environment
+- Cloud staging environment and stable staging URL for Step 5 pre-launch QA and pilot validation
 - Tariff and trade agreement data sources
 - Analytics/event tracking
 - Issue and incident tracking workspace

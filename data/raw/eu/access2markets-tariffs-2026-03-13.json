@@ -3,7 +3,7 @@
   "source": "European Commission Access2Markets tariff endpoint",
   "notes": [
     "Destination Germany is used because the official endpoint requires an EU member-state destination code.",
-    "These raw payloads support the first verified normalized European Union tariff rows committed in this repository."
+    "These raw payloads and extracted measure summaries support the first verified normalized European Union tariff rows committed in this repository."
   ],
   "records": [
     {
@@ -175,6 +175,129 @@
           "code": null
         }
       ]
+    },
+    {
+      "query": {
+        "product": "610910",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/610910/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "T-shirts",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9617340",
+            "startDate": "01/01/1997",
+            "endDate": "01/01/3000",
+            "tariffFormula": "12.00%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "regulationId": "D1700370",
+            "startDate": "21/09/2017",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "143",
+            "origin": "Canada",
+            "type": "Preferential tariff quota",
+            "regulationId": "R1717810",
+            "regulationOrderNumber": "098342",
+            "startDate": "01/01/2026",
+            "endDate": "31/12/2026",
+            "tariffFormula": "0%",
+            "footnotes": [
+              {
+                "code": 797,
+                "type": "CD",
+                "text": "A reference to Annex 5-A of Council Decision (EU) 2017/37 on the signing on behalf of the European Union of the Comprehensive Economic and Trade Agreement (CETA) between Canada, of the one part, and the European Union and its Member States, of the other part (OJ L 11) should be made on the commercial invoice or any other commercial document."
+              }
+            ],
+            "conditions": [
+              {
+                "certificateType": "U",
+                "certificateNumber": "062",
+                "actionDescription": "Apply the mentioned duty"
+              },
+              {
+                "certificateType": null,
+                "certificateNumber": null,
+                "actionDescription": "Measure not applicable"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "940360",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940360/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Wooden furniture of a kind used in the dining room and the living room",
+          "Wooden furniture of a kind used in shops",
+          "Other wooden furniture"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9822610",
+            "startDate": "01/01/1999",
+            "endDate": "01/01/3000",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "regulationId": "R1815170",
+            "startDate": "01/11/2018",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "710",
+            "origin": "ERGA OMNES",
+            "type": "Import control - CITES",
+            "regulationId": "R2309660",
+            "startDate": "20/05/2023",
+            "endDate": "01/01/3000",
+            "tariffFormula": null
+          }
+        ],
+        "notes": [
+          "All three returned wooden-furniture branches share the same 0% ERGA OMNES third-country duty, so the prototype can safely normalize the base duty at HS 9403.60.",
+          "The same official snapshot includes conditional end-use, airworthiness, and CITES measures, but those auxiliary measures are not treated as the base customs duty in the normalized record.",
+          "No separate Canada tariff-preference measure appears in the summary because the ERGA OMNES third-country duty is already 0%."
+        ]
+      }
     }
   ]
 }

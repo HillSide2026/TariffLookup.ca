@@ -1,5 +1,9 @@
 export type LookupInputMode = "hsCode" | "description" | "hsCode+description";
 
+export type LookupSourceTier = "seed-demo-data" | "local-normalized-data";
+
+export type LookupCoverageStatus = "normalized-record" | "seed-fallback";
+
 export type LookupRequest = {
   hsCode?: string;
   productDescription?: string;
@@ -15,6 +19,14 @@ export type LookupClassification = {
     | "user-supplied-hs-code"
     | "user-supplied-hs-code-with-description";
   rationale: string;
+};
+
+export type LookupDetailRequest = {
+  probableHsCode: string;
+  classificationRationale: string;
+  reason: string;
+  requestedDetails: string[];
+  suggestedPrompt: string;
 };
 
 export type LookupResult = {
@@ -38,8 +50,10 @@ export type LookupResponse = {
   classification: LookupClassification;
   result: LookupResult;
   meta: {
-    source: "seed-demo-data" | "local-normalized-data";
+    source: LookupSourceTier;
     supportedDestinations: string[];
+    coverageStatus: LookupCoverageStatus;
+    coverageNote: string;
   };
 };
 
@@ -54,6 +68,8 @@ export type LookupValidationIssues = {
 
 export type LookupErrorResponse = {
   error: string;
+  code?: "needs-more-detail" | "lookup-not-found";
   message?: string;
   issues?: LookupValidationIssues;
+  detailRequest?: LookupDetailRequest;
 };

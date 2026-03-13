@@ -1,4 +1,8 @@
-import type { LookupRequest, LookupResponse } from "../contracts/lookup.js";
+import type {
+  LookupDetailRequest,
+  LookupRequest,
+  LookupResponse,
+} from "../contracts/lookup.js";
 import { activeSupportedDestinations } from "../contracts/markets.js";
 import { resolveLookupClassification } from "./classification-service.js";
 import { findTariffRecord } from "./tariff-record-service.js";
@@ -10,12 +14,23 @@ export class LookupNotFoundError extends Error {
   }
 }
 
+export class LookupNeedsMoreDetailError extends Error {
+  detailRequest: LookupDetailRequest;
+
+  constructor(message: string, detailRequest: LookupDetailRequest) {
+    super(message);
+    this.name = "LookupNeedsMoreDetailError";
+    this.detailRequest = detailRequest;
+  }
+}
+
 export async function runLookup(
   request: LookupRequest,
 ): Promise<LookupResponse> {
   const resolvedClassification = resolveLookupClassification({
     hsCode: request.hsCode?.trim() || null,
     productDescription: request.productDescription?.trim() || null,
+    destinationCountry: request.destinationCountry,
   });
   const lookupMatch = await findTariffRecord({
     hsCode: resolvedClassification.normalizedHsCode,
@@ -26,6 +41,16 @@ export async function runLookup(
     throw new LookupNotFoundError(
       `No local tariff record exists for HS code ${resolvedClassification.normalizedHsCode} in ${request.destinationCountry}.`,
     );
+  }
+
+  if (lookupMatch.kind === "needs-more-detail") {
+    throw new LookupNeedsMoreDetailError(lookupMatch.detailRequest.reason, {
+      probableHsCode: resolvedClassification.normalizedHsCode,
+      classificationRationale: resolvedClassification.classification.rationale,
+      reason: lookupMatch.detailRequest.reason,
+      requestedDetails: lookupMatch.detailRequest.requestedDetails,
+      suggestedPrompt: lookupMatch.detailRequest.suggestedPrompt,
+    });
   }
 
   return {
@@ -49,6 +74,8 @@ export async function runLookup(
     meta: {
       source: lookupMatch.dataSource,
       supportedDestinations: [...activeSupportedDestinations],
+      coverageStatus: lookupMatch.coverageStatus,
+      coverageNote: lookupMatch.coverageNote,
     },
   };
 }

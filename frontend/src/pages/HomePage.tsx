@@ -43,11 +43,24 @@ type LookupResponse = {
   meta: {
     source: "seed-demo-data" | "local-normalized-data";
     supportedDestinations: string[];
+    coverageStatus: "normalized-record" | "seed-fallback";
+    coverageNote: string;
   };
+};
+
+type LookupDetailRequest = {
+  probableHsCode: string;
+  classificationRationale: string;
+  reason: string;
+  requestedDetails: string[];
+  suggestedPrompt: string;
 };
 
 type LookupErrorResponse = {
   error?: string;
+  code?: "needs-more-detail" | "lookup-not-found";
+  message?: string;
+  detailRequest?: LookupDetailRequest;
   issues?: {
     formErrors?: string[];
     fieldErrors?: {
@@ -102,6 +115,22 @@ function formatSourceTierLabel(sourceTier: LookupResponse["meta"]["source"]) {
     : "Seed demo data";
 }
 
+function formatCoverageStatusLabel(
+  coverageStatus: LookupResponse["meta"]["coverageStatus"],
+) {
+  return coverageStatus === "normalized-record"
+    ? "Verified normalized row"
+    : "Prototype seed fallback";
+}
+
+function getCoverageBannerClasses(
+  coverageStatus: LookupResponse["meta"]["coverageStatus"],
+) {
+  return coverageStatus === "normalized-record"
+    ? "border-emerald-200 bg-emerald-50 text-emerald-950"
+    : "border-amber-200 bg-amber-50 text-amber-950";
+}
+
 export function HomePage() {
   const [markets, setMarkets] = useState<string[]>(defaultJurisdictions);
   const [productDescription, setProductDescription] = useState(
@@ -110,6 +139,9 @@ export function HomePage() {
   const [hsCode, setHsCode] = useState("");
   const [destinationCountry, setDestinationCountry] = useState("Japan");
   const [lookupResponse, setLookupResponse] = useState<LookupResponse | null>(
+    null,
+  );
+  const [detailRequest, setDetailRequest] = useState<LookupDetailRequest | null>(
     null,
   );
   const [marketError, setMarketError] = useState<string | null>(null);
@@ -166,6 +198,8 @@ export function HomePage() {
   const visibleMarkets = markets.length > 0 ? markets : defaultJurisdictions;
   const lookupResult = lookupResponse?.result;
   const classification = lookupResponse?.classification;
+  const probableHsCode =
+    classification?.probableHsCode || detailRequest?.probableHsCode || "Pending lookup";
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -175,12 +209,14 @@ export function HomePage() {
         "Enter a product description or HS code before running a lookup.",
       );
       setLookupResponse(null);
+      setDetailRequest(null);
       return;
     }
 
     setIsSubmitting(true);
     setSubmissionError(null);
     setLookupResponse(null);
+    setDetailRequest(null);
 
     try {
       const response = await fetch(`${apiBaseUrl}/api/lookups`, {
@@ -200,7 +236,15 @@ export function HomePage() {
         | LookupErrorResponse;
 
       if (!response.ok) {
-        setSubmissionError(getLookupErrorMessage(payload as LookupErrorResponse));
+        const errorPayload = payload as LookupErrorResponse;
+
+        if (errorPayload.code === "needs-more-detail" && errorPayload.detailRequest) {
+          setDetailRequest(errorPayload.detailRequest);
+          setSubmissionError(null);
+          return;
+        }
+
+        setSubmissionError(getLookupErrorMessage(errorPayload));
         return;
       }
 
@@ -311,45 +355,56 @@ export function HomePage() {
           <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
             <p className="text-sm font-medium text-slate-500">Probable HS code</p>
             <p className="mt-3 text-2xl font-semibold text-slate-900">
-              {classification?.probableHsCode || "Pending lookup"}
+              {probableHsCode}
             </p>
             <p className="mt-2 text-sm text-slate-600">
               {classification
                 ? `${classification.confidence} confidence via ${formatMethodLabel(
                     classification.method,
                   )}.`
+                : detailRequest
+                  ? detailRequest.classificationRationale
                 : "Resolved from the product description when the user does not know the code."}
             </p>
           </div>
           <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
             <p className="text-sm font-medium text-slate-500">MFN rate</p>
             <p className="mt-3 text-2xl font-semibold text-slate-900">
-              {lookupResult?.mfnTariffRate || "Pending lookup"}
+              {lookupResult?.mfnTariffRate ||
+                (detailRequest ? "Need more detail" : "Pending lookup")}
             </p>
             <p className="mt-2 text-sm text-slate-600">
               {lookupResponse
                 ? `Returned for ${lookupResponse.query.destinationCountry}.`
+                : detailRequest
+                  ? "Add more product detail before the EU tariff rate can be resolved."
                 : "Will be populated from the tariff lookup response."}
             </p>
           </div>
           <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
             <p className="text-sm font-medium text-slate-500">Preferential rate</p>
             <p className="mt-3 text-2xl font-semibold text-slate-900">
-              {lookupResult?.preferentialTariffRate || "Pending lookup"}
+              {lookupResult?.preferentialTariffRate ||
+                (detailRequest ? "Need more detail" : "Pending lookup")}
             </p>
             <p className="mt-2 text-sm text-slate-600">
               {lookupResponse
                 ? "Loaded from the current lookup response."
+                : detailRequest
+                  ? "The agreement path cannot be evaluated until the product branch is clearer."
                 : "Will reflect the applicable agreement path when available."}
             </p>
           </div>
           <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
             <p className="text-sm font-medium text-slate-500">Agreement basis</p>
             <p className="mt-3 text-lg font-semibold text-slate-900">
-              {lookupResult?.agreementBasis || "Pending lookup"}
+              {lookupResult?.agreementBasis ||
+                (detailRequest ? "Need more detail" : "Pending lookup")}
             </p>
             <p className="mt-2 text-sm text-slate-600">
-              Agreement context returned alongside the tariff rates.
+              {detailRequest
+                ? "More product detail is required before the EU agreement path can be stated safely."
+                : "Agreement context returned alongside the tariff rates."}
             </p>
           </div>
           <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
@@ -362,6 +417,22 @@ export function HomePage() {
                   </li>
                 ))}
               </ul>
+            ) : detailRequest ? (
+              <>
+                <p className="mt-3 text-lg font-semibold text-slate-900">
+                  More detail needed
+                </p>
+                <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-700">
+                  {detailRequest.requestedDetails.map((note) => (
+                    <li key={note} className="rounded-2xl bg-white px-3 py-2">
+                      {note}
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-3 text-sm text-slate-600">
+                  Try: {detailRequest.suggestedPrompt}
+                </p>
+              </>
             ) : (
               <>
                 <p className="mt-3 text-lg font-semibold text-slate-900">
@@ -376,13 +447,26 @@ export function HomePage() {
         </div>
 
         {lookupResponse ? (
-          <div className="mt-4 rounded-[24px] border border-cyan-200 bg-cyan-50 px-4 py-3 text-sm text-cyan-950">
+          <div
+            className={`mt-4 rounded-[24px] border px-4 py-3 text-sm ${getCoverageBannerClasses(
+              lookupResponse.meta.coverageStatus,
+            )}`}
+          >
             Using probable HS code {lookupResponse.classification.probableHsCode}{" "}
             for {lookupResponse.query.destinationCountry}. Classification basis:{" "}
             {lookupResponse.classification.rationale} Data source:{" "}
             {lookupResponse.result.source}. Source tier:{" "}
-            {formatSourceTierLabel(lookupResponse.meta.source)}. Effective date:{" "}
+            {formatSourceTierLabel(lookupResponse.meta.source)}. Coverage state:{" "}
+            {formatCoverageStatusLabel(lookupResponse.meta.coverageStatus)}.{" "}
+            {lookupResponse.meta.coverageNote} Effective date:{" "}
             {lookupResponse.result.effectiveDate}.
+          </div>
+        ) : detailRequest ? (
+          <div className="mt-4 rounded-[24px] border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">
+            EU lookup paused at probable HS code {detailRequest.probableHsCode}.{" "}
+            {detailRequest.reason} Classification basis:{" "}
+            {detailRequest.classificationRationale} Try:{" "}
+            {detailRequest.suggestedPrompt}
           </div>
         ) : null}
       </section>
@@ -409,8 +493,8 @@ export function HomePage() {
             Next integration
           </p>
           <ul className="mt-4 space-y-3 text-sm leading-6 text-cyan-950">
-            <li>Replace the seed keyword resolver with a more robust classification workflow.</li>
-            <li>Expand the local seed dataset into a normalized tariff source pipeline.</li>
+            <li>Expand the verified EU normalized tariff set beyond the first production-priority rows.</li>
+            <li>Replace ambiguous EU branch fallbacks with clearer product-detail requests.</li>
             <li>Persist lookup history once auth is enabled.</li>
           </ul>
         </div>

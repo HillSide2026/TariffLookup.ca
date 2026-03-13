@@ -139,7 +139,7 @@ The repository has already moved beyond the initial scaffolding target:
 - `node` and `npm` are available locally, and frontend/backend builds have been verified successfully
 - `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
 - `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
-- Step 3 has moved from groundwork into first verified EU ingestion, with raw official Access2Markets snapshots and the first normalized European Union rows committed for `8208.30` and `0901.21`
+- Step 3 has moved from groundwork into first verified EU ingestion, with raw official Access2Markets snapshots and the first normalized European Union rows committed for `8208.30`, `0901.21`, and `6109.10`
 - authentication, persistence, billing, observability, and production-grade test coverage are still pending
 
 ## Execution Status And Next Steps
@@ -197,9 +197,11 @@ Current groundwork already in place:
 
 - `data/raw/eu/source-manifest.json` defines the first official EU source package entry points
 - `data/raw/eu/access2markets-tariffs-2026-03-13.json` preserves the first official EU tariff payload snapshots used for normalization
-- `data/normalized/eu/tariff-records.json` now contains the first verified local EU rows for `8208.30` and `0901.21`
+- `data/normalized/eu/tariff-records.json` now contains the first verified local EU rows for `8208.30`, `0901.21`, `6109.10`, and `9403.60`
 - `data/schemas/eu-normalized-tariff-record.schema.json` defines the first EU normalized tariff record shape
-- backend lookup logic now prefers normalized EU records when available and falls back to seed data for EU codes that are not normalized yet
+- backend lookup logic now prefers normalized EU records when available, returns explicit `needs more detail` responses for known ambiguous EU codes, and labels any remaining seed fallback state explicitly
+- `docs/data-sources/EU_NORMALIZATION_QUEUE.md` now tracks normalized, blocked, and fallback EU prototype states
+- `docs/data-sources/EU_NORMALIZATION_RULES.md` now defines when a 6-digit EU row is safe to collapse into a normalized prototype record
 
 - Document the first source-data package and refresh conventions under `docs/data-sources/`
 - Add initial schemas and normalization outputs under `data/schemas/` and `data/normalized/`
@@ -210,7 +212,10 @@ Current groundwork already in place:
 
 Exit criteria:
 
-- the backend can return a materially useful slice of European Union tariff results from normalized local data, and any remaining seed fallback behavior is explicit in code and docs
+- at least six verified European Union normalized rows exist for production-priority prototype categories
+- known ambiguous EU prototype codes, currently `0811.90` and `8501.52`, stop in an explicit `needs more detail` state instead of silently falling back
+- the UI clearly distinguishes verified normalized EU data, explicit prototype seed fallback, and `needs more detail` responses
+- backend and frontend tests cover normalized EU, EU seed fallback, and ambiguous EU behavior
 
 ### Step 4: Add Auth and Persistence After the Lookup Flow Is Stable
 
@@ -226,9 +231,11 @@ Exit criteria:
 
 - Add structured logging, monitoring, and failure diagnostics around the lookup path
 - Expand automated coverage across UI, API, and data normalization logic
+- Provision a cloud-hosted staging environment and stable staging URL before public live-domain launch
+- Use the staging URL for QA, pilot access, and release-candidate validation
 - Add Stripe only after the tariff-result workflow is trusted and supportable
 - Define release, support, and refresh procedures for tariff-data updates
 
 Exit criteria:
 
-- the product can be operated, supported, and monetized without relying on manual intervention
+- the product can be operated, supported, and monetized without relying on manual intervention, and a stable staging URL exists before live-domain cutover

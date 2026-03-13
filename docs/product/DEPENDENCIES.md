@@ -20,6 +20,7 @@ Use this file to confirm required dependencies are available before committing m
 - Product repository setup and access control
 - Frontend/backend application scaffold for MVP
 - Hosting/runtime environment
+- Cloud staging environment and stable staging URL before public live-domain cutover
 - Analytics instrumentation and dashboard tooling
 - Issue-tracking process and support queue
 
@@ -33,6 +34,7 @@ Use this file to confirm required dependencies are available before committing m
 
 ## Launch / Adoption Dependencies
 - Pilot-user onboarding path for Canadian exporters and/or trade consultants
+- Staging URL for pilot-user access and release-candidate validation
 - Initial launch checklist and release criteria
 - Feedback capture loop for first 30 days
 - Issue triage and incident response workflow

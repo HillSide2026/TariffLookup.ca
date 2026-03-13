@@ -195,6 +195,19 @@
     "effectiveDate": "2026-03-13"
   },
   {
+    "hsCode": "8479.89",
+    "destinationCountry": "European Union",
+    "mfnRate": "2.5% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CETA treatment not yet normalized for this prototype fallback record",
+    "eligibilityNotes": [
+      "Seed/demo fallback record for unclassified industrial machines and mechanical appliances.",
+      "This row is intentionally retained as an explicit EU prototype fallback until more verified EU normalized rows are added."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
     "hsCode": "6109.10",
     "destinationCountry": "United Kingdom",
     "mfnRate": "12.0% (seed demo)",

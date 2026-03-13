@@ -27,5 +27,35 @@
     ],
     "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
     "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6109.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 610910, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns both 'T-shirts' and 'Other' product branches, but both branches show the same 12.00% ERGA OMNES duty and 0% Canada tariff preference, so the prototype normalizes the shared result at HS 6109.10.",
+      "The same snapshot also shows a 2026 Canada preferential tariff quota path at 0% with an Annex 5-A commercial-document reference requirement."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.60",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940360, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns dining-room/living-room furniture, shop furniture, and other wooden furniture branches, and all three branches show the same 0% ERGA OMNES third-country duty.",
+      "The same snapshot also includes end-use, airworthiness, and CITES control measures, but those conditional measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
   }
 ]

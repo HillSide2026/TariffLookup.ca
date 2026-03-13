@@ -24,25 +24,30 @@ This document defines the first official source package for Step 3 European Unio
 - Raw Access2Markets snapshot: `data/raw/eu/access2markets-tariffs-2026-03-13.json`
 - Normalized tariff records: `data/normalized/eu/tariff-records.json`
 - Normalized record schema: `data/schemas/eu-normalized-tariff-record.schema.json`
+- Normalization queue: `docs/data-sources/EU_NORMALIZATION_QUEUE.md`
+- Normalization rules: `docs/data-sources/EU_NORMALIZATION_RULES.md`
 
 ## Current Status
 
 - the official source package has been identified
 - the local file layout is in place
-- the first verified normalized EU tariff rows are now committed for `8208.30` and `0901.21`
-- raw official payloads for those rows are stored in `data/raw/eu/access2markets-tariffs-2026-03-13.json`
+- the first verified normalized EU tariff rows are now committed for `8208.30`, `0901.21`, `6109.10`, and `9403.60`
+- raw official payloads and extracted measure summaries for those rows, plus ambiguity-review notes for blocked codes, are stored in `data/raw/eu/access2markets-tariffs-2026-03-13.json`
 - backend lookup code now prefers `data/normalized/eu/tariff-records.json` for matching European Union requests and falls back to seed data for codes that are not normalized yet
 
 ## First Committed Rows
 
 - `8208.30` -> MFN `1.70%`, Canada preference `0%`
 - `0901.21` -> MFN `7.50%`, Canada preference `0%`
+- `6109.10` -> MFN `12.00%`, Canada preference `0%`
+- `9403.60` -> MFN `0%`, normalized from a shared base-duty outcome across the returned wooden-furniture branches
 
 ## Current Limitations
 
 - the EU normalized dataset is still a narrow first slice, not full European Union tariff coverage
 - the official endpoint requires an EU member-state destination; the current normalized rows use `DE` as the query destination while mapping the resulting customs duty into the app's `European Union` market abstraction
-- codes that still resolve to multiple product branches or have not been normalized yet continue to fall back to the local seed dataset
+- codes that still resolve to multiple product branches, such as `0811.90` and `8501.52`, now trigger a `needs more detail` path instead of silently falling back to seed data
+- uncovered low-confidence EU lookups can still use the explicit seed fallback row while real normalized coverage expands
 - this is not yet production-grade tariff intelligence or legal advice
 
 ## Implementation Rule

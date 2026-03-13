@@ -2,7 +2,11 @@ import type { FastifyInstance } from "fastify";
 import { z } from "zod";
 import type { LookupErrorResponse } from "../contracts/lookup.js";
 import { activeSupportedDestinations } from "../contracts/markets.js";
-import { LookupNotFoundError, runLookup } from "../services/lookup-service.js";
+import {
+  LookupNeedsMoreDetailError,
+  LookupNotFoundError,
+  runLookup,
+} from "../services/lookup-service.js";
 
 const lookupRequestSchema = z
   .object({
@@ -64,11 +68,23 @@ export async function registerLookupRoutes(app: FastifyInstance) {
     try {
       return await runLookup(parsed.data);
     } catch (error) {
+      if (error instanceof LookupNeedsMoreDetailError) {
+        reply.code(409);
+
+        return {
+          error: "More product detail required",
+          code: "needs-more-detail",
+          message: error.message,
+          detailRequest: error.detailRequest,
+        } satisfies LookupErrorResponse;
+      }
+
       if (error instanceof LookupNotFoundError) {
         reply.code(404);
 
         return {
           error: "Tariff record not found",
+          code: "lookup-not-found",
           message: error.message,
         } satisfies LookupErrorResponse;
       }

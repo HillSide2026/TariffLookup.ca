@@ -3,14 +3,14 @@
   "status": "first-verified-local-records",
   "notes": [
     "This manifest identifies the official source package for the first real-data jurisdiction.",
-    "First verified local EU tariff rows are now committed for HS 8208.30 and HS 0901.21.",
+    "First verified local EU tariff rows are now committed for HS 8208.30, HS 0901.21, HS 6109.10, and HS 9403.60.",
     "Coverage remains intentionally partial and is not yet a production-grade EU tariff schedule."
   ],
   "artifacts": [
     {
       "kind": "raw-api-snapshot",
       "path": "data/raw/eu/access2markets-tariffs-2026-03-13.json",
-      "description": "Raw official Access2Markets tariff payloads captured for the first verified EU rows."
+      "description": "Raw official Access2Markets tariff payloads and extracted measure summaries captured for the current verified EU rows and ambiguity review."
     },
     {
       "kind": "normalized-records",

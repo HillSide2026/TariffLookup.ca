@@ -3,38 +3,76 @@ import type {
   LookupInputMode,
 } from "../contracts/lookup.js";
 
-const seedClassificationProfiles = [
+type ClassificationProfile = {
+  probableHsCode: string;
+  label: string;
+  keywords: string[];
+  phrases: string[];
+  euPriority: "normalized" | "ambiguous" | "seed-fallback";
+};
+
+const seedClassificationProfiles: ClassificationProfile[] = [
   {
     probableHsCode: "8208.30",
     label: "Industrial blades and knives",
     keywords: ["knife", "knives", "blade", "blades", "stainless", "steel"],
+    phrases: ["knife blade", "kitchen knife", "cutting blade"],
+    euPriority: "normalized",
   },
   {
     probableHsCode: "0901.21",
     label: "Roasted coffee",
     keywords: ["coffee", "beans", "roasted", "ground"],
+    phrases: ["roasted coffee", "coffee beans", "ground coffee"],
+    euPriority: "normalized",
   },
   {
     probableHsCode: "0811.90",
     label: "Frozen fruit",
     keywords: ["frozen", "blueberry", "blueberries", "berry", "berries"],
+    phrases: ["frozen fruit", "frozen berries", "frozen blueberries"],
+    euPriority: "ambiguous",
   },
   {
     probableHsCode: "6109.10",
     label: "Cotton T-shirts",
-    keywords: ["t-shirt", "shirt", "tee", "cotton", "apparel"],
+    keywords: ["t-shirt", "shirt", "tee", "cotton", "apparel", "garment"],
+    phrases: ["cotton t-shirt", "cotton tee", "t shirt"],
+    euPriority: "normalized",
   },
   {
     probableHsCode: "8501.52",
     label: "Electric motors",
-    keywords: ["electric motor", "motor", "industrial motor", "rotor"],
+    keywords: [
+      "motor",
+      "rotor",
+      "industrial",
+      "electric",
+      "conveyor",
+      "three-phase",
+    ],
+    phrases: ["electric motor", "industrial motor", "ac motor"],
+    euPriority: "ambiguous",
   },
   {
     probableHsCode: "9403.60",
     label: "Wooden furniture",
-    keywords: ["wood", "chair", "table", "furniture", "desk"],
+    keywords: [
+      "wood",
+      "wooden",
+      "chair",
+      "table",
+      "furniture",
+      "desk",
+      "cabinet",
+      "shop",
+      "dining",
+      "living",
+    ],
+    phrases: ["wooden furniture", "wooden table", "wooden desk"],
+    euPriority: "normalized",
   },
-] as const;
+];
 
 export type ResolvedLookupClassification = {
   classification: LookupClassification;
@@ -56,33 +94,78 @@ export function normalizeDescription(value: string) {
   return value.trim().replace(/\s+/g, " ");
 }
 
+function normalizeSearchTerm(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function getEuPriorityBoost(priority: ClassificationProfile["euPriority"]) {
+  if (priority === "normalized") {
+    return 1;
+  }
+
+  if (priority === "ambiguous") {
+    return 0.5;
+  }
+
+  return 0;
+}
+
 function resolveClassificationFromDescription(
   productDescription: string,
+  destinationCountry: string,
 ): LookupClassification {
   const normalizedDescription = productDescription.toLowerCase();
+  const searchableDescription = normalizeSearchTerm(normalizedDescription);
   let bestMatch:
     | {
-        probableHsCode: string;
-        label: string;
-        keywords: readonly string[];
+        profile: ClassificationProfile;
+        matchedKeywords: string[];
+        matchedPhrases: string[];
+        score: number;
       }
     | undefined;
-  let bestScore = 0;
-  let matchedKeywords: string[] = [];
 
   for (const profile of seedClassificationProfiles) {
-    const profileMatches = profile.keywords.filter((keyword) =>
-      normalizedDescription.includes(keyword),
+    const matchedKeywords = profile.keywords.filter((keyword) =>
+      searchableDescription.includes(normalizeSearchTerm(keyword)),
     );
+    const matchedPhrases = profile.phrases.filter((phrase) =>
+      searchableDescription.includes(normalizeSearchTerm(phrase)),
+    );
+    const euPriorityBoost =
+      destinationCountry === "European Union"
+        ? getEuPriorityBoost(profile.euPriority)
+        : 0;
+    const baseScore = matchedKeywords.length + matchedPhrases.length * 2;
+    const score =
+      baseScore > 0 ? baseScore + euPriorityBoost : 0;
 
-    if (profileMatches.length > bestScore) {
-      bestMatch = profile;
-      bestScore = profileMatches.length;
-      matchedKeywords = profileMatches;
+    if (!bestMatch || score > bestMatch.score) {
+      bestMatch = {
+        profile,
+        matchedKeywords,
+        matchedPhrases,
+        score,
+      };
+      continue;
+    }
+
+    if (score === bestMatch.score) {
+      const currentPriorityBoost = getEuPriorityBoost(profile.euPriority);
+      const bestPriorityBoost = getEuPriorityBoost(bestMatch.profile.euPriority);
+
+      if (currentPriorityBoost > bestPriorityBoost) {
+        bestMatch = {
+          profile,
+          matchedKeywords,
+          matchedPhrases,
+          score,
+        };
+      }
     }
   }
 
-  if (!bestMatch) {
+  if (!bestMatch || bestMatch.score <= 0) {
     return {
       probableHsCode: "8479.89",
       confidence: "low",
@@ -92,22 +175,35 @@ function resolveClassificationFromDescription(
     };
   }
 
+  const bestScore = bestMatch.score;
   const confidence =
     bestScore >= 3 ? "high" : bestScore === 2 ? "medium" : "low";
+  const matchedTerms = [
+    ...bestMatch.matchedPhrases,
+    ...bestMatch.matchedKeywords.filter(
+      (keyword) => !bestMatch.matchedPhrases.includes(keyword),
+    ),
+  ];
+  const euCoverageNote =
+    destinationCountry === "European Union" &&
+    bestMatch.profile.euPriority === "ambiguous"
+      ? " Additional product detail will still be required before a verified EU tariff row can be returned."
+      : "";
 
   return {
-    probableHsCode: bestMatch.probableHsCode,
+    probableHsCode: bestMatch.profile.probableHsCode,
     confidence,
     method: "keyword-match",
-    rationale: `Matched ${bestMatch.label.toLowerCase()} keywords: ${matchedKeywords.join(
+    rationale: `Matched ${bestMatch.profile.label.toLowerCase()} terms: ${matchedTerms.join(
       ", ",
-    )}.`,
+    )}.${euCoverageNote}`,
   };
 }
 
 export function resolveLookupClassification(input: {
   hsCode: string | null;
   productDescription: string | null;
+  destinationCountry: string;
 }): ResolvedLookupClassification {
   const normalizedProductDescription = input.productDescription
     ? normalizeDescription(input.productDescription)
@@ -136,6 +232,7 @@ export function resolveLookupClassification(input: {
 
   const classification = resolveClassificationFromDescription(
     normalizedProductDescription || "",
+    input.destinationCountry,
   );
 
   return {

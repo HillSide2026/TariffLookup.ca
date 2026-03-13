@@ -73,6 +73,7 @@ describe("lookup routes", () => {
       },
       meta: {
         source: "seed-demo-data",
+        coverageStatus: "seed-fallback",
       },
     });
   });
@@ -105,6 +106,10 @@ describe("lookup routes", () => {
         agreementBasis:
           "No Canada-Brazil preferential agreement identified (seed demo)",
       },
+      meta: {
+        source: "seed-demo-data",
+        coverageStatus: "seed-fallback",
+      },
     });
   });
 
@@ -133,11 +138,100 @@ describe("lookup routes", () => {
       },
       meta: {
         source: "local-normalized-data",
+        coverageStatus: "normalized-record",
       },
     });
   });
 
-  it("falls back to the seed dataset for european union lookups that are not normalized yet", async () => {
+  it("uses a normalized eu row for cotton t-shirts resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "cotton t-shirt",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "6109.10",
+        submittedHsCode: null,
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "12.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for wooden furniture resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "oak dining room table",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9403.60",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("returns an explicit eu seed fallback for unmatched low-confidence descriptions", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "custom factory automation assembly module",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "8479.89",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      classification: {
+        probableHsCode: "8479.89",
+        method: "fallback-seed-classification",
+      },
+      meta: {
+        source: "seed-demo-data",
+        coverageStatus: "seed-fallback",
+      },
+    });
+  });
+
+  it("returns a needs-more-detail response for ambiguous eu motor lookups", async () => {
     const response = await createApp().inject({
       method: "POST",
       url: "/api/lookups",
@@ -147,20 +241,15 @@ describe("lookup routes", () => {
       },
     });
 
-    expect(response.statusCode).toBe(200);
+    expect(response.statusCode).toBe(409);
     expect(response.json()).toMatchObject({
-      query: {
-        hsCode: "8501.52",
-        destinationCountry: "European Union",
-        inputMode: "hsCode",
-      },
-      result: {
-        mfnTariffRate: "4.0% (seed demo)",
-        preferentialTariffRate: "0.0% (seed demo)",
-        agreementBasis: "CETA preferential treatment (seed demo)",
-      },
-      meta: {
-        source: "seed-demo-data",
+      error: "More product detail required",
+      code: "needs-more-detail",
+      detailRequest: {
+        probableHsCode: "8501.52",
+        requestedDetails: expect.arrayContaining([
+          "motor use or application, such as civil aircraft, conveyor equipment, or general industrial machinery",
+        ]),
       },
     });
   });
