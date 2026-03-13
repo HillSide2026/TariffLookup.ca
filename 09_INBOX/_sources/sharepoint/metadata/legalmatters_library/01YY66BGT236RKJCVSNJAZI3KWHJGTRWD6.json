@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=a4a2df7a-b28a-416a-946d-563a4d38d87e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE3NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLaKhtrN2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixjZ0RUekh2NHlib2hlaW9LMlNsLzFQY2xKaW9waUlFTkV6Q2xhbmxaWUJ3PTCLATgBQhCh8qMuzUAAsJ3zLBeUZfcUShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.6kJmXfiRSK9pQS7EL0JeeV_BP4mfIwaL-hpfytRpbGc&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-17T17:49:20Z",
+  "eTag": "\"{A4A2DF7A-B28A-416A-946D-563A4D38D87E},1\"",
+  "id": "01YY66BGT236RKJCVSNJAZI3KWHJGTRWD6",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-17T17:18:03Z",
+  "name": "2025_0225_CCD_Register of Officers_notarized.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGX2VSHXUER7SBHIJGDTIRJH6VCR",
+    "name": "CCD Software",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/KYC workflows and records/CCD Software",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/KYC%20workflows%20and%20records/CCD%20Software/2025_0225_CCD_Register%20of%20Officers_notarized.pdf",
+  "cTag": "\"c:{A4A2DF7A-B28A-416A-946D-563A4D38D87E},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "ISENOmWERnO429aVdrag2I/A8Xw="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-17T17:49:20Z",
+    "lastModifiedDateTime": "2025-06-17T17:18:03Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 586385
+}

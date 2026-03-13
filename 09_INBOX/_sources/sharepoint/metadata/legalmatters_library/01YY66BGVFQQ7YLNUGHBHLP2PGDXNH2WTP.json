@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=853f84a5-86b6-4e38-b7e9-e61dda7d5a6f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE5NSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNDGh4HP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixERTNHZFhqM3Y0dGx4bk40ckVzUkhleXVOcTVEa1JUM3pxbzVmajBPMVZJPTCLATgBQhCh8qMzFrAAsHnRa4uZ8Km9ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.rvbTUG4uK8H6qlKT13mC65lWPqB04ZXcalukBvjShSI&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-10T20:27:20Z",
+  "eTag": "\"{853F84A5-86B6-4E38-B7E9-E61DDA7D5A6F},1\"",
+  "id": "01YY66BGVFQQ7YLNUGHBHLP2PGDXNH2WTP",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-10T20:27:11Z",
+  "name": "Appendix \u201cA\u201d \u2013 SNOWCAP FINANCIAL LIMITED Director Information (1).pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVB2TLB5DLPANCZPKIKNQFVTDEZ",
+    "name": "Stream - Minutebook",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - Minutebook",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Stream%20-%20Minutebook/Appendix%20%E2%80%9CA%E2%80%9D%20%E2%80%93%20SNOWCAP%20FINANCIAL%20LIMITED%20Director%20Information%20(1).pdf",
+  "cTag": "\"c:{853F84A5-86B6-4E38-B7E9-E61DDA7D5A6F},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "F+vWpxnTEYaZS3OmsR2qYcwVuII="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-10T20:27:20Z",
+    "lastModifiedDateTime": "2025-11-10T20:27:11Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 46033
+}

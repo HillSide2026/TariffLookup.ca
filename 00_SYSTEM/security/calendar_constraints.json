@@ -1,0 +1,8 @@
+{
+  "version": "0.1",
+  "default_window_days": 7,
+  "max_window_days": 14,
+  "enabled_calendar_allowlist": false,
+  "allowlisted_calendar_ids": [],
+  "notes": "Calendar is read-only. Any request beyond max_window_days requires Manual approval."
+}

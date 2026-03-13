@@ -1,0 +1,16 @@
+{
+  "message_id": "19c066035f713752",
+  "object_type": "Marketing",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Personal Noise",
+  "confidence": 0.76,
+  "reasoning_trace": [
+    "Gmail labeled as promotions",
+    "Marked important/starred",
+    "Marketing maps to Personal Noise"
+  ],
+  "proposed_destination": "09_ARCHIVE",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:34.575966+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

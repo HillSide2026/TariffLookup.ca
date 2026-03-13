@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T17:13:07Z",
+  "eTag": "\"{217DA3AB-0C58-48B9-82F4-2303C202FD13},4\"",
+  "id": "01YY66BGVLUN6SCWAMXFEIF5BDAPBAF7IT",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-10-10T03:01:14Z",
+  "name": "LL Matters (Essential)",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGV6Y2GOVW7725BZO354PWSELRRZ",
+    "name": "Shared Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)",
+  "cTag": "\"c:{217DA3AB-0C58-48B9-82F4-2303C202FD13},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T17:13:07Z",
+    "lastModifiedDateTime": "2025-10-10T03:01:14Z"
+  },
+  "folder": {
+    "childCount": 3
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 300428588
+}

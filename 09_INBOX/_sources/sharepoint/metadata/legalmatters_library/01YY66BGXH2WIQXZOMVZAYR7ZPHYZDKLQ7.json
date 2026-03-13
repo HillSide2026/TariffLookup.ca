@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=0b91d5e7-cce5-41ae-88ff-2f3e32352e1f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA0NSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOD64erD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixiNFpjU0tjVGo1bWxoOXZjcnpqZVdFczZCLzRMelNjWWhUam1GVDJBWHRFPTCLATgBQhCh8qMOeDAAsHnRaZKUmCwvShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.8IYDYNO-EJsDOaIwS-mYyzHKeiemovjmQcjq0SehiRk&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:53:04Z",
+  "eTag": "\"{0B91D5E7-CCE5-41AE-88FF-2F3E32352E1F},1\"",
+  "id": "01YY66BGXH2WIQXZOMVZAYR7ZPHYZDKLQ7",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:53:04Z",
+  "name": "resignations-Matthew\u2019s iMac.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXKLRSYF6QPNBHLDVGHXPDX6HQF",
+    "name": "ML Drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri/drafts/ML Drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B0B91D5E7-CCE5-41AE-88FF-2F3E32352E1F%7D&file=resignations-Matthew%E2%80%99s%20iMac.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{0B91D5E7-CCE5-41AE-88FF-2F3E32352E1F},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "xAbDO8Wnb5PZWupeCB4YscrcNHg="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:53:04Z",
+    "lastModifiedDateTime": "2025-09-09T20:53:04Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 34816
+}

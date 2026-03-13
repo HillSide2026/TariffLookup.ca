@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T19:40:54Z",
+  "eTag": "\"{0DD4EC5C-319E-4272-B841-E178B8B8FF74},3\"",
+  "id": "01YY66BGS45TKA3HRROJBLQQPBPC4LR73U",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:53:02Z",
+  "name": "Due Diligence Policy",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGT3N3TE4SCRIBCJECC2XPWUML62",
+    "name": "Stream - UK Policy Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Stream%20-%20UK%20Policy%20Documents/Due%20Diligence%20Policy",
+  "cTag": "\"c:{0DD4EC5C-319E-4272-B841-E178B8B8FF74},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T19:40:54Z",
+    "lastModifiedDateTime": "2025-09-23T21:53:02Z"
+  },
+  "folder": {
+    "childCount": 6
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 570211
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=1e9b152b-fab8-48ab-ab15-f5ef737f4091&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAxOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOS6lefB2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixKa2NaV1NYN0pvT1l5YWZLNWYzQm12ajJoZTMvQU9xUWxXc0Y5aEg1ZEMwPTCLATgBQhCh8qMH0uAAsJ3zJt8bZEAwShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.w0vkw6Gm8Ca7bc5KCzOzcjVv_aDmCK2vLAb7l2mg5oY&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:52:15Z",
+  "eTag": "\"{1E9B152B-FAB8-48AB-AB15-F5EF737F4091},1\"",
+  "id": "01YY66BGRLCWNR5OH2VNEKWFPV55ZX6QER",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:52:15Z",
+  "name": "Company Key Information.1720388 ONTARIO INC..msg",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQ4AFWXROTPKZCZTOYQ5KVVYDSA",
+    "name": "company keys",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/25-1231-00001 Charmaine Spiteri/company keys",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/25-1231-00001%20Charmaine%20Spiteri/company%20keys/Company%20Key%20Information.1720388%20ONTARIO%20INC..msg",
+  "cTag": "\"c:{1E9B152B-FAB8-48AB-AB15-F5EF737F4091},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "z0d3d9RB2tQUtXN3kQ0zeVRSRh8="
+    },
+    "mimeType": "application/vnd.ms-outlook"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:52:15Z",
+    "lastModifiedDateTime": "2025-09-09T20:52:15Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 307200
+}

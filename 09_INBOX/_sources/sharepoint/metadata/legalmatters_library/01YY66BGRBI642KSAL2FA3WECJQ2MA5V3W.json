@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=a5b94721-0b48-41d1-bb10-4986980ed776&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE5MiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCK7wk-fO2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixYNkF6SWFYa0xTK1hpZXBPMDJsdjhGaENqeW5VSGtFWE41aThwSFBmeHdjPTCLATgBQhCh8qMybPAAsJ3zKLaBng_mShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.hyqoWTQEc4kpqRNyyS8pVcL7BUUnA_aEKNRH154XUUA&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-11T17:03:33Z",
+  "eTag": "\"{A5B94721-0B48-41D1-BB10-4986980ED776},2\"",
+  "id": "01YY66BGRBI642KSAL2FA3WECJQ2MA5V3W",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-11T17:03:32Z",
+  "name": "MLevine Resume 2025 SnowCap Financial Limited.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSJQWF6SFZDUFC35IQOYJMV3YIQ",
+    "name": "SnowCap",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/SnowCap",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/SnowCap/MLevine%20Resume%202025%20SnowCap%20Financial%20Limited.pdf",
+  "cTag": "\"c:{A5B94721-0B48-41D1-BB10-4986980ED776},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "H7N5ZhtL6cV2Lp3giRRN442weQ0="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-11T17:03:33Z",
+    "lastModifiedDateTime": "2025-11-11T17:03:32Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 154329
+}

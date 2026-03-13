@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=d42c696c-a71e-417f-a0de-3e142444e5f3&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAyOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCISyy8zC2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwvYmJKVmkzbnl6QUllNzFGeEdwckxvbDNWWHdBNGtCaUgzaWZZZkdGOHQwPTCLATgBQhCh8qMKZ6AAsJ3zI1pvKhcjShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.BoWPmGOA8msD3Z5sN5vAjp0vEy6BDDi-UfILo8ERJLc&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:47:11Z",
+  "eTag": "\"{D42C696C-A71E-417F-A0DE-3E142444E5F3},1\"",
+  "id": "01YY66BGTMNEWNIHVHP5A2BXR6CQSEJZPT",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-27T21:40:57Z",
+  "name": "Mutual Release.officer and director-Matthew\u2019s iMac.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSTZJZKOLM7UFHJTY63HDW5DHNF",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BD42C696C-A71E-417F-A0DE-3E142444E5F3%7D&file=Mutual%20Release.officer%20and%20director-Matthew%E2%80%99s%20iMac.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{D42C696C-A71E-417F-A0DE-3E142444E5F3},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Z0jU0H39XKxecJ2VB5Pkhu24D9g="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:47:11Z",
+    "lastModifiedDateTime": "2025-07-27T21:40:57Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 50176
+}

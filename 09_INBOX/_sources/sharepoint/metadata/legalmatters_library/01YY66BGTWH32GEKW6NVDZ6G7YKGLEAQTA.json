@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=62f43e76-de2a-476d-9f1b-f85196404260&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2NSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKToounM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw3ZzZ0a1VxMUs0aFMzVkJ4Mmk5alRWcllxMkFyR2cwOUlMb0Uyc3laYkM4PTCLATgBQhCh8qMr7CAAsJ3zLUDgKOxNShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.j68CgEY4R9n5dQFPxJA5yauAZDHiQI56gzB0bqEGamk&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-16T20:24:05Z",
+  "eTag": "\"{62F43E76-DE2A-476D-9F1B-F85196404260},2\"",
+  "id": "01YY66BGTWH32GEKW6NVDZ6G7YKGLEAQTA",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-06T16:27:27Z",
+  "name": "SnowCap__OnboardingForm_EDD.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQQRZ5K6BGB3JDKDZYVLLGNGKIH",
+    "name": "Onboarding Request Forms",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Request Forms",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B62F43E76-DE2A-476D-9F1B-F85196404260%7D&file=SnowCap__OnboardingForm_EDD.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{62F43E76-DE2A-476D-9F1B-F85196404260},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "3ANnHIF+Mypeyz7tnhq8RfhY54I="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-16T20:24:05Z",
+    "lastModifiedDateTime": "2025-06-06T16:27:27Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 71033
+}

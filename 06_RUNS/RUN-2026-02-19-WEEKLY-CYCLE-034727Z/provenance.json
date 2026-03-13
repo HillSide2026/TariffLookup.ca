@@ -1,0 +1,18 @@
+{
+  "run_id": "RUN-2026-02-19-WEEKLY-CYCLE-034727Z",
+  "started_at": "2026-02-19T03:47:27+00:00",
+  "admin_sweep": {
+    "script": "00_SYSTEM/scripts/run_system_admin_sweep.py",
+    "return_code": "0",
+    "run_root": "/Users/matthewlevine/Repos/ll-secondbrain_fresh/06_RUNS/RUN-2026-02-19-SYSTEM-ADMIN-SWEEP-034727Z/system_admin",
+    "stdout": "System admin sweep complete: /Users/matthewlevine/Repos/ll-secondbrain_fresh/06_RUNS/RUN-2026-02-19-SYSTEM-ADMIN-SWEEP-034727Z/system_admin",
+    "stderr": ""
+  },
+  "management_sweep": {
+    "script": "00_SYSTEM/scripts/run_system_management_sweep.py",
+    "return_code": "0",
+    "run_root": "/Users/matthewlevine/Repos/ll-secondbrain_fresh/06_RUNS/RUN-2026-02-19-SYSTEM-MANAGEMENT-SWEEP-034727Z/system_management",
+    "stdout": "System management sweep complete: /Users/matthewlevine/Repos/ll-secondbrain_fresh/06_RUNS/RUN-2026-02-19-SYSTEM-MANAGEMENT-SWEEP-034727Z/system_management",
+    "stderr": ""
+  }
+}

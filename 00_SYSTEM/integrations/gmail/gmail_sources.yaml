@@ -1,0 +1,40 @@
+id: 00_system__integrations__gmail__sources_yaml
+title: Gmail Sources
+owner: ML1
+status: initiated
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: GMAIL_MAILBOX
+    description: Primary Gmail mailbox messages and metadata (read-only).
+    location: Gmail account configured via env (GMAIL_CLIENT_ID/SECRET/REFRESH_TOKEN)
+    authority: unknown
+    classification: intake
+    ingestion: Read-only via GmailClient / fetch_gmail.py
+  - source_id: GMAIL_LABELS
+    description: Matter routing labels applied to threads.
+    location: Gmail labels (LL/*) applied by gmail_labeler.py
+    authority: unknown
+    classification: execution_artifact
+    ingestion: Applied via gmail_labeler.py with approval manifest
+    enabled: false
+    approval_required: ML1 write-back approval
+ingestion:
+  triggers:
+    - Manual run of fetch_gmail.py
+    - Manual run of gmail_labeler.py (labels only; disabled unless ML1 write-back approval exists)
+  notes:
+    - Read-only fetches are logged to 06_RUNS/logs/gmail_audit.log
+consumers:
+  scripts:
+    - 00_SYSTEM/scripts/gmail_integration.py
+    - 00_SYSTEM/scripts/fetch_gmail.py
+    - 00_SYSTEM/scripts/gmail_labeler.py
+    - 00_SYSTEM/scripts/run_pilot.py
+  playbooks: []
+  run_graphs: []
+related_artifacts:
+  - 00_SYSTEM/matters/matter_identity_map.yaml
+change_notes:
+  - participant_mapping.yaml remains at 00_SYSTEM/integrations/participant_mapping.yaml

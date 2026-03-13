@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T18:19:25Z",
+  "eTag": "\"{4A5794C6-0EE1-44D3-B8AE-A4E4151BB666},3\"",
+  "id": "01YY66BGWGSRLUVYIO2NCLRLVE4QKRXNTG",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:53:02Z",
+  "name": "Onboarding Package for Exness",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSCFQMVQMSVAZGLCNIDPZ6HAZOE",
+    "name": "Onboarding Forms",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Admin/Onboarding%20Forms/Onboarding%20Package%20for%20Exness",
+  "cTag": "\"c:{4A5794C6-0EE1-44D3-B8AE-A4E4151BB666},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T18:19:25Z",
+    "lastModifiedDateTime": "2025-09-23T21:53:02Z"
+  },
+  "folder": {
+    "childCount": 10
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 4820569
+}

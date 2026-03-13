@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=2039b295-2eaf-4f59-8bd5-870dd5093b70&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPSqveLA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixOU1d4S2JYMExrRDNmaHRZdG9FbEdxTmdUaWxXc2I3S2FFajBJWjF2OGxZPTCLATgBQhCh8qMEbUAAsHnRZOnZ0ng-ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.4SLvnDwmydDWuAonFajCD_ICaYnWG7GMvKmvUw0eb3A&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:50:00Z",
+  "eTag": "\"{2039B295-2EAF-4F59-8BD5-870DD5093B70},2\"",
+  "id": "01YY66BGUVWI4SBLZOLFHYXVMHBXKQSO3Q",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:50:00Z",
+  "name": "PRECEDENT_Board Resolution_Declaring Dividend_OBCA).docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUYQWXOTJOUQNFIRYK6JNYRMC3V",
+    "name": "Directors resolutions - 2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Directors resolutions - 2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B2039B295-2EAF-4F59-8BD5-870DD5093B70%7D&file=PRECEDENT_Board%20Resolution_Declaring%20Dividend_OBCA).docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{2039B295-2EAF-4F59-8BD5-870DD5093B70},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "FpTVBBl+yUlDeTkvj7ph4dISycM="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:50:00Z",
+    "lastModifiedDateTime": "2025-11-09T22:50:00Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 45704
+}

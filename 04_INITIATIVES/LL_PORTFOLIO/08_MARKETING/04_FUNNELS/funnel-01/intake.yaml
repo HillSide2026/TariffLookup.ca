@@ -1,0 +1,11 @@
+tools:
+- ghl_form
+- voice_ai
+- sms_followup
+gates:
+  revenue_min: $1M
+  employee_min: 5
+  intake_form_required: true
+routing:
+  qualified: book_consult
+  unqualified: decline_or_refer

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "saa_folder_map_drift-87914988",
+    "agent": "SAA_FOLDER_MAP_DRIFT",
+    "severity": "MAJOR",
+    "category": "drift",
+    "title": "Root directories not documented in FOLDER_MAP.md",
+    "description": "Root directories exist that are not listed in the folder map.",
+    "affected_paths": [
+      "logs/",
+      "scripts/"
+    ],
+    "suggested_fix": "Update FOLDER_MAP.md or relocate these directories into documented locations.",
+    "references": null,
+    "created_at": "2026-02-14T11:06:54.706278Z"
+  }
+]

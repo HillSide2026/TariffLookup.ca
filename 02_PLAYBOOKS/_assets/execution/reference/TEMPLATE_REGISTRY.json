@@ -1,0 +1,121 @@
+{
+  "_schema_version": "1.0",
+  "_note": "Authoritative template registry for SB Execution Bridge. Bridge must validate template.file_id against this registry before execution.",
+  "_last_updated": "2026-02-12",
+  "templates": [
+    {
+      "file_id": "017KHWIVEATEOLP6YBDVG3UMYK5E5SL5O6",
+      "canonical_name": "ENGAGEMENTAgreement_Corporation_[hourly]v2.docx",
+      "version": "2.0",
+      "doc_type": "EngagementAgreement",
+      "allowed_content_controls": [],
+      "required_content_controls": [],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    },
+    {
+      "file_id": "017KHWIVDNFIPPUBSN7ZEYGBJA4BXST7N3",
+      "canonical_name": "ENGAGEMENTAgreement_Corporation_FlatFee.docx",
+      "version": "1.0",
+      "doc_type": "EngagementAgreement",
+      "allowed_content_controls": [
+        "ClientName",
+        "ContactName",
+        "ClientAddress",
+        "EngagementDate",
+        "MatterDescription",
+        "FlatFeeAmount",
+        "PaymentSchedule",
+        "BillingTerms"
+      ],
+      "required_content_controls": [
+        "ClientName",
+        "ContactName"
+      ],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    },
+    {
+      "file_id": "017KHWIVGE6OCYL3EZWND37UEGRPLT2IDV",
+      "canonical_name": "ENGAGEMENTAgreement_Individual_[Flat]_v2.docx",
+      "version": "2.0",
+      "doc_type": "EngagementAgreement",
+      "allowed_content_controls": [
+        "ClientName",
+        "ContactName",
+        "ClientAddress",
+        "EngagementDate",
+        "MatterDescription",
+        "FlatFeeAmount",
+        "PaymentSchedule",
+        "BillingTerms"
+      ],
+      "required_content_controls": [
+        "ClientName",
+        "ContactName"
+      ],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    },
+    {
+      "file_id": "017KHWIVCM5JOOPE7JT5EJVJBWQYNIN4TC",
+      "canonical_name": "ENGAGEMENTAgreement_Individual_[Hourly]_v2.docx",
+      "version": "2.0",
+      "doc_type": "EngagementAgreement",
+      "allowed_content_controls": [
+        "ClientName",
+        "ContactName",
+        "ClientAddress",
+        "EngagementDate",
+        "MatterDescription",
+        "HourlyRate",
+        "RetainerAmount",
+        "BillingTerms"
+      ],
+      "required_content_controls": [
+        "ClientName",
+        "ContactName"
+      ],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    },
+    {
+      "file_id": "017KHWIVGD7VRT7SXPZBCLGNTOWHLVXHR3",
+      "canonical_name": "RETAINERAgreement_Corporation_v2.docx",
+      "version": "2.0",
+      "doc_type": "RetainerAgreement",
+      "allowed_content_controls": [
+        "ClientName",
+        "ContactName",
+        "ClientAddress",
+        "EngagementDate",
+        "MatterDescription",
+        "RetainerAmount",
+        "MonthlyRetainer",
+        "BillingTerms"
+      ],
+      "required_content_controls": [
+        "ClientName",
+        "ContactName"
+      ],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    },
+    {
+      "file_id": "017KHWIVDBPUKUYCQ7QRD25EKXWH7IYIEA",
+      "canonical_name": "RETAINERAgreement_Individual_v2.docx",
+      "version": "2.0",
+      "doc_type": "RetainerAgreement",
+      "allowed_content_controls": [
+        "ClientName",
+        "ContactName",
+        "ClientAddress",
+        "EngagementDate",
+        "MatterDescription",
+        "RetainerAmount",
+        "MonthlyRetainer",
+        "BillingTerms"
+      ],
+      "required_content_controls": [
+        "ClientName",
+        "ContactName"
+      ],
+      "lifecycle_compatibility": ["DRAFT", "READY_FOR_REVIEW", "APPROVED", "FINAL"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-03T21:05:09Z",
+  "eTag": "\"{CDC77BE6-2FE8-42B8-B48E-CAE4A24A8FD5},2\"",
+  "id": "01YY66BGXGPPD432BPXBBLJDWK4SREVD6V",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-03T21:05:06Z",
+  "name": "Post-Transaction Filings to FINTRAC",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVLY7SE3HUVMZCLNUGPTBOKCJQT",
+    "name": "24-682-00003 SnowCap CAMLO Operations",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Post-Transaction%20Filings%20to%20FINTRAC",
+  "cTag": "\"c:{CDC77BE6-2FE8-42B8-B48E-CAE4A24A8FD5},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-03T21:05:09Z",
+    "lastModifiedDateTime": "2025-11-03T21:05:06Z"
+  },
+  "folder": {
+    "childCount": 2
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 226424
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=40db3b67-39b2-4148-b259-b12baab49ad7&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA2NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNDSkbfF2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixwZU9FRFpmLzV6U21wTU1XV1dHVTFpU21yQ1hBbC9VTnd1a3BaV3lHQU1VPTCLATgBQhCh8qMTtJAAsJ3zJLmkp02AShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.bUnYHfv3dHcA9ubLcxYFa_PcyaVt7hB7lGqS0Hh-qWw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T21:04:21Z",
+  "eTag": "\"{40DB3B67-39B2-4148-B259-B12BAAB49AD7},1\"",
+  "id": "01YY66BGTHHPNUBMRZJBA3EWNRFOVLJGWX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:04:21Z",
+  "name": "Notice and Schedules including pnotes.Clean.2M contribution.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXXPIERGYUNGVDLWUNR2HU6FXBS",
+    "name": "drafts.amendment Pnote",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-845-00001/drafts.amendment Pnote",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B40DB3B67-39B2-4148-B259-B12BAAB49AD7%7D&file=Notice%20and%20Schedules%20including%20pnotes.Clean.2M%20contribution.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{40DB3B67-39B2-4148-B259-B12BAAB49AD7},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "v1rjsjp2f3uLP+I9Ltau44+smHM="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T21:04:21Z",
+    "lastModifiedDateTime": "2025-09-09T21:04:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 30947
+}

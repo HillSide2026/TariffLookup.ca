@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:42:21Z",
+  "eTag": "\"{1F51A201-17C4-4BC6-923E-7F94C00EE319},5\"",
+  "id": "01YY66BGQBUJIR7RAXYZFZEPT7STAA5YYZ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-10-18T02:56:38Z",
+  "name": "Client Work to archive",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSNC7TERCTSWRA2MHXBA22UJVCD",
+    "name": "Work to archive1",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive",
+  "cTag": "\"c:{1F51A201-17C4-4BC6-923E-7F94C00EE319},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:42:21Z",
+    "lastModifiedDateTime": "2025-10-18T02:56:38Z"
+  },
+  "folder": {
+    "childCount": 5
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 4391893
+}

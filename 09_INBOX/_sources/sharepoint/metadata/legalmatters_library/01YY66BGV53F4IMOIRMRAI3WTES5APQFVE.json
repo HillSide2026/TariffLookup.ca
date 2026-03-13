@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=8678d9bd-1139-4064-8dda-649740f816a4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE4OCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLiuzr_O2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixseUt0dmpTL0RWRjgrVGZvVWdSWUcxS1dIL2FSMmg0WFZ4Q2lDQVpsNmxjPTCLATgBQhCh8qMxaNAAsJ3zJOPsz0k4ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.I1BR8meyBvUd-4Qx6_mYIFqfzkmPGr_KdpnUV-fUVGU&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-21T21:59:30Z",
+  "eTag": "\"{8678D9BD-1139-4064-8DDA-649740F816A4},2\"",
+  "id": "01YY66BGV53F4IMOIRMRAI3WTES5APQFVE",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-21T21:59:30Z",
+  "name": "SnowCap -- Agent form for legal entity copy.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGR3O2XB3XSRFFD32LXHHBXOYQET",
+    "name": "Procedures and Ancillary Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Procedures and Ancillary Documents",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B8678D9BD-1139-4064-8DDA-649740F816A4%7D&file=SnowCap%20--%20Agent%20form%20for%20legal%20entity%20copy.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{8678D9BD-1139-4064-8DDA-649740F816A4},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "2nsIvElI7uQVcortqjVFaSYTURU="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-21T21:59:30Z",
+    "lastModifiedDateTime": "2025-05-21T21:59:30Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 24175
+}

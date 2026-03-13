@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=d319b3ee-25c9-41d7-a585-5d03092c43d4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA1NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJ6s2NbE2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixtZm1wYm41RW1uanpLWUxSaDYrdVpRQUdBTHM4eTRtR2lHc25YbGFvc1o0PTCLATgBQhCh8qMROYAAsHnRbCUoMRKzShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.G9kv_G0LxtYePWXGs743UTKQRjzvjrDWLycwOtyOlrU&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:54:46Z",
+  "eTag": "\"{D319B3EE-25C9-41D7-A585-5D03092C43D4},1\"",
+  "id": "01YY66BGXOWMM5HSJF25A2LBK5AMESYQ6U",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:54:46Z",
+  "name": "FW_ Company Key Information _ Renseignements importants de l\u2019entreprise-Matthew\u2019s iMac.msg",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTF3OM5FJEZWRAZZH5TN4MXN4JS",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/24-347-00002%20Damiano/Startup%20Slang%20Inc.Share%20Repurchase%20Documents%20(1)/FW_%20Company%20Key%20Information%20_%20Renseignements%20importants%20de%20l%E2%80%99entreprise-Matthew%E2%80%99s%20iMac.msg",
+  "cTag": "\"c:{D319B3EE-25C9-41D7-A585-5D03092C43D4},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "hWNEWCQXY8cyMfkcr4My5qa+DL4="
+    },
+    "mimeType": "application/vnd.ms-outlook"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:54:46Z",
+    "lastModifiedDateTime": "2025-09-09T20:54:46Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 170496
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=76a9db5a-9f9f-4354-ac51-b11be0d60d6d&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPCv1sfJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixYL3Y4dWhRbjdzM2QxSHVKZHVIanl3U28zTFJ4V2dnbUlGckdaSXAzMVF3PTCLATgBQhCh8qMhO2AAsHnRYt6kw0t1ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.g0EU_eIFx69_iDdZBCEauRy4Bbj7WStQgRHu0OPb4Xk&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2024-12-31T19:57:52Z",
+  "eTag": "\"{76A9DB5A-9F9F-4354-AC51-B11BE0D60D6D},4\"",
+  "id": "01YY66BGS23OUXNH47KRB2YUNRDPQNMDLN",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-09T16:44:22Z",
+  "name": "Draft_SPA_SnowCap 12312024 clean-Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQLXHVYYR4GQRDLZD36DE7IHIPA",
+    "name": "Draft SPA",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B76A9DB5A-9F9F-4354-AC51-B11BE0D60D6D%7D&file=Draft_SPA_SnowCap%2012312024%20clean-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{76A9DB5A-9F9F-4354-AC51-B11BE0D60D6D},16\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "/z42vog/PeJqmiix0M7XG/ew5a8="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2024-12-31T19:57:52Z",
+    "lastModifiedDateTime": "2025-01-09T16:44:22Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 47535
+}

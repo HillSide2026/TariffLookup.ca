@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=f46f3061-7e8f-44a1-bdb8-8d96017394b6&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA1NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKqkxdbE2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix6UWordTFUWXRQZXlIamhuTFFqS2RVbTJ2VW1CVm5PZS9obGI4cm4ybGF3PTCLATgBQhCh8qMROYAAsHnRbCUoMRKzShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.opHcFArcOsjZPK6LgfXP5SalXVQW5ggbUaxjrwpmmUk&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:47:12Z",
+  "eTag": "\"{F46F3061-7E8F-44A1-BDB8-8D96017394B6},1\"",
+  "id": "01YY66BGTBGBX7JD36UFCL3OENSYAXHFFW",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-26T00:28:10Z",
+  "name": "05 Receipt by GABRIELLE GIRARD LACASSE to STARTUP SLANG INC. for $49.00.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTF3OM5FJEZWRAZZH5TN4MXN4JS",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BF46F3061-7E8F-44A1-BDB8-8D96017394B6%7D&file=05%20Receipt%20by%20GABRIELLE%20GIRARD%20LACASSE%20to%20STARTUP%20SLANG%20INC.%20for%20$49.00.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{F46F3061-7E8F-44A1-BDB8-8D96017394B6},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "u8V6bNkMKEJ+hvW2+U0cBdrwOX0="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:47:12Z",
+    "lastModifiedDateTime": "2025-07-26T00:28:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 22673
+}

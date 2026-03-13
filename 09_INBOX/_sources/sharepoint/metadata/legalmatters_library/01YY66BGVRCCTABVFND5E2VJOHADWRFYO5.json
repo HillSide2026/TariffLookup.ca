@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=00a610b1-add4-491f-aaa5-c700ed12e1dd&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPSqveLA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixsWktES2RSRUtGUldMLzRIbmVWYUVkd2NGV1BmMDZqV0FwUndTMmoraTU4PTCLATgBQhCh8qMEbUAAsHnRZOnZ0ng-ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.3V9tMDELETrdakk4feMrSfgPfgX1gNoX8WuF2Gz0eMY&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:49:59Z",
+  "eTag": "\"{00A610B1-ADD4-491F-AAA5-C700ED12E1DD},2\"",
+  "id": "01YY66BGVRCCTABVFND5E2VJOHADWRFYO5",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:49:59Z",
+  "name": "PRECEDENT_Board Resolution (Financial Statements and Annual General Meeting) (OBCA).docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUYQWXOTJOUQNFIRYK6JNYRMC3V",
+    "name": "Directors resolutions - 2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Directors resolutions - 2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B00A610B1-ADD4-491F-AAA5-C700ED12E1DD%7D&file=PRECEDENT_Board%20Resolution%20(Financial%20Statements%20and%20Annual%20General%20Meeting)%20(OBCA).docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{00A610B1-ADD4-491F-AAA5-C700ED12E1DD},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "oLol50AlSlyf1NEHwOo0SNvNGgA="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:49:59Z",
+    "lastModifiedDateTime": "2025-11-09T22:49:59Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 44215
+}

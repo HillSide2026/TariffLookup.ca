@@ -1,0 +1,47 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=f5c4bd81-50ba-4471-9505-6b14f0c65e0b&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMbkgaXJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixaanBQZEhsNGg0bVNHZjBFWVNVR2Q1YUJUVXRMbWhrVWhpZTd4bnlxKy9JPTCLATgBQhCh8qMgWjAAsJ3zI3bPckgGShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.N1ZY-3rxDgcVRpFFXRl5IXmNAXf_0faMT1ACZoULnx8&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-03-06T21:19:03Z",
+  "eTag": "\"{F5C4BD81-50BA-4471-9505-6B14F0C65E0B},1\"",
+  "id": "01YY66BGUBXXCPLOSQOFCJKBLLCTYMMXQL",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-03-06T21:18:52Z",
+  "name": "bird-fight-1.avif",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWM3NGPTLWUY5DLPDPBBTE5BAJR",
+    "name": "Finder Fee",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Finder Fee",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Finder%20Fee/bird-fight-1.avif",
+  "cTag": "\"c:{F5C4BD81-50BA-4471-9505-6B14F0C65E0B},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "EdN8k4fG4Nr3+mVIVkF5AnZJ0AY="
+    },
+    "mimeType": "application/octet-stream"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-03-06T21:19:03Z",
+    "lastModifiedDateTime": "2025-03-06T21:18:52Z"
+  },
+  "photo": {},
+  "shared": {
+    "scope": "users"
+  },
+  "size": 10914
+}

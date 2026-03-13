@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=1785190e-e92b-4530-b9b9-d60f9c7b3b62&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMrk6MXJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixkM1c0cE5DZUZLMG0zTXVybkhIZjRBQ2tVRXNlZFVTRUJvUnN1NEV5SWFBPTCLATgBQhCh8qMhMDAAsJ3zJIhRv0XqShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.4YKUdQS9-KEhxf6S3GNOCfwLYIHzdZ191ggJgLDFWas&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-29T21:36:22Z",
+  "eTag": "\"{1785190E-E92B-4530-B9B9-D60F9C7B3B62},6\"",
+  "id": "01YY66BGQODGCROK7JGBC3TOOWB6OHWO3C",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-31T17:57:40Z",
+  "name": "SPA - Closing Documents -Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRQQX2SY7RWNBAZAMWHROVM6JR4",
+    "name": "Purchase Agreement",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B1785190E-E92B-4530-B9B9-D60F9C7B3B62%7D&file=SPA%20-%20Closing%20Documents%20-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{1785190E-E92B-4530-B9B9-D60F9C7B3B62},24\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "UYgq8/LxUldsRlsm/VabzyAy1b8="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-29T21:36:22Z",
+    "lastModifiedDateTime": "2025-01-31T17:57:40Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 42800
+}

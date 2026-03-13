@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=c3072de8-d7ba-4b71-a270-d10c48853149&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAyMSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLyPtIjC2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixoQWlsNDJWQmFvSlhWTjFRRk1hYkpmNkdsb1JCZTdza3ZvbUxtN3V5RzRJPTCLATgBQhCh8qMIrbAAsJ3zIA4uOsULShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.zrr5lvdL5QUmiM1TKHTqXsos39ieqC2IGq4ESiYYpSw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:33:42Z",
+  "eTag": "\"{C3072DE8-D7BA-4B71-A270-D10C48853149},1\"",
+  "id": "01YY66BGXIFUD4HOWXOFF2E4GRBREIKMKJ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:17:40Z",
+  "name": "Direction and authorization.Terrastone copy.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXHFEKJXWYX3RGY6W33KAU7PYPJ",
+    "name": "ML Drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/25-1231-00001 Charmaine Spiteri/drafts/ML Drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BC3072DE8-D7BA-4B71-A270-D10C48853149%7D&file=Direction%20and%20authorization.Terrastone%20copy.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{C3072DE8-D7BA-4B71-A270-D10C48853149},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "qoVn7H3+8RtB0OQSR1+sUYhKBpc="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:33:42Z",
+    "lastModifiedDateTime": "2025-09-12T19:17:40Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 45056
+}

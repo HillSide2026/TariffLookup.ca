@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "agents": [
+    {
+      "name": "proposal-drafter",
+      "purpose": "Draft action proposals for ML1 review using approved schemas.",
+      "allowed_write_paths": [
+        "06_RUNS/**"
+      ],
+      "required_doctrine_refs": [
+        "01_DOCTRINE/02_policies/POL-001_Output_Labeling_Requirement.md (POL-001)",
+        "01_DOCTRINE/02_policies/POL-002_Provenance_Requirement.md (POL-002)",
+        "01_DOCTRINE/02_policies/POL-004_External_Output_Approval_Requirement.md (POL-004)",
+        "01_DOCTRINE/02_policies/DOCTRINE-2026-005-NO_FICTIONAL_EXECUTION_CONSTRUCTS.md (DOCTRINE-2026-005)"
+      ],
+      "capability_profile": "01_DOCTRINE/03_capability_profiles/AGENT-CAPABILITY-PROFILE-0001-DRAFT_WRITE_ACCESS.md"
+    },
+    {
+      "name": "research-summarizer",
+      "purpose": "Produce neutral, source-bound research summaries for ML1 review.",
+      "allowed_write_paths": [
+        "06_RUNS/**"
+      ],
+      "required_doctrine_refs": [
+        "01_DOCTRINE/02_policies/POL-001_Output_Labeling_Requirement.md (POL-001)",
+        "01_DOCTRINE/02_policies/POL-002_Provenance_Requirement.md (POL-002)",
+        "01_DOCTRINE/02_policies/POL-003_Novel_Policy_Prohibition.md (POL-003)",
+        "01_DOCTRINE/02_policies/DOCTRINE-2026-005-NO_FICTIONAL_EXECUTION_CONSTRUCTS.md (DOCTRINE-2026-005)"
+      ],
+      "capability_profile": "01_DOCTRINE/03_capability_profiles/AGENT-CAPABILITY-PROFILE-0001-DRAFT_WRITE_ACCESS.md"
+    },
+    {
+      "name": "matter-brief-drafter",
+      "purpose": "Draft matter briefs from canonical templates and matter context.",
+      "allowed_write_paths": [
+        "06_RUNS/**"
+      ],
+      "required_doctrine_refs": [
+        "01_DOCTRINE/02_policies/POL-001_Output_Labeling_Requirement.md (POL-001)",
+        "01_DOCTRINE/02_policies/POL-002_Provenance_Requirement.md (POL-002)",
+        "01_DOCTRINE/02_policies/POL-006_Clarity_Single_Job_Requirement.md (POL-006)",
+        "01_DOCTRINE/02_policies/DOCTRINE-2026-005-NO_FICTIONAL_EXECUTION_CONSTRUCTS.md (DOCTRINE-2026-005)"
+      ],
+      "capability_profile": "01_DOCTRINE/03_capability_profiles/AGENT-CAPABILITY-PROFILE-0001-DRAFT_WRITE_ACCESS.md"
+    },
+    {
+      "name": "email-draft",
+      "purpose": "Draft email responses or summaries for ML1 review with explicit labeling and provenance.",
+      "allowed_write_paths": [
+        "06_RUNS/**"
+      ],
+      "required_doctrine_refs": [
+        "01_DOCTRINE/02_policies/POL-001_Output_Labeling_Requirement.md (POL-001)",
+        "01_DOCTRINE/02_policies/POL-002_Provenance_Requirement.md (POL-002)",
+        "01_DOCTRINE/02_policies/POL-004_External_Output_Approval_Requirement.md (POL-004)",
+        "01_DOCTRINE/02_policies/DOCTRINE-2026-005-NO_FICTIONAL_EXECUTION_CONSTRUCTS.md (DOCTRINE-2026-005)"
+      ],
+      "capability_profile": "01_DOCTRINE/03_capability_profiles/AGENT-CAPABILITY-PROFILE-0001-DRAFT_WRITE_ACCESS.md"
+    }
+  ]
+}

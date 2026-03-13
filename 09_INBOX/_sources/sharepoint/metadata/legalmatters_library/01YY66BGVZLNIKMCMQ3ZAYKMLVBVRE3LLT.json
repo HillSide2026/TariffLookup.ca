@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=a6505bb9-9009-41de-8531-750d624dad73&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA3NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNjgrpjG2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixWL1pBQ1RBb093c1VIcEZYQ21IRUhva0xRYTRYckhYN0ovRjZKSXBBbm5BPTCLATgBQhCh8qMWMMAAsJ3zIVtutt-HShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.gYO8m1VoGKl8P9K4XEYnzuWHfYWfuhusEtLZqp4z5_Y&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-02T18:14:26Z",
+  "eTag": "\"{A6505BB9-9009-41DE-8531-750D624DAD73},1\"",
+  "id": "01YY66BGVZLNIKMCMQ3ZAYKMLVBVRE3LLT",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:18:55Z",
+  "name": "Mutual Release.1761859-Matthew\u2019s iMac.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQA4446GGQOSVELJKO2EQY3FU2S",
+    "name": "drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BA6505BB9-9009-41DE-8531-750D624DAD73%7D&file=Mutual%20Release.1761859-Matthew%E2%80%99s%20iMac.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{A6505BB9-9009-41DE-8531-750D624DAD73},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "ZgI1gtA/OHir0x9nTUKE6x5ZHug="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-02T18:14:26Z",
+    "lastModifiedDateTime": "2025-09-12T19:18:55Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 48640
+}

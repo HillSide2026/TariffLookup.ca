@@ -1,0 +1,26 @@
+id: 00_system__integrations__clio__sources_yaml
+title: Clio Sources
+owner: ML1
+status: draft
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: CLIO_MATTERS_PLANNED
+    description: Planned read-only matter metadata from Clio.
+    location: Clio (API scope TBD)
+    authority: unknown
+    classification: external_reference
+    ingestion: Planned only; no implementation in repo
+ingestion:
+  triggers: []
+  notes:
+    - Plan-level only; no config present
+consumers:
+  scripts: []
+  playbooks: []
+  run_graphs: []
+related_artifacts:
+  - 00_SYSTEM/matters/matter_identity_map.yaml
+change_notes:
+  []

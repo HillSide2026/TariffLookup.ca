@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=23666ee1-5a22-4a80-87d4-bdab92377abb&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA1NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPCLw9TE2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw4clBqMmFmU3lFZDEvc1RNbTFVZnlsV1JpU1lvYURtK29ZS2VDODJEeGZZPTCLATgBQhCh8qMRK1AAsHnRYpWiDdSwShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.VVP7PAC03nRwApjQHmh1PDISqD9RaQU_Or1YrE-J96Y&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:45:01Z",
+  "eTag": "\"{23666EE1-5A22-4A80-87D4-BDAB92377ABB},1\"",
+  "id": "01YY66BGXBNZTCGIS2QBFIPVF5VOJDO6V3",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-27T21:41:49Z",
+  "name": "Startup Slang Inc.Share Repurchase Documents (1) SENT TO CLIENT 27July-Matthew\u2019s iMac.zip",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQI4VMC75BPD5H3IJRBCYA7AWB5",
+    "name": "24-347-00002 Damiano",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-347-00002 Damiano",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/24-347-00002%20Damiano/Startup%20Slang%20Inc.Share%20Repurchase%20Documents%20(1)%20SENT%20TO%20CLIENT%2027July-Matthew%E2%80%99s%20iMac.zip",
+  "cTag": "\"c:{23666EE1-5A22-4A80-87D4-BDAB92377ABB},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "thnWFv2Ic7MQ32CUCC34VrVfi+8="
+    },
+    "mimeType": "application/zip"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:45:01Z",
+    "lastModifiedDateTime": "2025-07-27T21:41:49Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1325691
+}

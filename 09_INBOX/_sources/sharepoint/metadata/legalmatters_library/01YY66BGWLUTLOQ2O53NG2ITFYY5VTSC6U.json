@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=e8d6a4cb-dd69-4ddb-a44c-b8c76b390bd4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAyOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCJafpczC2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix6OU5tZGxtNHpHNlBVc0Z0U3RIZUdGMjl2N3YyUWVlWVFZV3gvYUpYWTR3PTCLATgBQhCh8qMKZ6AAsJ3zI1pvKhcjShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.2u3DIqVexv92hUxxnQAKWJsrZ7vAbnxWphQkC-VE_0w&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:47:11Z",
+  "eTag": "\"{E8D6A4CB-DD69-4DDB-A44C-B8C76B390BD4},1\"",
+  "id": "01YY66BGWLUTLOQ2O53NG2ITFYY5VTSC6U",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-26T00:28:10Z",
+  "name": "08 Resignation as a Director by GABRIELLE GIRARD LACASSE-Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSTZJZKOLM7UFHJTY63HDW5DHNF",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BE8D6A4CB-DD69-4DDB-A44C-B8C76B390BD4%7D&file=08%20Resignation%20as%20a%20Director%20by%20GABRIELLE%20GIRARD%20LACASSE-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{E8D6A4CB-DD69-4DDB-A44C-B8C76B390BD4},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "+5pb06Wr1mtR7jqo5fTWqmrX6Oc="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:47:11Z",
+    "lastModifiedDateTime": "2025-07-26T00:28:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 22612
+}

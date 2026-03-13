@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=af89e2a4-f1c4-4e73-8da7-776ebb6c12d1&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIxNyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCN6rwtjQ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixyYWJUWG5VQzhWMEl5alUxZDNlYWM2RVUxbFZadi9IbHBON1pMRE9VQktFPTCLATgBQhCh8qM4mcAAsJ3zJg-C7eAVShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.L3RSpknoNQ7LBekICvJ13OB82a1SMZy50REIUdpmm-o&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:10Z",
+  "eTag": "\"{AF89E2A4-F1C4-4E73-8DA7-776EBB6C12D1},2\"",
+  "id": "01YY66BGVE4KE27RHRONHI3J3XN25WYEWR",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2024-02-16T18:27:59Z",
+  "name": "202401 Maxflow Due_Diligence_Policy.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRPL3J5CMTBOZBZ6QMTP5PQBARV",
+    "name": "Due Diligence",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Policy Documents/Due Diligence",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BAF89E2A4-F1C4-4E73-8DA7-776EBB6C12D1%7D&file=202401%20Maxflow%20Due_Diligence_Policy.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{AF89E2A4-F1C4-4E73-8DA7-776EBB6C12D1},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "/Y3qpf0uj0gUBGWwLwjTJaR/AWg="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:10Z",
+    "lastModifiedDateTime": "2024-02-16T18:27:59Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 57342
+}

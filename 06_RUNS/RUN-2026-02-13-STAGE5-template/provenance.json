@@ -1,0 +1,13 @@
+{
+  "run_id": "RUN-2026-02-13-STAGE5-template",
+  "timestamp": "2026-02-13",
+  "doctrine": [],
+  "templates": [],
+  "playbooks": [],
+  "bundles": [],
+  "gates": [
+    "ml1_approval_required",
+    "classification_ok",
+    "doctrine_conflict_detected"
+  ]
+}

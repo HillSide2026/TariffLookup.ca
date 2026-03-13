@@ -1,0 +1,27 @@
+schema_version: 0.1
+id: intake_to_first_draft
+name: Intake to First Draft
+description: Convert a client intake into a first-response draft with gates and provenance.
+bundle: intake_minimum
+gates:
+  - ml1_approval_required
+  - classification_ok
+  - doctrine_conflict_detected
+  - clarity_scope_check
+  - coherence_conflict_check
+  - reasoning_trace_check
+  - testability_check
+  - versioning_check
+  - discoverability_check
+steps:
+  - id: retrieve_context
+    action: retrieve_bundle
+    bundle: intake_minimum
+  - id: draft_response
+    action: generate_first_draft
+    outputs:
+      - path: outputs/first_response_draft.md
+        label: DRAFT_FOR_ML1
+run_logging:
+  runlog: runlog.md
+  provenance: provenance.json

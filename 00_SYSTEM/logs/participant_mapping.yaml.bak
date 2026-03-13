@@ -1,0 +1,305 @@
+# Participant Mapping — Email Domain/Person → Matter ID
+#
+# Used by: scripts/todo_rollup.py
+# Purpose: Map email senders to matters for task extraction
+#
+# Generated: 2026-02-03 (rough draft from 30-day email analysis)
+# Status: DRAFT — Needs ML1 review and completion
+#
+# Format:
+#   domain_or_name: matter_id
+#
+# Rules:
+#   - Keys are lowercase, no spaces
+#   - Domain matches: email domain without TLD (e.g., "stream" matches @stream.money)
+#   - Person matches: lowercase name with no spaces (e.g., "maxhill")
+#   - Email prefix matches: part before @ (e.g., "tulika.d")
+
+# =============================================================================
+# ESSENTIAL MATTERS
+# =============================================================================
+
+# 25-927-00003 — Stream Ventures Limited / SnowCap Financial
+# Primary contacts: Tulika Dhar, Harry B, James Hayes
+stream: "25-927-00003"
+stream.money: "25-927-00003"
+snowcap: "25-927-00003"
+tulikadhar: "25-927-00003"
+tulika.d: "25-927-00003"
+harryb: "25-927-00003"
+harry: "25-927-00003"
+jameshayes: "25-927-00003"
+jamesh: "25-927-00003"
+# Related vendors/counterparties
+fireblocks: "25-927-00003"
+fargent: "25-927-00003"
+
+# 25-1603-00001 — IBERBANCO LTD
+# Primary contacts: Amina, Oluwasayo
+iberbanco: "25-1603-00001"
+# TODO: Add specific contact emails when identified
+
+# 25-1593-00001 — 1001162998 Ontario Corp. o/a KaleMart
+# Primary contact: Chris Roop (601 Yonge Lease)
+kalemart: "25-1593-00001"
+chrisroop: "25-1593-00001"
+roop: "25-1593-00001"
+
+# 26-1630-00001 — Marcela Hernandez
+marcelahernandez: "26-1630-00001"
+# TODO: Add email domain when identified
+
+# =============================================================================
+# STRATEGIC MATTERS
+# =============================================================================
+
+# 24-336-00004 — Mascore Helical Piles (Max Hill cohabitation)
+# Primary contact: Max Hill
+mascore: "24-336-00004"
+mascore.ca: "24-336-00004"
+maxhill: "24-336-00004"
+mhill: "24-336-00004"
+# ILA counsel
+frodislaw: "24-336-00004"
+danifrodis: "24-336-00004"
+dani: "24-336-00004"
+
+# 25-256-00005 — Aspire Infusions Inc
+# Primary contact: Michael Bou Doumit
+aspire: "25-256-00005"
+aspireinfusions: "25-256-00005"
+michaelboudoumit: "25-256-00005"
+# TODO: Add email domain when identified
+
+# 25-1231-00001 — Charmaine Spiteri
+# TODO: Identify primary contacts
+charmaine: "25-1231-00001"
+spiteri: "25-1231-00001"
+
+# 25-1318-00001 — Zelko Culibrk
+# Primary contact: Zelko Culibrk
+# Related parties: Natasha (daughter), Nadia (daughter)
+zelko: "25-1318-00001"
+zeljko: "25-1318-00001"
+culibrk: "25-1318-00001"
+natasha: "25-1318-00001"
+nadia: "25-1318-00001"
+# Counterparty counsel: George Street Law (Chris Rogers)
+georgestreetlaw: "25-1318-00001"
+crogers: "25-1318-00001"
+
+# 26-1593-00002 — 1001162998 Ontario Corp. o/a KaleMart
+# Note: Different matter from 25-1593-00001
+# TODO: Clarify if these should be merged or separate
+
+# =============================================================================
+# STANDARD MATTERS
+# =============================================================================
+
+# 25-1185-00001 — Alexander Klys
+alexanderklys: "25-1185-00001"
+# TODO: Add email domain when identified
+
+# 25-1588-00001 — Gregory Popov
+gregorypopov: "25-1588-00001"
+# TODO: Add email domain when identified
+
+# 25-1571-00001 — Kishmish Inc.
+# Primary contacts: Jyotika, Yash
+kishmish: "25-1571-00001"
+jyotika: "25-1571-00001"
+yash: "25-1571-00001"
+
+# 25-1363-00001 — Raevan Joy Sambrano
+raevan: "25-1363-00001"
+sambrano: "25-1363-00001"
+
+# 25-1525-00001 — Kleenup Cleaning Services Inc.
+kleenup: "25-1525-00001"
+
+# 25-1538-00002 — Georgiana Nicoară
+georgiana: "25-1538-00002"
+nicoara: "25-1538-00002"
+
+# 25-1553-00001 — 15652227 Canada Inc.
+# TODO: Identify primary contacts
+
+# 24-646-00001 — ByNature Design
+bynature: "24-646-00001"
+bynaturedesign: "24-646-00001"
+
+# 25-194-00059 — Rousseau Mazzuca LLP (RM Carpenters)
+rousseaumazzuca: "25-194-00059"
+rmcarpenters: "25-194-00059"
+ashleyalmeida: "25-194-00059"
+ashley: "25-194-00059"
+ashley@rousseaumazzuca.com: "25-194-00059"
+rousseaumazzuca.com: "25-194-00059"
+
+# 22-194-00006 — Rousseau Mazzuca LLP (older matter)
+# Note: May need to distinguish from 25-194-00059
+
+# 23-194-00013 — Rousseau Mazzuca LLP (older matter)
+# Note: May need to distinguish from 25-194-00059
+
+# 23-235-00001 — Baobab Energy Africa Ltd
+baobab: "23-235-00001"
+baobabenergy: "23-235-00001"
+
+# 24-845-00001 — STAR 333 SPORTS INC.
+# Primary contact: Abhishek Shah
+star333: "24-845-00001"
+abhishek: "24-845-00001"
+abhishekshah: "24-845-00001"
+
+# 25-845-00002 — STAR 333 SPORTS INC. (different matter)
+# Note: Same client, different matter - may need thread-based routing
+
+# =============================================================================
+# PARKED MATTERS
+# =============================================================================
+
+# 24-347-00002 — Brand Butter
+brandbutter: "24-347-00002"
+
+# 24-409-00001 — A. Mukherjee & Co.
+mukherjee: "24-409-00001"
+
+# 24-601-00001 — Meta Bytes North America Inc
+metabytes: "24-601-00001"
+
+# 24-682-00002 — Stream Ventures Limited (LEGACY - see 25-927-00003)
+# Note: Old folder reference, should route to active matter
+# Covered by stream.money mappings above
+
+# 25-174-00001 — Danielle Thompson
+daniellethompson: "25-174-00001"
+
+# 25-192-00003 — If Not Me Inc
+ifnotme: "25-192-00003"
+
+# 25-822-00001 — Majid Hajibeigy
+majid: "25-822-00001"
+hajibeigy: "25-822-00001"
+
+# 25-1024-00001 — AllPro Construction Group
+allpro: "25-1024-00001"
+
+# 25-1192-00001 — The Knot Churros International Limited
+knotchurros: "25-1192-00001"
+
+# 23-169-00003 — Best Bottles Inc.
+bestbottles: "23-169-00003"
+
+# =============================================================================
+# COUNTERPARTIES / EXTERNAL COUNSEL (Route to related matter)
+# =============================================================================
+
+# Law clerks (internal team - don't route to specific matter)
+# dmlawclerks: SKIP — Dina Moore works on multiple matters
+
+# George Street Law (Chris Rogers) — mapped under Zelko matter (25-1318-00001)
+
+# C'est La Vie Law (Jordana Talsky) — ILA counsel for Max Hill cohabitation
+cestlavielaw: "24-336-00004"
+jtalsky: "24-336-00004"
+
+# Belmore Law (Marian Wolanski) — potential co-counsel
+# belmorelaw: "XX-XXX-XXXXX"  # TODO: Identify related matter when engaged
+
+# Clearsky Network — ML1 personal business (HillSide)
+# Matter: 25-1614-00001
+clearsky: "25-1614-00001"
+clearskynetwork: "25-1614-00001"
+chenclearskynetwork: "25-1614-00001"
+chen: "25-1614-00001"
+
+# Dina Moore — Law clerk (works on multiple matters, route by thread context)
+dinamoore: "SKIP"
+dmlawclerks: "SKIP"
+
+# =============================================================================
+# FIRM INTERNAL / MANAGEMENT (exclude from client task extraction)
+# =============================================================================
+
+# Laura Hinton — Firm management/operations
+laurahinton: "FIRM_INTERNAL"
+lauraehinton: "FIRM_INTERNAL"
+lauraehin: "FIRM_INTERNAL"
+
+# Marjan Banisaeed — Inquiries matter
+# Matter: 26-259-00003
+marjanbanisaeed: "26-259-00003"
+mbanisaeed: "26-259-00003"
+mbanisa: "26-259-00003"
+
+# =============================================================================
+# EXCLUDED DOMAINS (system/noise - never route)
+# =============================================================================
+# Personal email providers:
+# gmail.com, outlook.com, hotmail.com, yahoo.com, icloud.com
+#
+# Firm domains:
+# levinelegal.ca, levinelegalservices.com, levine-law.ca
+#
+# SaaS/infrastructure:
+# google.com, github.com, slack.com, asana.com, clio.com
+# upwork.com, zoom.us, microsoft.com, amazon.ca
+#
+# Marketing/consultants (excluded from task extraction):
+# soulpepper.com (Robyn - marketing consultant)
+#
+# Note: keycorp.ca and super60.com NOT excluded - may have client relevance
+#
+# (Excluded programmatically in todo_rollup.py)
+
+# =============================================================================
+# NOTES FOR ML1 REVIEW
+# =============================================================================
+#
+# 1. DUPLICATES: Some clients have multiple matters (STAR 333, Rousseau Mazzuca).
+#    Current approach: Route to most recent/active matter.
+#    Alternative: Use thread-based routing or subject-line matter tags.
+#
+# 2. PARKED MATTERS: Should parked matter contacts still route there, or skip?
+#    Current: Still routes to parked matter for visibility.
+#
+# 3. LEGACY MATTERS: 24-682-00002 (Stream) should route to 25-927-00003.
+#    Currently handled by shared domain mapping.
+#
+# 4. INCOMPLETE ENTRIES: Many matters lack identified contact emails.
+#    TODO: Populate from Clio contact records or manual lookup.
+#
+# 5. COUNTERPARTIES: External counsel routes to their client's matter.
+#    TODO: Map opposing counsel domains to relevant matters.
+#
+
+# =============================================================================
+# AUTO-DISCOVERED MAPPINGS
+# Added by run_matter_dashboard.py
+# Generated: 2026-02-09
+akhil: "25-194-00059"
+aspireinfusions.ca: "25-256-00005"
+aspireinfusions.com: "25-256-00005"
+berkeley-ig: "25-927-00003"
+berkeley-ig.com: "25-927-00003"
+chenben: "25-1614-00001"
+clearsky-network: "25-1614-00001"
+clearsky-network.com: "25-1614-00001"
+dwright: "25-194-00059"
+fireblocks.com: "25-927-00003"
+# gmail/gmail.com: REMOVED — generic domain, was falsely routing all Gmail senders to Culibrk
+# hotmail/hotmail.com: REMOVED — generic domain, was falsely routing all Hotmail senders to LL Onboarding
+mmandarino: "25-194-00059"
+sbedi: "25-927-00003"
+shane: "25-256-00005"
+sonia: "25-927-00003"
+tulikad: "25-927-00003"
+zeeculibrk: "25-1318-00001"
+# Generated: 2026-02-10
+elliptic: "25-927-00003"
+elliptic.co: "25-927-00003"
+jayunalkat: "25-927-00003"
+jyotikagahlaut: "25-1571-00001"  # Kishmish Inc., not Culibrk — corrected
+lauraehintonn: "FIRM_INTERNAL"  # Laura Hinton typo variant — corrected from Culibrk
+# moahmadca: REMOVED — Muhammad Ahmad, no connection to Culibrk. Re-add with correct matter when identified

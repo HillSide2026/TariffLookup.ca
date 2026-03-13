@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=25e60f92-f5e4-49a0-a0dc-95a6b0585f3c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIwOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLjtx_vP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixKZjUxNkpQMXYzZkNTUGhGVTNrVUo2cVpNZ1M0TWRaMlE3aTJUVVZXUWNjPTCLATgBQhCh8qM2OJAAsJ3zKYKyYwwDShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Az8eU9RUPiwJipyahpQSf9Fc8B5s6OELrM2gtS1wY-E&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:07Z",
+  "eTag": "\"{25E60F92-F5E4-49A0-A0DC-95A6B0585F3C},2\"",
+  "id": "01YY66BGUSB7TCLZHVUBE2BXEVU2YFQXZ4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2021-12-14T15:15:26Z",
+  "name": "AML_Trainer_Notes.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVZMRYDMXUO3NEKBRD5XWZHHTPZ",
+    "name": "AML Training",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Policy Documents/AML Training",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B25E60F92-F5E4-49A0-A0DC-95A6B0585F3C%7D&file=AML_Trainer_Notes.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{25E60F92-F5E4-49A0-A0DC-95A6B0585F3C},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Q8t0UuOw6G8EI0FU+BxCJtdpx+k="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:07Z",
+    "lastModifiedDateTime": "2021-12-14T15:15:26Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 76465
+}

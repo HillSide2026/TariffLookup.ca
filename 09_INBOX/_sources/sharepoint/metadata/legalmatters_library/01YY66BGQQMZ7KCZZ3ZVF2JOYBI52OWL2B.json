@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=a17e6610-3b67-4bcd-a4bb-014774eb2f41&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEwNyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL6E6LbI2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixhTElOKzZpcVhHejhFa285UHMvMCtjeVZ5NFg1ZExpK0tIS3o0NUdzbmJRPTCLATgBQhCh8qMdhgAAsJ3zLnhWM_7XShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Tv9r1OhM2qpayw4WqrnBc1z-4V9eROt1bT7J_79YUUs&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T21:17:33Z",
+  "eTag": "\"{A17E6610-3B67-4BCD-A4BB-014774EB2F41},1\"",
+  "id": "01YY66BGQQMZ7KCZZ3ZVF2JOYBI52OWL2B",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:17:33Z",
+  "name": "Notice of Change for an Ontario Corporation.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGX2AR2YDVZ5NBG2DSRSFFAJ5OPM",
+    "name": "best bottles",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/best bottles",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive/best%20bottles/Notice%20of%20Change%20for%20an%20Ontario%20Corporation.pdf",
+  "cTag": "\"c:{A17E6610-3B67-4BCD-A4BB-014774EB2F41},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "l+wylL+bt7mdLZ5IwsMXBn9SUt4="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T21:17:33Z",
+    "lastModifiedDateTime": "2025-09-09T21:17:33Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 186739
+}

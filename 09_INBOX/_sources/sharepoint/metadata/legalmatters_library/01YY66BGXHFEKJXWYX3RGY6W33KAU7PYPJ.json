@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:23:54Z",
+  "eTag": "\"{9B1429E7-17DB-4DDC-8F5B-7B5029F7E1E9},3\"",
+  "id": "01YY66BGXHFEKJXWYX3RGY6W33KAU7PYPJ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:23:51Z",
+  "name": "ML Drafts",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSZUIJJGRYYJRA2SW3GIYUXVF76",
+    "name": "drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/25-1231-00001 Charmaine Spiteri/drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/25-1231-00001%20Charmaine%20Spiteri/drafts/ML%20Drafts",
+  "cTag": "\"c:{9B1429E7-17DB-4DDC-8F5B-7B5029F7E1E9},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:23:54Z",
+    "lastModifiedDateTime": "2025-09-12T19:23:51Z"
+  },
+  "folder": {
+    "childCount": 6
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 262656
+}

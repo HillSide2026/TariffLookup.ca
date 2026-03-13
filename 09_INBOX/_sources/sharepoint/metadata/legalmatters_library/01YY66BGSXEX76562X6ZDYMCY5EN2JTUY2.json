@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=eeff2557-57fb-47f6-860b-1d237499d31a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwOSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLS-nZXB2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixoRE41Tlk5VVM2RnpHcE51cXN6TVdlOVo1WVRoTkQ4ZEtEbVE4a3BXZ2s4PTCLATgBQhCh8qMFueAAsJ3zLQLTZQSFShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Jrn5_m4YHG7R5D370o9e1sSD1W3c0G4j_reDtbxpxeA&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:50:13Z",
+  "eTag": "\"{EEFF2557-57FB-47F6-860B-1D237499D31A},2\"",
+  "id": "01YY66BGSXEX76562X6ZDYMCY5EN2JTUY2",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:50:13Z",
+  "name": "PRECEDENT Reporting Letter to Client _Annual Resolutions_ _OBCA_ (1).DOCX",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGW6Y2NAI4CVU5GL3EWAUXNB5BSI",
+    "name": "Shareholder resolutions -2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Shareholder resolutions -2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BEEFF2557-57FB-47F6-860B-1D237499D31A%7D&file=PRECEDENT%20Reporting%20Letter%20to%20Client%20_Annual%20Resolutions_%20_OBCA_%20(1).DOCX&action=default&mobileredirect=true",
+  "cTag": "\"c:{EEFF2557-57FB-47F6-860B-1D237499D31A},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "VwiRISKVJLLQ+Y1gX0QQPDQshA0="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:50:13Z",
+    "lastModifiedDateTime": "2025-11-09T22:50:13Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 27346
+}

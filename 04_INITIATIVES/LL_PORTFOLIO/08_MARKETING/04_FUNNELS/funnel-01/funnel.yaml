@@ -1,0 +1,52 @@
+meta:
+  id: funnel-01
+  name: Google Ads -> GHL Intake
+  status: active
+  owner: ML1
+  version: 1.2.2
+  last_updated: '2026-02-15'
+lineage:
+  type: state-of
+  of: funnel-01
+  state: current
+  renumbered_from: null
+  note: Current/live implementation.
+structure:
+  positioning: positioning.yaml
+  target: target.yaml
+  traffic: traffic.yaml
+  intake: intake.yaml
+  pipeline: pipeline.yaml
+  metrics: metrics.yaml
+spec:
+  offer:
+    primary: Fractional Counsel / Legal Function as a Service
+    entry_offer: None (paid consultation in backlog)
+    description: Structured legal function for growing Ontario businesses, providing
+      ongoing governance, contract, employment, and risk oversight.
+history:
+- v: 1.2.2
+  date: '2026-02-15'
+  by: ML1
+  change: Added intake_form_required gate to Funnel 01 intake.
+- v: 1.2.1
+  date: '2026-02-15'
+  by: ML1
+  change: Noted no current entry offer; paid consultation in backlog.
+- v: 1.2.0
+  date: '2026-02-15'
+  by: ML1
+  change: Restructured into modular files and applied file-ownership schema.
+- v: 1.1.1
+  date: '2026-02-15'
+  by: ML1
+  change: Applied required header schema and normalized formatting.
+- v: 1.1.0
+  date: '2026-02-15'
+  by: ML1
+  change: Added identity, positioning gap, observed inbound profile, and target client
+    definitions.
+- v: 1.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Initial funnel spec created from Funnel 1 doctrine.

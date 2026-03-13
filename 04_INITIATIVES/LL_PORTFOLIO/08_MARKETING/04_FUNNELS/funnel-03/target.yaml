@@ -1,0 +1,82 @@
+summary: Fintech, payments, or stablecoin decision-makers with exposure to or interest in Canada.
+
+focus_areas:
+  - fintech
+  - payments companies
+  - MSBs
+  - RPAA registrants
+  - stablecoin participants
+
+core_identity: Decision-maker in a payments business where regulatory classification affects capital, banking access, or launch viability.
+
+roles:
+  - Founder / Co-Founder (fintech)
+  - CEO (growth-stage)
+  - COO / Head of Operations
+  - Head of Payments
+  - Head of Compliance (commercially minded)
+  - Product lead responsible for payments rails or stablecoin infrastructure
+  - CFO where regulatory exposure affects capital planning
+
+geography: Canada (exposure or interest)
+
+business_profile:
+  stage: pre-launch to early-growth
+  revenue_range: varies (can be pre-revenue but funded)
+  funding_profile: venture-backed or planning to raise
+  operating_reality:
+    - integrating payments rails or digital asset flows
+    - facing MSB registration questions
+    - facing RPAA registration questions
+    - stablecoin classification uncertainty
+    - custody and safeguarding requirements
+    - bank reaction and onboarding risk
+    - reporting obligations
+
+maturity_triggers:
+  - investor diligence flags regulatory uncertainty
+  - banking partner asks classification questions
+  - payments partner requires confirmation of status
+  - stablecoin architecture moves from idea to implementation
+  - cross-border expansion triggers Canadian registration issues
+  - product design depends on regulatory perimeter decisions
+
+conversion_mode: Capital consequences, not fear or crisis.
+
+psych_profile:
+  traits:
+    - thinks structurally
+    - appreciates nuance
+    - understands trade-offs
+    - cares about defensibility
+    - values sequencing
+    - wants clarity before committing capital
+  avoids:
+    - alarmist compliance lectures
+    - generic blog content
+    - academic essays detached from commercial reality
+  wants:
+    - clear perimeter framing
+    - order of operations for regulatory decisions
+    - commercially grounded guidance
+
+economic_buyer:
+  budget_profile:
+    - accepts five-figure engagements
+    - budget for specialized regulatory advice
+    - capital at risk justifies proper structuring
+  relationship_potential: May evolve into long-term advisory relationship
+
+excludes:
+  - retail crypto traders
+  - hobby projects
+  - pure tax-only questions
+  - one-off incorporation requests
+  - is crypto legal general queries
+  - casual informational seekers without operational plans
+
+typology:
+  funnel: F3
+  domain: fintech / payments regulatory
+  buyer_type: decision-makers
+  revenue_model: higher margin advisory

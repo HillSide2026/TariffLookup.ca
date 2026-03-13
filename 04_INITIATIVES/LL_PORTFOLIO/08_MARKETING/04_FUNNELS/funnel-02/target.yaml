@@ -1,0 +1,63 @@
+roles:
+  - Owner
+  - CEO
+  - CFO
+geography: Ontario
+revenue_range: $1M-$8M
+employee_range: 5-30
+business_profile:
+  in_operation_years: "2+"
+  accountant_involved: true
+  contracts_in_circulation: true
+  workforce:
+    employees_or_contractors: true
+state: Growing, not in crisis, but feeling structural exposure.
+psych_profile:
+  thoughts:
+    - We have grown beyond what we set up originally.
+    - I am not sure our agreements would hold up.
+    - If something goes wrong, we are exposed.
+    - I do not want to find out the hard way.
+  traits:
+    - commercial
+    - time-sensitive
+    - risk-aware
+    - protective of margin
+    - not shopping for the cheapest option
+  values:
+    - clarity
+    - structure
+    - prioritization
+    - calm authority
+  avoids:
+    - litigation theater
+    - alarmism
+    - legal lectures
+economic_buyer_threshold:
+  can:
+    - approve $10k remediation work without installment friction
+    - sustain a recurring fractional counsel relationship
+    - pay for prevention
+  cannot_be:
+    - cash-flow unstable
+    - insolvency-adjacent
+    - panic buyers seeking quick letters
+maturity_triggers:
+  - accountant flags governance risk
+  - investor discussion introduces scrutiny
+  - contractor to employee transition increases liability
+  - growth stresses original shareholder structure
+  - bank or partner requests updated documentation
+  - preparing for expansion or financing
+what_they_are_buying:
+  - structural stability
+  - governance confidence
+  - risk prioritization
+  - ongoing commercial legal partner
+excludes:
+  - pre-revenue startups
+  - $200k lifestyle businesses
+  - pure litigants
+  - send a demand letter shoppers
+  - one-off incorporation buyers
+  - installment negotiators

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=680a2d26-d1b5-4fa6-90fd-f18e80415556&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA1NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKqkxdbE2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixrdjFJTWZHdEppVUc0NXg3dlljclpMc21qVjFFR21RTERsRnpzQmxEN3lNPTCLATgBQhCh8qMROYAAsHnRbCUoMRKzShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.5a7Re4Ba4RAKskCDmnnwLmA8SCTg5SXRh1J-z6Q9PGQ&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:47:11Z",
+  "eTag": "\"{680A2D26-D1B5-4FA6-90FD-F18E80415556},1\"",
+  "id": "01YY66BGRGFUFGRNORUZHZB7PRR2AECVKW",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-26T00:28:10Z",
+  "name": "15 STARTUP SLANG INC. Shareholders Register.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTF3OM5FJEZWRAZZH5TN4MXN4JS",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B680A2D26-D1B5-4FA6-90FD-F18E80415556%7D&file=15%20STARTUP%20SLANG%20INC.%20Shareholders%20Register.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{680A2D26-D1B5-4FA6-90FD-F18E80415556},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "y4FXe15GHhMdUf+sPsWvBM1ZiwE="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:47:11Z",
+    "lastModifiedDateTime": "2025-07-26T00:28:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 22591
+}

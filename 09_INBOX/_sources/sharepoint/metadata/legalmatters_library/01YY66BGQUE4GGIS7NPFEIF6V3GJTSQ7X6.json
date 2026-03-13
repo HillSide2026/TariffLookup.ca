@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=640c2714-ed4b-4879-82fa-bb3267287efe&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLbvlKXJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixnR2VXeG1EejRLWXN6V1JucDd1Wk0vdE9qbGtPcmEwc3IyLzFLaTljaFFnPTCLATgBQhCh8qMgWjAAsJ3zI3bPckgGShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.xKkC5-yEzAFg71_reT4CVFxZHjGeGVwzTH1snnR6PhU&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-19T18:02:13Z",
+  "eTag": "\"{640C2714-ED4B-4879-82FA-BB3267287EFE},1\"",
+  "id": "01YY66BGQUE4GGIS7NPFEIF6V3GJTSQ7X6",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-19T18:01:37Z",
+  "name": "MapleWave - BMO Receipts - Transfer2 of Finder Fee.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWM3NGPTLWUY5DLPDPBBTE5BAJR",
+    "name": "Finder Fee",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Finder Fee",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Finder%20Fee/MapleWave%20-%20BMO%20Receipts%20-%20Transfer2%20of%20Finder%20Fee.pdf",
+  "cTag": "\"c:{640C2714-ED4B-4879-82FA-BB3267287EFE},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "LW15UZennc1C6u/hvhYfNer/wus="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-19T18:02:13Z",
+    "lastModifiedDateTime": "2025-01-19T18:01:37Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 469302
+}

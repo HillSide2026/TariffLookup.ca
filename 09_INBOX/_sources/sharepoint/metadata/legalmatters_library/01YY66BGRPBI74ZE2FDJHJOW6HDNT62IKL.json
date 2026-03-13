@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=cc3f0a2f-4593-4e1a-975b-c71b67ed214b&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEwNSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMSgv6zI2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw1Wk9DMDB0QmNTRmN0OWUxTThTa0toNTNxL0ttQWh0a3c1bnhUOU1BMWdJPTCLATgBQhCh8qMdQ1AAsJ3zLCsXJwVYShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.41-TaAKZTftm9DZkUUEGQQkZGVpvPoNMQwgWtaJzT3c&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:51:44Z",
+  "eTag": "\"{CC3F0A2F-4593-4E1A-975B-C71B67ED214B},1\"",
+  "id": "01YY66BGRPBI74ZE2FDJHJOW6HDNT62IKL",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:51:44Z",
+  "name": "9654046 CANADA INC.Profile.Dissolved.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGURY5D3I7ESC5CKIQO4QLPP63W2",
+    "name": "profiles",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/25-1231-00001 Charmaine Spiteri/profiles",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive/25-1231-00001%20Charmaine%20Spiteri/profiles/9654046%20CANADA%20INC.Profile.Dissolved.pdf",
+  "cTag": "\"c:{CC3F0A2F-4593-4E1A-975B-C71B67ED214B},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "XJLIMJJWAAf9m2+O10L+NCmIEdk="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:51:44Z",
+    "lastModifiedDateTime": "2025-09-09T20:51:44Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 114882
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-02T18:13:31Z",
+  "eTag": "\"{5ABAFD02-3CDF-40C3-87C5-E1F0BD213819},3\"",
+  "id": "01YY66BGQC7W5FVXZ4YNAIPRPB6C6SCOAZ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:34:23Z",
+  "name": "ML Drafts",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQA4446GGQOSVELJKO2EQY3FU2S",
+    "name": "drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/25-1231-00001%20Charmaine%20Spiteri/drafts/ML%20Drafts",
+  "cTag": "\"c:{5ABAFD02-3CDF-40C3-87C5-E1F0BD213819},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-02T18:13:31Z",
+    "lastModifiedDateTime": "2025-09-12T19:34:23Z"
+  },
+  "folder": {
+    "childCount": 10
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 455680
+}

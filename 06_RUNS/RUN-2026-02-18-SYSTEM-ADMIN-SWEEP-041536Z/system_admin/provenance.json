@@ -1,0 +1,7 @@
+{
+  "run_id": "RUN-2026-02-18-SYSTEM-ADMIN-SWEEP-041536Z",
+  "started_at": "2026-02-18T04:15:36+00:00",
+  "ended_at": "2026-02-18T04:15:36+00:00",
+  "runner": "00_SYSTEM/scripts/run_system_admin_sweep.py",
+  "notes": "Minimal local sweep runner (folder map drift only)."
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T15:54:18Z",
+  "eTag": "\"{4729A920-E3FC-4AD9-8DA1-068FB50537CC},3\"",
+  "id": "01YY66BGRAVEUUP7HD3FFI3IIGR62QKN6M",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:21:56Z",
+  "name": "best bottles",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTJI2NCXXZTRJDYV2TG3OGE7H7A",
+    "name": "Clerk Work -- Robin",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/best%20bottles",
+  "cTag": "\"c:{4729A920-E3FC-4AD9-8DA1-068FB50537CC},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T15:54:18Z",
+    "lastModifiedDateTime": "2025-09-09T21:21:56Z"
+  },
+  "folder": {
+    "childCount": 8
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1315638
+}

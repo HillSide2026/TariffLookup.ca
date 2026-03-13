@@ -1,0 +1,29 @@
+schema_version: 0.1
+id: doc_drop_to_issue_list
+name: Doc Drop to Issue List
+description: Convert a document drop into issue and task lists with gates and provenance.
+bundle: doc_drop_issue_list
+gates:
+  - ml1_approval_required
+  - classification_ok
+  - doctrine_conflict_detected
+  - clarity_scope_check
+  - coherence_conflict_check
+  - reasoning_trace_check
+  - testability_check
+  - versioning_check
+  - discoverability_check
+steps:
+  - id: retrieve_context
+    action: retrieve_bundle
+    bundle: doc_drop_issue_list
+  - id: extract_issues
+    action: issue_spotter
+    outputs:
+      - path: outputs/issue_list.md
+        label: DRAFT_FOR_ML1
+      - path: outputs/task_list.md
+        label: DRAFT_FOR_ML1
+run_logging:
+  runlog: runlog.md
+  provenance: provenance.json

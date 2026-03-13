@@ -1,0 +1,16 @@
+{
+  "message_id": "19c0a78099e03441",
+  "object_type": "Promotions",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Personal Noise",
+  "confidence": 0.84,
+  "reasoning_trace": [
+    "Gmail labeled as promotions",
+    "Vendor/firm billing",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "09_ARCHIVE",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T04:00:07.634437+00:00",
+  "model_version": "inbox-triage-v0.2"
+}

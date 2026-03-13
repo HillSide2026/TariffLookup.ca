@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b6c0d5d8-313f-4039-9cad-7a9223d53b4c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNCG0v_J2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixwcURDRVp4WWhlRkdETFRjK3NVT2xHdndRNHhDWGl0dEhQS3AzWllZKzV3PTCLATgBQhCh8qMiqTAAsJ3zKLajINwyShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Kep5wmZWmr5-uciUr5H2gT-_HWpAFZoQjcx5r7pQELg&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-12T19:36:06Z",
+  "eTag": "\"{B6C0D5D8-313F-4039-9CAD-7A9223D53B4C},2\"",
+  "id": "01YY66BGWY2XALMPZRHFAJZLL2SIR5KO2M",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-12T19:23:31Z",
+  "name": "SnowCap Direction Re Filing_Vendor's Letter to Levine-Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXI3VNV7BNXUZFYGSYTJ5Z57YI2",
+    "name": "Feb12",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA/SPA to ClearSky/Feb12",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BB6C0D5D8-313F-4039-9CAD-7A9223D53B4C%7D&file=SnowCap%20Direction%20Re%20Filing_Vendor%27s%20Letter%20to%20Levine-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{B6C0D5D8-313F-4039-9CAD-7A9223D53B4C},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "/H4daR4D9rs1v8hx/sjpSfOABu4="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-12T19:36:06Z",
+    "lastModifiedDateTime": "2025-02-12T19:23:31Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 31779
+}

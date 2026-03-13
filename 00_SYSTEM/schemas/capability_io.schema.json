@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "capability_io.schema.json",
+  "title": "Capability IO Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["capability", "inputs", "outputs"],
+  "properties": {
+    "capability": { "type": "string", "minLength": 1 },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=78d59a06-f074-46d8-9cf9-7cdc1aa9c03c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE0NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL7y5azL2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixVTVgxam4vb2NQZEc4a0dKTVFPTXg0T0xLVEhhdW5uQXZjd0w4RlN4dzhjPTCLATgBQhCh8qMnGPAAsHnRb42f_ISHShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.GOVQZ-fzNmkK15VUyZjZyseDu1jWuyMZUmhx5_zhMBE&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-07T23:15:45Z",
+  "eTag": "\"{78D59A06-F074-46D8-9CF9-7CDC1AA9C03C},5\"",
+  "id": "01YY66BGQGTLKXQ5HQ3BDJZ6L43QNKTQB4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-07T23:36:19Z",
+  "name": "ClearSky - Finder Agreement- SnowCap (P20241205RE) redline-Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVCMUWQU5OKC5FISSPCYJZSFVSE",
+    "name": "Finders Agreement",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Finders Agreement",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B78D59A06-F074-46D8-9CF9-7CDC1AA9C03C%7D&file=ClearSky%20-%20Finder%20Agreement-%20SnowCap%20(P20241205RE)%20redline-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{78D59A06-F074-46D8-9CF9-7CDC1AA9C03C},20\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Ft2bTR7CwO8YiDakEaTSkFX3sWk="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-07T23:15:45Z",
+    "lastModifiedDateTime": "2025-01-07T23:36:19Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 66914
+}

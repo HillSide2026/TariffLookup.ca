@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:46:47Z",
+  "eTag": "\"{15DB3173-6BD6-43CC-92B3-CD6E3CCD987C},3\"",
+  "id": "01YY66BGTTGHNRLVTLZRBZFM6NNY6M3GD4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-27T21:47:08Z",
+  "name": "24-347-00002 Damiano",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQBUJIR7RAXYZFZEPT7STAA5YYZ",
+    "name": "Client Work to archive",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive/24-347-00002%20Damiano",
+  "cTag": "\"c:{15DB3173-6BD6-43CC-92B3-CD6E3CCD987C},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:46:47Z",
+    "lastModifiedDateTime": "2025-07-27T21:47:08Z"
+  },
+  "folder": {
+    "childCount": 1
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 536461
+}

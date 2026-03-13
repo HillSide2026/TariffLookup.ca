@@ -1,0 +1,34 @@
+id: 00_system__integrations__microsoft_word__sources_yaml
+title: Microsoft Word Sources
+owner: ML1
+status: initiated
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: WORD_TEMPLATES
+    description: Word templates stored in SharePoint/Drive for drafting.
+    location: Doc Pro Workspace drive (drive_id in extract_template_fields.py)
+    authority: unknown
+    classification: template_source
+    ingestion: extract_template_fields.py downloads templates via Graph
+  - source_id: WORD_DRAFTS
+    description: Draft Word documents written to SB Execution/DRAFTS.
+    location: SharePoint SB Execution/DRAFTS folder (drive_id via sb_graph_bridge requests)
+    authority: unknown
+    classification: execution_artifact
+    ingestion: sb_graph_bridge.py writes drafts via Graph
+ingestion:
+  triggers:
+    - Manual runs of sb_graph_bridge.py
+    - Manual runs of extract_template_fields.py
+  notes:
+    - Word drafting uses Microsoft Graph against the SharePoint drive
+consumers:
+  scripts:
+    - 00_SYSTEM/scripts/sb_graph_bridge.py
+    - 00_SYSTEM/scripts/extract_template_fields.py
+  playbooks: []
+  run_graphs: []
+change_notes:
+  []

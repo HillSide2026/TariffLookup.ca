@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T15:47:56Z",
+  "eTag": "\"{77FBF438-B9F1-459A-A8E4-037E07CECD1C},5\"",
+  "id": "01YY66BGRY6T5XP4NZTJC2RZADPYD45TI4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-10-23T20:06:11Z",
+  "name": "24-682-00002 Acquisition of Stream",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTZYKCIOP6FSVHZWRQGTLNB2FXP",
+    "name": "24-682-00003 -- Stream",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream",
+  "cTag": "\"c:{77FBF438-B9F1-459A-A8E4-037E07CECD1C},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T15:47:56Z",
+    "lastModifiedDateTime": "2025-10-23T20:06:11Z"
+  },
+  "folder": {
+    "childCount": 18
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 12807541
+}

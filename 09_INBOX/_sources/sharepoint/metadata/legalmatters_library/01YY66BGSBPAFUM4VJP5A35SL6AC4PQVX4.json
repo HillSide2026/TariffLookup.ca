@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=460b7841-a972-417f-bec9-7e00b8f856fc&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAxMSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLjvs6rB2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixXOEdCQktSUUlGTjNZb3pReXh6VTJ2TkdJSDBQMHdSTmhxZ2Zsa2Q5b29jPTCLATgBQhCh8qMGRaAAsJ3zIy-ZcNMpShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.nTEvoyECyzfM_Z6e7gXpR2Gp4Gkbr3DCXktqLMCYGY0&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-07-27T21:47:11Z",
+  "eTag": "\"{460B7841-A972-417F-BEC9-7E00B8F856FC},1\"",
+  "id": "01YY66BGSBPAFUM4VJP5A35SL6AC4PQVX4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-26T00:28:10Z",
+  "name": "16 STARTUP SLANG INC. GABRIELLE GIRARD LACASSE  Shareholder's Ledger.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUE6A23VD3ALBAKNGJCQJUSFN3V",
+    "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/24-347-00002 Damiano/Startup Slang Inc.Share Repurchase Documents (1)",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B460B7841-A972-417F-BEC9-7E00B8F856FC%7D&file=16%20STARTUP%20SLANG%20INC.%20GABRIELLE%20GIRARD%20LACASSE%20%20Shareholder%27s%20Ledger.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{460B7841-A972-417F-BEC9-7E00B8F856FC},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "UEWHih2RIwyDIkdeLBd7B+bChLU="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-07-27T21:47:11Z",
+    "lastModifiedDateTime": "2025-07-26T00:28:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 22926
+}

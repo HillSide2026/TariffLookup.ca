@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=68186572-eee6-4afe-9f0e-ad3fdcf89189&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOiApZLJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw5d1NKdVUrblNYU045ZG54Z3VoVmxBc0VyMUxCWmF5eDlkRWVIMW80Ymc0PTCLATgBQhCh8qMf3YAAsJ3zIQdQacRrShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.cuI95mkMtY5KZnkXOdLeZO0DVElwRbjpaTwXIP-vt-w&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-19T18:05:57Z",
+  "eTag": "\"{68186572-EEE6-4AFE-9F0E-AD3FDCF89189},1\"",
+  "id": "01YY66BGTSMUMGRZXO7ZFJ6DVNH7OPREMJ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-19T18:05:21Z",
+  "name": "BMO Letter regarding Escrow Account.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTP3GZGJHBHT5FYYHMJMO7AQYN6",
+    "name": "Escrow Agreement",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Escrow Agreement",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Escrow%20Agreement/BMO%20Letter%20regarding%20Escrow%20Account.pdf",
+  "cTag": "\"c:{68186572-EEE6-4AFE-9F0E-AD3FDCF89189},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "qORC8lQoExFTz2SL48G9ijXGqmA="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-19T18:05:57Z",
+    "lastModifiedDateTime": "2025-01-19T18:05:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 16838
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=1268971f-2fbd-42a7-b0bb-26fd4eae5c0a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA5OSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLChku_H2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix3R1FVNXprMjVQMFJLN3NpN21CTVNjNVJJNW9rck4yalpGQkdlUTV2Q2xrPTCLATgBQhCh8qMbsUAAsJ3zJxGkm1ycShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.SawFQobRTebjNhFRIvfMbqwIVcI0xx2UJBCbg_Bpims&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:43:49Z",
+  "eTag": "\"{1268971F-2FBD-42A7-B0BB-26FD4EAE5C0A},1\"",
+  "id": "01YY66BGQ7S5UBFPJPU5BLBOZG7VHK4XAK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:32:10Z",
+  "name": "Corporation Release of Spiteri.1720388.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQ32MXZCKG5DREZ2M6UFQLNEP6V",
+    "name": "LL Resignation and Release Drafts for Client",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/25-1231-00001 Charmaine Spiteri/drafts/LL Resignation and Release Drafts for Client",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B1268971F-2FBD-42A7-B0BB-26FD4EAE5C0A%7D&file=Corporation%20Release%20of%20Spiteri.1720388.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{1268971F-2FBD-42A7-B0BB-26FD4EAE5C0A},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "n3YoAlwZXSOrFXX6Fn1ThlEUX1E="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:43:49Z",
+    "lastModifiedDateTime": "2025-09-12T19:32:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 46080
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=52d4a12d-ee98-4dd9-bd30-bae0fec288e5&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLbvlKXJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixxSC9Tc09PUFFMa29ZWlhtMVNjM3ZydFNFZVdHc1FXNmorYnNKMjQwY3VBPTCLATgBQhCh8qMgWjAAsJ3zI3bPckgGShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.sebjhemaIsw1hhOW4LzJcdcBkSh9Z5P98uhVkyLzcXE&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-27T20:07:34Z",
+  "eTag": "\"{52D4A12D-EE98-4DD9-BD30-BAE0FEC288E5},1\"",
+  "id": "01YY66BGRNUHKFFGHO3FG32MF24D7MFCHF",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-27T20:07:34Z",
+  "name": "MapleWave_EscrowAgreement.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWM3NGPTLWUY5DLPDPBBTE5BAJR",
+    "name": "Finder Fee",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Finder Fee",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B52D4A12D-EE98-4DD9-BD30-BAE0FEC288E5%7D&file=MapleWave_EscrowAgreement.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{52D4A12D-EE98-4DD9-BD30-BAE0FEC288E5},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "P5BEiDQRqCIDamAhs/4Wt63ONLw="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-27T20:07:34Z",
+    "lastModifiedDateTime": "2025-01-27T20:07:34Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 41825
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=9928829d-baea-4264-ad3a-17c35651c93f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAxNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCITmkMfB2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixpT3JnU2JGakFhc2FEZGZtbUlUeTVsbGFHQy9JQVRjL3ZHSzZEdTBiQU80PTCLATgBQhCh8qMG__AAsHnRaIz-Ur9WShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.ySwcU-FH-R7jYIZgiEXcjWsRyPbmJZN3y-a80rzCrrk&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T21:04:21Z",
+  "eTag": "\"{9928829D-BAEA-4264-AD3A-17C35651C93F},1\"",
+  "id": "01YY66BGU5QIUJT2V2MRBK2OQXYNLFDSJ7",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:04:21Z",
+  "name": "Articles of Amendment_EN.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTMFOIIMWW63VA2TAKCXYH3Y22B",
+    "name": "drafts.amendment Pnote",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/24-845-00001/drafts.amendment Pnote",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/24-845-00001/drafts.amendment%20Pnote/Articles%20of%20Amendment_EN.pdf",
+  "cTag": "\"c:{9928829D-BAEA-4264-AD3A-17C35651C93F},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "ZQemddejCyDwVkWRKVMdyddvGjU="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T21:04:21Z",
+    "lastModifiedDateTime": "2025-09-09T21:04:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 175359
+}

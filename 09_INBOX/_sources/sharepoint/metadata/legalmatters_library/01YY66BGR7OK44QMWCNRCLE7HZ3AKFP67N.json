@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=c8b9723f-c232-446c-b27c-f9d81457fbed&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAyMSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLyPtIjC2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixNVTRmV2VwUTJ5dFpKUjBWb1VWR1h2d29wczVjSC9hVmRhT0UyWkRkM3NVPTCLATgBQhCh8qMIrbAAsJ3zIA4uOsULShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.I_p8jKwituiJEOsNTVnZQjqAhUfFdvzCmTmc0czxgFg&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:33:42Z",
+  "eTag": "\"{C8B9723F-C232-446C-B27C-F9D81457FBED},1\"",
+  "id": "01YY66BGR7OK44QMWCNRCLE7HZ3AKFP67N",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:17:17Z",
+  "name": "Direction and authorization.1761859 copy.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXHFEKJXWYX3RGY6W33KAU7PYPJ",
+    "name": "ML Drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/25-1231-00001 Charmaine Spiteri/drafts/ML Drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BC8B9723F-C232-446C-B27C-F9D81457FBED%7D&file=Direction%20and%20authorization.1761859%20copy.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{C8B9723F-C232-446C-B27C-F9D81457FBED},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "JID5FI4tVi8P2SQ77WDogFabWXA="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:33:42Z",
+    "lastModifiedDateTime": "2025-09-12T19:17:17Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 45056
+}

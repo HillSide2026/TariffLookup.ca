@@ -1,0 +1,24 @@
+id: 00_system__integrations__onedrive__sources_yaml
+title: OneDrive Sources
+owner: ML1
+status: draft
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: ONEDRIVE_DOCS_PLANNED
+    description: Planned read-only document ingestion.
+    location: OneDrive (folders TBD)
+    authority: unknown
+    classification: external_reference
+    ingestion: Planned only; no implementation in repo
+ingestion:
+  triggers: []
+  notes:
+    - Plan-level only; no config present
+consumers:
+  scripts: []
+  playbooks: []
+  run_graphs: []
+change_notes:
+  []

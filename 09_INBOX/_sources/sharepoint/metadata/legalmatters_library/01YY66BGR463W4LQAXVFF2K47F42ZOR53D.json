@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=c5edf63c-17c0-4ba9-a573-e5e6b2e8f763&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCIjnlKDJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix3dUNnN1dpNEVkU2xxS1lTazNIYW5MVUpSTE1BVmgzRGpPZ3dBTWNVcWhrPTCLATgBQhCh8qMgOWAAsJ3zLwuLFcKKShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.GPmtHFN6P45pB94UqOdvvxTB0cNNIJet6_1SUiFeC8k&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-21T16:15:15Z",
+  "eTag": "\"{C5EDF63C-17C0-4BA9-A573-E5E6B2E8F763},1\"",
+  "id": "01YY66BGR463W4LQAXVFF2K47F42ZOR53D",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-21T16:12:55Z",
+  "name": "SnowCap SPA - Feb21.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTGRPEIBDC7PBAKT7SEX5HT2TFY",
+    "name": "Feb21 -_",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Feb21 -_",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BC5EDF63C-17C0-4BA9-A573-E5E6B2E8F763%7D&file=SnowCap%20SPA%20-%20Feb21.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{C5EDF63C-17C0-4BA9-A573-E5E6B2E8F763},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "4nxAJ78qGI1Gxmv8YPMD5byCDWQ="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-21T16:15:15Z",
+    "lastModifiedDateTime": "2025-02-21T16:12:55Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 54607
+}

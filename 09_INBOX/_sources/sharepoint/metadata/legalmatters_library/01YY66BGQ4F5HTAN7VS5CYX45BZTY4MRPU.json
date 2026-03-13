@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=304f2f1c-f537-4597-8bf3-a1ccf1c645f4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA0NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL6CgPrD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixsZ1RuVUpyclBOTmp2ZGVSQVEwQlhqcFh1UUlRZ2xoa2VqNWtsT1E2eGZjPTCLATgBQhCh8qMO3AAAsJ3zJEIrChzvShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Ubvka53jJyPBV81OS77oYNymSl5yKXJCbc6HPdpLNg0&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:51:18Z",
+  "eTag": "\"{304F2F1C-F537-4597-8BF3-A1CCF1C645F4},1\"",
+  "id": "01YY66BGQ4F5HTAN7VS5CYX45BZTY4MRPU",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:51:18Z",
+  "name": "Charmaine Colucci.PPSA Individual-Matthew\u2019s iMac.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSADHTHMZ24I5GIPGWGZBNEU7VK",
+    "name": "PPSA",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri/PPSA",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/25-1231-00001%20Charmaine%20Spiteri/PPSA/Charmaine%20Colucci.PPSA%20Individual-Matthew%E2%80%99s%20iMac.pdf",
+  "cTag": "\"c:{304F2F1C-F537-4597-8BF3-A1CCF1C645F4},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "wKFsOHfdY265tTxqwFMAupHGcIU="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:51:18Z",
+    "lastModifiedDateTime": "2025-09-09T20:51:18Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 92737
+}

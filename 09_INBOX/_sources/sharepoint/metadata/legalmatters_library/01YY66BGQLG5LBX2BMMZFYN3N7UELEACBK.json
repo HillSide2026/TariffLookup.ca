@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=1b56370b-2ce8-4b66-86ed-bfa11640082a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA5OSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLCxsO3H2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixOTzlNTUYrTk1uSVo4eHlBM1loZlZyaUdPTEIxMjlpRTREeEJORncxM3lFPTCLATgBQhCh8qMbpMAAsHnRbkYtQk8AShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.KH63PMLy2IKIbS95g-NRM1nrBIya37xClx3dKa5RERs&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:53:04Z",
+  "eTag": "\"{1B56370B-2CE8-4B66-86ED-BFA11640082A},1\"",
+  "id": "01YY66BGQLG5LBX2BMMZFYN3N7UELEACBK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:53:04Z",
+  "name": "Mutual Release.Terrastone.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQ35SELXNZTAFF3HRZVEMRO3S5E",
+    "name": "drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/25-1231-00001 Charmaine Spiteri/drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B1B56370B-2CE8-4B66-86ED-BFA11640082A%7D&file=Mutual%20Release.Terrastone.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{1B56370B-2CE8-4B66-86ED-BFA11640082A},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "8iKIf2hQr172uHT8NkdWG3xTN7I="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:53:04Z",
+    "lastModifiedDateTime": "2025-09-09T20:53:04Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 44032
+}

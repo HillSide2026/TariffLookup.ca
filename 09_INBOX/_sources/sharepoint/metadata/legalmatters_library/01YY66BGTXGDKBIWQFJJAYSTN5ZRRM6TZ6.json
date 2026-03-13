@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=14d43077-055a-414a-894d-bdcc62cf4f3e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA3NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMKMhZrG2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixPWE44QitGbW1OdXprMjg4dUUxYlJaajh3VkMxYVo4cHRKN3FpMTUxVHFNPTCLATgBQhCh8qMWO7AAsJ3zIpajznHNShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.wgH5p5LE73dWzxUlVrj6grwk042bTscq-hle0LvDQ1o&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:43:50Z",
+  "eTag": "\"{14D43077-055A-414A-894D-BDCC62CF4F3E},2\"",
+  "id": "01YY66BGTXGDKBIWQFJJAYSTN5ZRRM6TZ6",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:53:04Z",
+  "name": "resignations.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSLLBWIEWUNFJEZLAC73GHQQNZG",
+    "name": "LL Resignation and Release Drafts for Client",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/drafts/LL Resignation and Release Drafts for Client",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B14D43077-055A-414A-894D-BDCC62CF4F3E%7D&file=resignations.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{14D43077-055A-414A-894D-BDCC62CF4F3E},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "gpK6tNN0EOVwOCPAL+EJLMVkOV8="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:43:50Z",
+    "lastModifiedDateTime": "2025-09-09T20:53:04Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 34816
+}

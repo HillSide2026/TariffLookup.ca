@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=7205d403-1ba2-459b-951a-8609081916bf&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIxNyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCIy11djQ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwwaTV3TC9TSTdpRW0wamxPUElWT2plNVkyVjJydkNnU29INnRUc2lGc0FRPTCLATgBQhCh8qM4mcAAsJ3zJg-C7eAVShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.CrI6YY0YqVur4Wa8-Bk8UlNO9PULpiVVn2P_yvIyO8E&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:11Z",
+  "eTag": "\"{7205D403-1BA2-459B-951A-8609081916BF},2\"",
+  "id": "01YY66BGQD2QCXFIQ3TNCZKGUGBEEBSFV7",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2022-10-14T12:40:14Z",
+  "name": "Due_Diligence_Checklist.xlsx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRPL3J5CMTBOZBZ6QMTP5PQBARV",
+    "name": "Due Diligence",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Policy Documents/Due Diligence",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B7205D403-1BA2-459B-951A-8609081916BF%7D&file=Due_Diligence_Checklist.xlsx&action=default&mobileredirect=true",
+  "cTag": "\"c:{7205D403-1BA2-459B-951A-8609081916BF},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "bqUmb+vwECImfkpZQ7ysUCajVKE="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:11Z",
+    "lastModifiedDateTime": "2022-10-14T12:40:14Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 69362
+}

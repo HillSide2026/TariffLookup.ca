@@ -1,0 +1,29 @@
+schema_version: 0.1
+id: new_matter_scaffold
+name: New Matter Scaffold
+description: Create a new matter scaffold and summary with gates and provenance.
+bundle: new_matter_scaffold
+gates:
+  - ml1_approval_required
+  - classification_ok
+  - doctrine_conflict_detected
+  - clarity_scope_check
+  - coherence_conflict_check
+  - reasoning_trace_check
+  - testability_check
+  - versioning_check
+  - discoverability_check
+steps:
+  - id: retrieve_context
+    action: retrieve_bundle
+    bundle: new_matter_scaffold
+  - id: draft_scaffold
+    action: build_matter_scaffold
+    outputs:
+      - path: outputs/matter_scaffold.md
+        label: DRAFT_FOR_ML1
+      - path: outputs/matter_summary.md
+        label: DRAFT_FOR_ML1
+run_logging:
+  runlog: runlog.md
+  provenance: provenance.json

@@ -1,0 +1,7 @@
+geography: Ontario
+revenue_range: $1M-$8M
+employee_range: 5-30
+psych_profile: Maturity-based, exposed but solvent, not in meltdown.
+excludes:
+- pre-revenue
+- insolvency-adjacent

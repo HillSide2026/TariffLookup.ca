@@ -1,0 +1,16 @@
+{
+  "message_id": "19c0a4d952a781d4",
+  "object_type": "System Notification",
+  "lifecycle_state": "Action Required",
+  "system_domain": "System Operations",
+  "confidence": 0.85,
+  "reasoning_trace": [
+    "Sender is automated system",
+    "Subject contains billing term",
+    "Contains action language"
+  ],
+  "proposed_destination": "00_SYSTEM",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T06:44:46.326260+00:00",
+  "model_version": "inbox-triage-v0.3"
+}

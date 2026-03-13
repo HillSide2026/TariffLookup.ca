@@ -1,0 +1,58 @@
+meta:
+  id: funnel-02
+  name: Funnel 01 Future State
+  status: planned
+  owner: ML1
+  version: 3.0.1
+  last_updated: '2026-02-18'
+lineage:
+  type: state-of
+  of: funnel-01
+  state: future
+  renumbered_from: null
+  note: Future-state replacement spec for Funnel 01.
+structure:
+  positioning: positioning.yaml
+  target: target.yaml
+  traffic: traffic.yaml
+  intake: intake.yaml
+  pipeline: pipeline.yaml
+  metrics: metrics.yaml
+spec:
+  offer:
+    primary: Ontario Corporate Health Check
+    entry_offer: Corporate Health Check (paid diagnostic)
+    tagline: Structural Stability Audit for Growing Ontario Businesses
+    description: Structured governance and risk exposure assessment for operating companies that have outgrown their original setup.
+  positioning_intent:
+    target_funnel_traits:
+      - maturity-led
+      - preventative positioning
+      - qualification-heavy
+      - structured assessment entry point
+    buyer_time_horizon: Operators thinking in quarters and years, not days.
+history:
+- v: 3.0.1
+  date: '2026-02-18'
+  by: ML1
+  change: Merged future-state positioning notes from Funnel 01 folder into funnel-02 spec.
+- v: 3.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Added Google Ads back into acquisition mix for Funnel 2.
+- v: 2.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Reframed Funnel 02 as a Corporate Health Check with paid diagnostic, new target profile, and structured deliverables.
+- v: 1.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Updated target profile and aligned offer to future-state positioning.
+- v: 0.2.0
+  date: '2026-02-15'
+  by: ML1
+  change: Restructured into modular files and applied file-ownership schema.
+- v: 0.1.0
+  date: '2026-02-15'
+  by: ML1
+  change: Created future-state spec for Funnel 01.

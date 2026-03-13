@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0987d9ae86821",
+  "object_type": "Promotions",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Personal Noise",
+  "confidence": 0.8,
+  "reasoning_trace": [
+    "Government consultation outreach (promotional)",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "09_ARCHIVE",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T06:44:51.968090+00:00",
+  "model_version": "inbox-triage-v0.3"
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-02T18:13:37Z",
+  "eTag": "\"{2F58E508-2FF4-4F1F-B426-211601F0583D},3\"",
+  "id": "01YY66BGQI4VMC75BPD5H3IJRBCYA7AWB5",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-07-27T22:00:18Z",
+  "name": "24-347-00002 Damiano",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQLAW2NCR7MHVG35CFKS25GBREF",
+    "name": "Clerk Work - Robin",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/24-347-00002%20Damiano",
+  "cTag": "\"c:{2F58E508-2FF4-4F1F-B426-211601F0583D},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-02T18:13:37Z",
+    "lastModifiedDateTime": "2025-07-27T22:00:18Z"
+  },
+  "folder": {
+    "childCount": 3
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 6431606
+}

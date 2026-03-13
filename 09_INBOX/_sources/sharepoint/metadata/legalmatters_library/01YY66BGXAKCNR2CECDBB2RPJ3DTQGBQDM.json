@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=1d9b50e0-8208-4318-a8bd-3b1ce060c06c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIwMCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNi78rLP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix2TmJFMkg0Rlg1alVrR1N0RGtJLzJ3TnhBUzh0ZWFkTHdpU1BIemUxbmUwPTCLATgBQhCh8qM0XVAAsJ3zKToba_bKShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.UCghSglYvvun80E4PdhBz0ZWjIfCzM0X4nvR0fNoLRA&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:06Z",
+  "eTag": "\"{1D9B50E0-8208-4318-A8BD-3B1CE060C06C},2\"",
+  "id": "01YY66BGXAKCNR2CECDBB2RPJ3DTQGBQDM",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2022-10-14T12:37:03Z",
+  "name": "20221014 Business_Due_Diligence_Questionnaire.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGS45TKA3HRROJBLQQPBPC4LR73U",
+    "name": "Due Diligence Policy",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Due Diligence Policy",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B1D9B50E0-8208-4318-A8BD-3B1CE060C06C%7D&file=20221014%20Business_Due_Diligence_Questionnaire.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{1D9B50E0-8208-4318-A8BD-3B1CE060C06C},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "bsJ/vlIrbCrGi/FApjeNnnnJMXI="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:06Z",
+    "lastModifiedDateTime": "2022-10-14T12:37:03Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 129997
+}

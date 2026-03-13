@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=4c624a84-5b75-4768-bd8e-a80e55856af7&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEwOSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCO7ttdHI2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw4VzJQRVJjNm1JVUs4QTBMb2o2VThXR01IekUxa1RYc2JXcGREK2NFTGFrPTCLATgBQhCh8qMeMXAAsHnRaI-QQakGShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.dLCdxnTA60a3rYkw7QpRWBZGFJxir70d2mSDbVZoQDE&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2024-12-03T16:27:55Z",
+  "eTag": "\"{4C624A84-5B75-4768-BD8E-A80E55856AF7},2\"",
+  "id": "01YY66BGUEJJREY5K3NBD33DVIBZKYK2XX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2024-12-10T21:03:14Z",
+  "name": "MSB_Registration_Form_(English) (1).PDF",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQOWVQPCDLUJRE2V3GEQGW6JOCW",
+    "name": "24-682-00001 incorporation and registration of Maple Wave",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00001 incorporation and registration of Maple Wave",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00001%20incorporation%20and%20registration%20of%20Maple%20Wave/MSB_Registration_Form_(English)%20(1).PDF",
+  "cTag": "\"c:{4C624A84-5B75-4768-BD8E-A80E55856AF7},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "prkvusSeMIAjpe8Or5hhrteYXTM="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2024-12-03T16:27:55Z",
+    "lastModifiedDateTime": "2024-12-10T21:03:14Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 436141
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T17:35:40Z",
+  "eTag": "\"{DDA2B77B-18C5-4675-8CA2-2CD2062E6583},3\"",
+  "id": "01YY66BGT3W6RN3RIYOVDIZIRM2IDC4ZMD",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:52:49Z",
+  "name": "Policy & Programme Docs",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQOWVQPCDLUJRE2V3GEQGW6JOCW",
+    "name": "24-682-00001 incorporation and registration of Maple Wave",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00001 incorporation and registration of Maple Wave",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00001%20incorporation%20and%20registration%20of%20Maple%20Wave/Policy%20%26%20Programme%20Docs",
+  "cTag": "\"c:{DDA2B77B-18C5-4675-8CA2-2CD2062E6583},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T17:35:40Z",
+    "lastModifiedDateTime": "2025-09-23T21:52:49Z"
+  },
+  "folder": {
+    "childCount": 1
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 43148
+}

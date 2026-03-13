@@ -1,0 +1,8 @@
+tools:
+- ghl_form
+gates:
+  revenue_min: TBD
+  employee_min: TBD
+routing:
+  qualified: book_consult
+  unqualified: decline_or_refer

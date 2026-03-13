@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=6638aea5-4931-4a2b-92ac-a42c2d190435&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIxNSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPT_qr7Q2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwyaElXL2JOMU12Y2dFQjZ0eWlSTTl4Vzcvcng3QnlsU2pZeTJQVFBKRGo4PTCLATgBQhCh8qM37yAAsJ3zJIC0pxBAShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.vdGCndK3Ur5nKkHPGPcIAfeP78w0O4BYv5Jnk1F7ELA&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:10Z",
+  "eTag": "\"{6638AEA5-4931-4A2B-92AC-A42C2D190435},2\"",
+  "id": "01YY66BGVFVY4GMMKJFNFJFLFEFQWRSBBV",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2024-10-14T10:44:43Z",
+  "name": "20241014 Business users privacy policy.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGV6OAL76AAB7FCYXEM4O25FVNTE",
+    "name": "Business users Privacy Policy",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Policy Documents/Business users Privacy Policy",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B6638AEA5-4931-4A2B-92AC-A42C2D190435%7D&file=20241014%20Business%20users%20privacy%20policy.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{6638AEA5-4931-4A2B-92AC-A42C2D190435},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "FtTCMrLTdkh2ySD4IFkz2wIsNxo="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:10Z",
+    "lastModifiedDateTime": "2024-10-14T10:44:43Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 49140
+}

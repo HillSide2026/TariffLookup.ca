@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=5b185d01-5ed2-4855-84d8-85d570fbc741&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE4NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCK7dkrbO2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixidDRIdVBWQnd0YXdRM2dSVW4rSkpaZm8xckY0aWJpYStadU1kUVZlbHZRPTCLATgBQhCh8qMxK8AAsHnRZAhon5EwShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.-DOKF4A1OiBvq21tYU83kDOP9qdd6xFVeJE0V0CdU6w&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-03T21:07:15Z",
+  "eTag": "\"{5B185D01-5ED2-4855-84D8-85D570FBC741},6\"",
+  "id": "01YY66BGQBLUMFXUS6KVEIJWEF2VYPXR2B",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-03T21:08:40Z",
+  "name": "SnowCap_Authorizing_or_Cancelling_a_Representative1 Nov4.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXGPPD432BPXBBLJDWK4SREVD6V",
+    "name": "Post-Transaction Filings to FINTRAC",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Post-Transaction Filings to FINTRAC",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Post-Transaction%20Filings%20to%20FINTRAC/SnowCap_Authorizing_or_Cancelling_a_Representative1%20Nov4.pdf",
+  "cTag": "\"c:{5B185D01-5ED2-4855-84D8-85D570FBC741},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "XQHXADzO/RjtDW1zlD+L1oSN0MM="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-03T21:07:15Z",
+    "lastModifiedDateTime": "2025-11-03T21:08:40Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 114430
+}

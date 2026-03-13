@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T16:38:06Z",
+  "eTag": "\"{7A8FACFA-3F12-4E90-8498-7344527F5451},3\"",
+  "id": "01YY66BGX2VSHXUER7SBHIJGDTIRJH6VCR",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:53:01Z",
+  "name": "CCD Software",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQQL6SD47WFYBAZNJGM774YF6QU",
+    "name": "KYC workflows and records",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/KYC workflows and records",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/KYC%20workflows%20and%20records/CCD%20Software",
+  "cTag": "\"c:{7A8FACFA-3F12-4E90-8498-7344527F5451},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T16:38:06Z",
+    "lastModifiedDateTime": "2025-09-23T21:53:01Z"
+  },
+  "folder": {
+    "childCount": 16
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 6012447
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=197335fe-500c-4e8b-8c1e-887247ab50b1&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA5OSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLChku_H2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixIcU5vdS9RZHlPSnNDcVV1SG51UEJTcFdMb0tPZGxEV2Fac1FhVGZEdGVrPTCLATgBQhCh8qMbsUAAsJ3zJxGkm1ycShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.qlSpkcYfUX9_DdRnQm7m1N8PrzNW1X0j1C_9RzCBEpw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:43:49Z",
+  "eTag": "\"{197335FE-500C-4E8B-8C1E-887247AB50B1},1\"",
+  "id": "01YY66BGX6GVZRSDCQRNHIYHUIOJD2WUFR",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:18:01Z",
+  "name": "Direction and authorization.1720388 copy.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQ32MXZCKG5DREZ2M6UFQLNEP6V",
+    "name": "LL Resignation and Release Drafts for Client",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/25-1231-00001 Charmaine Spiteri/drafts/LL Resignation and Release Drafts for Client",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B197335FE-500C-4E8B-8C1E-887247AB50B1%7D&file=Direction%20and%20authorization.1720388%20copy.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{197335FE-500C-4E8B-8C1E-887247AB50B1},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "scXHS5yTI/H3JMgkt1PoCuEWIv0="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:43:49Z",
+    "lastModifiedDateTime": "2025-09-12T19:18:01Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 45056
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=7290bb2f-2655-4ed6-b892-40ead4f5847a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA0NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCL6CgPrD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixMU29ReWIxcVdQaGNFT2hmbXdyYXh0b3MxUUJKMUdSTVcyR2QzYnM5MnhFPTCLATgBQhCh8qMO3AAAsJ3zJEIrChzvShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.khitO7XXgoBYdgi-noS-qTufxRrb2wfSP1nRVrNPvAw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:51:18Z",
+  "eTag": "\"{7290BB2F-2655-4ED6-B892-40EAD4F5847A},1\"",
+  "id": "01YY66BGRPXOIHEVJG2ZHLRESA5LKPLBD2",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:51:18Z",
+  "name": "1761859 ONTARIO INC.PPSA.CLEAR-Matthew\u2019s iMac.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSADHTHMZ24I5GIPGWGZBNEU7VK",
+    "name": "PPSA",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri/PPSA",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/25-1231-00001%20Charmaine%20Spiteri/PPSA/1761859%20ONTARIO%20INC.PPSA.CLEAR-Matthew%E2%80%99s%20iMac.pdf",
+  "cTag": "\"c:{7290BB2F-2655-4ED6-B892-40EAD4F5847A},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "nfsZkcFv6/3q9lhw7zOZgZBbjQg="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:51:18Z",
+    "lastModifiedDateTime": "2025-09-09T20:51:18Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 92853
+}

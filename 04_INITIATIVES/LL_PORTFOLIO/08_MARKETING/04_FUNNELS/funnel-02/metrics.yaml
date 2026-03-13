@@ -1,0 +1,8 @@
+primary_metrics:
+  - paid_health_check_conversion_rate
+  - remediation_project_conversion_rate
+  - retainer_conversion_rate
+secondary_metrics:
+  - lead_magnet_download_rate
+  - document_readiness_rate
+  - time_to_delivery

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=495d7052-58e8-42e2-91ab-19c438440ec4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE0NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKro0qzL2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwxYTlESHZzaUpJOG1tclNCR050dk9aeitlNzNHWDcyR2VvQnlKVU10T084PTCLATgBQhCh8qMnGPAAsHnRb42f_ISHShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.9vGg27fdI8_0MqgfTZdzJ3uk88GQJDUxeap9Dqan0OQ&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-07T23:31:20Z",
+  "eTag": "\"{495D7052-58E8-42E2-91AB-19C438440EC4},5\"",
+  "id": "01YY66BGSSOBOUT2CY4JBJDKYZYQ4EIDWE",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-07T23:37:59Z",
+  "name": "ClearSky - Finder Agreement- SnowCap (P20241205RE) Jan7.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVCMUWQU5OKC5FISSPCYJZSFVSE",
+    "name": "Finders Agreement",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Finders Agreement",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B495D7052-58E8-42E2-91AB-19C438440EC4%7D&file=ClearSky%20-%20Finder%20Agreement-%20SnowCap%20(P20241205RE)%20Jan7.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{495D7052-58E8-42E2-91AB-19C438440EC4},20\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "pEKYT2LyaKxuZxeuMmHFxcl2e1w="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-07T23:31:20Z",
+    "lastModifiedDateTime": "2025-01-07T23:37:59Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 62422
+}

@@ -1,0 +1,15 @@
+{
+  "run_id": "RUN-YYYY-MM-DD-gmail-labeling",
+  "approved_by": "ML1",
+  "approval_artifact": "06_RUNS/approvals/APPROVAL-YYYY-MM-DD-gmail-labeling.md",
+  "actions": [
+    {
+      "message_id": "",
+      "gmail_thread_id": "",
+      "matter_id": "25-927-00003",
+      "label": "LL/1./1.1 - Essential/25-927-00003",
+      "operation": "add",
+      "reason": "deterministic mapping: participant_mapping.yaml"
+    }
+  ]
+}

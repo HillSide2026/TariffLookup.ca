@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=51b86cb7-7216-422d-b975-15252746ca29&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKyeoPTA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixiZUZkNkd2SGlxOVZKNTlUSEgrZUlTWWU3N0xsUStYbGc4M2ZEQi9wOHBBPTCLATgBQhCh8qME4cAAsHnRbCZD9qz3ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.eWPrwEyRRsNUfIz_P6N1HRT-TA08bs8N_NOudUNb94U&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-26T23:47:12Z",
+  "eTag": "\"{51B86CB7-7216-422D-B975-15252746CA29},5\"",
+  "id": "01YY66BGVXNS4FCFTSFVBLS5IVEUTUNSRJ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-26T23:47:33Z",
+  "name": "Letter to Accountant _Annual Resolutions_ _OBCA_Mandarino.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXXCBNMSNX4KBDZRPZE427GUNFN",
+    "name": "RM Minute books - Michael",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/RM Minute books - Michael",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B51B86CB7-7216-422D-B975-15252746CA29%7D&file=Letter%20to%20Accountant%20_Annual%20Resolutions_%20_OBCA_Mandarino.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{51B86CB7-7216-422D-B975-15252746CA29},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "y95wMYmDB3W0wVLkJkLh5exRpZo="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-26T23:47:12Z",
+    "lastModifiedDateTime": "2025-11-26T23:47:33Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 28843
+}

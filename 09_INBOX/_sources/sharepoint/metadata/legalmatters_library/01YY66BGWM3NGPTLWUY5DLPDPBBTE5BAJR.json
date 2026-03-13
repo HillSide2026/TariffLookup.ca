@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T15:47:56Z",
+  "eTag": "\"{F94CDBCC-D4AE-46C7-B78D-E10CC9D08131},3\"",
+  "id": "01YY66BGWM3NGPTLWUY5DLPDPBBTE5BAJR",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:52:54Z",
+  "name": "Finder Fee",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRY6T5XP4NZTJC2RZADPYD45TI4",
+    "name": "24-682-00002 Acquisition of Stream",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Finder%20Fee",
+  "cTag": "\"c:{F94CDBCC-D4AE-46C7-B78D-E10CC9D08131},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T15:47:56Z",
+    "lastModifiedDateTime": "2025-09-23T21:52:54Z"
+  },
+  "folder": {
+    "childCount": 7
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 2105177
+}

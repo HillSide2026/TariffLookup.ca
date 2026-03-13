@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=811566e6-216a-4b38-9430-27e20e8be257&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAzNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMjf2pXD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixoekdTZ0NzMVZGc0JOdjlDZzRSNUxFWnY4WEliUlFxY3VNVVB5Rk9hQXAwPTCLATgBQhCh8qMMScAAsHnRZ_DeKQetShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.yDpIR2D3hkwzSKc3msXBKGqH68bqoQVu4jcJPQ6Sq04&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T21:04:22Z",
+  "eTag": "\"{811566E6-216A-4B38-9430-27E20E8BE257},1\"",
+  "id": "01YY66BGXGMYKYC2RBHBFZIMBH4IHIXYSX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:04:22Z",
+  "name": "Special Resolution Approving Amendment.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXBDPPAZX7JT5FIPF52HG4VP2CU",
+    "name": "drafts.amendment Pnote",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-845-00001/drafts.amendment Pnote",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B811566E6-216A-4B38-9430-27E20E8BE257%7D&file=Special%20Resolution%20Approving%20Amendment.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{811566E6-216A-4B38-9430-27E20E8BE257},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "YRxLWvOSeCYA2XNkwh0uxXFIads="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T21:04:22Z",
+    "lastModifiedDateTime": "2025-09-09T21:04:22Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 22747
+}

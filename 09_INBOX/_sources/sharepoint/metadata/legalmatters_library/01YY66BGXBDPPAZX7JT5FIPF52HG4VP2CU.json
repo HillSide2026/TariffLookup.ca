@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T15:46:59Z",
+  "eTag": "\"{0CDE1BE1-E9DF-4A9F-8797-BA39B957E854},3\"",
+  "id": "01YY66BGXBDPPAZX7JT5FIPF52HG4VP2CU",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:04:22Z",
+  "name": "drafts.amendment Pnote",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGR2YXWK6JUWBZGI53TDXL5DJIJH",
+    "name": "24-845-00001",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-845-00001",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/24-845-00001/drafts.amendment%20Pnote",
+  "cTag": "\"c:{0CDE1BE1-E9DF-4A9F-8797-BA39B957E854},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T15:46:59Z",
+    "lastModifiedDateTime": "2025-09-09T21:04:22Z"
+  },
+  "folder": {
+    "childCount": 14
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1076694
+}

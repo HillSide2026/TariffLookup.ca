@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=02922f98-3578-4a9b-9fee-53f1738fc352&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzIwMyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLCWlM_P2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixKUHdmSGwvcnRVSUF5RCs0ZC9xcS9QMmhyREpueXJSTE41bWdMUGZOQm9NPTCLATgBQhCh8qM1FZAAsJ3zKciIw1n9ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.qIGBAAP5ekfhRkzuCi3j5uGj0AfPxBb4wwLhUwP173c&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:09Z",
+  "eTag": "\"{02922F98-3578-4A9B-9FEE-53F1738FC352},2\"",
+  "id": "01YY66BGUYF6JAE6BVTNFJ73ST6FZY7Q2S",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2022-10-17T10:50:18Z",
+  "name": "AML_Checklist.xlsx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTEN2UO7AJK3BG2WEELI2HHBNH5",
+    "name": "AML Policy",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/Policy Documents/AML Policy",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B02922F98-3578-4A9B-9FEE-53F1738FC352%7D&file=AML_Checklist.xlsx&action=default&mobileredirect=true",
+  "cTag": "\"c:{02922F98-3578-4A9B-9FEE-53F1738FC352},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "ur8VTzAloZ4lHNuD6RDZH7AO1R8="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:09Z",
+    "lastModifiedDateTime": "2022-10-17T10:50:18Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 72710
+}

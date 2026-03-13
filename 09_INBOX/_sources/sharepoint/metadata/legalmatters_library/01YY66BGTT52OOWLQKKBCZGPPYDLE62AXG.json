@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=eb9cee73-0a2e-4550-933d-f81ac9ed02e6&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAzNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNDWx5XD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixoU0g3UGl2VDB4V1V4VTRNcUk2alVWbTQ2ZWhVZFRWaTVucDduT0ZmZDY0PTCLATgBQhCh8qMMScAAsHnRZ_DeKQetShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.PAYzONIt1EQC5qK8I80CMGFh6RHxOIWAjL_Jx_k5QhM&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T21:04:21Z",
+  "eTag": "\"{EB9CEE73-0A2E-4550-933D-F81AC9ED02E6},1\"",
+  "id": "01YY66BGTT52OOWLQKKBCZGPPYDLE62AXG",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:04:21Z",
+  "name": "Certificate and Articles of Amendment.change of range of directors.7Aug2025.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXBDPPAZX7JT5FIPF52HG4VP2CU",
+    "name": "drafts.amendment Pnote",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-845-00001/drafts.amendment Pnote",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/24-845-00001/drafts.amendment%20Pnote/Certificate%20and%20Articles%20of%20Amendment.change%20of%20range%20of%20directors.7Aug2025.pdf",
+  "cTag": "\"c:{EB9CEE73-0A2E-4550-933D-F81AC9ED02E6},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "NXsTwfhjQIZKekBGr1MSDnqZBxc="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T21:04:21Z",
+    "lastModifiedDateTime": "2025-09-09T21:04:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 174086
+}

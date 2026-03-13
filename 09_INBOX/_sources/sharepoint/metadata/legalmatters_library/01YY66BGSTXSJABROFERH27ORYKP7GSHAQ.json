@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=0092bc53-c5c5-4f24-afba-3853fe691c10&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE4OCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLiuzr_O2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix3dGhZeHVtN2h0VDlmdHE0RENFNVVTUkYzNmppSVNSYmtZWXV5V3MrNTRvPTCLATgBQhCh8qMxaNAAsJ3zJOPsz0k4ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.s9X5tHExQUp1cDYZIyd-HVpoTp7tCMBFYypqFFZ4uR0&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2026-01-19T18:06:06Z",
+  "eTag": "\"{0092BC53-C5C5-4F24-AFBA-3853FE691C10},1\"",
+  "id": "01YY66BGSTXSJABROFERH27ORYKP7GSHAQ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2026-01-18T19:19:35Z",
+  "name": "Wolfsberg Group Financial Crime Compliance Questionnaire 2023 (FCCQ V1.2) (1).pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGR3O2XB3XSRFFD32LXHHBXOYQET",
+    "name": "Procedures and Ancillary Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Procedures and Ancillary Documents",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Procedures%20and%20Ancillary%20Documents/Wolfsberg%20Group%20Financial%20Crime%20Compliance%20Questionnaire%202023%20(FCCQ%20V1.2)%20(1).pdf",
+  "cTag": "\"c:{0092BC53-C5C5-4F24-AFBA-3853FE691C10},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Wh4Hi5ikfiL+z9bYRjXa9c3fRGk="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2026-01-19T18:06:06Z",
+    "lastModifiedDateTime": "2026-01-18T19:19:35Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 174432
+}

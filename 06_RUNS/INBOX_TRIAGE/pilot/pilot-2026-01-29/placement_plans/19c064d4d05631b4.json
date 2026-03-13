@@ -1,0 +1,16 @@
+{
+  "message_id": "19c064d4d05631b4",
+  "object_type": "Legal Matter Email",
+  "lifecycle_state": "Reference",
+  "system_domain": "Matters",
+  "confidence": 0.74,
+  "reasoning_trace": [
+    "Sender domain suggests legal",
+    "No action indicators",
+    "Legal content maps to Matters"
+  ],
+  "proposed_destination": "05_MATTERS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:35.143399+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

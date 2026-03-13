@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "actions_log.schema.json",
+  "title": "ML2 Actions Log Line",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ts",
+    "action_id",
+    "capability",
+    "inputs_hash",
+    "policy_checks",
+    "result",
+    "output_refs"
+  ],
+  "properties": {
+    "ts": { "type": "string", "format": "date-time" },
+    "action_id": { "type": "string", "minLength": 1 },
+    "capability": { "type": "string", "minLength": 1 },
+    "inputs_hash": {
+      "description": "Hash of canonicalized inputs (redaction-safe).",
+      "type": "string",
+      "minLength": 8
+    },
+    "policy_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rule", "pass", "detail"],
+        "properties": {
+          "rule": { "type": "string", "minLength": 1 },
+          "pass": { "type": "boolean" },
+          "detail": { "type": "string" }
+        }
+      }
+    },
+    "result": { "type": "string", "enum": ["success", "fail", "blocked"] },
+    "output_refs": {
+      "description": "Artifact paths and external IDs (draft_id/doc_id/event_id) produced by this action.",
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T16:31:57Z",
+  "eTag": "\"{A9ABE1C6-BAE1-49C1-B7EA-DD4854D8D2A0},3\"",
+  "id": "01YY66BGWG4GV2TYN2YFE3P2W5JBKNRUVA",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:52:16Z",
+  "name": "company keys",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUTJXJMPGI65RGLB5B3QNLD2PZL",
+    "name": "25-1231-00001 Charmaine Spiteri",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/25-1231-00001%20Charmaine%20Spiteri/company%20keys",
+  "cTag": "\"c:{A9ABE1C6-BAE1-49C1-B7EA-DD4854D8D2A0},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T16:31:57Z",
+    "lastModifiedDateTime": "2025-09-09T20:52:16Z"
+  },
+  "folder": {
+    "childCount": 4
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1034240
+}

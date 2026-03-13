@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b5de87eb-deda-43ff-8880-6cf4e0b3aa6a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA1MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMKL7pzE2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw2YUM3aXNtWVFDQkNzRGtSSTYzUFJhcmVKRFJZSHdsNCtwSDg1bzVNVzBNPTCLATgBQhCh8qMPwHAAsJ3zJPOxv7zlShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.y6XvAjkLtch2RrG-WdpI_5N0f0q6TbGKsvzZqfw5l84&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:51:44Z",
+  "eTag": "\"{B5DE87EB-DEDA-43FF-8880-6CF4E0B3AA6A},1\"",
+  "id": "01YY66BGXLQ7PLLWW675BYRADM6TQLHKTK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:51:44Z",
+  "name": "1720388 ONTARIO INC.profile report-Matthew\u2019s iMac.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRFKSMZPIQCQJGI3VCJ32EU764N",
+    "name": "profiles",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri/profiles",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/25-1231-00001%20Charmaine%20Spiteri/profiles/1720388%20ONTARIO%20INC.profile%20report-Matthew%E2%80%99s%20iMac.pdf",
+  "cTag": "\"c:{B5DE87EB-DEDA-43FF-8880-6CF4E0B3AA6A},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "mNhN7sLFSDWKxNU2jix7wSJ51GM="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:51:44Z",
+    "lastModifiedDateTime": "2025-09-09T20:51:44Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 273757
+}

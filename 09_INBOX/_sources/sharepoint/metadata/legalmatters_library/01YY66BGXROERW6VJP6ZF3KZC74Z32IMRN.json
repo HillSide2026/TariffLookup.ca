@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=6f2371f1-2f55-4bf6-b564-5fe677a4322d&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOS2l7TM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixiMk9qZGh0VkJwWTI4SXNOcE1jYm9sY3RrR0lRcmUvVEF2aFZOTmNuWjN3PTCLATgBQhCh8qMqkDAAsJ3zJvQGP_2DShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.OFJr8fK-fuZfhSHbyEjjtQhXu6bEzhn-P0aSeQ7d7BI&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-23T16:00:17Z",
+  "eTag": "\"{6F2371F1-2F55-4BF6-B564-5FE677A4322D},3\"",
+  "id": "01YY66BGXROERW6VJP6ZF3KZC74Z32IMRN",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-23T16:09:06Z",
+  "name": "SnowCap -- Index of Onboarding Documentation.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWGSRLUVYIO2NCLRLVE4QKRXNTG",
+    "name": "Onboarding Package for Exness",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Package for Exness",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B6F2371F1-2F55-4BF6-B564-5FE677A4322D%7D&file=SnowCap%20--%20Index%20of%20Onboarding%20Documentation.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{6F2371F1-2F55-4BF6-B564-5FE677A4322D},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "e8riSNDMoSk73dgtezPNHywhHyc="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-23T16:00:17Z",
+    "lastModifiedDateTime": "2025-05-23T16:09:06Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 24318
+}

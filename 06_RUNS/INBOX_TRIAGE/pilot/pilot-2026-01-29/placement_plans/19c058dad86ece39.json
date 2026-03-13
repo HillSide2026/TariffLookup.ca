@@ -1,0 +1,16 @@
+{
+  "message_id": "19c058dad86ece39",
+  "object_type": "Vendor / Billing",
+  "lifecycle_state": "Reference",
+  "system_domain": "Finance",
+  "confidence": 0.74,
+  "reasoning_trace": [
+    "Subject contains billing term",
+    "No action indicators",
+    "Billing maps to Finance"
+  ],
+  "proposed_destination": "07_FINANCE",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:40.015294+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

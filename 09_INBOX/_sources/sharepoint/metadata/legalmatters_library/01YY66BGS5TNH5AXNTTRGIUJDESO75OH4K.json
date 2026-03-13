@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=d04f9b5d-b35d-4c9c-8a24-6493bfd71f8a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPSqveLA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix3cmNQMGpvNEdWa1Q1aVFNUnVtU2poRFJVRnl0UFJhN2JBdkVleTUrWnlJPTCLATgBQhCh8qMEbUAAsHnRZOnZ0ng-ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.3d0uME-pweyFk3gN68Z3mgQEVFEX27vnkYoMp7jjwqo&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:49:56Z",
+  "eTag": "\"{D04F9B5D-B35D-4C9C-8A24-6493BFD71F8A},2\"",
+  "id": "01YY66BGS5TNH5AXNTTRGIUJDESO75OH4K",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:49:56Z",
+  "name": "PRECEDENT_Board Resolution _Filling Vacancy in Auditor_ _Resignation.DOCX",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUYQWXOTJOUQNFIRYK6JNYRMC3V",
+    "name": "Directors resolutions - 2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Directors resolutions - 2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BD04F9B5D-B35D-4C9C-8A24-6493BFD71F8A%7D&file=PRECEDENT_Board%20Resolution%20_Filling%20Vacancy%20in%20Auditor_%20_Resignation.DOCX&action=default&mobileredirect=true",
+  "cTag": "\"c:{D04F9B5D-B35D-4C9C-8A24-6493BFD71F8A},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "+F0kL/dKrEhs2qNabKarK8wKYFo="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:49:56Z",
+    "lastModifiedDateTime": "2025-11-09T22:49:56Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 34432
+}

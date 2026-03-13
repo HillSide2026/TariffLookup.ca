@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=11b34bd3-7b84-4d95-a6e2-4ee8c63cd22e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOiApZLJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixxRnhTeVVIZGtHTlVQRG1OWDh3clpXS3Q0Mkl0NjFrZ2dIZi9xbm9ZRktJPTCLATgBQhCh8qMf3YAAsJ3zIQdQacRrShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.R5o-ZpgRiiCwTn_h8zRo5x9nacsKOmBJlqZPwA_Chj0&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-15T17:22:45Z",
+  "eTag": "\"{11B34BD3-7B84-4D95-A6E2-4EE8C63CD22E},2\"",
+  "id": "01YY66BGWTJOZRDBD3SVG2NYSO5DDDZURO",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-15T17:22:44Z",
+  "name": "Escrow Agreement (2).docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTP3GZGJHBHT5FYYHMJMO7AQYN6",
+    "name": "Escrow Agreement",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Escrow Agreement",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B11B34BD3-7B84-4D95-A6E2-4EE8C63CD22E%7D&file=Escrow%20Agreement%20(2).docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{11B34BD3-7B84-4D95-A6E2-4EE8C63CD22E},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "R+q9c7BoFaR4IU4JNioQMgXEcBI="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-15T17:22:45Z",
+    "lastModifiedDateTime": "2025-01-15T17:22:44Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 41228
+}

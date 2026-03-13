@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0a0e631daede6",
+  "object_type": "Operations \u2014 Inquiries",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Operations",
+  "confidence": 0.8,
+  "reasoning_trace": [
+    "CRM sender (donotreply.soulpepper.com) - verify if inquiry or client",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "04_OPERATIONS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T06:44:48.121946+00:00",
+  "model_version": "inbox-triage-v0.3"
+}

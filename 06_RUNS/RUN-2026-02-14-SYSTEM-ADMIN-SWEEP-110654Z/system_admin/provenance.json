@@ -1,0 +1,14 @@
+{
+  "run_id": "RUN-2026-02-14-SYSTEM-ADMIN-SWEEP-110654Z",
+  "run_root": "06_RUNS/RUN-2026-02-14-SYSTEM-ADMIN-SWEEP-110654Z/system_admin",
+  "contract_md": "00_SYSTEM/agents/specs/system_admin/SAA_OUTPUT_CONTRACT.md",
+  "contract_json": "00_SYSTEM/agents/specs/system_admin/SAA_OUTPUT_CONTRACT.json",
+  "agents": [
+    "SAA_REPO_LINTER",
+    "SAA_FOLDER_MAP_DRIFT",
+    "SAA_METADATA_ENFORCER",
+    "SAA_REFERENCE_INTEGRITY",
+    "SAA_REGISTRY_SYNC"
+  ],
+  "generated_at": "2026-02-14T11:06:54.939545Z"
+}

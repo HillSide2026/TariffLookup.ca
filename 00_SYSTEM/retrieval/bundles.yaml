@@ -1,0 +1,26 @@
+schema_version: 0.1
+bundles:
+  intake_minimum:
+    description: Minimum context to draft a first response.
+    includes:
+      - 02_PLAYBOOKS/core/inbox_triage
+      - 03_TEMPLATES
+  doc_drop_issue_list:
+    description: Context for turning a document drop into issue and task lists.
+    includes:
+      - 02_PLAYBOOKS/core/doc_drop_issue_list
+      - 02_PLAYBOOKS/substantive/contracts
+      - 03_TEMPLATES
+  new_matter_scaffold:
+    description: Context for new matter scaffolding and summary.
+    includes:
+      - 02_PLAYBOOKS/core/new_matter_scaffold
+      - 05_MATTERS
+      - 03_TEMPLATES
+selection_rules:
+  - run_graph: intake_to_first_draft
+    bundle: intake_minimum
+  - run_graph: doc_drop_to_issue_list
+    bundle: doc_drop_issue_list
+  - run_graph: new_matter_scaffold
+    bundle: new_matter_scaffold

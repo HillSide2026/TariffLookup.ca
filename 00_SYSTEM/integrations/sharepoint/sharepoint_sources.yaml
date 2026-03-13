@@ -1,0 +1,60 @@
+id: 00_system__integrations__sharepoint__sources_yaml
+title: SharePoint Sources
+owner: ML1
+status: initiated
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-16
+sources:
+  - source_id: SP_DOCUMENTATION_SITE
+    description: SharePoint site used for discovery and SB Execution.
+    location: levinellp.sharepoint.com/sites/Documentation
+    authority: unknown
+    classification: external_reference
+    ingestion: Enumerated via sharepoint_discovery.py (read-only)
+  - source_id: SP_SB_EXECUTION_DRAFTS
+    description: SB Execution intake path for drafts within the SharePoint drive.
+    location: Doc Pro  In Tray/SB Execution/DRAFTS (drive_id configured in this file)
+    authority: unknown
+    classification: intake
+    ingestion: Validated by sharepoint_integration.py and setup_sb_execution.py
+  - source_id: SP_LEGALMATTERS_LIBRARY
+    description: Legal Matters library used for matter source documents.
+    location: levinellp.sharepoint.com/sites/LegalMatters (Shared Documents)
+    authority: unknown
+    classification: external_reference
+    ingestion: Enumerated via sharepoint_integration.py (read-only)
+ingestion:
+  triggers:
+    - Manual runs of sharepoint_integration.py (read-only scan)
+    - Manual runs of sharepoint_discovery.py (read-only discovery)
+  notes:
+    - No write operations; Graph access via client credentials
+consumers:
+  scripts:
+    - 00_SYSTEM/scripts/sharepoint_integration.py
+    - 00_SYSTEM/scripts/sharepoint_discovery.py
+    - 00_SYSTEM/scripts/setup_sb_execution.py
+  playbooks: []
+  run_graphs: []
+related_artifacts:
+  - 00_SYSTEM/matters/matter_identity_map.yaml
+change_notes:
+  - Contract header populated; existing sharepoint config block preserved.
+  - Added LegalMatters drive and multi-drive intake paths.
+
+sharepoint:
+  drives:
+    - name: Documentation
+      site: levinellp.sharepoint.com/sites/Documentation
+      drive_id: b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P
+      intake_paths:
+        - "Doc Pro  In Tray/SB Execution/DRAFTS"
+    - name: LegalMatters
+      site: levinellp.sharepoint.com/sites/LegalMatters
+      drive_id: b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU
+      intake_paths:
+        - "LL Matters (Essential)"
+        - "LL Matters (Strategic)"
+        - "LL Matters (Standard)"
+        - "Clerk Work"

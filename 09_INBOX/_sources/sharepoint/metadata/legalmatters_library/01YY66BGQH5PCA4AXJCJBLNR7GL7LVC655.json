@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=0ec4eb07-e902-4212-b6c7-e65fd7517bbd&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE5OCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKL7mqPP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixVTFFrbnk2bmM1OEFwUVhNOXoySThlWitFMTVzWmtIV0R6cFF6UkRCdnJnPTCLATgBQhCh8qMz9oAAsJ3zIYYNYmmOShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.InJzvUOpR51hWn_A8xcZrwW2ldN6wFTEaQPhjv-5YTc&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:41:06Z",
+  "eTag": "\"{0EC4EB07-E902-4212-B6C7-E65FD7517BBD},2\"",
+  "id": "01YY66BGQH5PCA4AXJCJBLNR7GL7LVC655",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2023-12-08T17:25:00Z",
+  "name": "20231208 Maxflow Services - AML Policy (003) Effecta Compliance.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXWD7CDKHO4QVDKGFNODXYNBG3U",
+    "name": "AML Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - UK Policy Documents/AML Documents",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B0EC4EB07-E902-4212-B6C7-E65FD7517BBD%7D&file=20231208%20Maxflow%20Services%20-%20AML%20Policy%20(003)%20Effecta%20Compliance.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{0EC4EB07-E902-4212-B6C7-E65FD7517BBD},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "8nL7svkcpucCFm3lpDZhGYwVRm4="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:41:06Z",
+    "lastModifiedDateTime": "2023-12-08T17:25:00Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 134518
+}

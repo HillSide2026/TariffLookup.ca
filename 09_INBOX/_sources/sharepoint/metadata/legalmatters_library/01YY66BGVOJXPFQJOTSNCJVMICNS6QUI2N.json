@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=58de4dae-d325-4493-9ab1-026cbd0a234d&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA4MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKDzzbbG2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixyYUNsOTNqbXZqZy9xUDdNOGM5bHNFVHY5OVFJQllZUnVjSDU3NmswYjFjPTCLATgBQhCh8qMW9vAAsJ3zIOI6OLsHShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.FIibhoqS1UY7dvGFLycCWPzKnnB1pSShyVqF27Y6Wek&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:25:42Z",
+  "eTag": "\"{58DE4DAE-D325-4493-9AB1-026CBD0A234D},3\"",
+  "id": "01YY66BGVOJXPFQJOTSNCJVMICNS6QUI2N",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:32:21Z",
+  "name": "Corporation Release of Spiteri.1761859.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQC7W5FVXZ4YNAIPRPB6C6SCOAZ",
+    "name": "ML Drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/drafts/ML Drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B58DE4DAE-D325-4493-9AB1-026CBD0A234D%7D&file=Corporation%20Release%20of%20Spiteri.1761859.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{58DE4DAE-D325-4493-9AB1-026CBD0A234D},3\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "4fwLRGqloxtZ6tMLrfOzNREsKwA="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:25:42Z",
+    "lastModifiedDateTime": "2025-09-12T19:32:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 46080
+}

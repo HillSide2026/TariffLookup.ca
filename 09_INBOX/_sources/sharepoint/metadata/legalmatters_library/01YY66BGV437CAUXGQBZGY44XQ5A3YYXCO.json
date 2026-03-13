@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=0ac4dfbc-d05c-4d0e-8e72-f0e8378c5c4e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOS2l7TM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixjTGlpR0EraENnVnNhWFFKaVVNcGhYcUxrVGQwbHFaMkVBT0hZeEk4bEdvPTCLATgBQhCh8qMqkDAAsJ3zJvQGP_2DShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.2j05WefKddsW8FA5nXROS8gsFbYrGNTQiAi2vkaSbU8&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-21T21:56:11Z",
+  "eTag": "\"{0AC4DFBC-D05C-4D0E-8E72-F0E8378C5C4E},1\"",
+  "id": "01YY66BGV437CAUXGQBZGY44XQ5A3YYXCO",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-21T21:42:59Z",
+  "name": "SnowCap - Certified Copy of Notice of Articles (change of directors).pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWGSRLUVYIO2NCLRLVE4QKRXNTG",
+    "name": "Onboarding Package for Exness",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Package for Exness",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Admin/Onboarding%20Forms/Onboarding%20Package%20for%20Exness/SnowCap%20-%20Certified%20Copy%20of%20Notice%20of%20Articles%20(change%20of%20directors).pdf",
+  "cTag": "\"c:{0AC4DFBC-D05C-4D0E-8E72-F0E8378C5C4E},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Ho2xUBfPiPZ/yBPuctKNM4Ukxfs="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-21T21:56:11Z",
+    "lastModifiedDateTime": "2025-05-21T21:42:59Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 176409
+}

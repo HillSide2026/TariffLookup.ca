@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b95e8211-a85f-4ecc-b79f-787c1208b001&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPKYi-LJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixPRnhWdUJOOFZydE9TYXJoQ25Lcmp1ZlgxMEUyaGs2T0RuZVExOW1oaXJvPTCLATgBQhCh8qMh6HAAsHnRacX9slVAShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.LnvS1m04dEckArqmYm0qcUDGl5DpJxfE4Lls-BJ8AQM&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-17T18:26:23Z",
+  "eTag": "\"{B95E8211-A85F-4ECC-B79F-787C1208B001},1\"",
+  "id": "01YY66BGQRQJPLSX5IZRHLPH3YPQJARMAB",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-17T18:26:24Z",
+  "name": "SnowCap SPA - Feb12 Feb17 clean.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGW2QI6VAUT665FJHTMH7AM7HX72",
+    "name": "SPA from ClearkSky Feb17",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA/SPA from ClearkSky Feb17",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Purchase%20Agreement/Draft%20SPA/SPA%20from%20ClearkSky%20Feb17/SnowCap%20SPA%20-%20Feb12%20Feb17%20clean.pdf",
+  "cTag": "\"c:{B95E8211-A85F-4ECC-B79F-787C1208B001},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "19zq1p82J8/BmjUDlrDgM76CLeg="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-17T18:26:23Z",
+    "lastModifiedDateTime": "2025-02-17T18:26:24Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 206986
+}

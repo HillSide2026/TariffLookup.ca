@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=d8e61b0c-9f1d-404b-94f9-826655e9bed3&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOS2l7TM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixEelhZYVprVVVlOTFSYWFnNEM1WEw3VmlXYW5HNDEzajA0OFNvSVJhOFRzPTCLATgBQhCh8qMqkDAAsJ3zJvQGP_2DShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.XAPmvcYvsnUOYw6heO_YeDUxCppxN15H7tPKW9jCovo&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-23T15:54:25Z",
+  "eTag": "\"{D8E61B0C-9F1D-404B-94F9-826655E9BED3},1\"",
+  "id": "01YY66BGQMDPTNQHM7JNAJJ6MCMZK6TPWT",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-23T15:52:31Z",
+  "name": "SnowCap -- Agent form for legal entity -- SnowCap Financial Limited 22May2025-Signed.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWGSRLUVYIO2NCLRLVE4QKRXNTG",
+    "name": "Onboarding Package for Exness",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Package for Exness",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Admin/Onboarding%20Forms/Onboarding%20Package%20for%20Exness/SnowCap%20--%20Agent%20form%20for%20legal%20entity%20--%20SnowCap%20Financial%20Limited%2022May2025-Signed.pdf",
+  "cTag": "\"c:{D8E61B0C-9F1D-404B-94F9-826655E9BED3},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Hs/GAJnxX450tARnrZtgIN1+730="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-23T15:54:25Z",
+    "lastModifiedDateTime": "2025-05-23T15:52:31Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 479215
+}

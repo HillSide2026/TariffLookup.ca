@@ -1,0 +1,50 @@
+{
+  "createdBy": {
+    "application": {
+      "id": "c58637bb-e2e1-4312-8a00-04b5ffcd3403",
+      "displayName": "SharePoint Online Client Extensibility"
+    },
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-23T23:11:35Z",
+  "eTag": "\"{C95A10F7-FC36-4750-98BF-24E6BE6A34AD},1\"",
+  "id": "01YY66BGXXCBNMSNX4KBDZRPZE427GUNFN",
+  "lastModifiedBy": {
+    "application": {
+      "id": "c58637bb-e2e1-4312-8a00-04b5ffcd3403",
+      "displayName": "SharePoint Online Client Extensibility"
+    },
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-23T23:11:35Z",
+  "name": "RM Minute books - Michael",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGV5HU2E2II6KVHYCPUE5P4B6R5M",
+    "name": "Clerk Work - Diandra",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Clerk%20Work%20-%20Diandra/RM%20Minute%20books%20-%20Michael",
+  "cTag": "\"c:{C95A10F7-FC36-4750-98BF-24E6BE6A34AD},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-23T23:11:35Z",
+    "lastModifiedDateTime": "2025-11-23T23:11:35Z"
+  },
+  "folder": {
+    "childCount": 4
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1490004
+}

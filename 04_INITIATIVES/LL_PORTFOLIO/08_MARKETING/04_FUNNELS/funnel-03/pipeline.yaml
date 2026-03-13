@@ -1,0 +1,8 @@
+system: ghl
+stages:
+- lead_captured
+- screened
+- booked
+- consult_complete
+- retained
+- closed_lost

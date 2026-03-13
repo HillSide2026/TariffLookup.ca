@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=fd0671e7-38f7-4657-93aa-5d86e4e1b6aa&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA2NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLjYuLXF2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixYaUs2Q3F6ejZ0bzc4MkE1VTIyR1E4VW1hbTJJdVJXYkZTOXBteGZ6YTNRPTCLATgBQhCh8qMTqmAAsJ3zIExQM80nShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.njLr5wyjiH2atCqxxXLgPIUn-48X58U-MI9MTN_hIHE&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-08-18T16:25:41Z",
+  "eTag": "\"{FD0671E7-38F7-4657-93AA-5D86E4E1B6AA},1\"",
+  "id": "01YY66BGXHOEDP35ZYK5DJHKS5Q3SODNVK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-08-18T16:25:41Z",
+  "name": "Notice and Schedules, including pnotes.Clean.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTA6BQAOXT4PVB26HZQLNRCPNE4",
+    "name": "24-845-00001",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-845-00001",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BFD0671E7-38F7-4657-93AA-5D86E4E1B6AA%7D&file=Notice%20and%20Schedules,%20including%20pnotes.Clean.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{FD0671E7-38F7-4657-93AA-5D86E4E1B6AA},4\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "OIMjZjinC4NwSpXbfvVVdB4T+pA="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-08-18T16:25:41Z",
+    "lastModifiedDateTime": "2025-08-18T16:25:41Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 31008
+}

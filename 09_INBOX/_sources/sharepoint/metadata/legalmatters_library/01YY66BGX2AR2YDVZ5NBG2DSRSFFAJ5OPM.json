@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-08-25T21:06:35Z",
+  "eTag": "\"{817504FA-3DD7-4D68-A1CA-3229409EB9EC},3\"",
+  "id": "01YY66BGX2AR2YDVZ5NBG2DSRSFFAJ5OPM",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-08-20T16:12:02Z",
+  "name": "best bottles",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQBUJIR7RAXYZFZEPT7STAA5YYZ",
+    "name": "Client Work to archive",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive/best%20bottles",
+  "cTag": "\"c:{817504FA-3DD7-4D68-A1CA-3229409EB9EC},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-08-25T21:06:35Z",
+    "lastModifiedDateTime": "2025-08-20T16:12:02Z"
+  },
+  "folder": {
+    "childCount": 2
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 323138
+}

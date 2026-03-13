@@ -1,0 +1,63 @@
+#!/bin/bash
+# Pre-commit hook for ll-secondbrain
+# Install: cp scripts/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+#
+# Checks:
+# 1. Safety rails (credentials, folder structure, agent definitions)
+# 2. Matter YAML validation
+# 3. Staged .env check (hard block)
+
+set -e
+
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+cd "$REPO_ROOT"
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+echo "Pre-commit checks starting..."
+echo ""
+
+# -----------------------------------------------------------------------------
+# Check 0: Hard block on .env being staged
+# -----------------------------------------------------------------------------
+if git diff --cached --name-only | grep -q "^\.env$"; then
+    echo -e "${RED}BLOCKED${NC}: .env is staged for commit!"
+    echo "  This file contains secrets and must NEVER be committed."
+    echo "  Run: git reset HEAD .env"
+    exit 1
+fi
+
+# -----------------------------------------------------------------------------
+# Check 1: Run safety rails
+# -----------------------------------------------------------------------------
+echo "Running safety rails..."
+if ! ./scripts/safety-rails.sh > /dev/null 2>&1; then
+    echo -e "${YELLOW}WARN${NC}: Safety rails check has warnings or errors."
+    echo "  Run ./scripts/safety-rails.sh for details."
+    # Continue - warnings don't block commit
+fi
+echo -e "${GREEN}OK${NC}: Safety rails check complete"
+echo ""
+
+# -----------------------------------------------------------------------------
+# Check 2: Validate matter YAML if any matters are staged
+# -----------------------------------------------------------------------------
+STAGED_MATTERS=$(git diff --cached --name-only | grep "^05_MATTERS/" | head -1)
+if [ -n "$STAGED_MATTERS" ]; then
+    echo "Matter files staged - running validation..."
+    if ! python3 ./scripts/validate_matter_yaml.py > /dev/null 2>&1; then
+        echo -e "${RED}FAIL${NC}: Matter YAML validation failed!"
+        echo "  Run: python3 ./scripts/validate_matter_yaml.py"
+        exit 1
+    fi
+    echo -e "${GREEN}OK${NC}: Matter YAML validation passed"
+else
+    echo "No matter files staged - skipping matter validation"
+fi
+
+echo ""
+echo -e "${GREEN}Pre-commit checks passed${NC}"
+exit 0

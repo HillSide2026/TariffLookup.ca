@@ -1,0 +1,16 @@
+{
+  "message_id": "19c067150aeec2c8",
+  "object_type": "Vendor / Billing",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Finance",
+  "confidence": 0.78,
+  "reasoning_trace": [
+    "Subject contains billing term",
+    "Marked important/starred",
+    "Billing maps to Finance"
+  ],
+  "proposed_destination": "07_FINANCE",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:33.617508+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "notes": "Fill in real site/library IDs. Writes must land in allowlisted WIP destinations only.",
+  "template_read_zones": [
+    {
+      "site_id": "SITE_ID_TEMPLATES_1",
+      "library_id": "LIB_ID_TEMPLATES_1",
+      "folder_prefixes": ["/Templates"]
+    }
+  ],
+  "wip_write_zones": [
+    {
+      "site_id": "SITE_ID_WIP_1",
+      "library_id": "LIB_ID_WIP_1",
+      "folder_prefixes": ["/WIP"]
+    }
+  ]
+}

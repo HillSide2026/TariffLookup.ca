@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=cc552b25-b1d0-462e-a4e9-58b9c276ecf2&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyOCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLr-vv_J2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixFQTN1dFo4K0prS0U5UEJDM1JHcEVhemhQOG1lVkFLdnI1Z2dpUmErNnVNPTCLATgBQhCh8qMiqTAAsJ3zKLajINwyShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.xYGSeyGKIEJQ06MIK4kHRSKWphPYTA05cTKkyqH86no&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-13T02:54:43Z",
+  "eTag": "\"{CC552B25-B1D0-462E-A4E9-58B9C276ECF2},3\"",
+  "id": "01YY66BGRFFNK4ZUFRFZDKJ2KYXHBHN3HS",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-13T02:58:52Z",
+  "name": "SnowCap - Share Certificate.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXI3VNV7BNXUZFYGSYTJ5Z57YI2",
+    "name": "Feb12",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA/SPA to ClearSky/Feb12",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BCC552B25-B1D0-462E-A4E9-58B9C276ECF2%7D&file=SnowCap%20-%20Share%20Certificate.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{CC552B25-B1D0-462E-A4E9-58B9C276ECF2},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "luR+Am+AUM7OKS1KwwJm6Nc0fTc="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-13T02:54:43Z",
+    "lastModifiedDateTime": "2025-02-13T02:58:52Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 27661
+}

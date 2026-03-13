@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=28e40365-27db-4afc-bbc0-73f8c34db8a4&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA5NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLyHq9vH2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwvQjNhdmsvZGNpMTEzbWVuTmU2YmJCR1UvTjZoTXE2MVdiOEUvcDd1SVBVPTCLATgBQhCh8qMbL3AAsJ3zJ18nctg5ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.0tDzw4RgPlQWSF_12N4grhCoIxQKDgACDapicPq2fNA&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-12T19:45:08Z",
+  "eTag": "\"{28E40365-27DB-4AFC-BBC0-73F8C34DB8A4},1\"",
+  "id": "01YY66BGTFAPSCRWZH7RFLXQDT7DBU3OFE",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:45:06Z",
+  "name": "LL CSpiteri - PPSA.zip",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXKMVTZL3PJNZHIO6ZT6XSSY4GM",
+    "name": "Circulated to Client",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive/25-1231-00001 Charmaine Spiteri/Circulated to Client",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Client%20Work%20to%20archive/25-1231-00001%20Charmaine%20Spiteri/Circulated%20to%20Client/LL%20CSpiteri%20-%20PPSA.zip",
+  "cTag": "\"c:{28E40365-27DB-4AFC-BBC0-73F8C34DB8A4},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "LHOqPzEgdqQ94flsMxwbNtp+mGw="
+    },
+    "mimeType": "application/zip"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-12T19:45:08Z",
+    "lastModifiedDateTime": "2025-09-12T19:45:06Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 512355
+}

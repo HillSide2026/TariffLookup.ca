@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "System Admin Sweep Findings",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "agent",
+      "severity",
+      "category",
+      "title",
+      "description",
+      "affected_paths",
+      "created_at"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "agent": {
+        "type": "string",
+        "enum": [
+          "SAA_REPO_LINTER",
+          "SAA_FOLDER_MAP_DRIFT",
+          "SAA_METADATA_ENFORCER",
+          "SAA_REFERENCE_INTEGRITY",
+          "SAA_REGISTRY_SYNC"
+        ]
+      },
+      "severity": {
+        "type": "string",
+        "enum": [
+          "BLOCKER",
+          "MAJOR",
+          "MINOR",
+          "INFO"
+        ]
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "naming",
+          "structure",
+          "drift",
+          "metadata",
+          "reference",
+          "registry"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "affected_paths": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "suggested_fix": {
+        "type": "string"
+      },
+      "references": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "anchor": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  }
+}

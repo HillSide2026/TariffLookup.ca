@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=47d4c404-4e71-414d-8ccc-232d75ba1479&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE5NSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNDGh4HP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixsVE5BVkxzd1BNKy9WNXVPRllBalZ4YzNnSUpxTlpteUp3Z05WNjdPK0lNPTCLATgBQhCh8qMzFrAAsHnRa4uZ8Km9ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.-FuS1LHsERXiqb-05NtiCgMf5L3MC1v2kiutZDssgug&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-10T20:21:12Z",
+  "eTag": "\"{47D4C404-4E71-414D-8CCC-232D75BA1479},1\"",
+  "id": "01YY66BGQEYTKEO4KOJVAYZTBDFV23UFDZ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-03T20:47:21Z",
+  "name": "120225 Notice of Articles - Snowcap Financial (change of directors) (1).pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGVB2TLB5DLPANCZPKIKNQFVTDEZ",
+    "name": "Stream - Minutebook",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - Minutebook",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Stream%20-%20Minutebook/120225%20Notice%20of%20Articles%20-%20Snowcap%20Financial%20(change%20of%20directors)%20(1).pdf",
+  "cTag": "\"c:{47D4C404-4E71-414D-8CCC-232D75BA1479},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Ho2xUBfPiPZ/yBPuctKNM4Ukxfs="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-10T20:21:12Z",
+    "lastModifiedDateTime": "2025-11-03T20:47:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 176409
+}

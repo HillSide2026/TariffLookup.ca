@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-11-25T20:25:07Z",
+  "eTag": "\"{20EAF4F1-700D-46FD-9E6F-C59434193877},4\"",
+  "id": "01YY66BGXR6TVCADLQ7VDJ436FSQ2BSODX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-25T20:25:04Z",
+  "name": "Accounts",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGT55ZKP64EL4JCIR74ZWTBIMJWM",
+    "name": "Admin",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Admin/Accounts",
+  "cTag": "\"c:{20EAF4F1-700D-46FD-9E6F-C59434193877},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-25T20:25:07Z",
+    "lastModifiedDateTime": "2025-11-25T20:25:04Z"
+  },
+  "folder": {
+    "childCount": 0
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 0
+}

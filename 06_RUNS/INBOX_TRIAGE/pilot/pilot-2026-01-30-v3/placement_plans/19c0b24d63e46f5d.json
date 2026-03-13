@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0b24d63e46f5d",
+  "object_type": "Firm Management \u2014 Vendors / Billing",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Firm Management",
+  "confidence": 0.75,
+  "reasoning_trace": [
+    "Vendor/firm billing",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "07_FIRM_MANAGEMENT",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T06:44:41.409469+00:00",
+  "model_version": "inbox-triage-v0.3"
+}

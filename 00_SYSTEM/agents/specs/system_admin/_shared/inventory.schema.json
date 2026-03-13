@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "System Admin Sweep Inventory",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "path",
+      "type_guess",
+      "category_guess",
+      "exists",
+      "size_bytes"
+    ],
+    "properties": {
+      "path": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type_guess": {
+        "type": "string",
+        "minLength": 1
+      },
+      "category_guess": {
+        "type": "string",
+        "minLength": 1
+      },
+      "exists": {
+        "type": "boolean"
+      },
+      "size_bytes": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "last_modified": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  }
+}

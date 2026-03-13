@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T16:00:24Z",
+  "eTag": "\"{826C584B-8D5A-492A-9580-5FD98F083726},3\"",
+  "id": "01YY66BGSLLBWIEWUNFJEZLAC73GHQQNZG",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-12T19:43:44Z",
+  "name": "LL Resignation and Release Drafts for Client",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQA4446GGQOSVELJKO2EQY3FU2S",
+    "name": "drafts",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/drafts",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/25-1231-00001%20Charmaine%20Spiteri/drafts/LL%20Resignation%20and%20Release%20Drafts%20for%20Client",
+  "cTag": "\"c:{826C584B-8D5A-492A-9580-5FD98F083726},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T16:00:24Z",
+    "lastModifiedDateTime": "2025-09-12T19:43:44Z"
+  },
+  "folder": {
+    "childCount": 8
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 343552
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=5b8393b9-3e8b-4c18-8871-2a0132b7ec0a&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE3NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLaKhtrN2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixPUVh6bTRPaHJYbE10OHh1ZUhkNXN3QVlkZVh2NzN5RVRKVDlaT3FQWWljPTCLATgBQhCh8qMuzUAAsJ3zLBeUZfcUShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.aElK1yx525XYU1rXDJ7U5wmno7X2_b9g3dZ4UA2OqlY&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-17T17:30:53Z",
+  "eTag": "\"{5B8393B9-3E8B-4C18-8871-2A0132B7EC0A},3\"",
+  "id": "01YY66BGVZSOBVXCZ6DBGIQ4JKAEZLP3AK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-17T17:31:49Z",
+  "name": "SnowCap__OnboardingForm_CDD Jun17 CCD Software for client.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGX2VSHXUER7SBHIJGDTIRJH6VCR",
+    "name": "CCD Software",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/KYC workflows and records/CCD Software",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B5B8393B9-3E8B-4C18-8871-2A0132B7EC0A%7D&file=SnowCap__OnboardingForm_CDD%20Jun17%20CCD%20Software%20for%20client.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{5B8393B9-3E8B-4C18-8871-2A0132B7EC0A},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "Vxz4gKBpb1X5f9hc+chwdOq1JNc="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-17T17:30:53Z",
+    "lastModifiedDateTime": "2025-06-17T17:31:49Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 63644
+}

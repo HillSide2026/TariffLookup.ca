@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=c2ba390b-f0e4-4144-bac1-1fb0ab682210&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE4OCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLiuzr_O2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixPY29kUnZrbk9BQ0hmUzlXbHV2YUNKdjNxcUozRlU2Q0U0SS9PQzRJMzVNPTCLATgBQhCh8qMxaNAAsJ3zJOPsz0k4ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.1NF-4FHwfRGIGSKWnhqKJWYCRvyfg_xte13vqaGu2n4&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-05T19:06:05Z",
+  "eTag": "\"{C2BA390B-F0E4-4144-BAC1-1FB0AB682210},2\"",
+  "id": "01YY66BGQLHG5MFZHQIRA3VQI7WCVWQIQQ",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-05T19:06:04Z",
+  "name": "SnowCap__OnboardingForm_LegalEntity.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGR3O2XB3XSRFFD32LXHHBXOYQET",
+    "name": "Procedures and Ancillary Documents",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Procedures and Ancillary Documents",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BC2BA390B-F0E4-4144-BAC1-1FB0AB682210%7D&file=SnowCap__OnboardingForm_LegalEntity.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{C2BA390B-F0E4-4144-BAC1-1FB0AB682210},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "c4eDo9dSB3mH3UkyRoCn57xAE6E="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-05T19:06:05Z",
+    "lastModifiedDateTime": "2025-06-05T19:06:04Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 69578
+}

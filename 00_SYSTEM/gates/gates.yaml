@@ -1,0 +1,54 @@
+schema_version: 0.1
+gates:
+  - id: ml1_approval_required
+    description: Block any external or client-facing output without ML1 approval labeling.
+    enforcement: block
+    policy: POL-004
+    protocol: PRO-004
+  - id: classification_ok
+    description: Block low-confidence classifications.
+    enforcement: block
+    min_confidence: 0.8
+    policy: POL-005
+    protocol: PRO-005
+  - id: doctrine_conflict_detected
+    description: Block outputs that conflict with doctrine.
+    enforcement: block
+    policy: POL-007
+    protocol: PRO-007
+  - id: clarity_scope_check
+    description: Flag artifacts missing clear purpose or explicit scope.
+    enforcement: flag
+    scope: promotion
+    policy: POL-006
+    protocol: PRO-006
+  - id: coherence_conflict_check
+    description: Flag conflicts at the same layer until supersession is recorded.
+    enforcement: flag
+    scope: promotion
+    policy: POL-007
+    protocol: PRO-007
+  - id: reasoning_trace_check
+    description: Flag outputs missing reasoning or doctrine references.
+    enforcement: flag
+    scope: release
+    policy: POL-008
+    protocol: PRO-008
+  - id: testability_check
+    description: Flag artifacts missing acceptance criteria or verification checks.
+    enforcement: flag
+    scope: promotion
+    policy: POL-009
+    protocol: PRO-009
+  - id: versioning_check
+    description: Flag artifacts missing versioning or supersession metadata.
+    enforcement: flag
+    scope: promotion
+    policy: POL-010
+    protocol: PRO-010
+  - id: discoverability_check
+    description: Flag artifacts not indexed at their layer.
+    enforcement: flag
+    scope: promotion
+    policy: POL-011
+    protocol: PRO-011

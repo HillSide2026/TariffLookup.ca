@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=7142dfb8-a744-4b5c-ac6e-1b84d3c06063&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2MCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOS2l7TM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixsRE15akt0aUYrNlhmcm1PTVdpN0lZcURPbnV1QTQzT1RaazNaNjZydzZBPTCLATgBQhCh8qMqkDAAsJ3zJvQGP_2DShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ._NoUSo5TCgwjMXWIsbZi0CKBWGs21BHlyE-lu2e0k5c&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-23T16:01:15Z",
+  "eTag": "\"{7142DFB8-A744-4B5C-AC6E-1B84D3C06063},2\"",
+  "id": "01YY66BGVY35BHCRFHLRF2Y3Q3QTJ4AYDD",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-23T15:59:34Z",
+  "name": "SnowCap - FINTRAC Registry-eng (2)-Matthew\u2019s iMac.xlsx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWGSRLUVYIO2NCLRLVE4QKRXNTG",
+    "name": "Onboarding Package for Exness",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Package for Exness",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B7142DFB8-A744-4B5C-AC6E-1B84D3C06063%7D&file=SnowCap%20-%20FINTRAC%20Registry-eng%20(2)-Matthew%E2%80%99s%20iMac.xlsx&action=default&mobileredirect=true",
+  "cTag": "\"c:{7142DFB8-A744-4B5C-AC6E-1B84D3C06063},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "hTbNH2j48GFbZufDlxyYKySjXUI="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-23T16:01:15Z",
+    "lastModifiedDateTime": "2025-05-23T15:59:34Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 950584
+}

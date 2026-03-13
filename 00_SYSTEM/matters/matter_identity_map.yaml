@@ -1,0 +1,529 @@
+id: 00_system__matters__matter_identity_map_yaml
+title: Matter Identity Map
+owner: ML1
+status: draft
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+last_imported_from: 00_SYSTEM/integrations/participant_mapping.yaml
+last_imported_date: '2026-02-15'
+import_notes: Initial import from participant_mapping.yaml (draft routing map).
+matters:
+- matter_id: 23-169-00003
+  aliases:
+    email:
+      name_keys:
+      - bestbottles
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Best Bottles Inc.
+    delivery_status: PARKED
+- matter_id: 23-235-00001
+  aliases:
+    email:
+      name_keys:
+      - baobab
+      - baobabenergy
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Baobab Energy Africa Ltd
+    delivery_status: STANDARD
+- matter_id: 24-336-00004
+  aliases:
+    email:
+      name_keys:
+      - cestlavielaw
+      - dani
+      - danifrodis
+      - frodislaw
+      - jtalsky
+      - mascore
+      - maxhill
+      - mhill
+      domains:
+      - mascore.ca
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Mascore Helical Piles
+    delivery_status: STRATEGIC
+- matter_id: 24-347-00002
+  aliases:
+    email:
+      name_keys:
+      - brandbutter
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: PARKED
+- matter_id: 24-409-00001
+  aliases:
+    email:
+      name_keys:
+      - mukherjee
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: PARKED
+- matter_id: 24-601-00001
+  aliases:
+    email:
+      name_keys:
+      - metabytes
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: PARKED
+- matter_id: 24-646-00001
+  aliases:
+    email:
+      name_keys:
+      - bynature
+      - bynaturedesign
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: STANDARD
+- matter_id: 24-845-00001
+  aliases:
+    email:
+      name_keys:
+      - abhishek
+      - abhishekshah
+      - star333
+      - super60
+      domains:
+      - super60.com
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: STAR 333 SPORTS INC.
+    delivery_status: STANDARD
+- matter_id: 25-1024-00001
+  aliases:
+    email:
+      name_keys:
+      - allpro
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: AllPro Construction Group
+    delivery_status: PARKED
+- matter_id: 25-1185-00001
+  aliases:
+    email:
+      name_keys:
+      - alexanderklys
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Alexander Klys
+    delivery_status: STANDARD
+- matter_id: 25-1192-00001
+  aliases:
+    email:
+      name_keys:
+      - knotchurros
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: The Knot Churros International Limited
+    delivery_status: PARKED
+- matter_id: 25-1231-00001
+  aliases:
+    email:
+      name_keys:
+      - charmaine
+      - spiteri
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Charmaine Spiteri
+    delivery_status: STRATEGIC
+- matter_id: 25-1318-00001
+  aliases:
+    email:
+      name_keys:
+      - crogers
+      - culibrk
+      - georgestreetlaw
+      - nadia
+      - natasha
+      - zeeculibrk
+      - zeljko
+      - zelko
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Zelko Culibrk
+    delivery_status: STRATEGIC
+- matter_id: 25-1363-00001
+  aliases:
+    email:
+      name_keys:
+      - raevan
+      - sambrano
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Raevan Joy Sambrano
+    delivery_status: STANDARD
+- matter_id: 25-1525-00001
+  aliases:
+    email:
+      name_keys:
+      - kleenup
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Kleenup Cleaning Services Inc.
+    delivery_status: STANDARD
+- matter_id: 25-1538-00002
+  aliases:
+    email:
+      name_keys:
+      - georgiana
+      - nicoara
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Georgiana Nicoară
+    delivery_status: STANDARD
+- matter_id: 25-1571-00001
+  aliases:
+    email:
+      name_keys:
+      - jyotika
+      - jyotikagahlaut
+      - kishmish
+      - yash
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: STANDARD
+- matter_id: 25-1588-00001
+  aliases:
+    email:
+      name_keys:
+      - gregorypopov
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: STANDARD
+- matter_id: 25-1593-00001
+  aliases:
+    email:
+      name_keys:
+      - chrisroop
+      - kalemart
+      - roop
+      - roopchristopher
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: 1001162998 Ontario Corp. o/a KaleMart
+    client:
+    - KaleMart (Franchisee)
+    third_parties:
+    - KaleMart (Franchisor)
+    - Chris Roop
+    delivery_status: STRATEGIC
+- matter_id: 25-1603-00001
+  aliases:
+    email:
+      name_keys:
+      - iberbanco
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: ESSENTIAL
+- matter_id: 25-1614-00001
+  aliases:
+    email:
+      name_keys:
+      - chen
+      - chenben
+      - chenclearskynetwork
+      - clearsky
+      - clearsky-network
+      - clearskynetwork
+      domains:
+      - clearsky-network.com
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: STANDARD
+- matter_id: 25-174-00001
+  aliases:
+    email:
+      name_keys:
+      - daniellethompson
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: PARKED
+- matter_id: 25-192-00003
+  aliases:
+    email:
+      name_keys:
+      - ifnotme
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: PARKED
+- matter_id: 25-194-00059
+  aliases:
+    email:
+      name_keys:
+      - akhil
+      - ashley
+      - ashleyalmeida
+      - brittany
+      - dwright
+      - mmandarino
+      - rmcarpenters
+      - rousseaumazzuca
+      senders:
+      - ashley@rousseaumazzuca.com
+      domains:
+      - rousseaumazzuca.com
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: RM Carpenters training center
+    delivery_status: STANDARD
+- matter_id: 25-256-00005
+  aliases:
+    email:
+      name_keys:
+      - aspire
+      - aspireinfusions
+      - michael
+      - michaelboudoumit
+      - shane
+      domains:
+      - aspireinfusions.ca
+      - aspireinfusions.com
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Aspire Infusions Inc
+    delivery_status: STRATEGIC
+- matter_id: 25-822-00001
+  aliases:
+    email:
+      name_keys:
+      - hajibeigy
+      - majid
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Majid Hajibeigy
+    delivery_status: PARKED
+- matter_id: 25-927-00003
+  aliases:
+    email:
+      name_keys:
+      - berkeley-ig
+      - elliptic
+      - fargent
+      - fireblocks
+      - harry
+      - harryb
+      - jamesh
+      - jameshayes
+      - jayunalkat
+      - sbedi
+      - snowcap
+      - sonia
+      - stream
+      - tulikad
+      - tulikadhar
+      domains:
+      - berkeley-ig.com
+      - elliptic.co
+      - fireblocks.com
+      - stream.money
+      - tulika.d
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Stream Ventures Limited
+    summary: Stream Ventures Limited is a payments/MSB client with active CAMLO (Chief
+      AML Officer) operations through its subsidiary SnowCap Financial. Current work
+      includes AML/ATF policy development, FINTRAC compliance filings, Wolfsberg FCCQ
+      completion, and banking partner RPAA negotiations. Prior work included acquisition
+      of Stream and incorporation/registration of Maple Wave as an MSB.
+    client:
+    - Stream Ventures Limited
+    related_parties:
+    - SnowCap Financial Limited (Maple Wave)
+    third_parties:
+    - ClearSky (acquisition)
+    - Banking partners (RPAA)
+    - FINTRAC
+    - BC Registries
+    delivery_status: ESSENTIAL
+- matter_id: 26-1630-00001
+  aliases:
+    email:
+      name_keys:
+      - marcelahernandez
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    matter_name: Marcela Hernandez
+    delivery_status: PARKED
+- matter_id: 26-259-00003
+  aliases:
+    email:
+      name_keys:
+      - marjanbanisaeed
+      - mbanisa
+      - mbanisaeed
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+  brief:
+    delivery_status: STANDARD
+- matter_id: FIRM_INTERNAL
+  aliases:
+    email:
+      name_keys:
+      - lauraehin
+      - lauraehinton
+      - lauraehintonn
+      - laurahinton
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+- matter_id: SKIP
+  aliases:
+    email:
+      name_keys:
+      - dinamoore
+      - dmlawclerks
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from participant_mapping.yaml
+- matter_id: 22-194-00006
+  aliases:
+    email:
+      name_keys: []
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from MATTER_BRIEF.md
+  brief:
+    matter_name: Rousseau Mazzuca LLP
+    delivery_status: STANDARD
+- matter_id: 23-194-00013
+  aliases:
+    email:
+      name_keys: []
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from MATTER_BRIEF.md
+  brief:
+    matter_name: Rousseau Mazzuca LLP
+    delivery_status: STANDARD
+- matter_id: 25-845-00002
+  aliases:
+    email:
+      name_keys: []
+      domains: []
+      senders: []
+  review:
+    status: needs_ml1_review
+    notes: Imported from MATTER_BRIEF.md
+  brief:
+    matter_name: STAR 333 SPORTS INC.
+    delivery_status: STANDARD

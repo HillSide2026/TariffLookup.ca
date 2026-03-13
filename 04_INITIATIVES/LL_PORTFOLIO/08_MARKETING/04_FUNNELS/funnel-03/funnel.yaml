@@ -1,0 +1,58 @@
+meta:
+  id: funnel-03
+  name: Book + Blog -> GHL Intake
+  status: active
+  owner: ML1
+  version: 2.1.0
+  last_updated: '2026-02-16'
+lineage:
+  type: independent
+  of: null
+  state: null
+  renumbered_from: funnel-02
+  note: This funnel was previously tracked as Funnel 02; renumbered to Funnel 03 to free Funnel 02 for F1 future-state.
+structure:
+  positioning: positioning.yaml
+  target: target.yaml
+  traffic: traffic.yaml
+  intake: intake.yaml
+  pipeline: pipeline.yaml
+  metrics: metrics.yaml
+spec:
+  offer:
+    primary: Payments / MSB / PSP counsel
+    entry_offers:
+      - MSB Registration Mandate
+      - Suspicious Transaction Triage and STR Filing
+      - AML Health Check
+    core_offers:
+      - Ongoing AML Counsel Retainer
+history:
+- v: 2.1.0
+  date: '2026-02-16'
+  by: ML1
+  change: Moved Ongoing AML Counsel Retainer from entry offers to core offers.
+- v: 2.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Updated Funnel 3 entry offers to the four AML/MSB mandate options.
+- v: 1.2.1
+  date: '2026-02-15'
+  by: ML1
+  change: Clarified target profile as fintech/payments/stablecoin decision-makers with Canada exposure or interest.
+- v: 1.2.0
+  date: '2026-02-15'
+  by: ML1
+  change: Added full target profile, exclusions, and positioning refinements.
+- v: 1.1.0
+  date: '2026-02-15'
+  by: ML1
+  change: Restructured into modular files and applied file-ownership schema.
+- v: 1.0.1
+  date: '2026-02-15'
+  by: ML1
+  change: Renumbered from funnel-02 to funnel-03 and added required header schema.
+- v: 1.0.0
+  date: '2026-02-15'
+  by: ML1
+  change: Initial funnel spec created from Funnel 2 doctrine.

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=ad030752-3c42-4bc2-a0aa-4e642259b844&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMTZi-3I2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix6Mys4M0lmMld5N2IzdlhvM3VZNlpFbFd0K1QrR3dla0VlT3FsZWFqN2hrPTCLATgBQhCh8qMe6MAAsJ3zKHqczcD2ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.KQtaN5KPKUyGkDoo9WT2-JjeHle0rSld1hdk1V9Ws44&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2024-12-09T21:03:19Z",
+  "eTag": "\"{AD030752-3C42-4BC2-A0AA-4E642259B844},4\"",
+  "id": "01YY66BGSSA4B22QR4YJF2BKSOMQRFTOCE",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-07T19:35:32Z",
+  "name": "Letter of Intent (Acquisition of Shares) v2.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRY6T5XP4NZTJC2RZADPYD45TI4",
+    "name": "24-682-00002 Acquisition of Stream",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BAD030752-3C42-4BC2-A0AA-4E642259B844%7D&file=Letter%20of%20Intent%20(Acquisition%20of%20Shares)%20v2.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{AD030752-3C42-4BC2-A0AA-4E642259B844},16\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "kC+uxFLm212Oxz+4jRd+IZAZkns="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2024-12-09T21:03:19Z",
+    "lastModifiedDateTime": "2025-02-07T19:35:32Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 33753
+}

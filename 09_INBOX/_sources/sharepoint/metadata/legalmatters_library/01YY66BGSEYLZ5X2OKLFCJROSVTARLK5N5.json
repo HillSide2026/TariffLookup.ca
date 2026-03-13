@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-05T20:33:12Z",
+  "eTag": "\"{DBF3C244-CAE9-4459-98BA-559822B575BD},1\"",
+  "id": "01YY66BGSEYLZ5X2OKLFCJROSVTARLK5N5",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-10-05T20:33:12Z",
+  "name": "Clerk Work -- Pooja",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTKI2CHGNZKKNH2GDF4LRPF5IJY",
+    "name": "Clerk Work",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Clerk%20Work%20--%20Pooja",
+  "cTag": "\"c:{DBF3C244-CAE9-4459-98BA-559822B575BD},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-05T20:33:12Z",
+    "lastModifiedDateTime": "2025-10-05T20:33:12Z"
+  },
+  "folder": {
+    "childCount": 0
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 0
+}

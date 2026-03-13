@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "run_manifest.schema.json",
+  "title": "ML2 Run Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "timestamp",
+    "runner_version",
+    "requested_runbook",
+    "approval_mode",
+    "policies_version",
+    "inputs_summary",
+    "outputs_index",
+    "exceptions"
+  ],
+  "properties": {
+    "run_id": { "type": "string", "minLength": 1 },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "runner_version": { "type": "string", "minLength": 1 },
+    "requested_runbook": { "type": "string", "minLength": 1 },
+    "approval_mode": { "type": "string", "enum": ["Auto", "Propose", "Manual"] },
+    "policies_version": { "type": "string", "minLength": 1 },
+    "inputs_summary": {
+      "description": "Redacted inputs summary; do not store secrets or full message bodies.",
+      "type": "object",
+      "additionalProperties": true
+    },
+    "outputs_index": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          }
+        }
+      }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["type", "message"],
+        "properties": {
+          "type": { "type": "string" },
+          "message": { "type": "string" },
+          "detail": { "type": "string" }
+        }
+      }
+    }
+  }
+}

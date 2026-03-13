@@ -1,0 +1,7 @@
+primary_metrics:
+- cost_per_qualified_lead
+- consult_show_rate
+- retention_rate
+secondary_metrics:
+- emotional_drain_index
+- payment_friction_rate

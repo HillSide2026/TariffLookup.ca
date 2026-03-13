@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-02T08:24:30Z",
+  "eTag": "\"{503D82DA-7E52-4AF7-93CD-87F819F3DFFA},3\"",
+  "id": "01YY66BGW2QI6VAUT665FJHTMH7AM7HX72",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-23T21:53:12Z",
+  "name": "SPA from ClearkSky Feb17",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQLXHVYYR4GQRDLZD36DE7IHIPA",
+    "name": "Draft SPA",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00002%20Acquisition%20of%20Stream/Purchase%20Agreement/Draft%20SPA/SPA%20from%20ClearkSky%20Feb17",
+  "cTag": "\"c:{503D82DA-7E52-4AF7-93CD-87F819F3DFFA},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-02T08:24:30Z",
+    "lastModifiedDateTime": "2025-09-23T21:53:12Z"
+  },
+  "folder": {
+    "childCount": 7
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 533688
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "saa_metadata_enforcer-0469165d",
+    "agent": "SAA_METADATA_ENFORCER",
+    "severity": "MAJOR",
+    "category": "metadata",
+    "title": "Missing required frontmatter fields",
+    "description": "Missing frontmatter in 1 files; missing required fields in 12 files.",
+    "affected_paths": [
+      "00_SYSTEM/constitution.md",
+      "01_DOCTRINE/02_interpretive/SYSTEM_IDENTITY.md",
+      "01_DOCTRINE/02_policies/ML1_APPROVAL_BOUNDARIES.md",
+      "01_DOCTRINE/02_policies/WRITE_BACK_POLICY.md",
+      "03_TEMPLATES/LL_PORTFOLIO_ENTRY/README.md",
+      "03_TEMPLATES/MATTER_TEMPLATE/00_META.md",
+      "03_TEMPLATES/MATTER_TEMPLATE/FACTS_TIMELINE.md",
+      "03_TEMPLATES/MATTER_TEMPLATE/ISSUES_AND_POSITIONS.md",
+      "03_TEMPLATES/MATTER_TEMPLATE/MATTER_BRIEF.md",
+      "03_TEMPLATES/MATTER_TEMPLATE/README.md",
+      "03_TEMPLATES/README.md",
+      "03_TEMPLATES/STAGE3/COVERAGE_LIST_TYPES.md",
+      "03_TEMPLATES/STAGE3/NEUTRAL_SUMMARY_FORMAT.md"
+    ],
+    "suggested_fix": "Add YAML frontmatter with required fields per SCHEMAS.md.",
+    "references": null,
+    "created_at": "2026-02-14T19:52:33.021124Z"
+  }
+]

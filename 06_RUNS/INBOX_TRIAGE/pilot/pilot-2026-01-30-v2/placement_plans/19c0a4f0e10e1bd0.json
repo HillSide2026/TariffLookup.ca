@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0a4f0e10e1bd0",
+  "object_type": "Matters \u2014 Activity",
+  "lifecycle_state": "Reference",
+  "system_domain": "Matters",
+  "confidence": 0.65,
+  "reasoning_trace": [
+    "Sender domain suggests legal",
+    "No action indicators"
+  ],
+  "proposed_destination": "05_MATTERS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T04:00:08.580830+00:00",
+  "model_version": "inbox-triage-v0.2"
+}

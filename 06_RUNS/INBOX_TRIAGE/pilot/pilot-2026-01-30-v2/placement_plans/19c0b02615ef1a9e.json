@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0b02615ef1a9e",
+  "object_type": "Matters \u2014 Client",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Matters",
+  "confidence": 0.75,
+  "reasoning_trace": [
+    "Marked important - potential client",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "05_MATTERS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T04:00:05.008168+00:00",
+  "model_version": "inbox-triage-v0.2"
+}

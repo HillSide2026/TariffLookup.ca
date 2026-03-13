@@ -1,0 +1,54 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=11ef3f0d-5ad8-4697-a9a6-f0ee5bd42a34&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKyeoPTA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix0S0s4MGhHT05CMVMvZHY4K2g5dUtJTEVoemlsNGpSTlhKWE85eEFnOVZRPTCLATgBQhCh8qME4cAAsHnRbCZD9qz3ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.LqkFAsm1H6zWekWapWSTJnBVcXmiDhQBW-Oa2FAnXco&ApiVersion=2.0",
+  "createdBy": {
+    "application": {
+      "id": "e03a13ee-9730-4cae-8525-47559c8cf18a",
+      "displayName": "i:0i.t|ms.sp.ext|e03a13ee-9730-4cae-8525-47559c8cf18a@02b3623c-1583-4fe4-93c6-bf045205fcc2"
+    },
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-23T23:12:22Z",
+  "eTag": "\"{11EF3F0D-5AD8-4697-A9A6-F0EE5BD42A34},2\"",
+  "id": "01YY66BGQNH7XRDWC2S5DKTJXQ5ZN5IKRU",
+  "lastModifiedBy": {
+    "application": {
+      "id": "e03a13ee-9730-4cae-8525-47559c8cf18a",
+      "displayName": "i:0i.t|ms.sp.ext|e03a13ee-9730-4cae-8525-47559c8cf18a@02b3623c-1583-4fe4-93c6-bf045205fcc2"
+    },
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-23T23:12:23Z",
+  "name": "TEMPLATE Letter to Accountant _Annual Resolutions_ _OBCA_ (1) - Copy.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXXCBNMSNX4KBDZRPZE427GUNFN",
+    "name": "RM Minute books - Michael",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/RM Minute books - Michael",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B11EF3F0D-5AD8-4697-A9A6-F0EE5BD42A34%7D&file=TEMPLATE%20Letter%20to%20Accountant%20_Annual%20Resolutions_%20_OBCA_%20(1)%20-%20Copy.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{11EF3F0D-5AD8-4697-A9A6-F0EE5BD42A34},3\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "y95wMYmDB3W0wVLkJkLh5exRpZo="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-23T23:12:22Z",
+    "lastModifiedDateTime": "2025-11-23T23:12:23Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 28843
+}

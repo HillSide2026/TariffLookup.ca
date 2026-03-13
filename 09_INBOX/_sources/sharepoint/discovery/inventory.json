@@ -1,0 +1,1717 @@
+{
+  "columns": {
+    "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh": {
+      "all_columns_count": 36,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I": {
+      "all_columns_count": 36,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM": {
+      "all_columns_count": 34,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp": {
+      "all_columns_count": 34,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK": {
+      "all_columns_count": 46,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw": {
+      "all_columns_count": 39,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i": {
+      "all_columns_count": 45,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3": {
+      "all_columns_count": 43,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P": {
+      "all_columns_count": 47,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3": {
+      "all_columns_count": 55,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey": {
+      "all_columns_count": 40,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    },
+    "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-": {
+      "all_columns_count": 34,
+      "column_check": {
+        "SB_ApprovedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_ApprovedBy": {
+          "actual_type": null,
+          "expected_type": "User",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalFileRef": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_FinalizedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedAt": {
+          "actual_type": null,
+          "expected_type": "DateTime",
+          "found": false,
+          "type_match": false
+        },
+        "SB_GeneratedBy": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_RunID": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        },
+        "SB_Status": {
+          "actual_type": null,
+          "expected_type": "Choice",
+          "found": false,
+          "type_match": false
+        },
+        "SB_TemplateVersion": {
+          "actual_type": null,
+          "expected_type": "Text",
+          "found": false,
+          "type_match": false
+        }
+      },
+      "sb_columns": {}
+    }
+  },
+  "current_config": {
+    "content": {
+      "sharepoint": {
+        "drive_id": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+        "intake_paths": [
+          "Legal Matters",
+          "Intake"
+        ],
+        "site": "levinellp.sharepoint.com/sites/Documentation"
+      }
+    },
+    "path": "/Users/matthewlevine/Repos/ll-secondbrain/00_SYSTEM/integrations/sharepoint/sharepoint_sources.yaml"
+  },
+  "drives_by_site": {
+    "levinellp.sharepoint.com,129fbf25-8f8f-4197-ba4d-9828bbf7658f,87cc4b45-5fec-4f02-b38b-23faea76efa8": [
+      {
+        "description": "materials from Marketing and Fulfillment folders",
+        "driveType": "documentLibrary",
+        "id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I",
+        "name": "Archive 2",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%202"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM",
+        "name": "Documents",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents"
+      },
+      {
+        "description": "materials from \"Master Library\" site that were already archived",
+        "driveType": "documentLibrary",
+        "id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp",
+        "name": "Archive 1",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201"
+      }
+    ],
+    "levinellp.sharepoint.com,73ecb0df-6d87-40e6-b427-6d76b8d6a73b,ce46681f-fbfa-47a5-959c-482ce63cf02d": [
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh",
+        "name": "Documents",
+        "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub/Shared%20Documents"
+      }
+    ],
+    "levinellp.sharepoint.com,8758ea69-efb5-462e-8940-52962f4ca105,da0c6d79-a438-4994-a523-cbf97fae67eb": [
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3",
+        "name": "Intake Records",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Intake%20Records"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw",
+        "name": "Master Library",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Shared%20Documents"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey",
+        "name": "Training",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training"
+      },
+      {
+        "description": "Documents that require work from Doc Pro",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P",
+        "name": "Doc Pro Workspace",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK",
+        "name": "Template-based Engagements",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Onboarding%20%20Engagement"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i",
+        "name": "Template-based Retainers",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Onboarding%20%20Retainer%20Agreements"
+      },
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3",
+        "name": "Onboarding Resources",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates"
+      }
+    ],
+    "levinellp.sharepoint.com,d1f7f3b5-fefc-4226-b12c-905a4e6aeb0a,be1e60b7-e3c4-45fe-875d-e6588ef06a97": [
+      {
+        "description": "",
+        "driveType": "documentLibrary",
+        "id": "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-",
+        "name": "Documents",
+        "webUrl": "https://levinellp.sharepoint.com/Shared%20Documents"
+      }
+    ]
+  },
+  "rest_validation": {
+    "fields_by_library": {},
+    "libraries": [
+      {
+        "error": {
+          "code": 401,
+          "message": "{\"error_description\":\"Exception of type 'Microsoft.IdentityModel.Tokens.AudienceUriValidationFailedException' was thrown.\"}"
+        }
+      }
+    ]
+  },
+  "root_children_by_drive": {
+    "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh": [
+      {
+        "childCount": 5,
+        "id": "01NN5LKWU4G5Z32GCY5JALUKMKP4K5PTED",
+        "name": "Information Initiatives (aka Solution-Based Resources)",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub/Shared%20Documents/Information%20Initiatives%20(aka%20Solution-Based%20Resources)"
+      },
+      {
+        "childCount": 8,
+        "id": "01NN5LKWTYDANN6UJPZFGKBFN4TX2W5YTW",
+        "name": "Knowledge Initiatives (aka Knowledge Resources)",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub/Shared%20Documents/Knowledge%20Initiatives%20(aka%20Knowledge%20Resources)"
+      },
+      {
+        "childCount": 0,
+        "id": "01NN5LKWUUVNCZF4GP2ZB3ADH2UPUSP7GI",
+        "name": "Marketing Presentations",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub/Shared%20Documents/Marketing%20Presentations"
+      },
+      {
+        "childCount": 0,
+        "id": "01NN5LKWSVAOZSHIZYLJC2Z4EULCMYKA53",
+        "name": "Marketing Proposals",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub/Shared%20Documents/Marketing%20Proposals"
+      }
+    ],
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I": [
+      {
+        "childCount": 4,
+        "id": "01TW7W2LXGQZJWO3AV7NB2S2GH6UNQ5OBN",
+        "name": "2 Fulfilment",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%202/2%20Fulfilment"
+      },
+      {
+        "childCount": 0,
+        "id": "01TW7W2LXPXDGK7PYSJRAY2PBEOS223PAP",
+        "name": "archive 2 Fulfillment",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%202/archive%202%20Fulfillment"
+      },
+      {
+        "childCount": 1,
+        "id": "01TW7W2LSKDAJXOYIZRJHZVDVFZVPHZUV2",
+        "name": "archive 4 Marketing",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%202/archive%204%20Marketing"
+      },
+      {
+        "childCount": 10,
+        "id": "01TW7W2LRGWBGLCRCW5VCYVFM4MBUDT4RN",
+        "name": "MH NumberCorp",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%202/MH%20NumberCorp"
+      }
+    ],
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM": [
+      {
+        "childCount": 0,
+        "id": "01TW7W2LSKAFVIDALNTVDYU5VKUDJJUI7O",
+        "name": "General",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents/General"
+      },
+      {
+        "childCount": 0,
+        "id": "01TW7W2LVGCSXEGCXQLRFJVHL277QV4ZPT",
+        "name": "Project team 1",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents/Project%20team%201"
+      },
+      {
+        "childCount": 0,
+        "id": "01TW7W2LXO2QLFDH5MTNH32TKVZZYO5OOD",
+        "name": "Project team 2",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents/Project%20team%202"
+      },
+      {
+        "childCount": 0,
+        "id": "01TW7W2LU65G6NLNCFORH2OHLTG6YJZFIU",
+        "name": "Subjects",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents/Subjects"
+      },
+      {
+        "childCount": 0,
+        "id": "01TW7W2LTMM6YXAHTNPZGJ34O5PZG7P5KY",
+        "name": "Units",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Shared%20Documents/Units"
+      }
+    ],
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp": [
+      {
+        "childCount": 4,
+        "id": "01TW7W2LUN2IOJLNXQGRB3762AZLOJEE74",
+        "name": "1 Onboarding",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/1%20Onboarding"
+      },
+      {
+        "childCount": 4,
+        "id": "01TW7W2LXCPSIM32I3FJGK6ELLXGT2ZL7A",
+        "name": "2 Service",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/2%20Service"
+      },
+      {
+        "childCount": 4,
+        "id": "01TW7W2LTYD6KBDIKT4ZD2ISO7CPBLK4SB",
+        "name": "3 Admin",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/3%20Admin"
+      },
+      {
+        "childCount": 3,
+        "id": "01TW7W2LTPT3Q5GFOBBRBISZMABZIW2NWD",
+        "name": "archive 4 Marketing",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/archive%204%20Marketing"
+      },
+      {
+        "childCount": 2,
+        "id": "01TW7W2LTSPN5BGDYMDVBLEWG6MRUWKABK",
+        "name": "Doc Pro Team Archives",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/Doc%20Pro%20Team%20Archives"
+      },
+      {
+        "childCount": 1,
+        "id": "01TW7W2LU4ZZCTVZIVXRH3KW24VFSSRI6P",
+        "name": "Documentation - Archives",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024/Archive%201/Documentation%20-%20Archives"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK": [
+      {
+        "childCount": null,
+        "id": "017KHWIVGJKTHBYV4HA5BLBMCT7D53E7I5",
+        "name": "Berhanehailetaame_ShareholderAgreement_Review.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B1CCE54C9-8757-4207-B0B0-53F8FBB27D1D%7D&file=Berhanehailetaame_ShareholderAgreement_Review.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVH7M6HE26V43JGYXHY3JBOMLP43",
+        "name": "Document.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B4D8E67FF-BC7A-4DDA-8B9F-1B485CC5BF9B%7D&file=Document.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVA3MO4OFVCETNE2KELWN6GEOLTX",
+        "name": "Jessa_Test.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BE2B8631B-44D4-499B-A511-766F8C472E77%7D&file=Jessa_Test.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVGZ7GKYEWNIGNHKADJEY3B2O7RX",
+        "name": "Test2_Jessa.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B8295F9D9-A859-4E33-A00D-24C6C3A77E37%7D&file=Test2_Jessa.docx&action=default&mobileredirect=true"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw": [
+      {
+        "childCount": 9,
+        "id": "017KHWIVA5KRGWYIYFFNFZE5LU5466VI5Z",
+        "name": "Knowledge Management",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Shared%20Documents/Knowledge%20Management"
+      },
+      {
+        "childCount": 9,
+        "id": "017KHWIVFQHOI63SYD7ZGK6OJTMJODXWLL",
+        "name": "Management",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Shared%20Documents/Management"
+      },
+      {
+        "childCount": 10,
+        "id": "017KHWIVGGTLXN3IOPSBBK2EIVORX6KBFS",
+        "name": "Practice Management",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Shared%20Documents/Practice%20Management"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i": [
+      {
+        "childCount": null,
+        "id": "017KHWIVDJ4G2L4KRFHVBIHI5UUUE5PEEH",
+        "name": "Document.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BBEB4E169-252A-423D-83A3-B4A509D79087%7D&file=Document.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVG27K23LAKHY5AI4Y6L66IWCQU7",
+        "name": "Jessa_Test.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BB5B5FADA-4781-40C7-8E63-CBF79161429F%7D&file=Jessa_Test.docx&action=default&mobileredirect=true"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3": [
+      {
+        "childCount": 1,
+        "id": "017KHWIVBNGQ5FAN3JDNE34DNHSLIDS7MP",
+        "name": "Practice Notes",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Intake%20Records/Practice%20Notes"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P": [
+      {
+        "childCount": 49,
+        "id": "017KHWIVCT3BS26WQ7ARC2QEBOWEYVCESV",
+        "name": "Archive",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/Archive"
+      },
+      {
+        "childCount": 7,
+        "id": "017KHWIVHUCNR7AGSXBREIQYBK7P3LJKWO",
+        "name": "Backlog",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/Backlog"
+      },
+      {
+        "childCount": 2,
+        "id": "017KHWIVCR7JZJFPO7KJFIAAOAGQQO2BAK",
+        "name": "Deliveries and Doc Pro Lead",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/Deliveries%20and%20Doc%20Pro%20Lead"
+      },
+      {
+        "childCount": 0,
+        "id": "017KHWIVBEHGI4PYVPXBC3M2GNOR3IX5DO",
+        "name": "DRAFT TEMPLATES - Engagement Agreements",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/DRAFT%20TEMPLATES%20-%20Engagement%20Agreements"
+      },
+      {
+        "childCount": 1,
+        "id": "017KHWIVBYJNKHU4U3WBHY2MALCVO7XTIE",
+        "name": "Letterhead",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/Letterhead"
+      },
+      {
+        "childCount": 4,
+        "id": "017KHWIVBSTHL7MVN6YRE3YPVEOJHJHOW6",
+        "name": "SB Execution",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution"
+      },
+      {
+        "childCount": 8,
+        "id": "017KHWIVG7VR2D26POHRFIFV36KCDENHAI",
+        "name": "SOP & Specs",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SOP%20%26%20Specs"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVEYXCP73AKLVBFJBNUJ6Z23EISE",
+        "name": "AGR - Krispin \u2013 Shareholders Agreement - DOC PRO.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BFD9FB898-4B81-4AA8-90B6-89F675B22244%7D&file=AGR%20-%20Krispin%20%E2%80%93%20Shareholders%20Agreement%20-%20DOC%20PRO.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVH3HKZOKSTYDRHY5WGF2UAUXJ5I",
+        "name": "AGR - Krispin \u2013 Shareholders Agreement - DOC PRO2.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BE5B23AFB-784A-4F1C-8ED8-C5D5014BA7A8%7D&file=AGR%20-%20Krispin%20%E2%80%93%20Shareholders%20Agreement%20-%20DOC%20PRO2.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVCJIQLBRJGI6JFK35IJO633W36T",
+        "name": "Escrow LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B18164449-C8A4-4AF2-ADF5-0977B7BB6FD3%7D&file=Escrow%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVBIKXRNTWN7HFBLDX3SEJ6MOWMC",
+        "name": "Escrow REFERENCE.pdf",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/Escrow%20REFERENCE.pdf"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVETLWTDBQVATBCY6DEUMDGCDWFZ",
+        "name": "Example - To Format.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B30A65D93-A0C2-4598-8F0C-9460CC21D8B9%7D&file=Example%20-%20To%20Format.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVEV7WMUXPXINVHYJCMQKWKM4KL7",
+        "name": "Example - To Review.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B4B99FD95-E8BE-4F6D-8489-905594CE297F%7D&file=Example%20-%20To%20Review.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVEZFSY6N2BZKJAYTNZH6NH2L3IA",
+        "name": "FDD_-_DRAFT 17June2025 redlined to jun24 LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BE6B12C99-39E8-4152-89B7-27F34FA5ED00%7D&file=FDD_-_DRAFT%2017June2025%20redlined%20to%20jun24%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVCLPPRLIKO5B5GY75MJKUMYOPKO",
+        "name": "July4 Cohabitation Agreement DRAFT LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BB4E27B4B-DD29-4D0F-8FF5-895519873D4E%7D&file=July4%20Cohabitation%20Agreement%20DRAFT%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVGZS6ZC4N6YENHKYQMVWHLVR3U3",
+        "name": "Jun30 Cohabitation Agreement DRAFT LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B2EB297D9-D837-4E23-AC41-95B1D758EE9B%7D&file=Jun30%20Cohabitation%20Agreement%20DRAFT%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVDE3FGYDZOGLNEYNEGF4YHFGMYW",
+        "name": "Note to Aspire Board May 12 Workflow B.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B814DD964-C6E5-495B-8690-C5E60E533316%7D&file=Note%20to%20Aspire%20Board%20May%2012%20Workflow%20B.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVFEGDNQT23TDRGLQFSPS7WRRPRR",
+        "name": "OFD SK Distribution Agreement (15) - Aspire redline LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B09DB30A4-73EB-4C1C-B816-4F97ED18BE31%7D&file=OFD%20SK%20Distribution%20Agreement%20(15)%20-%20Aspire%20redline%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVHXSGJC4IRL7VB2NW5VSV74VP7W",
+        "name": "Officer Indemnification Agreement workflow 3.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B2E9291F7-2B22-43FD-A6DB-B5957FCABFF6%7D&file=Officer%20Indemnification%20Agreement%20workflow%203.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVDRMMUAGJRDSZGJ6D2OOF3A7UPO",
+        "name": "onboarding_form__Stream.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B03286371-2326-4C96-9F0F-4E71760FD1EE%7D&file=onboarding_form__Stream.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVACU7Q5QPQP45BLVNKFEU4MT34C",
+        "name": "Proposal_PetroChemicals Anti-Dumping Duties 20Jun LM.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BD8E1A702-0F3E-42E7-BAB5-452538C9EF82%7D&file=Proposal_PetroChemicals%20Anti-Dumping%20Duties%2020Jun%20LM.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVDB73F4R2V5OBGIDDQFT3D6HGSJ",
+        "name": "Proposal_PetroChemicals Anti-Dumping Duties 3July.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BC8CBFE61-BDEA-4C70-818E-059EC7E39A49%7D&file=Proposal_PetroChemicals%20Anti-Dumping%20Duties%203July.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVBJQDXWSPRDYBGYZ6CZXBTB4ODG",
+        "name": "SCHEDULE B copy.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B69EF8029-233E-4DC0-8CF8-59B8661E3866%7D&file=SCHEDULE%20B%20copy.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVFXM2SL6M375FBIGEJMTCOKKVSV",
+        "name": "SCHEDULE B copy_auto-numbered.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BBFA466B7-7F33-42E9-8311-2C989CA55655%7D&file=SCHEDULE%20B%20copy_auto-numbered.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVE2OPL4PGYJJNFLN36W7BWAO5R4",
+        "name": "SCHEDULE B copy_retained numbering.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BC7D7739A-099B-4A4B-B6EF-D6F86C07763C%7D&file=SCHEDULE%20B%20copy_retained%20numbering.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVA6LKR3YNXYVJEYRIIMJIDTSMPI",
+        "name": "TEMPLATE OBCA Solo Incorporation ML.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BBCA35A1E-F836-49AA-88A1-0C4A073931E8%7D&file=TEMPLATE%20OBCA%20Solo%20Incorporation%20ML.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVFXHKGNLOAUWRCZPNRE3SUGKO64",
+        "name": "Tether_Contract_-_Asp redline.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BD58C3AB7-14B8-45B4-97B6-24DCA8653BDC%7D&file=Tether_Contract_-_Asp%20redline.docx&action=default&mobileredirect=true"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3": [
+      {
+        "childCount": 2,
+        "id": "017KHWIVAQMJEA4XNYUNELRIVOWAXBPJXX",
+        "name": "Active (For Team to Save, Edit and Request E-Signature)",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Active%20(For%20Team%20to%20Save,%20Edit%20and%20Request%20E-Signature)"
+      },
+      {
+        "childCount": 5,
+        "id": "017KHWIVCIWHBXGA2QIRGJGMXJSVHFMBPU",
+        "name": "Active Templates",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Active%20Templates"
+      },
+      {
+        "childCount": 3,
+        "id": "017KHWIVGHAJAPF7NTI5HKIBZY3FGRRONP",
+        "name": "archive",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/archive"
+      },
+      {
+        "childCount": 34,
+        "id": "017KHWIVCCXWN4VH7P25GJKB22XFCFF2XW",
+        "name": "Engagement Agreements - Practice",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Engagement%20Agreements%20-%20Practice"
+      },
+      {
+        "childCount": 30,
+        "id": "017KHWIVC5KGC6DMKV5NE2VMLIJ7ICS73X",
+        "name": "Retainer Agreements - Practice",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Retainer%20Agreements%20-%20Practice"
+      },
+      {
+        "childCount": 1,
+        "id": "017KHWIVC7WP2Z7J2I3VEYB4J5PCIDN3MY",
+        "name": "Solution Matters",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Solution%20Matters"
+      },
+      {
+        "childCount": 1,
+        "id": "017KHWIVCJX2CFBRFYKVC3SPL53KSXZGMC",
+        "name": "SOP & Specs",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/SOP%20%26%20Specs"
+      },
+      {
+        "childCount": 14,
+        "id": "017KHWIVEVBQQZ7QAELFEZDE34L26QVV65",
+        "name": "working copies (up to March 2025)",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/working%20copies%20(up%20to%20March%202025)"
+      },
+      {
+        "childCount": 11,
+        "id": "017KHWIVFXDDOG7HHF4VCYU2CLE2XQNQBD",
+        "name": "WORKING TEMPLATES - Engagement Agreements",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/WORKING%20TEMPLATES%20-%20Engagement%20Agreements"
+      },
+      {
+        "childCount": 4,
+        "id": "017KHWIVGBU44IYNRZ6BGJIRX5XUEVSA3M",
+        "name": "WORKING TEMPLATES - Proposals",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/WORKING%20TEMPLATES%20-%20Proposals"
+      },
+      {
+        "childCount": 16,
+        "id": "017KHWIVBUANIHDWD23BHIOMJLFOOCT7TZ",
+        "name": "WORKING TEMPLATES - Retainer Agreement",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/WORKING%20TEMPLATES%20-%20Retainer%20Agreement"
+      },
+      {
+        "childCount": 0,
+        "id": "017KHWIVAWYED442WGIVCICYLLXCTNCTEW",
+        "name": "Worksheets",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/Worksheets"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVC7J6UJI4FZWFE2ML3YX6MRREDY",
+        "name": "Document.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B94A84F5F-B970-49B1-A62F-78BF99189078%7D&file=Document.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVEMTAVYRDQTNVEJPX5KP5Q3QXNH",
+        "name": "Document1.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B882B988C-138E-486D-97DF-AA7F61B85DA7%7D&file=Document1.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVCIZAPXEGGWTNHY5XE6DQ37PRBY",
+        "name": "Document2.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B721FC848-D618-4F9B-8EDC-9E1C37F7C438%7D&file=Document2.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVHYKHJJDPUAPZEJ4BZKJG636OYC",
+        "name": "Document3.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B91D251F8-80BE-487E-9E07-2A49BDBF3B02%7D&file=Document3.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVDCCMA63R6Q75G3SQ5SVLAF2JBR",
+        "name": "RETAINERAgreement_Corporation_JADE INC.pdf",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Engagement%20Agreement%20%20Templates/RETAINERAgreement_Corporation_JADE%20INC.pdf"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVH5GDIOL4H5Z5BZV2OCSUIXDKKZ",
+        "name": "RetainerAgreement_Loom Commerce Inc. o_a Meemup_20January2026.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BE5D030FD-FDF0-43CF-9AE9-C2951171A959%7D&file=RetainerAgreement_Loom%20Commerce%20Inc.%20o_a%20Meemup_20January2026.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVD7XTJHFRAE7JFZT5ZTVV65QMUE",
+        "name": "RetainerAgreement_MarjanBanisaeed_9February2026.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B72D2BC7F-04C4-4BFA-99F7-33AD7DD83284%7D&file=RetainerAgreement_MarjanBanisaeed_9February2026.docx&action=default&mobileredirect=true"
+      }
+    ],
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey": [
+      {
+        "childCount": 2,
+        "id": "017KHWIVAWU27DNBTA6VGJP34NCZBOZH4I",
+        "name": "2. Fulfilllment System",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/2.%20Fulfilllment%20System"
+      },
+      {
+        "childCount": 2,
+        "id": "017KHWIVDNK26ARWYGYBEIJAJHQJJZBLLW",
+        "name": "2.0 Onboarding",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/2.0%20Onboarding"
+      },
+      {
+        "childCount": 2,
+        "id": "017KHWIVFFSNQI3WKFEBAJYZYUCD3PFX6M",
+        "name": "2.1 Opening",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/2.1%20Opening"
+      },
+      {
+        "childCount": 5,
+        "id": "017KHWIVG2V52LBVNNSRH3ZEWCC3S6T3CW",
+        "name": "2.2 Maintenance",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/2.2%20Maintenance"
+      },
+      {
+        "childCount": 1,
+        "id": "017KHWIVBJ77EG4CE7PBHZAI74GBAW6EX6",
+        "name": "2.a Accounts",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/2.a%20Accounts"
+      },
+      {
+        "childCount": 15,
+        "id": "017KHWIVB47SF6ZNMGHZELK5UIDLEDSGQC",
+        "name": "Doc Pro",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/Doc%20Pro"
+      },
+      {
+        "childCount": 3,
+        "id": "017KHWIVBRPLVB5EBOYZE3J72ZOUOFDKRL",
+        "name": "Operating Polices",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/Operating%20Polices"
+      },
+      {
+        "childCount": 1,
+        "id": "017KHWIVATWRMXJAUKHRCJNFLSDJSJ5SF7",
+        "name": "Secondary Solutions aka Practice Library",
+        "type": "folder",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/Secondary%20Solutions%20aka%20Practice%20Library"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVB7WTXT5HS7SVHZ3HYKATC6K7SM",
+        "name": "Delivery Mission 2025.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B3EEFB43F-5F9E-4F95-9D9F-0A04C5E57E4C%7D&file=Delivery%20Mission%202025.docx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVFIELA44AHLA5GYVPRVBFA6DNLQ",
+        "name": "Doc Pro - Letter Specifications Quiz.xlsx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7BCEC122A8-EB00-4D07-8ABE-350941E1B570%7D&file=Doc%20Pro%20-%20Letter%20Specifications%20Quiz.xlsx&action=default&mobileredirect=true"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVGIQM2FT7T335H2NVTJEF3S6EAR",
+        "name": "Firm - Core Systems.png",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/Firm%20-%20Core%20Systems.png"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVCAXXKLOGKPVVFKM6JEIN7OIXF4",
+        "name": "Firm - Value Flow.png",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Training/Firm%20-%20Value%20Flow.png"
+      },
+      {
+        "childCount": null,
+        "id": "017KHWIVA2A5YJP4U4CVGLSRGKCDLD2EEI",
+        "name": "Firm Mission2025.docx",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/_layouts/15/Doc.aspx?sourcedoc=%7B9770071A-9CF2-4C15-B944-CA10D63D1088%7D&file=Firm%20Mission2025.docx&action=default&mobileredirect=true"
+      }
+    ],
+    "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-": [
+      {
+        "childCount": null,
+        "id": "01RZBD4LX4Y76KPOZI45E35BDKOEOFM4EZ",
+        "name": "MJL Header 2.docx.url",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/Shared%20Documents/MJL%20Header%202.docx.url"
+      },
+      {
+        "childCount": null,
+        "id": "01RZBD4LUVBXM26NYQBNA2L5EINNZLAOKD",
+        "name": "MJL Header.docx.url",
+        "type": "file",
+        "webUrl": "https://levinellp.sharepoint.com/Shared%20Documents/MJL%20Header.docx.url"
+      }
+    ]
+  },
+  "sample_item_metadata": {
+    "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh": null,
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I": null,
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM": null,
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P": {
+      "item_id": "017KHWIVANJN7IU5JUV5E3QNTP6H4LUBFY",
+      "item_name": "sb_generated_by_system.txt",
+      "sb_fields_present": [],
+      "sb_fields_values": {}
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3": null,
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey": null,
+    "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-": null
+  },
+  "sb_execution": {
+    "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh": {
+      "drive_id": "b!37Dsc4dt5kC0J212uNanOx9oRs76-6VHlZxILOY88C1_quQ-_vZBSLYYrPXhASrh",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I": {
+      "drive_id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276gYXWeXJZIpR7yURrFHi64I",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM": {
+      "drive_id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276hJ3DpflWISS7WQm8V2HyZM",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp": {
+      "drive_id": "b!Jb-fEo-Pl0G6TZgou_dlj0VLzIfsXwJPs4sj-up276iCmffEDn3gSZ_u12pFjLGp",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s4UYgxOr4UTI9_b9Un7pFK",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-s5gFsMPBr9QoRQNz805afw",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-sWdvtlrwwdRLoz1hTwLu-i",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-t4rIKKR25pTZttHaXtptq3",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P",
+      "found": true,
+      "id": "017KHWIVBSTHL7MVN6YRE3YPVEOJHJHOW6",
+      "path": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution",
+      "subfolder_details": {
+        "DRAFTS": {
+          "childCount": 3,
+          "id": "017KHWIVDDUFGTNSDDYJGZF2V5OXBVFLOI",
+          "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/DRAFTS"
+        },
+        "FINAL": {
+          "childCount": 0,
+          "id": "017KHWIVHUT4KSP2ZNSVG2HVUUXL64OPGC",
+          "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/FINAL"
+        },
+        "RUN_LOGS": {
+          "childCount": 0,
+          "id": "017KHWIVEQGJFT2AVXQZE2WURHXZND5WOH",
+          "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/RUN_LOGS"
+        },
+        "TEMPLATES": {
+          "childCount": 6,
+          "id": "017KHWIVG2MPDGE6XXL5BKG2IWATADMOPQ",
+          "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/TEMPLATES"
+        }
+      },
+      "subfolders": {
+        "DRAFTS": true,
+        "FINAL": true,
+        "RUN_LOGS": true,
+        "TEMPLATES": true
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-ugfcjWjybGTaoO8_yBRLt3",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey": {
+      "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-vcdxIPsYdeToTFUzI2d1Ey",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    },
+    "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-": {
+      "drive_id": "b!tfP30fz-JkKxLJBaTmrrCrdgHr7E4_5Fh13mWI7wapdKzLM3kx1ETZQ28Nh9lxt-",
+      "found": false,
+      "path": null,
+      "subfolder_details": {},
+      "subfolders": {
+        "DRAFTS": false,
+        "FINAL": false,
+        "RUN_LOGS": false,
+        "TEMPLATES": false
+      }
+    }
+  },
+  "scan_timestamp": "2026-02-13T01:50:30+00:00",
+  "scanner_version": "1.0",
+  "sites": [
+    {
+      "discovery_method": "search",
+      "displayName": "Documentation",
+      "hostname": "levinellp.sharepoint.com",
+      "id": "levinellp.sharepoint.com,8758ea69-efb5-462e-8940-52962f4ca105,da0c6d79-a438-4994-a523-cbf97fae67eb",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation"
+    },
+    {
+      "discovery_method": "search",
+      "displayName": "Services Hub",
+      "hostname": "levinellp.sharepoint.com",
+      "id": "levinellp.sharepoint.com,73ecb0df-6d87-40e6-b427-6d76b8d6a73b,ce46681f-fbfa-47a5-959c-482ce63cf02d",
+      "webUrl": "https://levinellp.sharepoint.com/sites/ServicesHub"
+    },
+    {
+      "discovery_method": "search",
+      "displayName": "Levine Law SharePoint",
+      "hostname": "levinellp.sharepoint.com",
+      "id": "levinellp.sharepoint.com,d1f7f3b5-fefc-4226-b12c-905a4e6aeb0a,be1e60b7-e3c4-45fe-875d-e6588ef06a97",
+      "webUrl": "https://levinellp.sharepoint.com"
+    },
+    {
+      "discovery_method": "search",
+      "displayName": "LL Archive Site 2024",
+      "hostname": "levinellp.sharepoint.com",
+      "id": "levinellp.sharepoint.com,129fbf25-8f8f-4197-ba4d-9828bbf7658f,87cc4b45-5fec-4f02-b38b-23faea76efa8",
+      "webUrl": "https://levinellp.sharepoint.com/sites/LLArchiveSite2024"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+schema_version: 0.1
+playbook: DOC_DROP_ISSUE_LIST
+steps:
+  - id: retrieve_context
+    action: retrieve_bundle
+    bundle: doc_drop_issue_list
+  - id: parse_documents
+    action: parse_documents
+  - id: extract_issues
+    action: issue_spotter
+  - id: draft_tasks
+    action: task_list_builder
+  - id: write_outputs
+    action: write_outputs
+    outputs:
+      - outputs/issue_list.md
+      - outputs/task_list.md

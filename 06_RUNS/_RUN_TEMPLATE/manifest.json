@@ -1,0 +1,26 @@
+{
+  "run_id": "RUN-YYYY-MM-DD-MCP-SLUG-PLACEHOLDER",
+  "timestamp": "1970-01-01T00:00:00Z",
+  "runner_version": "0.0.0",
+  "requested_runbook": "runbook_name_here",
+  "approval_mode": "Auto",
+  "policies_version": "0.1",
+  "inputs_summary": {
+    "redaction": "No secrets. No full message bodies. Store only safe summaries/hashes.",
+    "run_parameters": {
+      "example": "replace with runbook inputs summary"
+    }
+  },
+  "outputs_index": [
+    {
+      "path": "outputs/README.md",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "exceptions": [
+    {
+      "type": "none",
+      "message": "none"
+    }
+  ]
+}

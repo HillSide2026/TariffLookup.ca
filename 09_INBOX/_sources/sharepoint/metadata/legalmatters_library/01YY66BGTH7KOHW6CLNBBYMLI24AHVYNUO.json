@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=7b9cfa67-4b78-4368-862d-1ae00f5c368e&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwNCJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPSqveLA2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixkc1lZam1TL3NNUWxUY2tUVVZSNGNLbzBSb09taHh0ZlZkTWRCZUwrM3NZPTCLATgBQhCh8qMEbUAAsHnRZOnZ0ng-ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.qtvs8byUj_x3i_HF2T53GFXg9j9h9aTYyP_oc3JCZws&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:49:58Z",
+  "eTag": "\"{7B9CFA67-4B78-4368-862D-1AE00F5C368E},2\"",
+  "id": "01YY66BGTH7KOHW6CLNBBYMLI24AHVYNUO",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:49:58Z",
+  "name": "PRECEDENT_Letter to Auditor _Resolutions in Lieu of Annual General M.DOCX",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUYQWXOTJOUQNFIRYK6JNYRMC3V",
+    "name": "Directors resolutions - 2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Directors resolutions - 2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B7B9CFA67-4B78-4368-862D-1AE00F5C368E%7D&file=PRECEDENT_Letter%20to%20Auditor%20_Resolutions%20in%20Lieu%20of%20Annual%20General%20M.DOCX&action=default&mobileredirect=true",
+  "cTag": "\"c:{7B9CFA67-4B78-4368-862D-1AE00F5C368E},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "LXNqIa0WFD0ljD1VwhXcwVMUGV0="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:49:58Z",
+    "lastModifiedDateTime": "2025-11-09T22:49:58Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 24219
+}

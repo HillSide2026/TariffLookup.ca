@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=397ebd5c-e03d-4f93-a9a2-1f11d26bfbef&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPiX0cnJ2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixkMk1hRURIZUVQYXkrdGNCSVhxMit3M1BMQTdJeXRkNWo4bWR0MnByamg0PTCLATgBQhCh8qMhSTAAsHnRbScPpP74ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.-P8Okg1v0EXiJ2rvkSI3ydvX6BeQLSyYn7yclgKff3o&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-21T16:16:09Z",
+  "eTag": "\"{397EBD5C-E03D-4F93-A9A2-1F11D26BFBEF},3\"",
+  "id": "01YY66BGS4XV7DSPPASNH2TIQ7CHJGX67P",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-21T16:20:35Z",
+  "name": "SnowCap SPA - Feb21 redline ML.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUCL4JMRSQ5C5CZWBYQZ2E6JJLM",
+    "name": "2025 Feb21_",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA/2025 Feb21_",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B397EBD5C-E03D-4F93-A9A2-1F11D26BFBEF%7D&file=SnowCap%20SPA%20-%20Feb21%20redline%20ML.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{397EBD5C-E03D-4F93-A9A2-1F11D26BFBEF},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "/Zv82WKMhpC9KOMRaW37lEDMbU0="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-21T16:16:09Z",
+    "lastModifiedDateTime": "2025-02-21T16:20:35Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 54390
+}

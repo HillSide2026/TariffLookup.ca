@@ -1,0 +1,9 @@
+{
+  "version": "0.1",
+  "enabled": false,
+  "notes": "If enabled=true, Gmail.CreateDraft must restrict recipients to these domains.",
+  "allowlisted_domains": [
+    "example.com",
+    "levinelaw.example"
+  ]
+}

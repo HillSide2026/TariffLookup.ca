@@ -1,0 +1,24 @@
+tools:
+  - ghl_form
+  - voice_ai
+  - sms_followup
+gates:
+  revenue_min: $1M
+  employee_min: 5
+  years_in_operation_min: 2
+  ontario_incorporation_required: true
+  active_operating_business_required: true
+  accountant_involved_required: true
+  document_readiness_required: true
+  document_list:
+    - articles and bylaws
+    - shareholder agreement
+    - director and officer registers
+    - key commercial contracts
+    - employment and contractor agreements
+    - option or equity documents
+    - minute book (if maintained)
+    - recent financing documents
+routing:
+  qualified: book_health_check
+  unqualified: decline_or_refer

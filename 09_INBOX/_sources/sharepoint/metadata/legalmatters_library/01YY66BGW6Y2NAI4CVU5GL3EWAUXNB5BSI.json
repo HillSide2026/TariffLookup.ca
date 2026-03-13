@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:50:12Z",
+  "eTag": "\"{049AC6DE-5570-4CA7-BD92-C0A5DA1E8648},4\"",
+  "id": "01YY66BGW6Y2NAI4CVU5GL3EWAUXNB5BSI",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:50:32Z",
+  "name": "Shareholder resolutions -2024",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGV5HU2E2II6KVHYCPUE5P4B6R5M",
+    "name": "Clerk Work - Diandra",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Clerk%20Work%20-%20Diandra/Shareholder%20resolutions%20-2024",
+  "cTag": "\"c:{049AC6DE-5570-4CA7-BD92-C0A5DA1E8648},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:50:12Z",
+    "lastModifiedDateTime": "2025-11-09T22:50:32Z"
+  },
+  "folder": {
+    "childCount": 4
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 126413
+}

@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b397a9bd-b8ef-4a0d-ac8c-9bf29a4eab3c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzExMiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCMTZi-3I2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixrem9OSHFyeDhNbWhmMTdmOC82WFFsVDI2ay9oeVAwOWJrRm1tcXR6eDU0PTCLATgBQhCh8qMe6MAAsJ3zKHqczcD2ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.wCXUwniIOYaWn0FuX8uKbT6BExHaBywxbyeDwjO_2Nw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-01-30T19:12:24Z",
+  "eTag": "\"{B397A9BD-B8EF-4A0D-AC8C-9BF29A4EAB3C},5\"",
+  "id": "01YY66BGV5VGL3H35YBVFKZDE36KNE5KZ4",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-01-30T19:44:21Z",
+  "name": "Board Resolution _Share Issuance for Property_ _BCBCA_-Matthew\u2019s iMac.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGRY6T5XP4NZTJC2RZADPYD45TI4",
+    "name": "24-682-00002 Acquisition of Stream",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BB397A9BD-B8EF-4A0D-AC8C-9BF29A4EAB3C%7D&file=Board%20Resolution%20_Share%20Issuance%20for%20Property_%20_BCBCA_-Matthew%E2%80%99s%20iMac.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{B397A9BD-B8EF-4A0D-AC8C-9BF29A4EAB3C},20\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "KcJHrpZYI+TsnyESX3kZOoBjgV4="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-01-30T19:12:24Z",
+    "lastModifiedDateTime": "2025-01-30T19:44:21Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 34288
+}

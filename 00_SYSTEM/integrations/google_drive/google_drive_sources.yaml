@@ -1,0 +1,35 @@
+id: 00_system__integrations__google_drive__sources_yaml
+title: Google Drive Sources
+owner: ML1
+status: initiated
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: GDRIVE_REVIEW_PACK_DOC
+    description: Review pack document created via Google Drive (Docs).
+    location: Google Drive document created by generate_review_pack.py
+    authority: unknown
+    classification: execution_artifact
+    ingestion: generate_review_pack.py publishes review pack
+  - source_id: GDRIVE_LEDGER_DOC
+    description: Matter dashboard ledger document.
+    location: Google Drive doc id via LEDGER_DOC_ID env (run_matter_dashboard.py)
+    authority: unknown
+    classification: execution_artifact
+    ingestion: run_matter_dashboard.py read/write
+ingestion:
+  triggers:
+    - Manual run of generate_review_pack.py
+    - Manual run of run_matter_dashboard.py
+  notes:
+    - Drive access via auth_google helper (todo_runner)
+consumers:
+  scripts:
+    - 00_SYSTEM/scripts/generate_review_pack.py
+    - 00_SYSTEM/scripts/push_drafts_to_sheets.py
+    - 00_SYSTEM/scripts/run_matter_dashboard.py
+  playbooks: []
+  run_graphs: []
+change_notes:
+  []

@@ -1,0 +1,58 @@
+{
+  "action": "generate_draft",
+  "run_id": "RUN-2026-02-12-001",
+  "template": {
+    "file_id": "017KHWIVEATEOLP6YBDVG3UMYK5E5SL5O6",
+    "folder": "SB Execution/TEMPLATES",
+    "version": "2.0"
+  },
+  "output": {
+    "folder": "017KHWIVDDUFGTNSDDYJGZF2V5OXBVFLOI",
+    "folder_path": "SB Execution/DRAFTS",
+    "filename": "2026-02-12__RUN-2026-02-12-001__DRAFT.docx",
+    "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P",
+    "overwrite": false
+  },
+  "fields": {
+    "SB_Status": "DRAFT",
+    "SB_RunID": "RUN-2026-02-12-001",
+    "SB_TemplateVersion": "2.0",
+    "SB_GeneratedAt": "2026-02-12T04:37:40Z",
+    "SB_GeneratedBy": "ML2",
+    "SB_ApprovedBy": null,
+    "SB_ApprovedAt": null,
+    "SB_FinalizedAt": null,
+    "SB_FinalFileRef": null
+  },
+  "metadata": {
+    "drive_id": "b!aepYh7XvLkaJQFKWL0yhBXltDNo4pJRJpSPL-X-uZ-tNtZwBKQHoRYMyWJLL2q-P",
+    "execution_root_id": "017KHWIVBSTHL7MVN6YRE3YPVEOJHJHOW6",
+    "target_folders": {
+      "drafts_id": "017KHWIVDDUFGTNSDDYJGZF2V5OXBVFLOI",
+      "final_id": "017KHWIVHUT4KSP2ZNSVG2HVUUXL64OPGC",
+      "run_logs_id": "017KHWIVEQGJFT2AVXQZE2WURHXZND5WOH",
+      "templates_id": "017KHWIVG2MPDGE6XXL5BKG2IWATADMOPQ"
+    },
+    "lifecycle_state": "GENERATED",
+    "authority": "ML1",
+    "executor": "ML2",
+    "write_boundary": "SB Execution/"
+  },
+  "qa": {
+    "required": true,
+    "total_score": 12,
+    "dimensions": {
+      "correctness": 2,
+      "no_hallucinations": 2,
+      "scope_authority": 2,
+      "terminology_alignment": 2,
+      "template_conformance": 2,
+      "framing_coherence": 2
+    },
+    "pass_criteria": {
+      "minimum_total": 11,
+      "required_perfect": ["correctness", "no_hallucinations", "scope_authority"]
+    },
+    "result": "PASS"
+  }
+}

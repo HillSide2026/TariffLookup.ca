@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=49487d39-ba81-4659-a100-93f9c2fee015&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA5MiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKSAmqvH2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixsa0NKTGF3K2ZMQjZMVlZiUTZZWmovaDVyYjVEbVJrRzh1bU5YcGVUcHRzPTCLATgBQhCh8qMZ8xAAsJ3zKSRARUW3ShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.1wHwdmXNO8pveXDA-AJpQWRBfrUB9ZMs3L0ZEMd39Qg&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-09-29T16:52:18Z",
+  "eTag": "\"{49487D39-BA81-4659-A100-93F9C2FEE015},2\"",
+  "id": "01YY66BGRZPVEETAN2LFDKCAET7HBP5YAV",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-29T17:04:59Z",
+  "name": "Redline - Purchase and Sale Agreement - City Lands Lot 1 - UBC(61856176.2) and Purchase and Sale Agreement - City Lands Lot 1 - UBC(61856176.4) CONVERTED RM sept29.doc",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQBUJIR7RAXYZFZEPT7STAA5YYZ",
+    "name": "Client Work to archive",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Client Work to archive",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B49487D39-BA81-4659-A100-93F9C2FEE015%7D&file=Redline%20-%20Purchase%20and%20Sale%20Agreement%20-%20City%20Lands%20Lot%201%20-%20UBC(61856176.2)%20and%20Purchase%20and%20Sale%20Agreement%20-%20City%20Lands%20Lot%201%20-%20UBC(61856176.4)%20CONVERTED%20RM%20sept29.doc&action=default&mobileredirect=true",
+  "cTag": "\"c:{49487D39-BA81-4659-A100-93F9C2FEE015},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "z6Z8SD/K8xxaSa723Rz5zP1b0VY="
+    },
+    "mimeType": "application/msword"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-29T16:52:18Z",
+    "lastModifiedDateTime": "2025-09-29T17:04:59Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 948736
+}

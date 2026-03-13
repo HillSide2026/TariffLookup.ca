@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=6557c9f8-32c7-4252-bae9-2699e6666857&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE2OSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCNajkYfN2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixhMTFiaFJLb1RPT0xMUHJ6MFhMUzl2SWRrK0NiZW1SeHFUSnNkR0lrMjVrPTCLATgBQhCh8qMsr9AAsJ3zLLcV0pVDShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.c11P9t3GSBZJt3yLmEVp3_pYFullp3h-uJ_X-gYJqCY&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-05T19:53:05Z",
+  "eTag": "\"{6557C9F8-32C7-4252-BAE9-2699E6666857},4\"",
+  "id": "01YY66BGXYZFLWLRZSKJBLV2JGTHTGM2CX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-05T20:48:09Z",
+  "name": "SnowCap__OnboardingForm_FIPartner Buckzy Jun5.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGQ5PZMHN63V5NHJHKNQOOIMXQOZ",
+    "name": "Onboarding Requests to Buckzy",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms/Onboarding Requests to Buckzy",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B6557C9F8-32C7-4252-BAE9-2699E6666857%7D&file=SnowCap__OnboardingForm_FIPartner%20Buckzy%20Jun5.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{6557C9F8-32C7-4252-BAE9-2699E6666857},16\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "zmCRkkAHbzq3sBXTf1sBEjmCOc0="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-05T19:53:05Z",
+    "lastModifiedDateTime": "2025-06-05T20:48:09Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 71452
+}

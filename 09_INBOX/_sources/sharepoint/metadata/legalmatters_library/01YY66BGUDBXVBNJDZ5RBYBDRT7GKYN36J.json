@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=16ea0d83-79a4-43ec-808e-33f99586efc9&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEwOSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKyohNPI2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix0WWl5Sk14VWNyV1lFQUpseVlpeUo5UUdHdnJKcytiN1JCNjlWc0ZQZHpvPTCLATgBQhCh8qMeP_AAsJ3zJ2UTFPKuShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.oc-WrlTNq9xmUbKlgufjFJbO_xIfZ4idX6DSNbC8Rvs&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2024-12-04T01:37:41Z",
+  "eTag": "\"{16EA0D83-79A4-43EC-808E-33F99586EFC9},3\"",
+  "id": "01YY66BGUDBXVBNJDZ5RBYBDRT7GKYN36J",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2024-12-04T01:38:58Z",
+  "name": "PRECEDENT MSB Anti-Money Laundering and Anti-Terrorist Financing Policy.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGT3W6RN3RIYOVDIZIRM2IDC4ZMD",
+    "name": "Policy & Programme Docs",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00001 incorporation and registration of Maple Wave/Policy & Programme Docs",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B16EA0D83-79A4-43EC-808E-33F99586EFC9%7D&file=PRECEDENT%20MSB%20Anti-Money%20Laundering%20and%20Anti-Terrorist%20Financing%20Policy.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{16EA0D83-79A4-43EC-808E-33F99586EFC9},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "UI92xzOaWUgU4OtELM41v1z4wxM="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2024-12-04T01:37:41Z",
+    "lastModifiedDateTime": "2024-12-04T01:38:58Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 43148
+}

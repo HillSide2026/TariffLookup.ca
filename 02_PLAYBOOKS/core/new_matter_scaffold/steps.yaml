@@ -1,0 +1,15 @@
+schema_version: 0.1
+playbook: NEW_MATTER_SCAFFOLD
+steps:
+  - id: retrieve_context
+    action: retrieve_bundle
+    bundle: new_matter_scaffold
+  - id: assemble_scaffold
+    action: build_matter_scaffold
+  - id: draft_summary
+    action: summarize_matter
+  - id: write_outputs
+    action: write_outputs
+    outputs:
+      - outputs/matter_scaffold.md
+      - outputs/matter_summary.md

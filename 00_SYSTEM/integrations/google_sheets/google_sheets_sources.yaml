@@ -1,0 +1,34 @@
+id: 00_system__integrations__google_sheets__sources_yaml
+title: Google Sheets Sources
+owner: ML1
+status: initiated
+version: 1.0
+created_date: 2026-02-15
+last_updated: 2026-02-15
+sources:
+  - source_id: GSHEETS_LEDGER
+    description: Matter dashboard ledger spreadsheet.
+    location: Google Sheets doc id via LEDGER_DOC_ID env (run_matter_dashboard.py)
+    authority: unknown
+    classification: execution_artifact
+    ingestion: run_matter_dashboard.py push/read-back
+  - source_id: GSHEETS_DRAFT_RESPONSES
+    description: Draft responses spreadsheet for Stage 3.8.
+    location: Google Sheets doc id passed to push_drafts_to_sheets.py
+    authority: unknown
+    classification: execution_artifact
+    ingestion: push_drafts_to_sheets.py
+ingestion:
+  triggers:
+    - Manual run of push_drafts_to_sheets.py
+    - Manual run of run_matter_dashboard.py
+  notes:
+    - Sheets access via auth_google helper (todo_runner)
+consumers:
+  scripts:
+    - 00_SYSTEM/scripts/push_drafts_to_sheets.py
+    - 00_SYSTEM/scripts/run_matter_dashboard.py
+  playbooks: []
+  run_graphs: []
+change_notes:
+  []

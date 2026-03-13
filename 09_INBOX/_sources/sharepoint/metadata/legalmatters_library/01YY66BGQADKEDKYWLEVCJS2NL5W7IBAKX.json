@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=35881a00-cb62-4425-9969-abedbe808157&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA3NSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCPTYlY7G2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixaVEZXbkdVQ042L3E2UHhhQkRPbEYzZ1NLcDlYVTNKbDdsM2h3ZTlnUTBjPTCLATgBQhCh8qMV7uAAsJ3zLa1o6f4WShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.1DNfudKR_iCXtmas62TTP0lB8nTtUoyvTH6wzGcB0B0&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:52:15Z",
+  "eTag": "\"{35881A00-CB62-4425-9969-ABEDBE808157},1\"",
+  "id": "01YY66BGQADKEDKYWLEVCJS2NL5W7IBAKX",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:52:15Z",
+  "name": "Company Key.Terrastone Construction-Matthew\u2019s iMac.msg",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGW6P5OAD2LYJFG3UQPN3W2534TB",
+    "name": "company keys",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/25-1231-00001 Charmaine Spiteri/company keys",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/25-1231-00001%20Charmaine%20Spiteri/company%20keys/Company%20Key.Terrastone%20Construction-Matthew%E2%80%99s%20iMac.msg",
+  "cTag": "\"c:{35881A00-CB62-4425-9969-ABEDBE808157},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "uBD5fY1dsPAfFNfwan1TEDSwKDA="
+    },
+    "mimeType": "application/vnd.ms-outlook"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:52:15Z",
+    "lastModifiedDateTime": "2025-09-09T20:52:15Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 309248
+}

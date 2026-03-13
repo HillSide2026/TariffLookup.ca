@@ -1,0 +1,16 @@
+{
+  "message_id": "19c0d0fbf60056ec",
+  "object_type": "Matters \u2014 Activity",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Matters",
+  "confidence": 0.7,
+  "reasoning_trace": [
+    "Fulfillment-related content",
+    "Sender domain suggests legal",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "05_MATTERS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T06:44:34.393011+00:00",
+  "model_version": "inbox-triage-v0.3"
+}

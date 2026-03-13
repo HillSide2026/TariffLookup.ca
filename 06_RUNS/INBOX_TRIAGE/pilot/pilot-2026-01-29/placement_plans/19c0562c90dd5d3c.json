@@ -1,0 +1,16 @@
+{
+  "message_id": "19c0562c90dd5d3c",
+  "object_type": "System Notification",
+  "lifecycle_state": "Action Required",
+  "system_domain": "System Operations",
+  "confidence": 0.8,
+  "reasoning_trace": [
+    "Sender is automated system",
+    "Marked important/starred",
+    "System alert maps to Operations"
+  ],
+  "proposed_destination": "00_SYSTEM",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:40.572767+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

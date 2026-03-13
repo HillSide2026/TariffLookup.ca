@@ -1,0 +1,7 @@
+run_id: <run_id>
+date: <YYYY-MM-DD>
+outcome: PROMOTE | PARK | ARCHIVE
+promoted_to: []
+parked_items: []
+archive_reason: one-off | superseded | insufficient-signal | duplicate | other
+notes: <notes>

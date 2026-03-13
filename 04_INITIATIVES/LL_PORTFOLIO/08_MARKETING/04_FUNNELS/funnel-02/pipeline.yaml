@@ -1,0 +1,11 @@
+system: ghl
+stages:
+  - awareness
+  - lead_magnet_downloaded
+  - health_check_purchased
+  - intake_completed
+  - review_in_progress
+  - delivery_meeting
+  - remediation_project
+  - fractional_counsel_retainer
+  - closed_lost

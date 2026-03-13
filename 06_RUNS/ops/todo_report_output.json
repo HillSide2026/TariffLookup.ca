@@ -1,0 +1,769 @@
+{
+  "metadata": {
+    "generated_on": "2026-02-08T01:48:50.622067",
+    "input_window_days": 14,
+    "emails_scanned": 500,
+    "classification_counts": {
+      "ACTION_REQUIRED": 65,
+      "WAITING_ON_OTHER": 0,
+      "INFO_ONLY": 387,
+      "NO_ACTION": 321
+    },
+    "tasks_generated": 22,
+    "tasks_with_deadlines": 0,
+    "tasks_unassigned": 7,
+    "tasks_unrouted": 3,
+    "ledger_carry_forward_count": 0,
+    "version": "3.0"
+  },
+  "routing_summary": {
+    "by_workstream": {
+      "DELIVERY": 14,
+      "FULFILLMENT": 2,
+      "MARKETING": 1,
+      "MANAGEMENT": 5,
+      "UNROUTED": 0
+    },
+    "by_lane": {
+      "LAWYER": 14,
+      "NON_LAWYER": 1,
+      "ADMIN_ACCOUNTS": 3,
+      "INTAKE": 1,
+      "UNROUTED": 3
+    },
+    "total_unrouted": 3,
+    "total_low_confidence": 2
+  },
+  "tasks": [
+    {
+      "task_id": "60da37d0267c",
+      "matter_id": "25-927-00003",
+      "classification": "ACTION_REQUIRED",
+      "task": "Provide Stream team with RPAA Payment Orchestration requirements and diagram format guidance",
+      "why": "Client asks what is needed for Payment Orchestration section of RPAA",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Client explicitly asks counsel what is needed - direct request",
+      "next_action_type": "RESPOND",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Gevork Grigorian",
+          "subject": "Re: RPAA -",
+          "quote": "what exactly is needed from me in regards to Payment Orchestration?",
+          "message_ref": "19c3503566ee702f"
+        }
+      ]
+    },
+    {
+      "task_id": "ab396f07772e",
+      "matter_id": "26-259-00003",
+      "classification": "ACTION_REQUIRED",
+      "task": "Call Marjan Banisaeed at 416-885-8976 to discuss corporate law inquiry",
+      "why": "Client confirms 5:30 call time and provides phone number",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MARKETING",
+      "suggested_lane": "INTAKE",
+      "routing_confidence": "HIGH",
+      "routing_reason": "New client inquiry - lead conversion call scheduled",
+      "next_action_type": "SCHEDULE",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "marjan banisaeed",
+          "subject": "Re: Corporate Law Firm",
+          "quote": "Ok 5:30 my # 4168858976",
+          "message_ref": "19c34a3d5437847e"
+        }
+      ]
+    },
+    {
+      "task_id": "9ef9a5a99b2d",
+      "matter_id": "24-336-00004",
+      "classification": "ACTION_REQUIRED",
+      "task": "Address Max Hill's questions on mediation/arbitration clause in prenuptial agreement",
+      "why": "Client asks about mediation vs arbitration preference; wants document to be 'air tight'",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Client raises question about agreement terms - needs legal advice",
+      "next_action_type": "RESPOND",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Max Hill",
+          "subject": "RE: FW: Prenuptial Agreement",
+          "quote": "I don't have a preference with regards to mediation/arbitration. My preference is what is best for me.",
+          "message_ref": "19c3491145c994ca"
+        }
+      ]
+    },
+    {
+      "task_id": "a6c055cd2604",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Review contingency plan documentation from Daniel Freiheit regarding practice coverage",
+      "why": "Fellow lawyer designates ML1 as contingency practice contact",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MANAGEMENT",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Professional compliance / practice contingency planning - management function",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Daniel Freiheit",
+          "subject": "Contingency Plan",
+          "quote": "you've been appointed as my go-to lawyers in case something happens to me and I need someone to handle my practice",
+          "message_ref": "19c347e9699427ec"
+        }
+      ]
+    },
+    {
+      "task_id": "048d669d2d72",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Complete BMO Online Banking for Business account action item",
+      "why": "Banking action required notification",
+      "due": null,
+      "owner": null,
+      "confidence": "low",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MANAGEMENT",
+      "suggested_lane": "ADMIN_ACCOUNTS",
+      "routing_confidence": "LOW",
+      "routing_reason": "Banking admin task - weak signal, may be routine notification",
+      "next_action_type": "OTHER",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Khalid, Nahman",
+          "subject": "Action Required for your BMO Online Banking for Business Account",
+          "quote": "Action Required for your BMO Online Banking for Business Account",
+          "message_ref": "19c345e3b1cc3729"
+        }
+      ]
+    },
+    {
+      "task_id": "f018e0625a39",
+      "matter_id": "25-256-00005",
+      "classification": "ACTION_REQUIRED",
+      "task": "Review Seeker Cannabis agreement and provide comments to Michael Bou Doumit",
+      "why": "Agreement review thread - client submitted agreement for lawyer review",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Subject line explicitly states 'Agreement review' - legal review task",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Michael Bou Doumit",
+          "subject": "Re: Seeker Cannabis | Agreement review",
+          "quote": "Agreement review",
+          "message_ref": "19c3402d41c2565a"
+        }
+      ]
+    },
+    {
+      "task_id": "c66fa594fcf0",
+      "matter_id": "24-845-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Review White Rock invoice from Abhishek Shah and determine next steps",
+      "why": "Client sends invoice that was not sent to counterparty",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "FULFILLMENT",
+      "suggested_lane": "ADMIN_ACCOUNTS",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Invoice-related task - billing/payment context",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-06",
+          "from": "Abhishek Shah",
+          "subject": "Re: White rock invoice",
+          "quote": "Here is the invoice. This was not sent to them.",
+          "message_ref": "19c33785f526819c"
+        }
+      ]
+    },
+    {
+      "task_id": "ebbf77305d74",
+      "matter_id": "25-1593-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Review 601 Yonge lease and provide legal comments to Chris Roop",
+      "why": "Ongoing lease review thread; client forwarded lease for legal review",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Client explicitly requests legal review of lease - 'legal review' in subject",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Chris Roop",
+          "subject": "Re: 601 Yonge Lease with legal review",
+          "quote": "shared with TD. Hopefully this is enough to then send to LL",
+          "message_ref": "19c2fc8d4a6b5f57"
+        }
+      ]
+    },
+    {
+      "task_id": "044b7ed63d05",
+      "matter_id": "25-1318-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Address Zelko Culibrk shareholder inquiry for 1716867 Ontario Inc.",
+      "why": "Client emails about shareholders - no body available but subject signals action",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Client inquiry about corporate shareholders - legal matter",
+      "next_action_type": "RESPOND",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Zelko Culibrk",
+          "subject": "Re:1716867 Ontario Inc. - Shareholders",
+          "quote": "1716867 Ontario Inc. - Shareholders",
+          "message_ref": "19c2f95ea60ce5e2"
+        }
+      ]
+    },
+    {
+      "task_id": "aacd25290a80",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Send purchase agreement to Tejvir Boparai as discussed",
+      "why": "Client states final price reached, buyer preparing offer, requests agreement",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Explicit request: 'Can you please send the agreement' - direct ask",
+      "next_action_type": "SEND_REQUEST",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "TEJVIR BOPARAI",
+          "subject": "Re: Corporate Law Firm - Inquiry",
+          "quote": "The final price has been reached, and the Buyer is preparing offer of purchase. Can you please send the agreement you mentioned in your email?",
+          "message_ref": "19c2f575f71a5395"
+        }
+      ]
+    },
+    {
+      "task_id": "47f4a2198d6f",
+      "matter_id": "25-1614-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Incorporate non-federal company for Clearsky to avoid Canadian director requirements",
+      "why": "Client requests non-federal company incorporation for additional MSB",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Explicit client request for corporate structuring work",
+      "next_action_type": "DRAFT",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Chen | Clearsky Network",
+          "subject": "Re: Additional msb",
+          "quote": "I will need a non federal company though to avoid canadian director requirements.",
+          "message_ref": "19c2f42a6c967861"
+        }
+      ]
+    },
+    {
+      "task_id": "956f96df4470",
+      "matter_id": "25-1614-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Complete KYC form and share transfer deed for Clearsky SPA",
+      "why": "Client states signed SPA missing buyer details; requests KYC completion and share transfer deed",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Explicit request to complete KYC and share transfer deed",
+      "next_action_type": "DRAFT",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Chen | Clearsky Network",
+          "subject": "Re: SPA",
+          "quote": "The signed SPA doesnt include the buyer details. I sent you the KYC will you be able to complete it along with the share transfer deed?",
+          "message_ref": "19c2f4198a5f93c9"
+        }
+      ]
+    },
+    {
+      "task_id": "fa4c8fe1ddf3",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Schedule call with Laura Hinton to discuss next steps",
+      "why": "Laura requests a phone call to discuss further",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MANAGEMENT",
+      "suggested_lane": "UNROUTED",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Internal firm ops - Laura Hinton follow-up on next steps",
+      "next_action_type": "SCHEDULE",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Laura Hinton",
+          "subject": "Re: Follow Up and Next Steps",
+          "quote": "Perfect, what day and time works best for you? I will give you a call then.",
+          "message_ref": "19c2edf8c44e2ffa"
+        }
+      ]
+    },
+    {
+      "task_id": "1cc253e0d7ab",
+      "matter_id": "25-194-00059",
+      "classification": "ACTION_REQUIRED",
+      "task": "Update primary contact information for MetaLigna Modular Inc.",
+      "why": "Forwarded action required for corporate registry update",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "FULFILLMENT",
+      "suggested_lane": "ADMIN_ACCOUNTS",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Corporate registry admin task forwarded by RM staff",
+      "next_action_type": "UPDATE_LOG",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Ashley De Almeida",
+          "subject": "FW: Action Required: Primary Contact Update for MetaLigna Modular Inc.",
+          "quote": "Action Required: Primary Contact Update for MetaLigna Modular Inc.",
+          "message_ref": "19c2e5625de8c919"
+        }
+      ]
+    },
+    {
+      "task_id": "720d8a972489",
+      "matter_id": "25-927-00003",
+      "classification": "ACTION_REQUIRED",
+      "task": "Complete redline review of Diameter Pay agreement and coordinate with James Hayes",
+      "why": "Harry directs James to review redline; Matthew involved in review",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "Explicit request to review redline of agreement",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-05",
+          "from": "Harry B",
+          "subject": "Re: Diameter Pay",
+          "quote": "can you go over the redline and comment as well. You can go back DP after.",
+          "message_ref": "19c2c810b6d218a0"
+        }
+      ]
+    },
+    {
+      "task_id": "fd3f51776eb4",
+      "matter_id": "24-845-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Follow up on Demand to Pay for STAR 333 matter",
+      "why": "Thread regarding demand to pay - requires review",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Demand to Pay is legal action requiring lawyer attention",
+      "next_action_type": "REVIEW",
+      "evidence": [
+        {
+          "email_date": "2026-02-04",
+          "from": "Abhishek Shah",
+          "subject": "Re: Fwd: Demand to Pay",
+          "quote": "Demand to Pay",
+          "message_ref": "19c2af0649a6bda8"
+        }
+      ]
+    },
+    {
+      "task_id": "6bfeeff86546",
+      "matter_id": "24-336-00004",
+      "classification": "ACTION_REQUIRED",
+      "task": "Send draft cohabitation agreement to Dani Frodis (ILA counsel) for review",
+      "why": "ILA counsel confirms she will review draft when sent; has opened billing file",
+      "due": null,
+      "owner": null,
+      "confidence": "high",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "HIGH",
+      "routing_reason": "ILA counsel waiting for draft from lawyer - 'cohabitation agreement' is legal work",
+      "next_action_type": "DRAFT",
+      "evidence": [
+        {
+          "email_date": "2026-02-04",
+          "from": "Dani Frodis",
+          "subject": "Re: cohabitation agreement",
+          "quote": "I will review the draft when you send it. I have opened a file in the name of your office for billing purposes.",
+          "message_ref": "19c2948dc9c1fd69"
+        }
+      ]
+    },
+    {
+      "task_id": "c064968a7950",
+      "matter_id": "25-927-00003",
+      "classification": "ACTION_REQUIRED",
+      "task": "Fill out Elliptic form and book compliance sessions for Stream",
+      "why": "Post-meeting follow-up - need to complete form and schedule sessions",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Self-identified action items from meeting with compliance vendor",
+      "next_action_type": "SCHEDULE",
+      "evidence": [
+        {
+          "email_date": "2026-02-04",
+          "from": "Tulika Dhar",
+          "subject": "Re: Tulika Dhar and Jay Unalkat + Lena Roesch @ Wed, 4 Feb 2026 12:00pm – 1:00pm (GMT+00)",
+          "quote": "Will get the form filled out and book the sessions soon.",
+          "message_ref": "19c294044e6bc0de"
+        }
+      ]
+    },
+    {
+      "task_id": "f87cbafaa89c",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Respond to Karmesh Jain regarding document management application project status",
+      "why": "Vendor follow-up asking if project is still open",
+      "due": null,
+      "owner": null,
+      "confidence": "low",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MANAGEMENT",
+      "suggested_lane": "UNROUTED",
+      "routing_confidence": "LOW",
+      "routing_reason": "Vendor inquiry - not client work, internal ops decision",
+      "next_action_type": "RESPOND",
+      "evidence": [
+        {
+          "email_date": "2026-02-04",
+          "from": "Karmesh Jain",
+          "subject": "Re: As discussed: Document Management Application",
+          "quote": "Just wanted to check if this project is still open? Please let me know if we can talk about it",
+          "message_ref": "19c283b7dd1eea86"
+        }
+      ]
+    },
+    {
+      "task_id": "db2a538cfac9",
+      "matter_id": "25-1185-00001",
+      "classification": "ACTION_REQUIRED",
+      "task": "Follow up on proof of tenant insurance request for Alexander Klys",
+      "why": "Thread about tenant insurance proof - no body but subject signals action needed",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "NON_LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Document collection task - tenant insurance proof",
+      "next_action_type": "SEND_REQUEST",
+      "evidence": [
+        {
+          "email_date": "2026-02-03",
+          "from": "Alexander Klys",
+          "subject": "Re: Request for Proof of Tenant Insurance.",
+          "quote": "Request for Proof of Tenant Insurance.",
+          "message_ref": "19c2534f2365d884"
+        }
+      ]
+    },
+    {
+      "task_id": "278a869cd1e8",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Provide list of required documents to Naal Kullab for shipment, warranty, and invoice matter",
+      "why": "Client asks what other documents are required",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "DELIVERY",
+      "suggested_lane": "LAWYER",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Client asks for document requirements - likely new matter or unmapped client",
+      "next_action_type": "RESPOND",
+      "evidence": [
+        {
+          "email_date": "2026-02-03",
+          "from": "Naal Kullab",
+          "subject": "Re: Outstanding Documents Required – Shipment, Warranty, and Invoice",
+          "quote": "Let me know what is the other documents required",
+          "message_ref": "19c24d35f8521916"
+        }
+      ]
+    },
+    {
+      "task_id": "c23b4a49e7ee",
+      "matter_id": "UNASSIGNED",
+      "classification": "ACTION_REQUIRED",
+      "task": "Schedule call with Laura Hinton to discuss next steps",
+      "why": "Laura requests a phone call to discuss further",
+      "due": null,
+      "owner": null,
+      "confidence": "medium",
+      "badge": "NEW",
+      "last_seen": "2026-02-08",
+      "first_seen": "2026-02-08",
+      "ledger_status": "NEW",
+      "suggested_workstream": "MANAGEMENT",
+      "suggested_lane": "UNROUTED",
+      "routing_confidence": "MEDIUM",
+      "routing_reason": "Internal firm ops - Laura Hinton follow-up on next steps",
+      "next_action_type": "SCHEDULE",
+      "evidence": [
+        {
+          "email_date": "2026-02-02",
+          "from": "Laura Hinton",
+          "subject": "Re: Follow-Up and Next Steps",
+          "quote": "Perfect, what day and time works best for you? I will give you a call then.",
+          "message_ref": "19c1f3b4525fd90a"
+        }
+      ]
+    }
+  ],
+  "waiting_items": [
+    {
+      "matter_id": "25-927-00003",
+      "summary": "Tulika planning to design payment flow diagram for Notabene call",
+      "from": "Tulika Dhar",
+      "subject": "Re: Nota Bene - feedback",
+      "email_date": "2026-02-06"
+    },
+    {
+      "matter_id": "25-927-00003",
+      "summary": "Introduction thread between Stream, Notabene and Fireblocks - scheduling follow-up",
+      "from": "Tulika Dhar",
+      "subject": "Re: Stream <> Notabene - Fireblocks Introduction",
+      "email_date": "2026-02-06"
+    },
+    {
+      "matter_id": "25-927-00003",
+      "summary": "Fireblocks compliance Q&A thread - coordination between Stream, Fireblocks, Notabene",
+      "from": "Tulika Dhar",
+      "subject": "Re: Stream <> Fireblocks | Compliance Q&A and Next Steps",
+      "email_date": "2026-02-04"
+    },
+    {
+      "matter_id": "24-336-00004",
+      "summary": "ILA counsel Jordana Talsky shared phone number for coordination",
+      "from": "Jordana Talsky",
+      "subject": "Re: legal matters",
+      "email_date": "2026-02-02"
+    }
+  ],
+  "unassigned_items": [
+    {
+      "task_id": "a6c055cd2604",
+      "task": "Review contingency plan documentation from Daniel Freiheit regarding practice coverage",
+      "from": "Daniel Freiheit",
+      "subject": "Contingency Plan",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "048d669d2d72",
+      "task": "Complete BMO Online Banking for Business account action item",
+      "from": "Khalid, Nahman",
+      "subject": "Action Required for your BMO Online Banking for Business Account",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "aacd25290a80",
+      "task": "Send purchase agreement to Tejvir Boparai as discussed",
+      "from": "TEJVIR BOPARAI",
+      "subject": "Re: Corporate Law Firm - Inquiry",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "fa4c8fe1ddf3",
+      "task": "Schedule call with Laura Hinton to discuss next steps",
+      "from": "Laura Hinton",
+      "subject": "Re: Follow Up and Next Steps",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "f87cbafaa89c",
+      "task": "Respond to Karmesh Jain regarding document management application project status",
+      "from": "Karmesh Jain",
+      "subject": "Re: As discussed: Document Management Application",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "278a869cd1e8",
+      "task": "Provide list of required documents to Naal Kullab for shipment, warranty, and invoice matter",
+      "from": "Naal Kullab",
+      "subject": "Re: Outstanding Documents Required – Shipment, Warranty, and Invoice",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    },
+    {
+      "task_id": "c23b4a49e7ee",
+      "task": "Schedule call with Laura Hinton to discuss next steps",
+      "from": "Laura Hinton",
+      "subject": "Re: Follow-Up and Next Steps",
+      "suggested_match": null,
+      "attribution_failure_reason": "No participant mapping match for sender domain or name"
+    }
+  ],
+  "exclusions_summary": [
+    {
+      "category": "Automated/System notifications",
+      "count": 294
+    },
+    {
+      "category": "Self-sent",
+      "count": 30
+    },
+    {
+      "category": "Newsletter/Marketing",
+      "count": 24
+    },
+    {
+      "category": "Calendar invites",
+      "count": 8
+    },
+    {
+      "category": "Banking notifications",
+      "count": 10
+    },
+    {
+      "category": "Government registry",
+      "count": 7
+    }
+  ]
+}

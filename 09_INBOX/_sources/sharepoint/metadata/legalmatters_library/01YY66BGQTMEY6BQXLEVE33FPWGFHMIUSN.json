@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=e0316113-ebc2-4925-bd95-f6314ec4524d&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAwOSJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLS-nZXB2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiwxUXJjRWUrQWJGbTkvakxlbkp5SzhQanI4WVNCTkFUaS9EY1l0aVJjRVBFPTCLATgBQhCh8qMFueAAsJ3zLQLTZQSFShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.I9TUijqsMc-ajzvUR2luGFNYglfLcjOy023RrZ_1qek&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "createdDateTime": "2025-11-09T22:50:15Z",
+  "eTag": "\"{E0316113-EBC2-4925-BD95-F6314EC4524D},2\"",
+  "id": "01YY66BGQTMEY6BQXLEVE33FPWGFHMIUSN",
+  "lastModifiedBy": {
+    "user": {
+      "email": "corporateclerk@levinelegalservices.com",
+      "id": "5e0540e0-1740-4979-b0dc-1d8f5348611d",
+      "displayName": "Diandra Bishop"
+    }
+  },
+  "lastModifiedDateTime": "2025-11-09T22:50:15Z",
+  "name": "PRECEDENT_Shareholder Res _Dispensing with Auditor & Approving Financial Statements.DOCX",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGW6Y2NAI4CVU5GL3EWAUXNB5BSI",
+    "name": "Shareholder resolutions -2024",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Clerk Work - Diandra/Shareholder resolutions -2024",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BE0316113-EBC2-4925-BD95-F6314EC4524D%7D&file=PRECEDENT_Shareholder%20Res%20_Dispensing%20with%20Auditor%20%26%20Approving%20Financial%20Statements.DOCX&action=default&mobileredirect=true",
+  "cTag": "\"c:{E0316113-EBC2-4925-BD95-F6314EC4524D},7\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "4TOxT3pXviX2oIZSYYhv5nZqSdE="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-11-09T22:50:15Z",
+    "lastModifiedDateTime": "2025-11-09T22:50:15Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 29863
+}

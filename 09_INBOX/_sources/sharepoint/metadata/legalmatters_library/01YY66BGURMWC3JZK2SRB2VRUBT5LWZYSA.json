@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b4856591-5ae5-4394-aac6-819f576ce240&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzAzNiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCOzS6pPD2vA-EAUaDjIwLjE5MC4xNjEuMTUyKiw5MlF4QStmN3EwbmNMZEtvbW9GbTAzU3VtcHUyK3BITVN3YjlRQzZ6eVYwPTCLATgBQhCh8qMMP3AAsJ3zLK5bmJjuShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.3Qez0i66IvIfHV41RWF3jqWKoXgRsJ6a9_AV0Prx8DM&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-08-18T16:24:29Z",
+  "eTag": "\"{B4856591-5AE5-4394-AAC6-819F576CE240},3\"",
+  "id": "01YY66BGURMWC3JZK2SRB2VRUBT5LWZYSA",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T21:05:05Z",
+  "name": "League Disclosure Document - DRAFT.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGR2YXWK6JUWBZGI53TDXL5DJIJH",
+    "name": "24-845-00001",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-845-00001",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BB4856591-5AE5-4394-AAC6-819F576CE240%7D&file=League%20Disclosure%20Document%20-%20DRAFT.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{B4856591-5AE5-4394-AAC6-819F576CE240},9\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "5Xih8vL9+EB5pbPkREMv0ts9Pww="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-08-18T16:24:29Z",
+    "lastModifiedDateTime": "2025-09-09T21:05:05Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 140407
+}

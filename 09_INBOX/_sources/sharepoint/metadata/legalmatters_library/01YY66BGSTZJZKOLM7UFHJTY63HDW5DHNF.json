@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-10-01T15:50:12Z",
+  "eTag": "\"{A772CA53-9F2D-4EA1-99E3-DB38EDD19DA5},3\"",
+  "id": "01YY66BGSTZJZKOLM7UFHJTY63HDW5DHNF",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:54:48Z",
+  "name": "Startup Slang Inc.Share Repurchase Documents (1)",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUQOFIL3L7H5JEIYZFFWVZP7VUV",
+    "name": "24-347-00002 Damiano",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/24-347-00002 Damiano",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/24-347-00002%20Damiano/Startup%20Slang%20Inc.Share%20Repurchase%20Documents%20(1)",
+  "cTag": "\"c:{A772CA53-9F2D-4EA1-99E3-DB38EDD19DA5},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-10-01T15:50:12Z",
+    "lastModifiedDateTime": "2025-09-09T20:54:48Z"
+  },
+  "folder": {
+    "childCount": 20
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 558310
+}

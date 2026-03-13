@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=fb102b59-18d7-48e9-a391-15bd8516b3a8&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE1NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKbpvpjM2vA-EAUaDjIwLjE5MC4xNjEuMTUyKix6bmx6MmVLdTFtYmVJNytHdFVyemNaWkUzV0xEY3ViMzBMZXZ5TzNaNjlJPTCLATgBQhCh8qMp1tAAsHnRYNXHWRHLShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.D0PjgO0hMePUHPVkdgmqzasJ08CklXaaag1bLiTp4xo&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-05-22T18:07:50Z",
+  "eTag": "\"{FB102B59-18D7-48E9-A391-15BD8516B3A8},2\"",
+  "id": "01YY66BGSZFMIPXVYY5FEKHEIVXWCRNM5I",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-05-22T21:31:43Z",
+  "name": "SnowCap -- Agent form for legal entity -- SnowCap Financial Limited 22May2025.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGSCFQMVQMSVAZGLCNIDPZ6HAZOE",
+    "name": "Onboarding Forms",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Admin/Onboarding Forms",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/LL%20Matters%20(Essential)/24-682-00003%20--%20Stream/24-682-00003%20SnowCap%20CAMLO%20Operations/Admin/Onboarding%20Forms/SnowCap%20--%20Agent%20form%20for%20legal%20entity%20--%20SnowCap%20Financial%20Limited%2022May2025.pdf",
+  "cTag": "\"c:{FB102B59-18D7-48E9-A391-15BD8516B3A8},2\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "/1DOj3z1e5d44SSbd++UV92PGew="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-05-22T18:07:50Z",
+    "lastModifiedDateTime": "2025-05-22T21:31:43Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 146195
+}

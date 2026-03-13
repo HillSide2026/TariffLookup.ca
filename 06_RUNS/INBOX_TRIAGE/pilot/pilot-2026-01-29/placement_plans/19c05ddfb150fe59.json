@@ -1,0 +1,16 @@
+{
+  "message_id": "19c05ddfb150fe59",
+  "object_type": "Legal Matter Email",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Matters",
+  "confidence": 0.74,
+  "reasoning_trace": [
+    "Subject contains legal term",
+    "Marked important/starred",
+    "Legal content maps to Matters"
+  ],
+  "proposed_destination": "05_MATTERS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-29T02:12:38.556005+00:00",
+  "model_version": "inbox-triage-v0.1"
+}

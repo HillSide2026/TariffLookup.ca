@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=b7e024df-95a9-43cf-9b21-a001709597ee&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzA2NiJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCLjYuLXF2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixMUy9nVGozS0w2SHhTQVRDU0xEQkZNWEo5SGp0NE1yajc1U0MvMU9ONTRnPTCLATgBQhCh8qMTqmAAsJ3zIExQM80nShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.OBeYRwb16g54DspAZmRrc5tQPBUVKudCWWxfSzZ0xCw&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-08-18T16:24:04Z",
+  "eTag": "\"{B7E024DF-95A9-43CF-9B21-A001709597EE},1\"",
+  "id": "01YY66BGW7ETQLPKMVZ5BZWINAAFYJLF7O",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-08-18T16:24:04Z",
+  "name": "Certificate and Articles of Amendment.change of range of directors.7Aug2025-Matthew\u2019s iMac.pdf",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGTA6BQAOXT4PVB26HZQLNRCPNE4",
+    "name": "24-845-00001",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/Clerk Work - Robin/24-845-00001",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/Clerk%20Work%20-%20Robin/24-845-00001/Certificate%20and%20Articles%20of%20Amendment.change%20of%20range%20of%20directors.7Aug2025-Matthew%E2%80%99s%20iMac.pdf",
+  "cTag": "\"c:{B7E024DF-95A9-43CF-9B21-A001709597EE},1\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "NXsTwfhjQIZKekBGr1MSDnqZBxc="
+    },
+    "mimeType": "application/pdf"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-08-18T16:24:04Z",
+    "lastModifiedDateTime": "2025-08-18T16:24:04Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 174086
+}

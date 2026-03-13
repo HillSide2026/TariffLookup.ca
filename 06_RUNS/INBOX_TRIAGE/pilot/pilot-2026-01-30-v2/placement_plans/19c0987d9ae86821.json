@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0987d9ae86821",
+  "object_type": "Operations \u2014 Inquiries",
+  "lifecycle_state": "Action Required",
+  "system_domain": "Operations",
+  "confidence": 0.8,
+  "reasoning_trace": [
+    "Inquiry/lead indicator",
+    "Marked important/starred"
+  ],
+  "proposed_destination": "04_OPERATIONS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T04:00:14.520853+00:00",
+  "model_version": "inbox-triage-v0.2"
+}

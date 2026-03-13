@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=a90a9a24-3988-4087-8ae6-970ae4b2076c&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzE5NyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCN672pHP2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixwenpsMEVrODV4UU1iK2xOdU4yaHoydkFTV0JTU2Y0YXBsMjNlT2NsWTNnPTCLATgBQhCh8qMzgtAAsJ3zIZZOy5WSShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.Tu3_G8bWG63Cn2qxWe2PX1c7t_UVoYwxh1waMXBv8dI&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-06-02T14:43:56Z",
+  "eTag": "\"{A90A9A24-3988-4087-8AE6-970AE4B2076C},3\"",
+  "id": "01YY66BGRETIFKTCBZQ5AIVZUXBLSLEB3M",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-06-02T14:45:10Z",
+  "name": "SNOWCAP - MSB Anti-Money Laundering and Anti-Terrorist Financing Policy  1June2025.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGXJ2FXS64ZVTRELPJKUFZAIWWVF",
+    "name": "Stream - MSB Policy",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00003 SnowCap CAMLO Operations/Stream - MSB Policy",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7BA90A9A24-3988-4087-8AE6-970AE4B2076C%7D&file=SNOWCAP%20-%20MSB%20Anti-Money%20Laundering%20and%20Anti-Terrorist%20Financing%20Policy%20%201June2025.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{A90A9A24-3988-4087-8AE6-970AE4B2076C},12\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "eoAPKgtQbP522BH2REAAqjtFoXs="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-06-02T14:43:56Z",
+    "lastModifiedDateTime": "2025-06-02T14:45:10Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 45110
+}

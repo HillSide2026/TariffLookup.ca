@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sb_bridge_request.schema.json",
+  "title": "SB Bridge Request",
+  "description": "Schema for SharePoint SB Execution bridge requests. Validates action, output targets, metadata fields, and QA gate before Graph API execution.",
+  "type": "object",
+  "required": ["action", "run_id", "template", "output", "fields", "metadata", "qa"],
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["generate_draft"],
+      "description": "The bridge action to execute."
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^RUN-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{3}$",
+      "description": "Unique run identifier. Format: RUN-YYYY-MM-DD-NNN."
+    },
+    "template": {
+      "type": "object",
+      "required": ["file_id", "version"],
+      "additionalProperties": false,
+      "properties": {
+        "file_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Graph item ID of the template in TEMPLATES folder."
+        },
+        "folder": {
+          "type": "string",
+          "description": "Human-readable folder path (informational)."
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+$",
+          "description": "Template version. Format: MAJOR.MINOR."
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "required": ["folder", "filename", "drive_id"],
+      "additionalProperties": false,
+      "properties": {
+        "folder": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Graph item ID of the target DRAFTS folder."
+        },
+        "folder_path": {
+          "type": "string",
+          "description": "Human-readable folder path (informational)."
+        },
+        "filename": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}__RUN-.*__DRAFT\\.docx$",
+          "description": "Output filename. Format: YYYY-MM-DD__RUN-ID__DRAFT.docx."
+        },
+        "drive_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Graph drive ID for the target document library."
+        },
+        "overwrite": {
+          "type": "boolean",
+          "const": false,
+          "description": "Must be false. Drafts are write-once per doctrine."
+        }
+      }
+    },
+    "fields": {
+      "type": "object",
+      "required": [
+        "SB_Status",
+        "SB_RunID",
+        "SB_TemplateVersion",
+        "SB_GeneratedAt",
+        "SB_GeneratedBy"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "SB_Status": {
+          "type": "string",
+          "enum": ["DRAFT", "READY_FOR_REVIEW", "APPROVED_FOR_FINAL", "FINALIZED", "PROMOTION_INCOMPLETE", "REJECTED"],
+          "description": "Controlled lifecycle state. Must be DRAFT on generation."
+        },
+        "SB_RunID": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Must match top-level run_id."
+        },
+        "SB_TemplateVersion": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Must match template.version."
+        },
+        "SB_GeneratedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of generation."
+        },
+        "SB_GeneratedBy": {
+          "type": "string",
+          "enum": ["ML2"],
+          "description": "Generator identity. Must be ML2."
+        },
+        "SB_ApprovedBy": {
+          "type": ["string", "null"],
+          "description": "ML1 approver. Null on generation."
+        },
+        "SB_ApprovedAt": {
+          "type": ["string", "null"],
+          "description": "Approval timestamp. Null on generation."
+        },
+        "SB_FinalizedAt": {
+          "type": ["string", "null"],
+          "description": "Finalization timestamp. Null on generation."
+        },
+        "SB_FinalFileRef": {
+          "type": ["string", "null"],
+          "description": "Final file reference. Null on generation."
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["drive_id", "execution_root_id", "target_folders", "lifecycle_state", "authority", "executor", "write_boundary"],
+      "additionalProperties": false,
+      "properties": {
+        "drive_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Must match output.drive_id."
+        },
+        "execution_root_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Graph item ID of SB Execution root folder."
+        },
+        "target_folders": {
+          "type": "object",
+          "required": ["drafts_id", "final_id", "run_logs_id", "templates_id"],
+          "additionalProperties": false,
+          "properties": {
+            "drafts_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "final_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "run_logs_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "templates_id": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "lifecycle_state": {
+          "type": "string",
+          "enum": ["GENERATED"],
+          "description": "Must be GENERATED on draft creation."
+        },
+        "authority": {
+          "type": "string",
+          "enum": ["ML1"],
+          "description": "Approval authority. Always ML1."
+        },
+        "executor": {
+          "type": "string",
+          "enum": ["ML2"],
+          "description": "Execution identity. Always ML2."
+        },
+        "write_boundary": {
+          "type": "string",
+          "enum": ["SB Execution/"],
+          "description": "Execution enclave boundary."
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "required": ["required", "total_score", "dimensions", "pass_criteria", "result"],
+      "additionalProperties": false,
+      "properties": {
+        "required": {
+          "type": "boolean",
+          "const": true,
+          "description": "QA gate is always required."
+        },
+        "total_score": {
+          "type": "integer",
+          "minimum": 11,
+          "description": "Sum of all dimension scores. Must be >= 11."
+        },
+        "dimensions": {
+          "type": "object",
+          "required": ["correctness", "no_hallucinations", "scope_authority"],
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "properties": {
+            "correctness": {
+              "type": "integer",
+              "const": 2,
+              "description": "Must be 2/2."
+            },
+            "no_hallucinations": {
+              "type": "integer",
+              "const": 2,
+              "description": "Must be 2/2."
+            },
+            "scope_authority": {
+              "type": "integer",
+              "const": 2,
+              "description": "Must be 2/2."
+            }
+          }
+        },
+        "pass_criteria": {
+          "type": "object",
+          "required": ["minimum_total", "required_perfect"],
+          "additionalProperties": false,
+          "properties": {
+            "minimum_total": {
+              "type": "integer",
+              "minimum": 11
+            },
+            "required_perfect": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "contains": {
+                "const": "correctness"
+              },
+              "description": "Dimensions that must score 2/2."
+            }
+          }
+        },
+        "result": {
+          "type": "string",
+          "enum": ["PASS", "FAIL"],
+          "description": "QA gate result. Must be PASS to proceed."
+        }
+      }
+    }
+  }
+}

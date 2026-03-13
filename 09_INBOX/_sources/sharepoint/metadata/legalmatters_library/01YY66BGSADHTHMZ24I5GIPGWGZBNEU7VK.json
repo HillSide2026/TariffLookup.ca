@@ -1,0 +1,42 @@
+{
+  "createdBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "createdDateTime": "2025-09-09T20:51:17Z",
+  "eTag": "\"{76E61940-5C67-4C47-879A-C6C85A4A7EAA},3\"",
+  "id": "01YY66BGSADHTHMZ24I5GIPGWGZBNEU7VK",
+  "lastModifiedBy": {
+    "user": {
+      "email": "lawclerk@levinelegalservices.com",
+      "id": "89a56b68-19e3-45a3-b4a9-631695b9cea6",
+      "displayName": "Pooja Lakshmi"
+    }
+  },
+  "lastModifiedDateTime": "2025-09-09T20:51:17Z",
+  "name": "PPSA",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGUTJXJMPGI65RGLB5B3QNLD2PZL",
+    "name": "25-1231-00001 Charmaine Spiteri",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/Clerk Work/Work to archive1/Clerk Work -- Robin/25-1231-00001 Charmaine Spiteri",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/Shared%20Documents/Clerk%20Work/Work%20to%20archive1/Clerk%20Work%20--%20Robin/25-1231-00001%20Charmaine%20Spiteri/PPSA",
+  "cTag": "\"c:{76E61940-5C67-4C47-879A-C6C85A4A7EAA},0\"",
+  "fileSystemInfo": {
+    "createdDateTime": "2025-09-09T20:51:17Z",
+    "lastModifiedDateTime": "2025-09-09T20:51:17Z"
+  },
+  "folder": {
+    "childCount": 8
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 1316768
+}

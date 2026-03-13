@@ -1,0 +1,46 @@
+{
+  "@microsoft.graph.downloadUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/download.aspx?UniqueId=54cacbc1-f0e6-4985-b136-8c482008bd1f&Translate=false&tempauth=v1.eyJzaXRlaWQiOiI4YTU0NTY4Ny1lOTg0LTRiYTUtOWY4MS0yNWQyOWNjNzIxYjMiLCJhcHBfZGlzcGxheW5hbWUiOiJzZWNvbmQtYnJhaW4taW5nZXN0IiwibmFtZWlkIjoiMDY3N2ZjYWQtMjBkOS00ZDVjLTgzMzItMjE3NDY2MmNlZGQxQDAyYjM2MjNjLTE1ODMtNGZlNC05M2M2LWJmMDQ1MjA1ZmNjMiIsImF1ZCI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9sZXZpbmVsbHAuc2hhcmVwb2ludC5jb21AMDJiMzYyM2MtMTU4My00ZmU0LTkzYzYtYmYwNDUyMDVmY2MyIiwiZXhwIjoiMTc2OTkzMzEyNyJ9.CkAKDGVudHJhX2NsYWltcxIwQ0k3eis4c0dFQUFhRm5kNk4zSjZNazFHWjBVdE56aHFWVUZDTmpCRFFVRXFBQT09CjIKCmFjdG9yYXBwaWQSJDAwMDAwMDAzLTAwMDAtMDAwMC1jMDAwLTAwMDAwMDAwMDAwMAoKCgRzbmlkEgI2NBILCKLRwv3J2vA-EAUaDjIwLjE5MC4xNjEuMTUyKixFejkyWm9GSTFJdExhMjlvM0NmTXkvMElaQ0k0dUtQY0lGV3RTTDN0NGdZPTCLATgBQhCh8qMinTAAsJ3zJiE3QOeWShBoYXNoZWRwcm9vZnRva2VuegExugENc2VsZWN0ZWRzaXRlc8gBAQ.rqBDNKo7YjIbb9f31l-PCKAxQbTtVxyfkBNPj3Bo7io&ApiVersion=2.0",
+  "createdBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "createdDateTime": "2025-02-12T19:41:00Z",
+  "eTag": "\"{54CACBC1-F0E6-4985-B136-8C482008BD1F},2\"",
+  "id": "01YY66BGWBZPFFJZXQQVE3CNUMJAQARPI7",
+  "lastModifiedBy": {
+    "user": {
+      "email": "Matthew@levinelegalservices.com",
+      "id": "c7f37529-e089-4b7b-a230-890249a8d69b",
+      "displayName": "Matthew Levine"
+    }
+  },
+  "lastModifiedDateTime": "2025-02-05T22:13:02Z",
+  "name": "Board Resolution _Share Issuance for Property_ _BCBCA_.docx",
+  "parentReference": {
+    "driveType": "documentLibrary",
+    "driveId": "b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU",
+    "id": "01YY66BGWOF6TA74RULFCZXLF5KEY74E2Z",
+    "name": "SPA to ClearSky",
+    "path": "/drives/b!h1ZUioTppUufgSXSnMchs-6DFblC5YNCsdfy7k-ghhOWiwXFZMfpQ76cRS11GoNU/root:/LL Matters (Essential)/24-682-00003 -- Stream/24-682-00002 Acquisition of Stream/Purchase Agreement/Draft SPA/SPA to ClearSky",
+    "siteId": "8a545687-e984-4ba5-9f81-25d29cc721b3"
+  },
+  "webUrl": "https://levinellp.sharepoint.com/sites/LegalMatters/_layouts/15/Doc.aspx?sourcedoc=%7B54CACBC1-F0E6-4985-B136-8C482008BD1F%7D&file=Board%20Resolution%20_Share%20Issuance%20for%20Property_%20_BCBCA_.docx&action=default&mobileredirect=true",
+  "cTag": "\"c:{54CACBC1-F0E6-4985-B136-8C482008BD1F},8\"",
+  "file": {
+    "hashes": {
+      "quickXorHash": "WY/hXFD1saa/JBYh4LNSsWRNwi4="
+    },
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "fileSystemInfo": {
+    "createdDateTime": "2025-02-12T19:41:00Z",
+    "lastModifiedDateTime": "2025-02-05T22:13:02Z"
+  },
+  "shared": {
+    "scope": "users"
+  },
+  "size": 31269
+}

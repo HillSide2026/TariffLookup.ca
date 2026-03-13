@@ -1,0 +1,15 @@
+{
+  "message_id": "19c0a9c054fd5092",
+  "object_type": "Operations \u2014 Inquiries",
+  "lifecycle_state": "Reference",
+  "system_domain": "Operations",
+  "confidence": 0.67,
+  "reasoning_trace": [
+    "Unknown sender - treating as inquiry",
+    "No action indicators"
+  ],
+  "proposed_destination": "04_OPERATIONS",
+  "status": "proposal_only",
+  "timestamp": "2026-01-30T04:00:06.867298+00:00",
+  "model_version": "inbox-triage-v0.2"
+}

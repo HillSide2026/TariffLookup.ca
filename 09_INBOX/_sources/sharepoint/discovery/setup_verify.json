@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-02-13T03:02:41+00:00",
+  "mode": "verify",
+  "drive": {
+    "accessible": true,
+    "name": "Doc Pro Workspace",
+    "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray",
+    "driveType": "documentLibrary"
+  },
+  "folders": {
+    "execution_root": {
+      "found": true,
+      "id": "017KHWIVBSTHL7MVN6YRE3YPVEOJHJHOW6",
+      "name": "SB Execution",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution",
+      "childCount": 4
+    },
+    "DRAFTS": {
+      "found": true,
+      "id": "017KHWIVDDUFGTNSDDYJGZF2V5OXBVFLOI",
+      "name": "DRAFTS",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/DRAFTS",
+      "childCount": 3
+    },
+    "FINAL": {
+      "found": true,
+      "id": "017KHWIVHUT4KSP2ZNSVG2HVUUXL64OPGC",
+      "name": "FINAL",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/FINAL",
+      "childCount": 0
+    },
+    "RUN_LOGS": {
+      "found": true,
+      "id": "017KHWIVEQGJFT2AVXQZE2WURHXZND5WOH",
+      "name": "RUN_LOGS",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/RUN_LOGS",
+      "childCount": 0
+    },
+    "TEMPLATES": {
+      "found": true,
+      "id": "017KHWIVG2MPDGE6XXL5BKG2IWATADMOPQ",
+      "name": "TEMPLATES",
+      "webUrl": "https://levinellp.sharepoint.com/sites/Documentation/Doc%20Pro%20%20In%20Tray/SB%20Execution/TEMPLATES",
+      "childCount": 6
+    }
+  },
+  "columns": {
+    "SB_Status": {
+      "found": false
+    },
+    "SB_RunID": {
+      "found": false
+    },
+    "SB_TemplateVersion": {
+      "found": false
+    },
+    "SB_GeneratedAt": {
+      "found": false
+    },
+    "SB_GeneratedBy": {
+      "found": false
+    },
+    "SB_ApprovedBy": {
+      "found": false
+    },
+    "SB_ApprovedAt": {
+      "found": false
+    },
+    "SB_FinalizedAt": {
+      "found": false
+    },
+    "SB_FinalFileRef": {
+      "found": false
+    }
+  },
+  "write_permission": {
+    "writable": true
+  },
+  "summary": {
+    "drive_accessible": true,
+    "folders": "5/5",
+    "columns": "0/9",
+    "writable": true,
+    "ready": false
+  }
+}

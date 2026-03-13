@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "run_root_template": "06_RUNS/${run_id}/system_admin",
+  "agents": [
+    "SAA_REPO_LINTER",
+    "SAA_FOLDER_MAP_DRIFT",
+    "SAA_METADATA_ENFORCER",
+    "SAA_REFERENCE_INTEGRITY",
+    "SAA_REGISTRY_SYNC"
+  ],
+  "required_files": {
+    "inventory": {
+      "path": "inventory.json",
+      "schema": "_shared/inventory.schema.json",
+      "producer": "SAA_REPO_LINTER"
+    },
+    "findings": {
+      "path": "findings.json",
+      "schema": "_shared/findings.schema.json",
+      "merge_from": [
+        "findings_SAA_REPO_LINTER.json",
+        "findings_SAA_FOLDER_MAP_DRIFT.json",
+        "findings_SAA_METADATA_ENFORCER.json",
+        "findings_SAA_REFERENCE_INTEGRITY.json",
+        "findings_SAA_REGISTRY_SYNC.json"
+      ]
+    },
+    "reports": {
+      "summary": "SYSTEM_ADMIN_REPORT.md",
+      "findings": "findings.md"
+    },
+    "appendices": {
+      "repo_linter": "appendix_repo_linter.md",
+      "folder_map_drift": "appendix_folder_map_drift.md",
+      "metadata_enforcer": "appendix_metadata_enforcer.md",
+      "reference_integrity": "appendix_reference_integrity.md",
+      "registry_sync": "appendix_registry_sync.md"
+    }
+  },
+  "file_formats": {
+    "inventory": {
+      "type": "json",
+      "fields": [
+        "path",
+        "type_guess",
+        "category_guess",
+        "exists",
+        "size_bytes",
+        "last_modified"
+      ]
+    },
+    "findings": {
+      "type": "json",
+      "fields": [
+        "id",
+        "agent",
+        "severity",
+        "category",
+        "title",
+        "description",
+        "affected_paths",
+        "suggested_fix",
+        "references",
+        "created_at"
+      ]
+    }
+  },
+  "severity_levels": [
+    "BLOCKER",
+    "MAJOR",
+    "MINOR",
+    "INFO"
+  ],
+  "categories": [
+    "naming",
+    "structure",
+    "drift",
+    "metadata",
+    "reference",
+    "registry"
+  ],
+  "merge_rules": {
+    "dedupe_keys": [
+      "category",
+      "title",
+      "affected_paths"
+    ],
+    "ordering": [
+      "severity",
+      "category",
+      "title",
+      "agent"
+    ],
+    "on_blocker_findings": "mark_run_failed_continue"
+  }
+}
