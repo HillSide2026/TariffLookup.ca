@@ -10,6 +10,9 @@ This file tracks the European Union Step 3 queue against the current prototype b
 - `9403.60` - normalized and live
 - `3923.21` - normalized and live
 - `9403.30` - normalized and live
+- `3924.10` - normalized and live
+- `4819.10` - normalized and live
+- `9403.50` - normalized and live
 
 ## Ambiguity-Blocked Rows
 
@@ -33,4 +36,4 @@ This file tracks the European Union Step 3 queue against the current prototype b
 
 - add more high-signal furniture and consumer-goods rows only where all returned EU branches share the same base-duty outcome
 - do not collapse official EU rows when branch duties diverge or when end-use distinctions change the tariff result
-- `3924.10` remains a possible later candidate, but it was not prioritized in this pass because the prototype already reached the six-row Step 3 coverage threshold with cleaner branch patterns elsewhere
+- prioritize rows that improve common packaging, machinery-component, apparel-accessory, and household-goods coverage without reopening ambiguity already called out above

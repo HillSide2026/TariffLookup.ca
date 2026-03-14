@@ -31,10 +31,10 @@ This document defines the first official source package for Step 3 European Unio
 
 - the official source package has been identified
 - the local file layout is in place
-- the first verified normalized EU tariff rows are now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, and `9403.30`
+- verified normalized EU tariff rows are now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, and `9403.50`
 - raw official payloads and extracted measure summaries for those rows, plus ambiguity-review notes for blocked codes, are stored in `data/raw/eu/access2markets-tariffs-2026-03-13.json`
 - backend lookup code now prefers `data/normalized/eu/tariff-records.json` for matching European Union requests, pauses on known ambiguous EU codes, and uses explicit seed fallback only for uncovered low-confidence prototype cases
-- the Step 3 prototype threshold has been reached with a materially useful first EU normalized slice, while broader EU expansion remains future work
+- the Step 3 prototype threshold has been exceeded with a broader first EU normalized slice, while broader EU expansion remains future work
 
 ## First Committed Rows
 
@@ -44,6 +44,9 @@ This document defines the first official source package for Step 3 European Unio
 - `9403.60` -> MFN `0%`, normalized from a shared base-duty outcome across the returned wooden-furniture branches
 - `3923.21` -> MFN `6.50%`, Canada preference `0%`
 - `9403.30` -> MFN `0%`, normalized from a shared base-duty outcome across the returned wooden-office-furniture branches
+- `3924.10` -> MFN `6.50%`, Canada preference `0%`, normalized from a shared base-duty outcome across the returned plastic-tableware branches
+- `4819.10` -> MFN `0%`, normalized from a single corrugated-carton branch
+- `9403.50` -> MFN `0%`, normalized from a single wooden-bedroom-furniture branch
 
 ## Current Limitations
 

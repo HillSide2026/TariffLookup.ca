@@ -415,6 +415,160 @@
           "No separate Canada tariff-preference measure appears in the summary because the ERGA OMNES third-country duty is already 0%."
         ]
       }
+    },
+    {
+      "query": {
+        "product": "392410",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/392410/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Consigned from China or Hong Kong",
+          "Other",
+          "Polycarbonate infant feeding bottles",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9822610",
+            "startDate": "01/01/1999",
+            "endDate": "01/01/3000",
+            "tariffFormula": "6.50%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "regulationId": "R1815170",
+            "startDate": "01/11/2018",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "regulationId": "D1700370",
+            "startDate": "21/09/2017",
+            "endDate": null,
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "All returned branches in the Canada-to-Germany snapshot share the same 6.50% ERGA OMNES duty and 0% Canada tariff preference, so the prototype can normalize HS 3924.10 despite the mixed branch descriptions.",
+          "One returned branch omits the ship-platform suspension while the others include it, so the prototype only treats the shared 103 and 142 duty measures as the normalized base tariff outcome.",
+          "The branch descriptions include consignment and infant-feeding-bottle wording, which should be revisited later if the prototype moves beyond its current 6-digit normalization rule."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "481910",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/481910/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Cartons, boxes and cases, of corrugated paper or paperboard"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R0317890",
+            "startDate": "01/01/2005",
+            "endDate": "01/01/3000",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single corrugated-carton branch for HS 4819.10 with a 0% ERGA OMNES third-country duty.",
+          "The additional ship-platform suspension measure is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "940350",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940350/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Wooden furniture of a kind used in the bedroom"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "regulationId": "R9822610",
+            "startDate": "01/01/1999",
+            "endDate": "01/01/3000",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "regulationId": "R8726583",
+            "startDate": "01/07/2016",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "regulationId": "R1815170",
+            "startDate": "01/11/2018",
+            "endDate": null,
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "710",
+            "origin": "ERGA OMNES",
+            "type": "Import control - CITES",
+            "regulationId": "R2309660",
+            "startDate": "20/05/2023",
+            "endDate": "01/01/3000",
+            "tariffFormula": null
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single wooden-bedroom-furniture branch for HS 9403.50 with a 0% ERGA OMNES third-country duty.",
+          "The same snapshot includes conditional end-use, airworthiness, and CITES measures, but those auxiliary measures are not treated as the base customs duty in the normalized record."
+        ]
+      }
     }
   ]
 }
