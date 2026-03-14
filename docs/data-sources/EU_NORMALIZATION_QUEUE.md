@@ -17,6 +17,9 @@ This file tracks the European Union Step 3 queue against the current prototype b
 - `6302.60` - normalized and live
 - `6302.91` - normalized and live
 - `7323.93` - normalized and live
+- `3924.90` - normalized and live
+- `9403.40` - normalized and live
+- `9401.61` - normalized and live
 
 ## Ambiguity-Blocked Rows
 
@@ -39,6 +42,18 @@ This file tracks the European Union Step 3 queue against the current prototype b
   Current state: blocked
   Why blocked: official EU source splits kitchen utensils by stainless-steel versus other material, producing different MFN outcomes
   More detail needed: utensil material and whether the goods are stainless steel or another base material
+
+## Held For Classification Review
+
+- `7615.10`
+  Current state: reviewed but not normalized
+  Why held: official EU source shares one duty outcome, but the returned branch wording mixes aluminium household-article language with radiator and foil-manufacture descriptions
+  What is needed: a clearer product-description mapping rule before this code should be exposed as a live description-first result
+
+- `4419.90`
+  Current state: reviewed but not normalized
+  Why held: official EU source returns only a generic `Other` branch, which is too blunt for reliable product-description mapping
+  What is needed: a more specific wooden-tableware classification path or narrower source branch support
 
 ## Explicit Prototype Fallback
 

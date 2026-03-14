@@ -192,5 +192,50 @@
     ],
     "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
     "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "European Union",
+    "mfnRate": "6.50%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 392490, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns ironing-board and other plastic household-article branches, and both returned branches show the same 6.50% ERGA OMNES duty and 0% Canada tariff preference.",
+      "The same snapshot also includes conditional ship-platform and airworthiness suspension measures, but those conditional measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "European Union",
+    "mfnRate": "2.70%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940340, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns hand-made and other wooden kitchen-furniture branches, and both returned branches show the same 2.70% ERGA OMNES duty and 0% Canada tariff preference.",
+      "The same snapshot also includes conditional ship-platform, airworthiness, and CITES measures, but those measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940161, origin Canada, destination Germany, retrieved 2026-03-13.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single upholstered-seat branch with a 0% ERGA OMNES third-country duty.",
+      "The same snapshot also includes conditional ship-platform and CITES measures, but those measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-13"
   }
 ]

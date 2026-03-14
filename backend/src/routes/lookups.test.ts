@@ -298,6 +298,36 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses a normalized eu row for plastic household articles resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "plastic laundry basket organizer",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "3924.90",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "6.50%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
+      },
+    });
+  });
+
   it("uses a normalized eu row for corrugated cartons resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
@@ -389,6 +419,37 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses a normalized eu row for upholstered seats resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "upholstered lounge chair",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9401.61",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
+      },
+    });
+  });
+
   it("uses a normalized eu row for wooden office furniture resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
@@ -415,6 +476,36 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for wooden kitchen furniture resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "wooden kitchen cabinet",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9403.40",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "2.70%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });

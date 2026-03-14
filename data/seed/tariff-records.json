@@ -830,5 +830,200 @@
     ],
     "source": "TariffLookup internal seed/demo dataset",
     "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "United States",
+    "mfnRate": "6.5% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for plastic household articles.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "6.5% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for plastic household articles.",
+      "Preferential treatment assumes qualifying origin and supporting commercial records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "Japan",
+    "mfnRate": "3.9% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for plastic household articles.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "Brazil",
+    "mfnRate": "18.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for plastic household articles.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "3924.90",
+    "destinationCountry": "China",
+    "mfnRate": "6.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for plastic household articles.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "United States",
+    "mfnRate": "2.7% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for wooden kitchen furniture.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "2.7% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for wooden kitchen furniture.",
+      "Preferential treatment assumes qualifying origin and supporting commercial records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "Japan",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for wooden kitchen furniture.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "Brazil",
+    "mfnRate": "14.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for wooden kitchen furniture.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9403.40",
+    "destinationCountry": "China",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for wooden kitchen furniture.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "United States",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for upholstered seats.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for upholstered seats.",
+      "Preferential treatment assumes qualifying origin and supporting commercial records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "Japan",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for upholstered seats.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "Brazil",
+    "mfnRate": "18.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for upholstered seats.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "9401.61",
+    "destinationCountry": "China",
+    "mfnRate": "0.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for upholstered seats.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
   }
 ]

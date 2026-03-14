@@ -139,7 +139,7 @@ The repository has already moved beyond the initial scaffolding target:
 - `node` and `npm` are available locally, and frontend/backend builds have been verified successfully
 - `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
 - `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
-- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 13 normalized European Union rows now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, and `7323.93`
+- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 16 normalized European Union rows now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, `7323.93`, `3924.90`, `9403.40`, and `9401.61`
 - authentication, persistence, billing, observability, and production-grade test coverage are still pending
 
 ## Execution Status And Next Steps
@@ -197,7 +197,7 @@ Current groundwork already in place:
 
 - `data/raw/eu/source-manifest.json` defines the first official EU source package entry points
 - `data/raw/eu/access2markets-tariffs-2026-03-13.json` preserves the first official EU tariff payload snapshots used for normalization
-- `data/normalized/eu/tariff-records.json` now contains 13 verified local EU rows for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, and `7323.93`
+- `data/normalized/eu/tariff-records.json` now contains 16 verified local EU rows for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, `7323.93`, `3924.90`, `9403.40`, and `9401.61`
 - `data/schemas/eu-normalized-tariff-record.schema.json` defines the first EU normalized tariff record shape
 - backend lookup logic now prefers normalized EU records when available, returns explicit `needs more detail` responses for known ambiguous EU codes, and labels any remaining seed fallback state explicitly
 - `docs/data-sources/EU_NORMALIZATION_QUEUE.md` now tracks normalized, blocked, and fallback EU prototype states

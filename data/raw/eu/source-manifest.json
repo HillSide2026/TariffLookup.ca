@@ -3,7 +3,7 @@
   "status": "step-3-complete-expanded-eu-slice",
   "notes": [
     "This manifest identifies the official source package for the first real-data jurisdiction.",
-    "Verified local EU tariff rows are now committed for HS 8208.30, HS 0901.21, HS 6109.10, HS 9403.60, HS 3923.21, HS 9403.30, HS 3924.10, HS 4819.10, HS 9403.50, HS 7013.49, HS 6302.60, HS 6302.91, and HS 7323.93.",
+    "Verified local EU tariff rows are now committed for HS 8208.30, HS 0901.21, HS 6109.10, HS 9403.60, HS 3923.21, HS 9403.30, HS 3924.10, HS 4819.10, HS 9403.50, HS 7013.49, HS 6302.60, HS 6302.91, HS 7323.93, HS 3924.90, HS 9403.40, and HS 9401.61.",
     "Coverage remains intentionally partial and is not yet a production-grade EU tariff schedule."
   ],
   "artifacts": [
