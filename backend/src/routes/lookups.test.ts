@@ -74,6 +74,7 @@ describe("lookup routes", () => {
       meta: {
         source: "seed-demo-data",
         coverageStatus: "seed-fallback",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -109,6 +110,7 @@ describe("lookup routes", () => {
       meta: {
         source: "seed-demo-data",
         coverageStatus: "seed-fallback",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -139,6 +141,7 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -169,6 +172,7 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -199,6 +203,7 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -228,6 +233,7 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });
@@ -286,7 +292,56 @@ describe("lookup routes", () => {
       meta: {
         source: "seed-demo-data",
         coverageStatus: "seed-fallback",
+        historyStatus: "anonymous",
       },
+    });
+  });
+
+  it("returns a persistence-unavailable history state when an auth header is supplied before supabase is configured", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      headers: {
+        authorization: "Bearer test-token",
+      },
+      payload: {
+        productDescription: "stainless steel kitchen knife blades",
+        destinationCountry: "Japan",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      meta: {
+        historyStatus: "persistence-unavailable",
+      },
+    });
+  });
+
+  it("requires authentication before loading saved lookup history", async () => {
+    const response = await createApp().inject({
+      method: "GET",
+      url: "/api/account/lookups",
+    });
+
+    expect(response.statusCode).toBe(401);
+    expect(response.json()).toMatchObject({
+      error: "Authentication required",
+    });
+  });
+
+  it("returns an availability error when saved history is requested before backend supabase config is present", async () => {
+    const response = await createApp().inject({
+      method: "GET",
+      url: "/api/account/lookups",
+      headers: {
+        authorization: "Bearer test-token",
+      },
+    });
+
+    expect(response.statusCode).toBe(503);
+    expect(response.json()).toMatchObject({
+      error: "Lookup history unavailable",
     });
   });
 

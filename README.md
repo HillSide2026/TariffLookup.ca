@@ -46,11 +46,16 @@ Key files include:
 
 ## Current Status
 
-This repo now contains active frontend and backend scaffolding for the MVP, including a mocked lookup flow that can resolve a probable HS code from a product description before returning tariff output.
+This repo now contains an active frontend and backend MVP, including:
+
+- a description-first lookup flow
+- a first real-data European Union tariff slice
+- explicit EU normalized, fallback, and needs-more-detail states
+- the first Supabase auth and lookup-history scaffolding for Step 4
 
 ## Near-Term Priorities
 
-- replace the mocked description-to-HS resolver with a data-backed classification workflow
-- define data ingestion and normalization boundaries for the MVP jurisdictions
-- document tariff data sources, agreement logic boundaries, and validation rules
-- add test and CI foundations once the first services are in place
+- deepen the description-to-HS classification workflow beyond the current prototype rules
+- expand real-data coverage beyond the first European Union slice
+- connect Supabase locally to enable sign-in and saved lookup history end to end
+- continue Step 4 auth, persistence, and account-surface refinement

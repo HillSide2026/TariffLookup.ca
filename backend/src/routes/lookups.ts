@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { z } from "zod";
 import type { LookupErrorResponse } from "../contracts/lookup.js";
 import { activeSupportedDestinations } from "../contracts/markets.js";
+import { saveLookupHistory } from "../services/lookup-history-service.js";
 import {
   LookupNeedsMoreDetailError,
   LookupNotFoundError,
@@ -66,7 +67,19 @@ export async function registerLookupRoutes(app: FastifyInstance) {
     }
 
     try {
-      return await runLookup(parsed.data);
+      const lookupResponse = await runLookup(parsed.data);
+      const historyStatus = await saveLookupHistory({
+        authorizationHeader: request.headers.authorization,
+        lookupResponse,
+      });
+
+      return {
+        ...lookupResponse,
+        meta: {
+          ...lookupResponse.meta,
+          historyStatus,
+        },
+      };
     } catch (error) {
       if (error instanceof LookupNeedsMoreDetailError) {
         reply.code(409);

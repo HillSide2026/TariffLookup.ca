@@ -1,5 +1,6 @@
 import Fastify from "fastify";
 import { env } from "./config/env.js";
+import { registerAccountRoutes } from "./routes/account.js";
 import { registerHealthRoute } from "./routes/health.js";
 import { registerLookupRoutes } from "./routes/lookups.js";
 
@@ -18,6 +19,7 @@ export function buildServer() {
     }
   });
 
+  void registerAccountRoutes(app);
   void registerHealthRoute(app);
   void registerLookupRoutes(app);
 

@@ -216,6 +216,13 @@ Exit criteria:
 
 ### Step 4: Add Auth and Persistence After the Lookup Flow Is Stable
 
+Status: in progress as of 2026-03-13
+
+- `supabase/migrations/20260313130000_init_auth_and_lookup_history.sql` defines the first `profiles` and `lookup_history` schema
+- frontend auth wiring now exists for email/password sign-in when Supabase browser env vars are configured
+- account routes now exist for saved lookup history, and the public lookup route can persist successful lookups when a valid bearer token is present
+- dashboard, profile, and settings routes are now protected while the public lookup route remains open
+
 - Add Supabase schema and application wiring for `profiles` and `lookup_history`
 - Protect saved-history and account routes while keeping the public lookup entry path lightweight
 - Persist successful lookups for authenticated users and expose them in the dashboard

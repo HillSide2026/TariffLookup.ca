@@ -1,4 +1,5 @@
-import { NavLink, Outlet } from "react-router";
+import { NavLink, Outlet, useNavigate } from "react-router";
+import { useAuth } from "../auth/AuthProvider";
 
 const navigationItems = [
   { to: "/", label: "Lookup" },
@@ -17,6 +18,19 @@ function navLinkClass(isActive: boolean) {
 }
 
 export function AppShell() {
+  const auth = useAuth();
+  const navigate = useNavigate();
+
+  function handleAuthAction() {
+    if (auth.isAuthenticated) {
+      auth.signOut();
+      navigate("/");
+      return;
+    }
+
+    navigate("/login");
+  }
+
   return (
     <div className="relative min-h-screen overflow-hidden text-slate-900">
       <div className="pointer-events-none absolute inset-0">
@@ -35,17 +49,35 @@ export function AppShell() {
             </h1>
           </div>
 
-          <nav className="flex flex-wrap gap-2">
-            {navigationItems.map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                className={({ isActive }) => navLinkClass(isActive)}
-              >
-                {item.label}
-              </NavLink>
-            ))}
-          </nav>
+          <div className="flex flex-wrap items-center gap-3">
+            {auth.isAuthenticated ? (
+              <div className="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-900">
+                {auth.user?.email || "Signed in"}
+              </div>
+            ) : (
+              <div className="rounded-full border border-amber-200 bg-amber-50 px-4 py-2 text-sm font-medium text-amber-900">
+                Public lookup mode
+              </div>
+            )}
+            <nav className="flex flex-wrap gap-2">
+              {navigationItems.map((item) => (
+                <NavLink
+                  key={item.to}
+                  to={item.to}
+                  className={({ isActive }) => navLinkClass(isActive)}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+            </nav>
+            <button
+              className="rounded-full bg-slate-950 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-800"
+              onClick={handleAuthAction}
+              type="button"
+            >
+              {auth.isAuthenticated ? "Sign out" : "Sign in"}
+            </button>
+          </div>
         </header>
 
         <main className="flex-1">

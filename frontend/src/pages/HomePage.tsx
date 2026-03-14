@@ -1,4 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { useAuth } from "../auth/AuthProvider";
 
 const defaultJurisdictions = [
   "United States",
@@ -45,6 +46,11 @@ type LookupResponse = {
     supportedDestinations: string[];
     coverageStatus: "normalized-record" | "seed-fallback";
     coverageNote: string;
+    historyStatus:
+      | "anonymous"
+      | "saved"
+      | "persistence-unavailable"
+      | "save-failed";
   };
 };
 
@@ -131,7 +137,24 @@ function getCoverageBannerClasses(
     : "border-amber-200 bg-amber-50 text-amber-950";
 }
 
+function formatHistoryStatusMessage(historyStatus: LookupResponse["meta"]["historyStatus"]) {
+  if (historyStatus === "saved") {
+    return "This lookup was saved to your account history.";
+  }
+
+  if (historyStatus === "persistence-unavailable") {
+    return "You are signed in, but backend history persistence is not configured yet.";
+  }
+
+  if (historyStatus === "save-failed") {
+    return "This lookup returned successfully, but it could not be saved to history.";
+  }
+
+  return "Sign in to save lookups to your account history.";
+}
+
 export function HomePage() {
+  const auth = useAuth();
   const [markets, setMarkets] = useState<string[]>(defaultJurisdictions);
   const [productDescription, setProductDescription] = useState(
     "stainless steel kitchen knife blades",
@@ -223,6 +246,11 @@ export function HomePage() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          ...(auth.accessToken
+            ? {
+                Authorization: `Bearer ${auth.accessToken}`,
+              }
+            : {}),
         },
         body: JSON.stringify({
           hsCode: hsCode.trim() || undefined,
@@ -271,6 +299,9 @@ export function HomePage() {
         <div className="mb-8 max-w-2xl">
           <p className="mb-3 inline-flex rounded-full border border-amber-300/60 bg-amber-100/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-amber-900">
             MVP workflow
+          </p>
+          <p className="mb-3 inline-flex rounded-full border border-slate-200 bg-slate-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-slate-700">
+            {auth.isAuthenticated ? "Signed in: save lookups automatically" : "Public lookup mode"}
           </p>
           <h2 className="text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
             Start with a rough product description and turn it into a probable
@@ -458,8 +489,9 @@ export function HomePage() {
             {lookupResponse.result.source}. Source tier:{" "}
             {formatSourceTierLabel(lookupResponse.meta.source)}. Coverage state:{" "}
             {formatCoverageStatusLabel(lookupResponse.meta.coverageStatus)}.{" "}
-            {lookupResponse.meta.coverageNote} Effective date:{" "}
-            {lookupResponse.result.effectiveDate}.
+            {lookupResponse.meta.coverageNote} {formatHistoryStatusMessage(
+              lookupResponse.meta.historyStatus,
+            )} Effective date: {lookupResponse.result.effectiveDate}.
           </div>
         ) : detailRequest ? (
           <div className="mt-4 rounded-[24px] border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-950">

@@ -76,6 +76,7 @@ export async function runLookup(
       supportedDestinations: [...activeSupportedDestinations],
       coverageStatus: lookupMatch.coverageStatus,
       coverageNote: lookupMatch.coverageNote,
+      historyStatus: "anonymous",
     },
   };
 }

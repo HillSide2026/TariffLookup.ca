@@ -1,6 +1,7 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { AuthProvider } from "../auth/AuthProvider";
 import { HomePage } from "./HomePage";
 
 const marketsResponse = {
@@ -47,6 +48,7 @@ const lookupResponse = {
     coverageStatus: "normalized-record",
     coverageNote:
       "Matched a verified European Union normalized tariff row sourced from the official Access2Markets package.",
+    historyStatus: "anonymous",
   },
 } as const;
 
@@ -104,8 +106,17 @@ const seedFallbackResponse = {
     coverageStatus: "seed-fallback",
     coverageNote:
       "No verified EU normalized row exists for HS code 8479.89 yet, so the prototype returned the internal seed/demo fallback dataset.",
+    historyStatus: "anonymous",
   },
 } as const;
+
+function renderHomePage() {
+  return render(
+    <AuthProvider>
+      <HomePage />
+    </AuthProvider>,
+  );
+}
 
 describe("HomePage", () => {
   const fetchMock = vi.fn<
@@ -149,7 +160,7 @@ describe("HomePage", () => {
   it("updates the visible result cards after a lookup", async () => {
     const user = userEvent.setup();
 
-    render(<HomePage />);
+    renderHomePage();
 
     const descriptionInput = screen.getByLabelText("Product description");
 
@@ -209,7 +220,7 @@ describe("HomePage", () => {
       throw new Error(`Unexpected fetch URL: ${url}`);
     });
 
-    render(<HomePage />);
+    renderHomePage();
 
     await user.clear(screen.getByLabelText("Product description"));
     await user.type(
@@ -263,7 +274,7 @@ describe("HomePage", () => {
       throw new Error(`Unexpected fetch URL: ${url}`);
     });
 
-    render(<HomePage />);
+    renderHomePage();
 
     await user.clear(screen.getByLabelText("Product description"));
     await user.type(

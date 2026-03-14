@@ -1,4 +1,8 @@
+import { useAuth } from "../auth/AuthProvider";
+
 export function ProfilePage() {
+  const auth = useAuth();
+
   return (
     <section className="rounded-[32px] border border-white/70 bg-white/75 p-6 shadow-xl shadow-slate-200/60 backdrop-blur">
       <p className="text-sm font-semibold uppercase tracking-[0.24em] text-slate-500">
@@ -10,12 +14,14 @@ export function ProfilePage() {
       <div className="mt-6 grid gap-4 md:grid-cols-2">
         <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
           <p className="text-sm font-medium text-slate-500">User</p>
-          <p className="mt-2 text-lg font-semibold text-slate-900">Not connected</p>
+          <p className="mt-2 text-lg font-semibold text-slate-900">
+            {auth.user?.email || "Unavailable"}
+          </p>
         </div>
         <div className="rounded-[24px] border border-slate-200 bg-slate-50 p-4">
-          <p className="text-sm font-medium text-slate-500">Organization</p>
+          <p className="text-sm font-medium text-slate-500">Authentication</p>
           <p className="mt-2 text-lg font-semibold text-slate-900">
-            Canadian exporter account
+            {auth.isConfigured ? "Supabase session" : "Supabase not configured"}
           </p>
         </div>
       </div>

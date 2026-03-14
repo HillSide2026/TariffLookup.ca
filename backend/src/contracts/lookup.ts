@@ -4,6 +4,12 @@ export type LookupSourceTier = "seed-demo-data" | "local-normalized-data";
 
 export type LookupCoverageStatus = "normalized-record" | "seed-fallback";
 
+export type LookupHistoryStatus =
+  | "anonymous"
+  | "saved"
+  | "persistence-unavailable"
+  | "save-failed";
+
 export type LookupRequest = {
   hsCode?: string;
   productDescription?: string;
@@ -54,6 +60,7 @@ export type LookupResponse = {
     supportedDestinations: string[];
     coverageStatus: LookupCoverageStatus;
     coverageNote: string;
+    historyStatus: LookupHistoryStatus;
   };
 };
 
