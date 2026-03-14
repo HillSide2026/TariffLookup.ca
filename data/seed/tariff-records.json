@@ -570,5 +570,265 @@
     ],
     "source": "TariffLookup internal seed/demo dataset",
     "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7013.49",
+    "destinationCountry": "United States",
+    "mfnRate": "11.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for glass drinkware and table glassware.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7013.49",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "11.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for glass drinkware and table glassware.",
+      "Preferential treatment assumes qualifying origin and supporting commercial records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7013.49",
+    "destinationCountry": "Japan",
+    "mfnRate": "3.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for glass drinkware and table glassware.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7013.49",
+    "destinationCountry": "Brazil",
+    "mfnRate": "18.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for glass drinkware and table glassware.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7013.49",
+    "destinationCountry": "China",
+    "mfnRate": "7.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for glass drinkware and table glassware.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.60",
+    "destinationCountry": "United States",
+    "mfnRate": "9.5% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for terry towels and kitchen linen.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.60",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "12.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for terry towels and kitchen linen.",
+      "Preferential treatment assumes qualifying textile origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.60",
+    "destinationCountry": "Japan",
+    "mfnRate": "7.4% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for terry towels and kitchen linen.",
+      "Preferential treatment assumes qualifying textile origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.60",
+    "destinationCountry": "Brazil",
+    "mfnRate": "18.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for terry towels and kitchen linen.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.60",
+    "destinationCountry": "China",
+    "mfnRate": "10.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for terry towels and kitchen linen.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.91",
+    "destinationCountry": "United States",
+    "mfnRate": "9.5% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton table linen and kitchen linen.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.91",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "12.0% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton table linen and kitchen linen.",
+      "Preferential treatment assumes qualifying textile origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.91",
+    "destinationCountry": "Japan",
+    "mfnRate": "7.4% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton table linen and kitchen linen.",
+      "Preferential treatment assumes qualifying textile origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.91",
+    "destinationCountry": "Brazil",
+    "mfnRate": "18.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton table linen and kitchen linen.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6302.91",
+    "destinationCountry": "China",
+    "mfnRate": "10.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for cotton table linen and kitchen linen.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7323.93",
+    "destinationCountry": "United States",
+    "mfnRate": "2.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-United States preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for stainless steel household articles and cookware.",
+      "This non-EU result is included only to keep prototype lookups working outside the official EU slice."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7323.93",
+    "destinationCountry": "United Kingdom",
+    "mfnRate": "3.2% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "Canada-UK Trade Continuity Agreement (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for stainless steel household articles and cookware.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7323.93",
+    "destinationCountry": "Japan",
+    "mfnRate": "3.1% (seed demo)",
+    "preferentialRate": "0.0% (seed demo)",
+    "agreement": "CPTPP preferential treatment (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for stainless steel household articles and cookware.",
+      "Preferential treatment assumes qualifying origin and supporting records."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7323.93",
+    "destinationCountry": "Brazil",
+    "mfnRate": "16.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-Brazil preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for stainless steel household articles and cookware.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "7323.93",
+    "destinationCountry": "China",
+    "mfnRate": "8.0% (seed demo)",
+    "preferentialRate": "No preferential rate identified (seed demo)",
+    "agreement": "No Canada-China preferential agreement identified (seed demo)",
+    "eligibilityNotes": [
+      "Seed/demo record for stainless steel household articles and cookware.",
+      "Result assumes no preferential agreement applies in the seed dataset."
+    ],
+    "source": "TariffLookup internal seed/demo dataset",
+    "effectiveDate": "2026-03-13"
   }
 ]

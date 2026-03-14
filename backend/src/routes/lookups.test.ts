@@ -268,6 +268,36 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses a normalized eu row for glassware resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "glass tumbler set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "7013.49",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "11.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
+      },
+    });
+  });
+
   it("uses a normalized eu row for corrugated cartons resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
@@ -290,6 +320,66 @@ describe("lookup routes", () => {
         preferentialTariffRate: "0%",
         agreementBasis:
           "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for terry towels resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "cotton bath towel set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "6302.60",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "12.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for cotton table linen resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "cotton tablecloth set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "6302.91",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "12.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
       },
       meta: {
         source: "local-normalized-data",
@@ -325,6 +415,36 @@ describe("lookup routes", () => {
       meta: {
         source: "local-normalized-data",
         coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for stainless steel household articles resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "stainless steel cookware pot",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "7323.93",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "3.20%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+        historyStatus: "anonymous",
       },
     });
   });

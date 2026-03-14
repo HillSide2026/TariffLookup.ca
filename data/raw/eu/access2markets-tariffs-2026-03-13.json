@@ -569,6 +569,169 @@
           "The same snapshot includes conditional end-use, airworthiness, and CITES measures, but those auxiliary measures are not treated as the base customs duty in the normalized record."
         ]
       }
+    },
+    {
+      "query": {
+        "product": "701349",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/701349/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Of toughened glass",
+          "Gathered by hand",
+          "Gathered mechanically"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "11.00%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "All returned branches in the Canada-to-Germany snapshot share the same 11.00% ERGA OMNES duty and 0% Canada tariff preference, so the prototype can normalize HS 7013.49 despite the manufacturing-branch split.",
+          "The additional ship-platform suspension measure is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "630260",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630260/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Knitted or crocheted",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "12.00%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns knitted-or-crocheted and other terry-towel or kitchen-linen branches for HS 6302.60, and both returned branches share the same 12.00% ERGA OMNES duty and 0% Canada tariff preference.",
+          "The additional ship-platform suspension measure is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "630291",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630291/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Hand-printed by the \"batik\" method",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "12.00%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns batik-printed and other cotton-linen branches for HS 6302.91, and both returned branches share the same 12.00% ERGA OMNES duty and 0% Canada tariff preference.",
+          "The additional ship-platform suspension measure is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "732393",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/732393/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Ironing boards, including sleeve boards, whether or not free standing, and legs, tops and iron rests thereof",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "3.20%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns ironing-board and other stainless-steel household-article branches for HS 7323.93, and both returned branches share the same 3.20% ERGA OMNES duty and 0% Canada tariff preference.",
+          "The ship-platform and airworthiness suspensions are conditional measures and are not treated as separate base tariff outcomes in the normalized record."
+        ]
+      }
     }
   ]
 }
