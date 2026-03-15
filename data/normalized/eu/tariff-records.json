@@ -237,5 +237,65 @@
     ],
     "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
     "effectiveDate": "2026-03-13"
+  },
+  {
+    "hsCode": "6911.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 691110, origin Canada, destination Germany, retrieved 2026-03-14.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns porcelain-and-china tableware branches for specialized kitchen tools and other goods, and both returned branches show the same 12.00% ERGA OMNES duty and 0% Canada tariff preference.",
+      "The same snapshot also includes a conditional ship-platform suspension measure, but that conditional measure is not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "7615.20",
+    "destinationCountry": "European Union",
+    "mfnRate": "6.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 761520, origin Canada, destination Germany, retrieved 2026-03-14.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single aluminium sanitary-ware branch with a 6.00% ERGA OMNES duty and a 0% Canada tariff preference.",
+      "The same snapshot also includes conditional ship-platform and airworthiness suspension measures, but those conditional measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "8302.50",
+    "destinationCountry": "European Union",
+    "mfnRate": "2.70%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 830250, origin Canada, destination Germany, retrieved 2026-03-14.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for hat-racks, hat-pegs, brackets, and similar fixtures with a 2.70% ERGA OMNES duty and a 0% Canada tariff preference.",
+      "The same snapshot also includes conditional ship-platform and airworthiness suspension measures, but those conditional measures are not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "9403.20",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940320, origin Canada, destination Germany, retrieved 2026-03-14.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns beds and other metal-furniture branches, and both returned branches show the same 0% ERGA OMNES duty.",
+      "The same snapshot also includes a conditional airworthiness suspension measure, but that conditional measure is not used as the base tariff rate in this normalized record."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
   }
 ]

@@ -944,6 +944,271 @@
           "This code was not normalized in this pass because the branch wording is too generic for reliable product-description mapping without a more specific wooden-tableware classification path."
         ]
       }
+    },
+    {
+      "query": {
+        "product": "691110",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/691110/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Condiment or spice mills and their ceramic grinding parts, coffee mills, knife sharpeners, sharpeners, kitchen tools to be used for cutting, grinding, grating, slicing, scraping and peeling, cordierite ceramic pizza-stones of a kind used for baking pizza or bread",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "12.00%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns specialized-kitchen-tool and other porcelain-or-china tableware branches for HS 6911.10, and both returned branches share the same 12.00% ERGA OMNES duty and 0% Canada tariff preference.",
+          "The ship-platform suspension is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "761520",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/761520/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Sanitary ware and parts thereof"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "6.00%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single aluminium-sanitary-ware branch for HS 7615.20 with a 6.00% ERGA OMNES duty and a 0% Canada tariff preference.",
+          "The ship-platform and airworthiness suspensions are conditional and are not treated as separate base tariff outcomes in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "830250",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/830250/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Hat-racks, hat-pegs, brackets and similar fixtures"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "2.70%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single branch for hat-racks, hat-pegs, brackets, and similar fixtures with a 2.70% ERGA OMNES duty and a 0% Canada tariff preference.",
+          "The ship-platform and airworthiness suspensions are conditional and are not treated as separate base tariff outcomes in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "940320",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940320/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Beds",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "119",
+            "origin": "ERGA OMNES",
+            "type": "Airworthiness tariff suspension",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns beds and other metal-furniture branches for HS 9403.20, and both returned branches share the same 0% ERGA OMNES duty.",
+          "The airworthiness suspension is conditional and is not treated as a separate base tariff outcome in the normalized record."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "630710",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630710/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Knitted or crocheted",
+          "Nonwovens",
+          "Hand-made",
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "142",
+            "origin": "Canada",
+            "type": "Tariff preference",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "143",
+            "origin": "Canada",
+            "type": "Preferential tariff quota",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "This code was not normalized because the official EU source returns materially different ERGA OMNES duties across the knitted-or-crocheted, nonwoven, hand-made, and other cleaning-cloth branches.",
+          "Returned MFN formulas include 12.00%, 6.90%, and 7.70%, so the product requires more specific material-detail classification before it can be exposed as a reliable lookup row."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "940169",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940169/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "710",
+            "origin": "ERGA OMNES",
+            "type": "Import control - CITES",
+            "tariffFormula": null
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single generic 'Other' branch for HS 9401.69 with a 0% ERGA OMNES third-country duty.",
+          "This code was not normalized in this pass because the branch wording is too generic for reliable description-first mapping."
+        ]
+      }
+    },
+    {
+      "query": {
+        "product": "830629",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/830629/CA/DE?lang=EN",
+      "responseSummary": {
+        "branchDescriptions": [
+          "Other"
+        ],
+        "sharedMeasuresOfInterest": [
+          {
+            "measureType": "103",
+            "origin": "ERGA OMNES",
+            "type": "Third country duty",
+            "tariffFormula": "0%"
+          },
+          {
+            "measureType": "117",
+            "origin": "ERGA OMNES",
+            "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+            "tariffFormula": "0%"
+          }
+        ],
+        "notes": [
+          "The official EU source returns a single generic 'Other' branch for HS 8306.29 with a 0% ERGA OMNES third-country duty.",
+          "This code was not normalized in this pass because the branch wording is too generic for reliable decorative-article product-description mapping."
+        ]
+      }
     }
   ]
 }

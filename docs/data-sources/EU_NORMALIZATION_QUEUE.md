@@ -20,6 +20,10 @@ This file tracks the European Union Step 3 queue against the current prototype b
 - `3924.90` - normalized and live
 - `9403.40` - normalized and live
 - `9401.61` - normalized and live
+- `6911.10` - normalized and live
+- `7615.20` - normalized and live
+- `8302.50` - normalized and live
+- `9403.20` - normalized and live
 
 ## Ambiguity-Blocked Rows
 
@@ -43,6 +47,11 @@ This file tracks the European Union Step 3 queue against the current prototype b
   Why blocked: official EU source splits kitchen utensils by stainless-steel versus other material, producing different MFN outcomes
   More detail needed: utensil material and whether the goods are stainless steel or another base material
 
+- `6307.10`
+  Current state: blocked
+  Why blocked: official EU source splits cleaning-cloth goods across knitted, nonwoven, hand-made, and other branches with materially different MFN outcomes
+  More detail needed: fabric construction, material type, and whether the article is knitted, nonwoven, hand-made, or another textile form
+
 ## Held For Classification Review
 
 - `7615.10`
@@ -54,6 +63,16 @@ This file tracks the European Union Step 3 queue against the current prototype b
   Current state: reviewed but not normalized
   Why held: official EU source returns only a generic `Other` branch, which is too blunt for reliable product-description mapping
   What is needed: a more specific wooden-tableware classification path or narrower source branch support
+
+- `9401.69`
+  Current state: reviewed but not normalized
+  Why held: official EU source returns only a generic `Other` seat branch, which is too blunt for reliable description-first mapping
+  What is needed: a narrower seat-classification path that distinguishes the actual seat construction and use
+
+- `8306.29`
+  Current state: reviewed but not normalized
+  Why held: official EU source returns only a generic `Other` decorative-article branch
+  What is needed: a narrower decor-product classification path before exposing this code as a live lookup target
 
 ## Explicit Prototype Fallback
 
