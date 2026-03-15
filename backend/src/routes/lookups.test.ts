@@ -850,6 +850,7 @@ describe("lookup routes", () => {
     }
   });
 
+
   it("uses a normalized eu row for aluminium kitchen articles resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",

@@ -228,6 +228,7 @@ describe("HomePage", () => {
     expect(screen.getByLabelText("Destination")).toHaveValue("European Union");
   });
 
+
   it("shows a needs-more-detail state for ambiguous eu lookups", async () => {
     const user = userEvent.setup();
 

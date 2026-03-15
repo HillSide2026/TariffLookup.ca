@@ -257,6 +257,33 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "4419.90",
+    label: "Wooden tableware and kitchenware",
+    keywords: [
+      "wood",
+      "wooden",
+      "tableware",
+      "kitchenware",
+      "serving",
+      "tray",
+      "bowl",
+      "utensil",
+      "salad",
+      "cutting",
+      "board",
+    ],
+    phrases: [
+      "wooden serving tray",
+      "wooden salad bowl",
+      "wooden kitchenware",
+      "wooden tableware",
+      "wooden cutting board",
+    ],
+    excludedKeywords: ["chair", "stool", "seat", "cabinet", "furniture", "ornament"],
+    excludedPhrases: ["wooden dining table", "wooden chair", "wooden cabinet"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "7013.49",
     label: "Glass drinkware and table glassware",
     keywords: [
@@ -295,6 +322,42 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "aluminium kitchen tray",
     ],
     requiredKeywords: ["aluminium", "aluminum"],
+    excludedKeywords: [
+      "radiator",
+      "radiators",
+      "foil",
+      "foils",
+      "section",
+      "sections",
+      "bathroom",
+      "shower",
+      "soap",
+      "sanitary",
+    ],
+    excludedPhrases: ["aluminum radiator", "aluminium radiator", "foil manufacture"],
+    euPriority: "normalized",
+  },
+  {
+    probableHsCode: "7615.10",
+    label: "Aluminium household and kitchen articles",
+    keywords: [
+      "aluminium",
+      "aluminum",
+      "kitchen",
+      "household",
+      "tray",
+      "basket",
+      "dish",
+      "serving",
+      "cookware",
+      "pan",
+    ],
+    phrases: [
+      "aluminum serving tray",
+      "aluminium serving tray",
+      "aluminum kitchen basket",
+      "aluminium kitchen tray",
+    ],
     excludedKeywords: [
       "radiator",
       "radiators",
@@ -1019,6 +1082,7 @@ function resolveClassificationFromDescription(
       continue;
     }
 
+
     const matchedExcludedKeywords = (profile.excludedKeywords || []).filter((keyword) =>
       matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),
     );
@@ -1037,6 +1101,7 @@ function resolveClassificationFromDescription(
     if ((profile.requiredKeywords || []).length > 0 && matchedRequiredKeywords.length === 0) {
       continue;
     }
+
 
     const matchedKeywords = profile.keywords.filter((keyword) =>
       matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),

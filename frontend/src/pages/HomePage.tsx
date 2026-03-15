@@ -405,6 +405,22 @@ export function HomePage() {
     );
   }
 
+  function handleDestinationChange(nextDestination: string) {
+    setDestinationCountry(nextDestination);
+
+    if (!userPreferences.rememberLastDestination) {
+      return;
+    }
+
+    const nextPreferences = {
+      ...userPreferences,
+      lastDestination: nextDestination,
+    };
+
+    setUserPreferences(nextPreferences);
+    saveUserPreferences(nextPreferences);
+  }
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
