@@ -1,15 +1,14 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { Link } from "react-router";
 import { useAuth } from "../auth/AuthProvider";
+import { activeDestinationMarkets } from "../lib/markets";
 import { logClientFailure } from "../lib/client-observability";
-
-const defaultJurisdictions = [
-  "United States",
-  "European Union",
-  "United Kingdom",
-  "Japan",
-  "Brazil",
-  "China",
-];
+import {
+  loadUserPreferences,
+  resolvePreferredDestination,
+  saveUserPreferences,
+  type UserPreferences,
+} from "../lib/user-preferences";
 
 const apiBaseUrl = (
   import.meta.env.VITE_API_BASE_URL || "http://localhost:8000"
@@ -156,12 +155,16 @@ function formatHistoryStatusMessage(historyStatus: LookupResponse["meta"]["histo
 
 export function HomePage() {
   const auth = useAuth();
-  const [markets, setMarkets] = useState<string[]>(defaultJurisdictions);
+  const [markets, setMarkets] = useState<string[]>([...activeDestinationMarkets]);
+  const [userPreferences, setUserPreferences] =
+    useState<UserPreferences>(() => loadUserPreferences());
   const [productDescription, setProductDescription] = useState(
     "stainless steel kitchen knife blades",
   );
   const [hsCode, setHsCode] = useState("");
-  const [destinationCountry, setDestinationCountry] = useState("Japan");
+  const [destinationCountry, setDestinationCountry] = useState(() =>
+    resolvePreferredDestination(loadUserPreferences()),
+  );
   const [lookupResponse, setLookupResponse] = useState<LookupResponse | null>(
     null,
   );
@@ -203,9 +206,17 @@ export function HomePage() {
         }
 
         setMarkets(data.markets);
-        setDestinationCountry((currentValue) =>
-          data.markets.includes(currentValue) ? currentValue : data.markets[0],
-        );
+        setDestinationCountry((currentValue) => {
+          if (data.markets.includes(currentValue)) {
+            return currentValue;
+          }
+
+          const preferredDestination = resolvePreferredDestination(userPreferences);
+
+          return data.markets.includes(preferredDestination)
+            ? preferredDestination
+            : data.markets[0];
+        });
         setMarketError(null);
       } catch (error) {
         if (error instanceof DOMException && error.name === "AbortError") {
@@ -236,11 +247,27 @@ export function HomePage() {
     return () => controller.abort();
   }, []);
 
-  const visibleMarkets = markets.length > 0 ? markets : defaultJurisdictions;
+  const visibleMarkets = markets.length > 0 ? markets : [...activeDestinationMarkets];
   const lookupResult = lookupResponse?.result;
   const classification = lookupResponse?.classification;
   const probableHsCode =
     classification?.probableHsCode || detailRequest?.probableHsCode || "Pending lookup";
+
+  function handleDestinationChange(nextDestination: string) {
+    setDestinationCountry(nextDestination);
+
+    if (!userPreferences.rememberLastDestination) {
+      return;
+    }
+
+    const nextPreferences = {
+      ...userPreferences,
+      lastDestination: nextDestination,
+    };
+
+    setUserPreferences(nextPreferences);
+    saveUserPreferences(nextPreferences);
+  }
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -390,7 +417,7 @@ export function HomePage() {
             <span className="font-medium text-white/80">Destination</span>
             <select
               className="rounded-2xl border border-white/10 bg-white/10 px-4 py-3 text-white outline-none"
-              onChange={(event) => setDestinationCountry(event.target.value)}
+              onChange={(event) => handleDestinationChange(event.target.value)}
               value={destinationCountry}
             >
               {visibleMarkets.map((market) => (
@@ -425,6 +452,21 @@ export function HomePage() {
               {submissionError}
             </p>
           ) : null}
+          <p className="text-sm text-slate-500">
+            Default destination:{" "}
+            <span className="font-medium text-slate-700">
+              {userPreferences.defaultDestination}
+            </span>
+            .{" "}
+            {userPreferences.rememberLastDestination
+              ? "This browser will reopen on your most recent destination."
+              : "This browser will keep using your saved default destination."}{" "}
+            {auth.isAuthenticated ? (
+              <Link className="font-medium text-slate-900 underline" to="/settings">
+                Update workflow defaults
+              </Link>
+            ) : null}
+          </p>
         </div>
 
         <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
@@ -546,6 +588,15 @@ export function HomePage() {
             {detailRequest.suggestedPrompt}
           </div>
         ) : null}
+
+        {auth.isAuthenticated && lookupResponse?.meta.historyStatus === "saved" ? (
+          <div className="mt-4 flex flex-wrap items-center gap-3 rounded-[24px] border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-950">
+            <span>Saved to your dashboard history.</span>
+            <Link className="font-medium underline" to="/dashboard">
+              Open dashboard
+            </Link>
+          </div>
+        ) : null}
       </section>
 
       <section className="space-y-6">
@@ -567,13 +618,43 @@ export function HomePage() {
 
         <div className="rounded-[32px] border border-cyan-200/70 bg-cyan-50/85 p-6 shadow-xl shadow-cyan-100/70">
           <p className="text-sm font-semibold uppercase tracking-[0.24em] text-cyan-900">
-            Next integration
+            Workflow defaults
           </p>
-          <ul className="mt-4 space-y-3 text-sm leading-6 text-cyan-950">
-            <li>Expand the verified EU normalized tariff set beyond the first production-priority rows.</li>
-            <li>Replace ambiguous EU branch fallbacks with clearer product-detail requests.</li>
-            <li>Persist lookup history once auth is enabled.</li>
-          </ul>
+          <div className="mt-4 grid gap-3 text-sm leading-6 text-cyan-950">
+            <div className="rounded-[22px] border border-cyan-200 bg-white/70 px-4 py-3">
+              Preferred destination: <span className="font-semibold">{userPreferences.defaultDestination}</span>
+            </div>
+            <div className="rounded-[22px] border border-cyan-200 bg-white/70 px-4 py-3">
+              Remember last destination:{" "}
+              <span className="font-semibold">
+                {userPreferences.rememberLastDestination ? "Enabled" : "Disabled"}
+              </span>
+            </div>
+            <div className="rounded-[22px] border border-cyan-200 bg-white/70 px-4 py-3">
+              Signed-in mode:{" "}
+              <span className="font-semibold">
+                {auth.isAuthenticated
+                  ? "Lookups can be saved to your account history"
+                  : "Public lookup only until you sign in"}
+              </span>
+            </div>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-3 text-sm">
+            <Link
+              className="rounded-full bg-cyan-900 px-4 py-2 font-medium text-white"
+              to={auth.isAuthenticated ? "/settings" : "/login"}
+            >
+              {auth.isAuthenticated ? "Manage settings" : "Sign in to save lookups"}
+            </Link>
+            {auth.isAuthenticated ? (
+              <Link
+                className="rounded-full border border-cyan-300 px-4 py-2 font-medium text-cyan-950"
+                to="/dashboard"
+              >
+                View saved history
+              </Link>
+            ) : null}
+          </div>
         </div>
       </section>
     </div>

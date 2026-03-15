@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 import { useAuth } from "../auth/AuthProvider";
 import { logClientFailure } from "../lib/client-observability";
 
@@ -111,24 +112,30 @@ export function DashboardPage() {
     return () => controller.abort();
   }, [auth.accessToken]);
 
+  const normalizedLookupsCount = lookups.filter(
+    (lookup) => lookup.sourceTier === "local-normalized-data",
+  ).length;
+  const latestLookup = lookups[0] || null;
+  const lastDestination = latestLookup?.destinationCountry || "No history yet";
+
   const dashboardCards = [
     {
       title: "Saved lookups",
       value: String(lookups.length),
-      detail: "Successful lookups are stored here once you are signed in and backend persistence is configured.",
+      detail: "Successful signed-in lookups are saved here automatically.",
     },
     {
-      title: "Signed-in account",
-      value: auth.user?.email || "Unavailable",
-      detail: "Supabase auth now gates the account and history surfaces while the public lookup remains open.",
+      title: "Verified EU rows used",
+      value: String(normalizedLookupsCount),
+      detail: "Saved lookups that came from the normalized official EU slice.",
     },
     {
-      title: "Backend status",
-      value: lookups.some((lookup) => lookup.sourceTier === "local-normalized-data")
-        ? "EU live slice"
-        : "History only",
+      title: "Latest destination",
+      value: lastDestination,
       detail:
-        "The dashboard reflects saved lookups, while the core lookup engine still stays application-controlled in the backend.",
+        latestLookup
+          ? "The dashboard keeps the most recent signed-in lookup visible for quick follow-up."
+          : "Run a signed-in lookup to start building account history.",
     },
   ];
 
@@ -142,10 +149,24 @@ export function DashboardPage() {
           Saved lookup history and operational readiness
         </h2>
         <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">
-          This page is now connected to the first account layer. Once Supabase is
-          configured, successful signed-in lookups from the home page appear here
-          automatically.
+          This page is now the working signed-in history surface. Successful
+          lookups from the home page appear here automatically, including whether
+          the answer came from the verified EU slice or a fallback path.
         </p>
+        <div className="mt-5 flex flex-wrap gap-3 text-sm">
+          <Link
+            className="rounded-full bg-slate-950 px-4 py-2 font-medium text-white"
+            to="/"
+          >
+            Run another lookup
+          </Link>
+          <Link
+            className="rounded-full border border-slate-300 px-4 py-2 font-medium text-slate-900"
+            to="/settings"
+          >
+            Workflow settings
+          </Link>
+        </div>
       </section>
 
       <section className="grid gap-4 md:grid-cols-3">
@@ -209,6 +230,12 @@ export function DashboardPage() {
                     <p className="mt-1 text-lg font-semibold text-slate-950">
                       {lookup.productDescription || `HS ${lookup.hsCode}`}
                     </p>
+                    <p className="mt-2 text-sm text-slate-500">
+                      {lookup.sourceTier === "local-normalized-data"
+                        ? "Verified official EU slice"
+                        : "Prototype fallback dataset"}{" "}
+                      via {lookup.inputMode === "description" ? "description-first" : "HS code"} input.
+                    </p>
                   </div>
                   <div className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-slate-600">
                     {lookup.hsCode}
@@ -252,6 +279,10 @@ export function DashboardPage() {
                 </div>
                 <p className="mt-4 text-sm leading-6 text-slate-600">
                   {lookup.agreementBasis}
+                </p>
+                <p className="mt-2 text-xs uppercase tracking-[0.2em] text-slate-400">
+                  Saved from {auth.user?.email || "your account"} on{" "}
+                  {new Date(lookup.createdAt).toLocaleString()}
                 </p>
               </article>
             ))}

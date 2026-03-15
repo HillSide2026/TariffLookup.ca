@@ -740,6 +740,125 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses a normalized eu row for wooden tableware resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "wooden salad bowl set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "4419.90",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for aluminium kitchen articles resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "aluminum serving tray",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "7615.10",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "6.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for non-upholstered seats resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "wooden bar stool",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9401.69",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for decorative metal articles resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "decorative brass candle holder",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "8306.29",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
   it("uses a normalized eu row for wooden bedroom furniture resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
@@ -796,6 +915,30 @@ describe("lookup routes", () => {
         source: "seed-demo-data",
         coverageStatus: "seed-fallback",
         historyStatus: "anonymous",
+      },
+    });
+  });
+
+  it("keeps aluminium radiator descriptions out of the kitchenware eu row", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "aluminum radiator section",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "8479.89",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      meta: {
+        source: "seed-demo-data",
+        coverageStatus: "seed-fallback",
       },
     });
   });

@@ -8,6 +8,8 @@ type ClassificationProfile = {
   label: string;
   keywords: string[];
   phrases: string[];
+  excludedKeywords?: string[];
+  excludedPhrases?: string[];
   euPriority: "normalized" | "ambiguous" | "seed-fallback";
 };
 
@@ -108,6 +110,33 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "4419.90",
+    label: "Wooden tableware and kitchenware",
+    keywords: [
+      "wood",
+      "wooden",
+      "tableware",
+      "kitchenware",
+      "serving",
+      "tray",
+      "bowl",
+      "utensil",
+      "salad",
+      "cutting",
+      "board",
+    ],
+    phrases: [
+      "wooden serving tray",
+      "wooden salad bowl",
+      "wooden kitchenware",
+      "wooden tableware",
+      "wooden cutting board",
+    ],
+    excludedKeywords: ["chair", "stool", "seat", "cabinet", "furniture", "ornament"],
+    excludedPhrases: ["wooden dining table", "wooden chair", "wooden cabinet"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "7013.49",
     label: "Glass drinkware and table glassware",
     keywords: [
@@ -124,6 +153,42 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "7615.10",
+    label: "Aluminium household and kitchen articles",
+    keywords: [
+      "aluminium",
+      "aluminum",
+      "kitchen",
+      "household",
+      "tray",
+      "basket",
+      "dish",
+      "serving",
+      "cookware",
+      "pan",
+    ],
+    phrases: [
+      "aluminum serving tray",
+      "aluminium serving tray",
+      "aluminum kitchen basket",
+      "aluminium kitchen tray",
+    ],
+    excludedKeywords: [
+      "radiator",
+      "radiators",
+      "foil",
+      "foils",
+      "section",
+      "sections",
+      "bathroom",
+      "shower",
+      "soap",
+      "sanitary",
+    ],
+    excludedPhrases: ["aluminum radiator", "aluminium radiator", "foil manufacture"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "7615.20",
     label: "Aluminium sanitary ware",
     keywords: [
@@ -137,6 +202,17 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "fixture",
     ],
     phrases: ["aluminium shower caddy", "aluminum bathroom fixture", "aluminium soap dish"],
+    excludedKeywords: [
+      "radiator",
+      "radiators",
+      "foil",
+      "foils",
+      "tray",
+      "pan",
+      "cookware",
+      "basket",
+      "dish",
+    ],
     euPriority: "normalized",
   },
   {
@@ -153,6 +229,29 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "hanger",
     ],
     phrases: ["wall hook", "coat hook", "metal bracket"],
+    euPriority: "normalized",
+  },
+  {
+    probableHsCode: "8306.29",
+    label: "Metal ornaments and decorative articles",
+    keywords: [
+      "metal",
+      "brass",
+      "decorative",
+      "ornament",
+      "figurine",
+      "statuette",
+      "candle",
+      "holder",
+      "decor",
+    ],
+    phrases: [
+      "metal candle holder",
+      "brass candle holder",
+      "decorative metal figurine",
+    ],
+    excludedKeywords: ["hook", "hooks", "bracket", "brackets", "fixture", "furniture"],
+    excludedPhrases: ["metal wall hook", "metal bracket"],
     euPriority: "normalized",
   },
   {
@@ -299,6 +398,26 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "9401.69",
+    label: "Non-upholstered seats",
+    keywords: [
+      "chair",
+      "chairs",
+      "stool",
+      "stools",
+      "seat",
+      "seating",
+      "folding",
+      "wooden",
+      "rattan",
+      "cane",
+    ],
+    phrases: ["wooden stool", "folding chair", "wooden dining chair"],
+    excludedKeywords: ["upholstered", "armchair", "sofa", "lounge", "cushion", "cushioned"],
+    excludedPhrases: ["upholstered chair", "lounge chair"],
+    euPriority: "normalized",
+  },
+  {
     probableHsCode: "9403.50",
     label: "Wooden bedroom furniture",
     keywords: [
@@ -356,6 +475,20 @@ function normalizeSearchTerm(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function matchesNormalizedKeyword(
+  searchableDescription: string,
+  searchableTokens: Set<string>,
+  keyword: string,
+) {
+  const normalizedKeyword = normalizeSearchTerm(keyword);
+
+  if (normalizedKeyword.includes(" ")) {
+    return searchableDescription.includes(normalizedKeyword);
+  }
+
+  return searchableTokens.has(normalizedKeyword);
+}
+
 function getEuPriorityBoost(priority: ClassificationProfile["euPriority"]) {
   if (priority === "normalized") {
     return 1;
@@ -374,6 +507,9 @@ function resolveClassificationFromDescription(
 ): LookupClassification {
   const normalizedDescription = productDescription.toLowerCase();
   const searchableDescription = normalizeSearchTerm(normalizedDescription);
+  const searchableTokens = new Set(
+    searchableDescription.split(" ").filter(Boolean),
+  );
   let bestMatch:
     | {
         profile: ClassificationProfile;
@@ -384,8 +520,19 @@ function resolveClassificationFromDescription(
     | undefined;
 
   for (const profile of seedClassificationProfiles) {
+    const matchedExcludedKeywords = (profile.excludedKeywords || []).filter((keyword) =>
+      matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),
+    );
+    const matchedExcludedPhrases = (profile.excludedPhrases || []).filter((phrase) =>
+      searchableDescription.includes(normalizeSearchTerm(phrase)),
+    );
+
+    if (matchedExcludedKeywords.length > 0 || matchedExcludedPhrases.length > 0) {
+      continue;
+    }
+
     const matchedKeywords = profile.keywords.filter((keyword) =>
-      searchableDescription.includes(normalizeSearchTerm(keyword)),
+      matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),
     );
     const matchedPhrases = profile.phrases.filter((phrase) =>
       searchableDescription.includes(normalizeSearchTerm(phrase)),

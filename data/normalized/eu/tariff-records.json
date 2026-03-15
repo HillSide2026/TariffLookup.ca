@@ -297,5 +297,65 @@
     ],
     "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
     "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "4419.90",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 441990, origin Canada, destination Germany, reviewed 2026-03-15.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The official EU source returns a single generic 'Other' branch for wooden tableware and kitchenware with a 0% ERGA OMNES third-country duty.",
+      "This normalized row is intentionally limited to explicit wooden tableware or kitchenware descriptions and direct HS-code lookups; it should not be used for wooden furniture or decorative-goods descriptions."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "7615.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "6.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 761510, origin Canada, destination Germany, reviewed 2026-03-15.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "All returned branches in the Canada-to-Germany snapshot share the same 6.00% ERGA OMNES duty and 0% Canada tariff preference.",
+      "Because the official branch wording mixes aluminium household-article, radiator, and foil-manufacture language, the description-first classifier now exposes this row only for narrow aluminium kitchen or household-article descriptions and excludes radiator or foil language."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "9401.69",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940169, origin Canada, destination Germany, reviewed 2026-03-15.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The official EU source returns a single generic 'Other' branch for non-upholstered seats with a 0% ERGA OMNES third-country duty.",
+      "This normalized row is intentionally limited to explicit non-upholstered seat descriptions and direct HS-code lookups; upholstered-seat language remains mapped to HS 9401.61 instead."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
+  },
+  {
+    "hsCode": "8306.29",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 830629, origin Canada, destination Germany, reviewed 2026-03-15.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The official EU source returns a single generic 'Other' branch for decorative metal articles with a 0% ERGA OMNES third-country duty.",
+      "This normalized row is intentionally limited to explicit decorative metal-article descriptions and direct HS-code lookups so it does not collide with hooks, brackets, or other fixture products."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+    "effectiveDate": "2026-03-14"
   }
 ]

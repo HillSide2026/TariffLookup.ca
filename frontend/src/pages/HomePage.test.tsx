@@ -1,7 +1,9 @@
 import { cleanup, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { MemoryRouter } from "react-router";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { AuthProvider } from "../auth/AuthProvider";
+import { userPreferencesStorageKey } from "../lib/user-preferences";
 import { HomePage } from "./HomePage";
 
 const marketsResponse = {
@@ -113,7 +115,9 @@ const seedFallbackResponse = {
 function renderHomePage() {
   return render(
     <AuthProvider>
-      <HomePage />
+      <MemoryRouter>
+        <HomePage />
+      </MemoryRouter>
     </AuthProvider>,
   );
 }
@@ -153,6 +157,7 @@ describe("HomePage", () => {
 
   afterEach(() => {
     cleanup();
+    window.localStorage.clear();
     delete window.__tarifflookupClientFailures;
     vi.unstubAllGlobals();
     vi.clearAllMocks();
@@ -192,6 +197,21 @@ describe("HomePage", () => {
     expect(
       await screen.findByText(/Coverage state: Verified normalized row\./i),
     ).toBeInTheDocument();
+  });
+
+  it("uses the saved default destination from browser preferences", async () => {
+    window.localStorage.setItem(
+      userPreferencesStorageKey,
+      JSON.stringify({
+        defaultDestination: "European Union",
+        rememberLastDestination: false,
+        lastDestination: "Japan",
+      }),
+    );
+
+    renderHomePage();
+
+    expect(screen.getByLabelText("Destination")).toHaveValue("European Union");
   });
 
   it("shows a needs-more-detail state for ambiguous eu lookups", async () => {

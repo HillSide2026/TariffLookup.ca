@@ -52,6 +52,7 @@ This repo now contains an active frontend and backend MVP, including:
 - a first real-data European Union tariff slice
 - explicit EU normalized, fallback, and needs-more-detail states
 - live Supabase auth and saved lookup history for the Step 4 account flow
+- browser-saved workflow defaults across the signed-in account surfaces
 - backend health, metrics, structured logging, and client-side failure logging for Step 5 operations
 - release, staging, and tariff-data refresh runbooks committed in `docs/engineering/`
 

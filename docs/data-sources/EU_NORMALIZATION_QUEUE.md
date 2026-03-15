@@ -21,8 +21,12 @@ This file tracks the European Union Step 3 queue against the current prototype b
 - `9403.40` - normalized and live
 - `9401.61` - normalized and live
 - `6911.10` - normalized and live
+- `4419.90` - normalized and live with stricter wooden-tableware classification
 - `7615.20` - normalized and live
+- `7615.10` - normalized and live with stricter aluminium-household classification
 - `8302.50` - normalized and live
+- `8306.29` - normalized and live with stricter decorative-metal classification
+- `9401.69` - normalized and live with stricter non-upholstered-seat classification
 - `9403.20` - normalized and live
 
 ## Ambiguity-Blocked Rows
@@ -54,25 +58,7 @@ This file tracks the European Union Step 3 queue against the current prototype b
 
 ## Held For Classification Review
 
-- `7615.10`
-  Current state: reviewed but not normalized
-  Why held: official EU source shares one duty outcome, but the returned branch wording mixes aluminium household-article language with radiator and foil-manufacture descriptions
-  What is needed: a clearer product-description mapping rule before this code should be exposed as a live description-first result
-
-- `4419.90`
-  Current state: reviewed but not normalized
-  Why held: official EU source returns only a generic `Other` branch, which is too blunt for reliable product-description mapping
-  What is needed: a more specific wooden-tableware classification path or narrower source branch support
-
-- `9401.69`
-  Current state: reviewed but not normalized
-  Why held: official EU source returns only a generic `Other` seat branch, which is too blunt for reliable description-first mapping
-  What is needed: a narrower seat-classification path that distinguishes the actual seat construction and use
-
-- `8306.29`
-  Current state: reviewed but not normalized
-  Why held: official EU source returns only a generic `Other` decorative-article branch
-  What is needed: a narrower decor-product classification path before exposing this code as a live lookup target
+- none currently
 
 ## Explicit Prototype Fallback
 
@@ -85,3 +71,4 @@ This file tracks the European Union Step 3 queue against the current prototype b
 - add more high-signal furniture and consumer-goods rows only where all returned EU branches share the same base-duty outcome
 - do not collapse official EU rows when branch duties diverge or when end-use distinctions change the tariff result
 - prioritize rows that improve common packaging, apparel, household-goods, and tableware coverage without reopening ambiguity already called out above
+- prefer new rows that can be paired with strict positive and negative classifier rules when the official EU branch wording is generic
