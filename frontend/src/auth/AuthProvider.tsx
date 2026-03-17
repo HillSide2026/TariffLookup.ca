@@ -13,6 +13,7 @@ import {
   type AuthUser,
   type StoredAuthSession,
 } from "./auth-client";
+import { logClientFailure } from "../lib/client-observability";
 
 type AuthContextValue = {
   accessToken: string | null;
@@ -95,11 +96,20 @@ export function AuthProvider({ children }: PropsWithChildren) {
           accessToken: storedSession.accessToken,
           user: resolvedUser,
         });
-      } catch {
+      } catch (error) {
         if (!isMounted) {
           return;
         }
 
+        logClientFailure({
+          event: "session-restore-failed",
+          level: "warn",
+          route: "auth-provider",
+          message:
+            error instanceof Error
+              ? error.message
+              : "The saved session could not be restored.",
+        });
         persistStoredSession(null);
         setUser(null);
         setAccessToken(null);

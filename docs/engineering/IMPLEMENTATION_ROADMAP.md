@@ -129,7 +129,7 @@ Supabase is reserved for user accounts, saved lookup history, and subscription s
 - Opportunity recommendation engine
 - Overbuilt role systems or broad integrations before MVP validation
 
-## Current Repository Status (2026-03-13)
+## Current Repository Status (2026-03-15)
 
 The repository has already moved beyond the initial scaffolding target:
 
@@ -140,7 +140,9 @@ The repository has already moved beyond the initial scaffolding target:
 - `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
 - `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
 - Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 20 normalized European Union rows now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, `7323.93`, `3924.90`, `9403.40`, `9401.61`, `6911.10`, `7615.20`, `8302.50`, and `9403.20`
-- authentication, persistence, billing, observability, and production-grade test coverage are still pending
+- Step 4 auth and persistence are now working end to end with live Supabase sign-in, saved lookup writes, and dashboard history reads
+- Step 5 observability, health monitoring, release tooling, CI verification, and staging deployment configuration are now in place in the repo
+- actual cloud staging provisioning, stable public staging URLs, external alert delivery, and Stripe remain pending
 
 ## Execution Status And Next Steps
 
@@ -216,29 +218,54 @@ Exit criteria:
 
 ### Step 4: Add Auth and Persistence After the Lookup Flow Is Stable
 
-Status: in progress as of 2026-03-13
+Status: complete as of 2026-03-15
 
 - `supabase/migrations/20260313130000_init_auth_and_lookup_history.sql` defines the first `profiles` and `lookup_history` schema
 - frontend auth wiring now exists for email/password sign-in when Supabase browser env vars are configured
 - account routes now exist for saved lookup history, and the public lookup route can persist successful lookups when a valid bearer token is present
 - dashboard, profile, and settings routes are now protected while the public lookup route remains open
-
-- Add Supabase schema and application wiring for `profiles` and `lookup_history`
-- Protect saved-history and account routes while keeping the public lookup entry path lightweight
-- Persist successful lookups for authenticated users and expose them in the dashboard
+- live Supabase verification has been completed: sign-in works, a signed-in lookup writes to `lookup_history`, and `GET /api/account/lookups` returns saved rows for the dashboard flow
 
 Exit criteria:
 
-- authenticated users can review prior lookups without changing the core public lookup workflow
+- satisfied
 
 ### Step 5: Prepare Reliability, Billing, and Launch Controls
 
-- Add structured logging, monitoring, and failure diagnostics around the lookup path
-- Expand automated coverage across UI, API, and data normalization logic
-- Provision a cloud-hosted staging environment and stable staging URL before public live-domain launch
-- Use the staging URL for QA, pilot access, and release-candidate validation
-- Add Stripe only after the tariff-result workflow is trusted and supportable
-- Define release, support, and refresh procedures for tariff-data updates
+Status: current focus as of 2026-03-15
+
+- [x] Logging checklist
+- [x] Add structured backend logs for lookup start, lookup completion, lookup failure, auth verification, and lookup-history persistence
+- [x] Include request ID, destination, resolved HS code, source tier, coverage status, latency, and persistence outcome in backend logs
+- [x] Ensure logs never include bearer tokens, Supabase keys, or other secrets
+- [x] Add lightweight frontend error logging around lookup failures, sign-in failures, and dashboard history load failures
+
+- [x] Monitoring checklist
+- [x] Add a simple backend health endpoint for uptime checks
+- [x] Track lookup latency, lookup error rate, auth failure rate, and dashboard/history API failure rate
+- [x] Track product-specific signals for `local-normalized-data`, `seed-demo-data`, and `needs-more-detail` outcomes
+- [x] Define alert thresholds for repeated 5xx responses, backend downtime, and Supabase/account-route failures
+
+- [~] Staging deployment checklist
+- [x] Choose and document the frontend host, backend host, and staging environment shape
+- [ ] Provision a cloud-hosted staging environment and stable staging URL before public live-domain launch
+- [~] Configure staging env vars for API base URL, Supabase credentials, and allowed frontend/backend origins
+- [~] Run a staging smoke test that covers sign-in, signed-in lookup, saved lookup history, and dashboard load
+- [ ] Use the staging URL for QA, pilot access, and release-candidate validation
+
+- [x] Release controls checklist
+- [x] Add a release checklist covering builds, tests, staging smoke tests, env var presence, and known-issue review
+- [x] Add rollback steps for frontend deploys, backend deploys, and tariff-data updates
+- [x] Define release, support, and refresh procedures for tariff-data updates
+- [x] Expand automated coverage across UI, API, and data normalization logic
+- [ ] Add Stripe only after the tariff-result workflow is trusted, supportable, and operating cleanly in staging
+
+Step 5 execution notes:
+
+- repo-side staging config now exists in `vercel.json`, `render.yaml`, and `docs/engineering/STAGING_DEPLOYMENT.md`
+- `npm run verify:release`, `npm run check:env:*`, and `npm run smoke:staging` now provide the release-control surface
+- staging provisioning and stable public staging URLs are blocked on Vercel and Render account access outside the repo
+- Stripe intentionally remains deferred until staging is live and the workflow is supportable
 
 Exit criteria:
 

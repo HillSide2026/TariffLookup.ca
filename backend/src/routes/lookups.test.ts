@@ -2,11 +2,13 @@ import type { FastifyInstance } from "fastify";
 import { afterEach, beforeAll, describe, expect, it } from "vitest";
 
 let buildServer: typeof import("../app.js").buildServer;
+let resetMonitoringState: typeof import("../services/monitoring-service.js").resetMonitoringState;
 let app: FastifyInstance | null = null;
 
 beforeAll(async () => {
   process.env.APP_ENV = "test";
   ({ buildServer } = await import("../app.js"));
+  ({ resetMonitoringState } = await import("../services/monitoring-service.js"));
 });
 
 afterEach(async () => {
@@ -14,6 +16,8 @@ afterEach(async () => {
     await app.close();
     app = null;
   }
+
+  resetMonitoringState();
 });
 
 function createApp() {
@@ -38,6 +42,81 @@ describe("lookup routes", () => {
         "Brazil",
         "China",
       ],
+    });
+  });
+
+  it("reports health and metrics for recent lookup and account outcomes", async () => {
+    const testApp = createApp();
+
+    const initialHealthResponse = await testApp.inject({
+      method: "GET",
+      url: "/health",
+    });
+
+    expect(initialHealthResponse.statusCode).toBe(200);
+    expect(initialHealthResponse.json()).toMatchObject({
+      status: "ok",
+      summary: {
+        lookup: {
+          totalRequests: 0,
+        },
+      },
+    });
+
+    await testApp.inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "porcelain dinner plate set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    await testApp.inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        hsCode: "0811.90",
+        destinationCountry: "European Union",
+      },
+    });
+
+    await testApp.inject({
+      method: "GET",
+      url: "/api/account/lookups",
+    });
+
+    const metricsResponse = await testApp.inject({
+      method: "GET",
+      url: "/api/ops/metrics",
+    });
+
+    expect(metricsResponse.statusCode).toBe(200);
+    expect(metricsResponse.json()).toMatchObject({
+      lookup: {
+        totalRequests: 2,
+        successCount: 1,
+        needsMoreDetailCount: 1,
+        sourceTierCounts: {
+          "local-normalized-data": 1,
+        },
+        productSignals: {
+          localNormalizedData: 1,
+          needsMoreDetail: 1,
+        },
+      },
+      auth: {
+        failureCount: 1,
+      },
+      historyPersistence: {
+        statusCounts: {
+          anonymous: 1,
+        },
+      },
+      accountHistoryApi: {
+        totalRequests: 1,
+        failureCount: 1,
+      },
     });
   });
 

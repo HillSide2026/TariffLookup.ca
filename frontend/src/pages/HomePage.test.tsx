@@ -153,6 +153,7 @@ describe("HomePage", () => {
 
   afterEach(() => {
     cleanup();
+    delete window.__tarifflookupClientFailures;
     vi.unstubAllGlobals();
     vi.clearAllMocks();
   });
@@ -301,5 +302,62 @@ describe("HomePage", () => {
         /No verified EU normalized row exists for HS code 8479.89 yet/i,
       ),
     ).toBeInTheDocument();
+  });
+
+  it("logs lookup failures for client-side monitoring", async () => {
+    const user = userEvent.setup();
+
+    fetchMock.mockImplementation(async (input) => {
+      const url = String(input);
+
+      if (url.endsWith("/api/meta/markets")) {
+        return new Response(JSON.stringify(marketsResponse), {
+          status: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+
+      if (url.endsWith("/api/lookups")) {
+        return new Response(
+          JSON.stringify({
+            error: "Tariff record not found",
+            message: "No tariff record exists for the supplied code.",
+          }),
+          {
+            status: 404,
+            headers: {
+              "Content-Type": "application/json",
+              "x-request-id": "req-home-failure",
+            },
+          },
+        );
+      }
+
+      throw new Error(`Unexpected fetch URL: ${url}`);
+    });
+
+    renderHomePage();
+
+    await user.clear(screen.getByLabelText("Product description"));
+    await user.type(screen.getByLabelText("Product description"), "unknown part");
+    await user.click(
+      screen.getByRole("button", { name: "Resolve and look up" }),
+    );
+
+    expect(
+      await screen.findByText("Tariff record not found"),
+    ).toBeInTheDocument();
+    expect(window.__tarifflookupClientFailures).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          event: "lookup-request-failed",
+          route: "/",
+          requestId: "req-home-failure",
+          statusCode: 404,
+        }),
+      ]),
+    );
   });
 });

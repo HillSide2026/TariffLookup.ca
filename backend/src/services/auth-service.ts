@@ -1,4 +1,6 @@
 import { env } from "../config/env.js";
+import { logAuthVerification, type RouteLogContext } from "./observability-service.js";
+import { recordAuthVerification } from "./monitoring-service.js";
 
 export type AuthenticatedUser = {
   id: string;
@@ -64,14 +66,37 @@ export function getBearerToken(authorizationHeader?: string | string[]) {
 
 export async function resolveAuthenticatedUser(
   authorizationHeader?: string | string[],
+  observabilityContext?: RouteLogContext,
 ): Promise<AuthenticatedUser> {
   const accessToken = getBearerToken(authorizationHeader);
 
   if (!accessToken) {
+    recordAuthVerification({
+      success: false,
+      reason: "missing-authorization",
+    });
+    if (observabilityContext) {
+      logAuthVerification(observabilityContext, {
+        success: false,
+        reason: "missing-authorization",
+        statusCode: 401,
+      });
+    }
     throw new MissingAuthorizationError();
   }
 
   if (!isSupabaseServerConfigured()) {
+    recordAuthVerification({
+      success: false,
+      reason: "supabase-unavailable",
+    });
+    if (observabilityContext) {
+      logAuthVerification(observabilityContext, {
+        success: false,
+        reason: "supabase-unavailable",
+        statusCode: 503,
+      });
+    }
     throw new SupabaseUnavailableError();
   }
 
@@ -80,10 +105,32 @@ export async function resolveAuthenticatedUser(
   });
 
   if (response.status === 401 || response.status === 403) {
+    recordAuthVerification({
+      success: false,
+      reason: "invalid-token",
+    });
+    if (observabilityContext) {
+      logAuthVerification(observabilityContext, {
+        success: false,
+        reason: "invalid-token",
+        statusCode: response.status,
+      });
+    }
     throw new InvalidAuthTokenError();
   }
 
   if (!response.ok) {
+    recordAuthVerification({
+      success: false,
+      reason: "supabase-auth-upstream-error",
+    });
+    if (observabilityContext) {
+      logAuthVerification(observabilityContext, {
+        success: false,
+        reason: "supabase-auth-upstream-error",
+        statusCode: response.status,
+      });
+    }
     throw new Error("Unable to resolve the authenticated Supabase user.");
   }
 
@@ -92,10 +139,24 @@ export async function resolveAuthenticatedUser(
     email?: string | null;
   };
 
-  return {
+  const user = {
     id: payload.id,
     email: payload.email ?? null,
   };
+
+  recordAuthVerification({
+    success: true,
+    reason: null,
+  });
+  if (observabilityContext) {
+    logAuthVerification(observabilityContext, {
+      success: true,
+      userId: user.id,
+      statusCode: response.status,
+    });
+  }
+
+  return user;
 }
 
 export function getSupabaseServiceHeaders() {

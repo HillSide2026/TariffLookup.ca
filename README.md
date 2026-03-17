@@ -51,11 +51,15 @@ This repo now contains an active frontend and backend MVP, including:
 - a description-first lookup flow
 - a first real-data European Union tariff slice
 - explicit EU normalized, fallback, and needs-more-detail states
-- the first Supabase auth and lookup-history scaffolding for Step 4
+- live Supabase auth and saved lookup history for the Step 4 account flow
+- backend health, metrics, structured logging, and client-side failure logging for Step 5 operations
+- release, staging, and tariff-data refresh runbooks committed in `docs/engineering/`
 
 ## Near-Term Priorities
 
 - deepen the description-to-HS classification workflow beyond the current prototype rules
 - expand real-data coverage beyond the first European Union slice
-- connect Supabase locally to enable sign-in and saved lookup history end to end
-- continue Step 4 auth, persistence, and account-surface refinement
+- provision the actual cloud-hosted staging services and stable staging URL
+- enter the staging env vars into Vercel and Render, then run the staging smoke test
+- connect the new health and metrics outputs to an external uptime or alerting destination
+- defer Stripe until the tariff-result workflow is stable in staging

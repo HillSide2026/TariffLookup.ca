@@ -6,15 +6,31 @@ import {
   SupabaseUnavailableError,
 } from "../services/auth-service.js";
 import { listLookupHistory } from "../services/lookup-history-service.js";
+import { recordApiResponse } from "../services/monitoring-service.js";
 
 export async function registerAccountRoutes(app: FastifyInstance) {
   app.get("/api/account/lookups", async (request, reply) => {
     try {
+      const lookups = await listLookupHistory(request.headers.authorization, {
+        logger: request.log,
+        requestId: request.id,
+        route: "/api/account/lookups",
+        method: request.method,
+      });
+      recordApiResponse({
+        route: "/api/account/lookups",
+        statusCode: 200,
+      });
+
       return {
-        lookups: await listLookupHistory(request.headers.authorization),
+        lookups,
       };
     } catch (error) {
       if (error instanceof MissingAuthorizationError) {
+        recordApiResponse({
+          route: "/api/account/lookups",
+          statusCode: 401,
+        });
         reply.code(401);
         return {
           error: "Authentication required",
@@ -23,6 +39,10 @@ export async function registerAccountRoutes(app: FastifyInstance) {
       }
 
       if (error instanceof InvalidAuthTokenError) {
+        recordApiResponse({
+          route: "/api/account/lookups",
+          statusCode: 401,
+        });
         reply.code(401);
         return {
           error: "Authentication required",
@@ -31,6 +51,10 @@ export async function registerAccountRoutes(app: FastifyInstance) {
       }
 
       if (error instanceof SupabaseUnavailableError) {
+        recordApiResponse({
+          route: "/api/account/lookups",
+          statusCode: 503,
+        });
         reply.code(503);
         return {
           error: "Lookup history unavailable",
@@ -39,6 +63,10 @@ export async function registerAccountRoutes(app: FastifyInstance) {
         } satisfies LookupErrorResponse;
       }
 
+      recordApiResponse({
+        route: "/api/account/lookups",
+        statusCode: 500,
+      });
       throw error;
     }
   });

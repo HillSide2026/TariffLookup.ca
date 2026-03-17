@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { useAuth } from "../auth/AuthProvider";
+import { logClientFailure } from "../lib/client-observability";
 
 const defaultJurisdictions = [
   "United States",
@@ -182,8 +183,16 @@ export function HomePage() {
         const response = await fetch(`${apiBaseUrl}/api/meta/markets`, {
           signal: controller.signal,
         });
+        const requestId = response.headers.get("x-request-id");
 
         if (!response.ok) {
+          logClientFailure({
+            event: "markets-load-failed",
+            route: "/",
+            message: "Unable to load markets.",
+            requestId,
+            statusCode: response.status,
+          });
           throw new Error("Unable to load markets.");
         }
 
@@ -203,6 +212,15 @@ export function HomePage() {
           return;
         }
 
+        logClientFailure({
+          event: "markets-load-failed",
+          level: "warn",
+          route: "/",
+          message:
+            error instanceof Error
+              ? error.message
+              : "Unable to load markets.",
+        });
         setMarketError(
           "Using the fallback market list while the API markets endpoint is unavailable.",
         );
@@ -258,6 +276,7 @@ export function HomePage() {
           destinationCountry,
         }),
       });
+      const requestId = response.headers.get("x-request-id");
 
       const payload = (await response.json()) as
         | LookupResponse
@@ -267,11 +286,29 @@ export function HomePage() {
         const errorPayload = payload as LookupErrorResponse;
 
         if (errorPayload.code === "needs-more-detail" && errorPayload.detailRequest) {
+          logClientFailure({
+            event: "lookup-needs-more-detail",
+            level: "warn",
+            route: "/",
+            message: errorPayload.message || "More product detail is required.",
+            requestId,
+            statusCode: response.status,
+            details: {
+              probableHsCode: errorPayload.detailRequest.probableHsCode,
+            },
+          });
           setDetailRequest(errorPayload.detailRequest);
           setSubmissionError(null);
           return;
         }
 
+        logClientFailure({
+          event: "lookup-request-failed",
+          route: "/",
+          message: getLookupErrorMessage(errorPayload),
+          requestId,
+          statusCode: response.status,
+        });
         setSubmissionError(getLookupErrorMessage(errorPayload));
         return;
       }
@@ -284,7 +321,15 @@ export function HomePage() {
       if (lookup.meta.supportedDestinations.length > 0) {
         setMarkets(lookup.meta.supportedDestinations);
       }
-    } catch {
+    } catch (error) {
+      logClientFailure({
+        event: "lookup-request-failed",
+        route: "/",
+        message:
+          error instanceof Error
+            ? error.message
+            : "The lookup service is unavailable right now. Please try again.",
+      });
       setSubmissionError(
         "The lookup service is unavailable right now. Please try again.",
       );

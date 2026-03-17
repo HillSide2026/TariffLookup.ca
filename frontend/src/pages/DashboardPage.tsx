@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../auth/AuthProvider";
+import { logClientFailure } from "../lib/client-observability";
 
 const apiBaseUrl = (
   import.meta.env.VITE_API_BASE_URL || "http://localhost:8000"
@@ -55,6 +56,7 @@ export function DashboardPage() {
           },
           signal: controller.signal,
         });
+        const requestId = response.headers.get("x-request-id");
 
         const payload = (await response.json()) as
           | LookupHistoryResponse
@@ -62,12 +64,20 @@ export function DashboardPage() {
 
         if (!response.ok) {
           const errorPayload = payload as { error?: string; message?: string };
-
-          throw new Error(
+          const message =
             errorPayload.message ||
-              errorPayload.error ||
-              "Unable to load lookup history.",
-          );
+            errorPayload.error ||
+            "Unable to load lookup history.";
+
+          logClientFailure({
+            event: "dashboard-history-load-failed",
+            route: "/dashboard",
+            message,
+            requestId,
+            statusCode: response.status,
+          });
+
+          throw new Error(message);
         }
 
         setLookups((payload as LookupHistoryResponse).lookups);
@@ -76,6 +86,14 @@ export function DashboardPage() {
           return;
         }
 
+        logClientFailure({
+          event: "dashboard-history-load-failed",
+          route: "/dashboard",
+          message:
+            loadError instanceof Error
+              ? loadError.message
+              : "Unable to load lookup history.",
+        });
         setError(
           loadError instanceof Error
             ? loadError.message
@@ -125,8 +143,8 @@ export function DashboardPage() {
         </h2>
         <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">
           This page is now connected to the first account layer. Once Supabase is
-          configured locally, successful signed-in lookups from the home page will
-          appear here automatically.
+          configured, successful signed-in lookups from the home page appear here
+          automatically.
         </p>
       </section>
 

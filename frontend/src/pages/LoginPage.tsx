@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { useLocation, useNavigate } from "react-router";
 import { useAuth } from "../auth/AuthProvider";
+import { logClientFailure } from "../lib/client-observability";
 
 type LoginLocationState = {
   from?: string;
@@ -34,6 +35,14 @@ export function LoginPage() {
       });
       navigate(from, { replace: true });
     } catch (submitError) {
+      logClientFailure({
+        event: "sign-in-failed",
+        route: "/login",
+        message:
+          submitError instanceof Error
+            ? submitError.message
+            : "Sign-in failed. Please try again.",
+      });
       setError(
         submitError instanceof Error
           ? submitError.message
