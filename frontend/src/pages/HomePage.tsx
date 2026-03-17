@@ -77,6 +77,47 @@ type LookupErrorResponse = {
   };
 };
 
+type StarterScenario = {
+  title: string;
+  helper: string;
+  outcomeLabel: string;
+  destinationCountry: string;
+  productDescription: string;
+  hsCode?: string;
+};
+
+const starterScenarios: StarterScenario[] = [
+  {
+    title: "Verified EU tariff row",
+    helper: "Description-first lookup against the normalized EU slice.",
+    outcomeLabel: "Verified EU row",
+    destinationCountry: "European Union",
+    productDescription: "stainless steel kitchen knife blades",
+  },
+  {
+    title: "EU needs more detail",
+    helper: "Shows the ambiguity workflow when one broad code covers multiple official branches.",
+    outcomeLabel: "Follow-up required",
+    destinationCountry: "European Union",
+    productDescription: "",
+    hsCode: "8501.52",
+  },
+  {
+    title: "EU fallback coverage",
+    helper: "Shows the explicit prototype fallback state for uncovered EU requests.",
+    outcomeLabel: "Prototype fallback",
+    destinationCountry: "European Union",
+    productDescription: "custom factory automation assembly module",
+  },
+  {
+    title: "Non-EU seed path",
+    helper: "Shows seeded prototype coverage outside the current verified EU slice.",
+    outcomeLabel: "Seed demo data",
+    destinationCountry: "Japan",
+    productDescription: "stainless steel kitchen knife blades",
+  },
+];
+
 function getLookupErrorMessage(payload: LookupErrorResponse | null) {
   if (!payload) {
     return "The lookup could not be completed right now.";
@@ -171,6 +212,7 @@ export function HomePage() {
   const [detailRequest, setDetailRequest] = useState<LookupDetailRequest | null>(
     null,
   );
+  const [followUpDetail, setFollowUpDetail] = useState("");
   const [marketError, setMarketError] = useState<string | null>(null);
   const [submissionError, setSubmissionError] = useState<string | null>(null);
   const [isLoadingMarkets, setIsLoadingMarkets] = useState(true);
@@ -269,6 +311,35 @@ export function HomePage() {
     saveUserPreferences(nextPreferences);
   }
 
+  function loadStarterScenario(scenario: StarterScenario) {
+    setProductDescription(scenario.productDescription);
+    setHsCode(scenario.hsCode || "");
+    setDestinationCountry(scenario.destinationCountry);
+    setLookupResponse(null);
+    setDetailRequest(null);
+    setFollowUpDetail("");
+    setSubmissionError(null);
+  }
+
+  function handleApplyFollowUpDetail() {
+    if (!detailRequest) {
+      return;
+    }
+
+    const detailText = followUpDetail.trim() || detailRequest.suggestedPrompt;
+    const currentDescription = productDescription.trim();
+    const nextDescription = currentDescription
+      ? `${currentDescription}; ${detailText}`
+      : detailText;
+
+    setProductDescription(nextDescription);
+    setHsCode("");
+    setDetailRequest(null);
+    setSubmissionError(
+      "Follow-up details were added to the description field. Review the text and rerun the lookup.",
+    );
+  }
+
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -324,6 +395,7 @@ export function HomePage() {
               probableHsCode: errorPayload.detailRequest.probableHsCode,
             },
           });
+          setFollowUpDetail(errorPayload.detailRequest.suggestedPrompt);
           setDetailRequest(errorPayload.detailRequest);
           setSubmissionError(null);
           return;
@@ -384,6 +456,37 @@ export function HomePage() {
             known HS code, one destination country, one probable classification,
             and one tariff answer with agreement context and eligibility notes.
           </p>
+        </div>
+
+        <div className="mb-6 grid gap-3 md:grid-cols-2">
+          {starterScenarios.map((scenario) => (
+            <button
+              key={scenario.title}
+              className="rounded-[24px] border border-slate-200 bg-slate-50 p-4 text-left transition hover:border-slate-300 hover:bg-white"
+              onClick={() => loadStarterScenario(scenario)}
+              type="button"
+            >
+              <div className="flex items-center justify-between gap-3">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">
+                  {scenario.outcomeLabel}
+                </p>
+                <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600">
+                  {scenario.destinationCountry}
+                </span>
+              </div>
+              <p className="mt-3 text-lg font-semibold text-slate-950">
+                {scenario.title}
+              </p>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                {scenario.helper}
+              </p>
+              <p className="mt-3 text-sm font-medium text-slate-800">
+                {scenario.hsCode
+                  ? `Load HS ${scenario.hsCode}`
+                  : scenario.productDescription}
+              </p>
+            </button>
+          ))}
         </div>
 
         <form
@@ -549,6 +652,25 @@ export function HomePage() {
                 </ul>
                 <p className="mt-3 text-sm text-slate-600">
                   Try: {detailRequest.suggestedPrompt}
+                </p>
+                <label className="mt-3 block text-sm font-medium text-slate-700">
+                  Build a safer description for the next attempt
+                  <textarea
+                    className="mt-2 min-h-28 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none"
+                    onChange={(event) => setFollowUpDetail(event.target.value)}
+                    value={followUpDetail}
+                  />
+                </label>
+                <button
+                  className="mt-3 rounded-full bg-slate-950 px-4 py-2 text-sm font-medium text-white"
+                  onClick={handleApplyFollowUpDetail}
+                  type="button"
+                >
+                  Use these details in the lookup form
+                </button>
+                <p className="mt-2 text-xs leading-5 text-slate-500">
+                  If you started with an HS code, the app will switch back to a
+                  description-first retry so you can narrow the branch more safely.
                 </p>
               </>
             ) : (

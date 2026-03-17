@@ -214,6 +214,20 @@ describe("HomePage", () => {
     expect(screen.getByLabelText("Destination")).toHaveValue("European Union");
   });
 
+  it("loads a starter scenario into the lookup form", async () => {
+    const user = userEvent.setup();
+
+    renderHomePage();
+
+    await user.click(screen.getByText("EU needs more detail"));
+
+    expect(screen.getByLabelText("Product description")).toHaveValue("");
+    expect(screen.getByPlaceholderText("Optional if you know it")).toHaveValue(
+      "8501.52",
+    );
+    expect(screen.getByLabelText("Destination")).toHaveValue("European Union");
+  });
+
   it("shows a needs-more-detail state for ambiguous eu lookups", async () => {
     const user = userEvent.setup();
 
@@ -264,6 +278,67 @@ describe("HomePage", () => {
     expect(
       await screen.findByText(
         /motor use or application, such as civil aircraft, conveyor equipment, or general industrial machinery/i,
+      ),
+    ).toBeInTheDocument();
+  });
+
+  it("lets the user apply follow-up detail guidance back into the form", async () => {
+    const user = userEvent.setup();
+
+    fetchMock.mockImplementation(async (input) => {
+      const url = String(input);
+
+      if (url.endsWith("/api/meta/markets")) {
+        return new Response(JSON.stringify(marketsResponse), {
+          status: 200,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+
+      if (url.endsWith("/api/lookups")) {
+        return new Response(JSON.stringify(detailRequestResponse), {
+          status: 409,
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+      }
+
+      throw new Error(`Unexpected fetch URL: ${url}`);
+    });
+
+    renderHomePage();
+
+    await user.clear(screen.getByLabelText("Product description"));
+    await user.type(
+      screen.getByPlaceholderText("Optional if you know it"),
+      "8501.52",
+    );
+    await user.selectOptions(
+      screen.getByLabelText("Destination"),
+      "European Union",
+    );
+    await user.click(
+      screen.getByRole("button", { name: "Resolve and look up" }),
+    );
+
+    await user.click(
+      await screen.findByRole("button", {
+        name: "Use these details in the lookup form",
+      }),
+    );
+
+    expect(screen.getByPlaceholderText("Optional if you know it")).toHaveValue(
+      "",
+    );
+    expect(screen.getByLabelText("Product description")).toHaveValue(
+      detailRequestResponse.detailRequest.suggestedPrompt,
+    );
+    expect(
+      screen.getByText(
+        /Follow-up details were added to the description field\. Review the text and rerun the lookup\./i,
       ),
     ).toBeInTheDocument();
   });

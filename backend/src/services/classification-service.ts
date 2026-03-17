@@ -8,6 +8,7 @@ type ClassificationProfile = {
   label: string;
   keywords: string[];
   phrases: string[];
+  requiredKeywords?: string[];
   excludedKeywords?: string[];
   excludedPhrases?: string[];
   euPriority: "normalized" | "ambiguous" | "seed-fallback";
@@ -19,6 +20,19 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     label: "Industrial blades and knives",
     keywords: ["knife", "knives", "blade", "blades", "stainless", "steel"],
     phrases: ["knife blade", "kitchen knife", "cutting blade"],
+    excludedKeywords: [
+      "cookware",
+      "pot",
+      "pan",
+      "bowl",
+      "bowls",
+      "mixing",
+      "household",
+      "kitchenware",
+      "tray",
+      "trays",
+      "serving",
+    ],
     euPriority: "normalized",
   },
   {
@@ -26,6 +40,8 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     label: "Roasted coffee",
     keywords: ["coffee", "beans", "roasted", "ground"],
     phrases: ["roasted coffee", "coffee beans", "ground coffee"],
+    requiredKeywords: ["coffee"],
+    excludedKeywords: ["mug", "mugs", "cup", "cups", "maker", "makers"],
     euPriority: "normalized",
   },
   {
@@ -40,6 +56,20 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     label: "Cotton T-shirts",
     keywords: ["t-shirt", "shirt", "tee", "cotton", "apparel", "garment"],
     phrases: ["cotton t-shirt", "cotton tee", "t shirt"],
+    excludedKeywords: [
+      "towel",
+      "towels",
+      "tablecloth",
+      "tablecloths",
+      "napkin",
+      "napkins",
+      "placemat",
+      "placemats",
+      "linen",
+      "linens",
+      "washcloth",
+      "washcloths",
+    ],
     euPriority: "normalized",
   },
   {
@@ -57,6 +87,7 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "pouch",
     ],
     phrases: ["plastic bag", "plastic bags", "polyethylene bag", "shipping bag"],
+    requiredKeywords: ["plastic", "polyethylene"],
     euPriority: "normalized",
   },
   {
@@ -71,10 +102,19 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "plates",
       "bowl",
       "bowls",
+      "tray",
+      "trays",
+      "serving",
       "utensil",
       "utensils",
     ],
-    phrases: ["plastic kitchenware", "plastic tableware", "plastic bowl"],
+    phrases: [
+      "plastic kitchenware",
+      "plastic tableware",
+      "plastic bowl",
+      "plastic serving tray",
+    ],
+    requiredKeywords: ["plastic"],
     euPriority: "normalized",
   },
   {
@@ -91,6 +131,7 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "storage",
     ],
     phrases: ["plastic laundry basket", "plastic organizer", "plastic storage caddy"],
+    requiredKeywords: ["plastic"],
     euPriority: "normalized",
   },
   {
@@ -102,11 +143,24 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "dinnerware",
       "plate",
       "plates",
+      "bowl",
+      "bowls",
+      "mug",
+      "mugs",
+      "cup",
+      "cups",
+      "serving",
       "saucer",
       "teacup",
       "tableware",
     ],
-    phrases: ["porcelain plate", "china bowl", "porcelain dinnerware"],
+    phrases: [
+      "porcelain plate",
+      "china bowl",
+      "porcelain dinnerware",
+      "porcelain coffee mug",
+    ],
+    requiredKeywords: ["porcelain", "china"],
     euPriority: "normalized",
   },
   {
@@ -132,8 +186,33 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "wooden tableware",
       "wooden cutting board",
     ],
-    excludedKeywords: ["chair", "stool", "seat", "cabinet", "furniture", "ornament"],
-    excludedPhrases: ["wooden dining table", "wooden chair", "wooden cabinet"],
+    requiredKeywords: ["wood", "wooden"],
+    excludedKeywords: [
+      "chair",
+      "stool",
+      "seat",
+      "cabinet",
+      "furniture",
+      "ornament",
+      "bookshelf",
+      "bookshelves",
+      "bookcase",
+      "bookcases",
+      "console",
+      "dresser",
+      "wardrobe",
+      "nightstand",
+      "bedside",
+      "media",
+      "tv",
+    ],
+    excludedPhrases: [
+      "wooden dining table",
+      "wooden chair",
+      "wooden cabinet",
+      "wooden bookshelf",
+      "wooden tv stand",
+    ],
     euPriority: "normalized",
   },
   {
@@ -150,6 +229,7 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "glassware",
     ],
     phrases: ["glass tumbler", "drinking glasses", "glassware set"],
+    requiredKeywords: ["glass", "glasses", "glassware", "drinkware"],
     euPriority: "normalized",
   },
   {
@@ -173,6 +253,7 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "aluminum kitchen basket",
       "aluminium kitchen tray",
     ],
+    requiredKeywords: ["aluminium", "aluminum"],
     excludedKeywords: [
       "radiator",
       "radiators",
@@ -213,6 +294,7 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "basket",
       "dish",
     ],
+    requiredKeywords: ["aluminium", "aluminum"],
     euPriority: "normalized",
   },
   {
@@ -250,7 +332,24 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "brass candle holder",
       "decorative metal figurine",
     ],
-    excludedKeywords: ["hook", "hooks", "bracket", "brackets", "fixture", "furniture"],
+    requiredKeywords: ["metal", "brass"],
+    excludedKeywords: [
+      "hook",
+      "hooks",
+      "bracket",
+      "brackets",
+      "fixture",
+      "furniture",
+      "bookcase",
+      "bookcases",
+      "bookshelf",
+      "bookshelves",
+      "shelf",
+      "shelves",
+      "rack",
+      "racks",
+      "locker",
+    ],
     excludedPhrases: ["metal wall hook", "metal bracket"],
     euPriority: "normalized",
   },
@@ -278,12 +377,14 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "towels",
       "terry",
       "bath",
+      "dish",
+      "kitchen",
       "bathroom",
       "washcloth",
       "washcloths",
       "linen",
     ],
-    phrases: ["bath towel", "terry towel", "bath towel set"],
+    phrases: ["bath towel", "terry towel", "bath towel set", "dish towel"],
     euPriority: "normalized",
   },
   {
@@ -295,11 +396,13 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "tablecloths",
       "napkin",
       "napkins",
+      "placemat",
+      "placemats",
       "table",
       "linen",
       "tea towel",
     ],
-    phrases: ["cotton tablecloth", "cotton napkins", "table linen"],
+    phrases: ["cotton tablecloth", "cotton napkins", "table linen", "cotton placemat"],
     euPriority: "normalized",
   },
   {
@@ -312,6 +415,9 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "saucepan",
       "pot",
       "pan",
+      "bowl",
+      "bowls",
+      "mixing",
       "stockpot",
       "household",
     ],
@@ -319,7 +425,9 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "stainless steel cookware",
       "stainless steel pot",
       "stainless steel pan",
+      "stainless steel mixing bowl",
     ],
+    requiredKeywords: ["stainless", "steel"],
     euPriority: "normalized",
   },
   {
@@ -359,12 +467,23 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "steel",
       "shelving",
       "shelf",
+      "bookcase",
+      "bookcases",
+      "bookshelf",
+      "bookshelves",
+      "rack",
+      "racks",
       "locker",
       "cabinet",
       "storage",
       "furniture",
     ],
-    phrases: ["metal shelving unit", "steel shelving", "metal storage cabinet"],
+    phrases: [
+      "metal shelving unit",
+      "steel shelving",
+      "metal storage cabinet",
+      "metal bookcase",
+    ],
     euPriority: "normalized",
   },
   {
@@ -441,12 +560,29 @@ const seedClassificationProfiles: ClassificationProfile[] = [
       "wooden",
       "chair",
       "table",
+      "bookshelf",
+      "bookshelves",
+      "bookcase",
+      "bookcases",
+      "console",
+      "media",
+      "tv",
+      "stand",
+      "shelf",
+      "shelves",
       "furniture",
       "shop",
       "dining",
       "living",
     ],
-    phrases: ["wooden furniture", "wooden table", "dining room table"],
+    phrases: [
+      "wooden furniture",
+      "wooden table",
+      "dining room table",
+      "wooden bookshelf",
+      "wooden tv stand",
+      "media console",
+    ],
     euPriority: "normalized",
   },
 ];
@@ -528,6 +664,14 @@ function resolveClassificationFromDescription(
     );
 
     if (matchedExcludedKeywords.length > 0 || matchedExcludedPhrases.length > 0) {
+      continue;
+    }
+
+    const matchedRequiredKeywords = (profile.requiredKeywords || []).filter((keyword) =>
+      matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),
+    );
+
+    if ((profile.requiredKeywords || []).length > 0 && matchedRequiredKeywords.length === 0) {
       continue;
     }
 

@@ -770,6 +770,86 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses verified eu rows for additional common product descriptions", async () => {
+    const testApp = createApp();
+    const cases = [
+      {
+        productDescription: "wooden bookshelf",
+        hsCode: "9403.60",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "metal bookcase",
+        hsCode: "9403.20",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "plastic serving tray",
+        hsCode: "3924.10",
+        mfnTariffRate: "6.50%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "porcelain coffee mug set",
+        hsCode: "6911.10",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "cotton dish towel set",
+        hsCode: "6302.60",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "cotton placemat set",
+        hsCode: "6302.91",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "stainless steel mixing bowl set",
+        hsCode: "7323.93",
+        mfnTariffRate: "3.20%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+    ];
+
+    for (const testCase of cases) {
+      const response = await testApp.inject({
+        method: "POST",
+        url: "/api/lookups",
+        payload: {
+          productDescription: testCase.productDescription,
+          destinationCountry: "European Union",
+        },
+      });
+
+      expect(response.statusCode).toBe(200);
+      expect(response.json()).toMatchObject({
+        query: {
+          hsCode: testCase.hsCode,
+          destinationCountry: "European Union",
+          inputMode: "description",
+        },
+        result: {
+          mfnTariffRate: testCase.mfnTariffRate,
+          preferentialTariffRate: "0%",
+          agreementBasis: testCase.agreementBasis,
+        },
+        meta: {
+          source: "local-normalized-data",
+          coverageStatus: "normalized-record",
+          historyStatus: "anonymous",
+        },
+      });
+    }
+  });
+
   it("uses a normalized eu row for aluminium kitchen articles resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
