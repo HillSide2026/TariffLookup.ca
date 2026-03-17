@@ -1,22 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  /* TariffLookup working brand tokens. */
+  /* TariffLookup brand tokens. */
   --tl-color-deep-navy: #0f2a44;
   --tl-color-maple-red: #d72638;
-  --tl-color-cool-white: #f7f9fc;
+  --tl-color-paper: #f2efe8;
+  --tl-color-paper-mid: #e8e4da;
+  --tl-color-rule: #c8c0b0;
   --tl-color-steel-blue: #4a6fa5;
-  --tl-color-soft-gray: #a7b0be;
-  --tl-color-dark-charcoal: #1f2933;
+  --tl-color-ink: #1a1612;
+  --tl-color-ink-mid: #3d3830;
+  --tl-color-ink-muted: #6b6358;
   --tl-color-positive: #2bb673;
   --tl-color-caution: #f59e0b;
   --tl-color-danger: #e63946;
-  color: var(--tl-color-dark-charcoal);
-  background:
-    radial-gradient(circle at top left, rgba(74, 111, 165, 0.16), transparent 30%),
-    radial-gradient(circle at right 12%, rgba(215, 38, 56, 0.08), transparent 24%),
-    linear-gradient(180deg, #ffffff 0%, var(--tl-color-cool-white) 42%, #eef3f8 100%);
-  font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+
+  /* Typography */
+  --tl-font-display: "Playfair Display", Georgia, serif;
+  --tl-font-body: "Source Serif 4", Georgia, serif;
+  --tl-font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+  color: var(--tl-color-ink);
+  background-color: var(--tl-color-paper);
+  font-family: var(--tl-font-body);
   color-scheme: light;
 }
 
@@ -29,8 +35,5 @@ body,
 body {
   margin: 0;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at top left, rgba(74, 111, 165, 0.16), transparent 30%),
-    radial-gradient(circle at right 12%, rgba(215, 38, 56, 0.08), transparent 24%),
-    linear-gradient(180deg, #ffffff 0%, var(--tl-color-cool-white) 42%, #eef3f8 100%);
+  background-color: var(--tl-color-paper);
 }
