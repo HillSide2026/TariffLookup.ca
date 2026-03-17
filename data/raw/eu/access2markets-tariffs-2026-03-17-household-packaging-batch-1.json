@@ -1,0 +1,1711 @@
+{
+  "retrievedAt": "2026-03-17",
+  "source": "European Commission Access2Markets tariff endpoint",
+  "notes": [
+    "Destination Germany is used because the official endpoint requires an EU member-state destination code.",
+    "This raw Access2Markets batch was captured automatically for 9 HS code(s) from CA to DE."
+  ],
+  "records": [
+    {
+      "query": {
+        "product": "481920",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/481920/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0317890",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                },
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            }
+          ],
+          "description": "Folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Folding cartons, boxes and cases, of non-corrugated paper or paperboard",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "481940",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/481940/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0317890",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                },
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            }
+          ],
+          "description": "Other sacks and bags, including cones",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Other sacks and bags, including cones",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "392329",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/392329/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "6.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                },
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R1815170",
+              "regulationOrderNumber": null,
+              "startDate": "01/11/2018",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 333,
+                  "type": "CD",
+                  "text": "The autonomous Common Customs Tariff duties laid down in Regulation (EEC) No 2658/87 for parts, components and other goods of a kind to be incorporated in or used for aircraft and parts thereof in the course of their manufacture, repair, maintenance, rebuilding, modification or conversion is suspended.<br>In order to benefit from the suspension, the declarant shall present to the customs authorities an Authorised Release Certificate — EASA Form 1, as set out in Appendix I to Annex I to Regulation (EU) No 748/2012, or an equivalent certificate.<br>The certificates which are deemed to be equivalent to Authorised Release Certificates are listed in Annex II to the Regulation (EU) 2018/1517.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "119",
+                  "certificateDescription": "Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of poly(vinyl chloride)",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "6.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                },
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R1815170",
+              "regulationOrderNumber": null,
+              "startDate": "01/11/2018",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 333,
+                  "type": "CD",
+                  "text": "The autonomous Common Customs Tariff duties laid down in Regulation (EEC) No 2658/87 for parts, components and other goods of a kind to be incorporated in or used for aircraft and parts thereof in the course of their manufacture, repair, maintenance, rebuilding, modification or conversion is suspended.<br>In order to benefit from the suspension, the declarant shall present to the customs authorities an Authorised Release Certificate — EASA Form 1, as set out in Appendix I to Annex I to Regulation (EU) No 748/2012, or an equivalent certificate.<br>The certificates which are deemed to be equivalent to Authorised Release Certificates are listed in Annex II to the Regulation (EU) 2018/1517.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "119",
+                  "certificateDescription": "Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "6.50%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Of poly(vinyl chloride)",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "6.50%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "392330",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/392330/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "6.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Supplementary unit",
+              "measureType": "109",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0023881",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2008",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "p/st",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                },
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R1815170",
+              "regulationOrderNumber": null,
+              "startDate": "01/11/2018",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 333,
+                  "type": "CD",
+                  "text": "The autonomous Common Customs Tariff duties laid down in Regulation (EEC) No 2658/87 for parts, components and other goods of a kind to be incorporated in or used for aircraft and parts thereof in the course of their manufacture, repair, maintenance, rebuilding, modification or conversion is suspended.<br>In order to benefit from the suspension, the declarant shall present to the customs authorities an Authorised Release Certificate — EASA Form 1, as set out in Appendix I to Annex I to Regulation (EU) No 748/2012, or an equivalent certificate.<br>The certificates which are deemed to be equivalent to Authorised Release Certificates are listed in Annex II to the Regulation (EU) 2018/1517.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "119",
+                  "certificateDescription": "Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of a capacity not exceeding two litres",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "6.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Supplementary unit",
+              "measureType": "109",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0023881",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2008",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "p/st",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                },
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R1815170",
+              "regulationOrderNumber": null,
+              "startDate": "01/11/2018",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 333,
+                  "type": "CD",
+                  "text": "The autonomous Common Customs Tariff duties laid down in Regulation (EEC) No 2658/87 for parts, components and other goods of a kind to be incorporated in or used for aircraft and parts thereof in the course of their manufacture, repair, maintenance, rebuilding, modification or conversion is suspended.<br>In order to benefit from the suspension, the declarant shall present to the customs authorities an Authorised Release Certificate — EASA Form 1, as set out in Appendix I to Annex I to Regulation (EU) No 748/2012, or an equivalent certificate.<br>The certificates which are deemed to be equivalent to Authorised Release Certificates are listed in Annex II to the Regulation (EU) 2018/1517.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "119",
+                  "certificateDescription": "Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of a capacity exceeding two litres",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "6.50%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Supplementary unit",
+              "measureType": "109",
+              "tariffFormula": "p/st"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Of a capacity not exceeding two litres",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "6.50%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Supplementary unit",
+              "measureType": "109",
+              "tariffFormula": "p/st"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Of a capacity exceeding two litres",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "482369",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/482369/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0317890",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Trays, dishes and plates",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R0317890",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Trays, dishes and plates",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "630231",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630231/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9617340",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                },
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of cotton",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "12.00%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Of cotton",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "630253",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630253/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726580",
+              "regulationOrderNumber": null,
+              "startDate": "15/09/1994",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "6.90%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                },
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Nonwovens",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9617340",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R8726583",
+              "regulationOrderNumber": null,
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 510,
+                  "type": "TM",
+                  "text": "1.  Customs duties shall be suspended in respect of goods intended for incorporation in the ships, boats or other vessels classified at the following CN codes 8901 10 10; 8901 20 10; 8901 30 10; 8901 90 10; 8902 00 10; 8903 91 10; 8903 92 10; 8904 00 10; 8904 00 91; 8905 10 10; 8905 90 10; 8906 10 00; 8906 90 10 for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for fitting to or equipping such ships, boats or other vessels.<br>2.  Customs duties shall be suspended in respect of:<br>(a)  goods intended for incorporation in drilling or production platforms:<br>(1)  fixed, of subheading ex  8430 49, operating in or outside the territorial sea of Member States, or<br>(2)  floating or submersible, of subheading 8905 20, for the purposes of their construction, repair, maintenance or conversion, and in respect of goods intended for equipping the said platforms.<br>(b)  tubes, pipes, cables and their connection pieces, linking these drilling or production platforms to the mainland.<br>"
+                },
+                {
+                  "code": 3,
+                  "type": "EU",
+                  "text": "According to The Special Provisions of Section II (A) (3) of the Preliminary Provisions of the Combined Nomenclature the suspension of customs duties for goods for certain categories of ships, boats and other vessels and for drilling or production platforms shall be subject to conditions laid down in the relevant provisions of the European Union with a view to customs control of the use of such goods."
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms (Column 8c, Annex A of Delegated Regulation (EU) 2015/2446)",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "B",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "geographicalArea": "CA",
+              "geographicalSigl": "CA",
+              "regulationRoleType": "1",
+              "regulationId": "D1700370",
+              "regulationOrderNumber": null,
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "6.90%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Nonwovens",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "12.00%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ]
+    },
+    {
+      "query": {
+        "product": "761519",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/761519/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [],
+      "response": []
+    },
+    {
+      "query": {
+        "product": "940370",
+        "origin": "CA",
+        "destination": "DE",
+        "lang": "EN"
+      },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940370/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-17",
+      "source": "European Commission Access2Markets tariff endpoint",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "4",
+              "regulationId": "R9822610",
+              "regulationOrderNumber": null,
+              "startDate": "01/01/1999",
+              "endDate": "01/01/3000",
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "id": 0,
+              "hsCode": null,
+              "description": null,
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "geographicalArea": "1011",
+              "geographicalSigl": "TOUT",
+              "regulationRoleType": "1",
+              "regulationId": "R1815170",
+              "regulationOrderNumber": null,
+              "startDate": "01/11/2018",
+              "endDate": null,
+              "additionalCodeId": null,
+              "additionalCodeText": null,
+              "exclusions": null,
+              "tariffFormula": "0%",
+              "footnotes": [
+                {
+                  "code": 333,
+                  "type": "CD",
+                  "text": "The autonomous Common Customs Tariff duties laid down in Regulation (EEC) No 2658/87 for parts, components and other goods of a kind to be incorporated in or used for aircraft and parts thereof in the course of their manufacture, repair, maintenance, rebuilding, modification or conversion is suspended.<br>In order to benefit from the suspension, the declarant shall present to the customs authorities an Authorised Release Certificate — EASA Form 1, as set out in Appendix I to Annex I to Regulation (EU) No 748/2012, or an equivalent certificate.<br>The certificates which are deemed to be equivalent to Authorised Release Certificates are listed in Annex II to the Regulation (EU) 2018/1517.<br>"
+                }
+              ],
+              "conditions": [
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Apply the mentioned duty",
+                  "certificateType": "C",
+                  "certificateNumber": "119",
+                  "certificateDescription": "Authorised Release Certificate — EASA Form 1 (Appendix I to Annex I to Regulation (EU) No 748/2012), or equivalent certificate",
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                },
+                {
+                  "measureID": 0,
+                  "type": "C",
+                  "sequenceNumber": "2",
+                  "description": "Presentation of a certificate/licence/document",
+                  "actionDescription": "Measure not applicable",
+                  "certificateType": null,
+                  "certificateNumber": null,
+                  "certificateDescription": null,
+                  "conditionExpression": null,
+                  "tariffFormula": null
+                }
+              ]
+            }
+          ],
+          "description": "Furniture of plastics",
+          "code": null
+        }
+      ],
+      "response": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "tariffFormula": "0%"
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Airworthiness tariff suspension",
+              "measureType": "119",
+              "tariffFormula": "0%"
+            }
+          ],
+          "description": "Furniture of plastics",
+          "code": null
+        }
+      ]
+    }
+  ]
+}

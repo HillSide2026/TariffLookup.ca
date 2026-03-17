@@ -8,14 +8,19 @@
   ],
   "artifacts": [
     {
+      "kind": "normalized-records",
+      "path": "data/normalized/eu/tariff-records.json",
+      "description": "Normalized EU tariff records currently preferred by the backend for matching EU lookups."
+    },
+    {
       "kind": "raw-api-snapshot",
       "path": "data/raw/eu/access2markets-tariffs-2026-03-13.json",
       "description": "Raw official Access2Markets tariff payloads and extracted measure summaries captured for the current verified EU rows and ambiguity review."
     },
     {
-      "kind": "normalized-records",
-      "path": "data/normalized/eu/tariff-records.json",
-      "description": "Normalized EU tariff records currently preferred by the backend for matching EU lookups."
+      "kind": "raw-api-snapshot",
+      "path": "data/raw/eu/access2markets-tariffs-2026-03-17-household-packaging-batch-1.json",
+      "description": "Raw official Access2Markets tariff payloads captured for a follow-on EU intake batch."
     }
   ],
   "sources": [
@@ -50,6 +55,6 @@
       "purpose": "Classification certainty reference for difficult product-description-to-code cases."
     }
   ],
-  "lastReviewed": "2026-03-15",
+  "lastReviewed": "2026-03-17",
   "owner": "TariffLookup.ca engineering"
 }
