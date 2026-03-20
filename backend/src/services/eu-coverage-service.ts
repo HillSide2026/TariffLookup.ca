@@ -31,6 +31,42 @@ const euAmbiguityGuidanceByHsCode: Record<string, EuAmbiguityGuidance> = {
     suggestedPrompt:
       "Describe the motor's application, power rating, and whether it is for a special end use such as civil aircraft.",
   },
+  "691200": {
+    reason:
+      "The official EU source splits ceramic tableware and kitchenware under HS 6912.00 across material and quality branches with different duty outcomes, so the prototype cannot safely return one verified EU tariff row without more product detail.",
+    requestedDetails: [
+      "material type such as porcelain, china, stoneware, earthenware, or handmade ceramic",
+      "whether the goods are tableware, kitchenware, ornamental ware, or another ceramic article",
+      "whether the goods are a retail set or individual pieces",
+      "any product specs that narrow the CN branch",
+    ],
+    suggestedPrompt:
+      "Describe the ceramic article material, whether it is tableware or kitchenware, and whether it is sold as a set or as individual pieces.",
+  },
+  "821599": {
+    reason:
+      "The official EU source splits kitchen utensils under HS 8215.99 by stainless-steel versus other material branches, so the prototype needs more product detail before it can return a verified EU tariff row.",
+    requestedDetails: [
+      "utensil material and whether the goods are stainless steel or another base material",
+      "the exact utensil type, such as tongs, ladle, spatula, whisk, or serving tool",
+      "whether the goods are imported individually or in sets",
+      "any product specs that narrow the CN branch",
+    ],
+    suggestedPrompt:
+      "Describe the utensil material, the exact utensil type, and whether the goods are individual pieces or a set.",
+  },
+  "630710": {
+    reason:
+      "The official EU source splits cleaning-cloth goods under HS 6307.10 across knitted, nonwoven, hand-made, and other textile branches with materially different duty outcomes, so the prototype cannot safely return one verified EU tariff row yet.",
+    requestedDetails: [
+      "fabric construction, such as knitted, woven, or nonwoven",
+      "material type, such as cotton, microfiber, or another textile",
+      "whether the article is a cleaning cloth, polishing cloth, shop towel, or another textile form",
+      "any product specs that narrow the CN branch",
+    ],
+    suggestedPrompt:
+      "Describe the cloth construction, material, and whether it is a cleaning cloth, polishing cloth, or shop towel.",
+  },
 };
 
 export function getEuAmbiguityGuidance(hsCode: string) {

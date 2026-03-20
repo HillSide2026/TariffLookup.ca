@@ -1094,6 +1094,89 @@ describe("lookup routes", () => {
     });
   });
 
+  it.each([
+    {
+      hsCode: "6912.00",
+      expectedDetail:
+        "material type such as porcelain, china, stoneware, earthenware, or handmade ceramic",
+    },
+    {
+      hsCode: "8215.99",
+      expectedDetail:
+        "utensil material and whether the goods are stainless steel or another base material",
+    },
+    {
+      hsCode: "6307.10",
+      expectedDetail:
+        "fabric construction, such as knitted, woven, or nonwoven",
+    },
+  ])(
+    "returns a needs-more-detail response for ambiguity-blocked eu hs-code lookups: $hsCode",
+    async ({ hsCode, expectedDetail }) => {
+      const response = await createApp().inject({
+        method: "POST",
+        url: "/api/lookups",
+        payload: {
+          hsCode,
+          destinationCountry: "European Union",
+        },
+      });
+
+      expect(response.statusCode).toBe(409);
+      expect(response.json()).toMatchObject({
+        error: "More product detail required",
+        code: "needs-more-detail",
+        detailRequest: {
+          probableHsCode: hsCode,
+          requestedDetails: expect.arrayContaining([expectedDetail]),
+        },
+      });
+    },
+  );
+
+  it.each([
+    {
+      productDescription: "stoneware dinner bowl set",
+      probableHsCode: "6912.00",
+      expectedDetail:
+        "material type such as porcelain, china, stoneware, earthenware, or handmade ceramic",
+    },
+    {
+      productDescription: "stainless steel serving tongs",
+      probableHsCode: "8215.99",
+      expectedDetail:
+        "utensil material and whether the goods are stainless steel or another base material",
+    },
+    {
+      productDescription: "microfiber cleaning cloths",
+      probableHsCode: "6307.10",
+      expectedDetail:
+        "fabric construction, such as knitted, woven, or nonwoven",
+    },
+  ])(
+    "returns a needs-more-detail response for ambiguity-blocked eu description lookups: $probableHsCode",
+    async ({ productDescription, probableHsCode, expectedDetail }) => {
+      const response = await createApp().inject({
+        method: "POST",
+        url: "/api/lookups",
+        payload: {
+          productDescription,
+          destinationCountry: "European Union",
+        },
+      });
+
+      expect(response.statusCode).toBe(409);
+      expect(response.json()).toMatchObject({
+        error: "More product detail required",
+        code: "needs-more-detail",
+        detailRequest: {
+          probableHsCode,
+          requestedDetails: expect.arrayContaining([expectedDetail]),
+        },
+      });
+    },
+  );
+
   it("returns a validation error when neither hs code nor product description is supplied", async () => {
     const response = await createApp().inject({
       method: "POST",

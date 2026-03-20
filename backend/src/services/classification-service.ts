@@ -11,6 +11,7 @@ type ClassificationProfile = {
   requiredKeywords?: string[];
   excludedKeywords?: string[];
   excludedPhrases?: string[];
+  destinationCountries?: string[];
   euPriority: "normalized" | "ambiguous" | "seed-fallback";
 };
 
@@ -164,6 +165,46 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "6912.00",
+    label: "Ceramic tableware and kitchenware",
+    keywords: [
+      "ceramic",
+      "stoneware",
+      "earthenware",
+      "pottery",
+      "dinnerware",
+      "tableware",
+      "kitchenware",
+      "plate",
+      "plates",
+      "bowl",
+      "bowls",
+      "mug",
+      "mugs",
+      "cup",
+      "cups",
+      "serving",
+    ],
+    phrases: [
+      "ceramic dinnerware",
+      "stoneware bowl",
+      "ceramic mug",
+      "pottery plate",
+    ],
+    requiredKeywords: ["ceramic", "stoneware", "earthenware", "pottery"],
+    excludedKeywords: [
+      "porcelain",
+      "china",
+      "plastic",
+      "glass",
+      "wood",
+      "wooden",
+      "melamine",
+    ],
+    destinationCountries: ["European Union"],
+    euPriority: "ambiguous",
+  },
+  {
     probableHsCode: "4419.90",
     label: "Wooden tableware and kitchenware",
     keywords: [
@@ -314,6 +355,69 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     euPriority: "normalized",
   },
   {
+    probableHsCode: "8215.99",
+    label: "Kitchen utensils and serving tools",
+    keywords: [
+      "utensil",
+      "utensils",
+      "tongs",
+      "ladle",
+      "ladles",
+      "spatula",
+      "spatulas",
+      "turner",
+      "turners",
+      "skimmer",
+      "skimmers",
+      "whisk",
+      "whisks",
+      "serving",
+      "kitchen",
+      "stainless",
+      "steel",
+      "metal",
+    ],
+    phrases: [
+      "kitchen utensil",
+      "serving tongs",
+      "slotted spatula",
+      "stainless steel tongs",
+      "metal ladle",
+    ],
+    requiredKeywords: [
+      "utensil",
+      "utensils",
+      "tongs",
+      "ladle",
+      "ladles",
+      "spatula",
+      "spatulas",
+      "turner",
+      "turners",
+      "skimmer",
+      "skimmers",
+      "whisk",
+      "whisks",
+    ],
+    excludedKeywords: [
+      "knife",
+      "knives",
+      "blade",
+      "blades",
+      "pot",
+      "pots",
+      "pan",
+      "pans",
+      "cookware",
+      "hook",
+      "hooks",
+      "bracket",
+      "brackets",
+    ],
+    destinationCountries: ["European Union"],
+    euPriority: "ambiguous",
+  },
+  {
     probableHsCode: "8306.29",
     label: "Metal ornaments and decorative articles",
     keywords: [
@@ -386,6 +490,60 @@ const seedClassificationProfiles: ClassificationProfile[] = [
     ],
     phrases: ["bath towel", "terry towel", "bath towel set", "dish towel"],
     euPriority: "normalized",
+  },
+  {
+    probableHsCode: "6307.10",
+    label: "Cleaning cloths and shop towels",
+    keywords: [
+      "cleaning",
+      "cloth",
+      "cloths",
+      "microfiber",
+      "microfibre",
+      "polishing",
+      "polish",
+      "dusting",
+      "wiping",
+      "rag",
+      "rags",
+      "shop",
+      "wipe",
+      "wipes",
+    ],
+    phrases: [
+      "cleaning cloth",
+      "microfiber cleaning cloth",
+      "microfibre cleaning cloth",
+      "polishing cloth",
+      "shop towel",
+    ],
+    requiredKeywords: [
+      "cleaning",
+      "microfiber",
+      "microfibre",
+      "polishing",
+      "dusting",
+      "wiping",
+      "rag",
+      "rags",
+      "wipe",
+      "wipes",
+    ],
+    excludedKeywords: [
+      "bath",
+      "bathroom",
+      "tablecloth",
+      "tablecloths",
+      "napkin",
+      "napkins",
+      "placemat",
+      "placemats",
+      "apparel",
+      "shirt",
+      "towel rack",
+    ],
+    destinationCountries: ["European Union"],
+    euPriority: "ambiguous",
   },
   {
     probableHsCode: "6302.91",
@@ -656,6 +814,13 @@ function resolveClassificationFromDescription(
     | undefined;
 
   for (const profile of seedClassificationProfiles) {
+    if (
+      profile.destinationCountries &&
+      !profile.destinationCountries.includes(destinationCountry)
+    ) {
+      continue;
+    }
+
     const matchedExcludedKeywords = (profile.excludedKeywords || []).filter((keyword) =>
       matchesNormalizedKeyword(searchableDescription, searchableTokens, keyword),
     );
