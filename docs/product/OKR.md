@@ -7,6 +7,12 @@ Stage: Planning
 ## Decision Use
 Use this file weekly to decide if execution is on track for launch, output reliability, and budget control.
 
+## Current Execution Note (2026-03-22)
+
+The KPI package below preserves the planning-stage six-jurisdiction threshold set approved on 2026-03-20.
+
+For current implementation completion tracking, do not treat `jurisdiction_coverage_count >= 6` as the live stage target. Use `EU_MVP_COMPLETION_TARGET.md` and `docs/data-sources/EU_COVERAGE_TARGET_STATE.md` for the active EU-only HS-6-floor completion model.
+
 ## Approved Budget Envelope
 - Currency: `CAD`
 - `planned_spend`: `500`

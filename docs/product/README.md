@@ -7,6 +7,12 @@ Stage: Planning
 ## Decision Use
 Use this index to navigate the planning packet and the current gate-readiness status.
 
+## Current Execution Note (2026-03-22)
+
+The planning packet below preserves the original six-jurisdiction MVP framing approved on 2026-03-20.
+
+For current implementation tracking, the live completion target is now defined in `EU_MVP_COMPLETION_TARGET.md` and narrows the active stage to European Union coverage at the HS-6 floor of about `5,000` commodity groups.
+
 ## Planning Objective
 Define and authorize a controlled implementation model for TariffLookup.ca under Matthew Holdings.
 
@@ -16,16 +22,17 @@ Define and authorize a controlled implementation model for TariffLookup.ca under
 - Output: probable HS code, MFN tariff, preferential tariff (if applicable), agreement basis, and eligibility notes
 - Initial jurisdiction scope: United States, European Union, United Kingdom, Japan, Brazil, China
 
-## Planning Status (2026-03-12)
+## Planning Status (2026-03-20)
 - Initiation gate is approved and planning is authorized.
-- TariffLookup.ca planning artifact set is finalized and ready for implementation-readiness review.
-- No implementation execution is authorized until ML1 closes Planning -> Implementation approval.
+- TariffLookup.ca planning artifact set is finalized.
+- Metric thresholds are approved.
+- Planning -> Implementation approval is closed and implementation is authorized.
 
-## Current Planning Focus
-1. Lock exporter user scope and core tariff-lookup workflow.
-2. Lock jurisdiction/data/rule boundaries for the six-jurisdiction MVP.
-3. Lock risk, communication, and measurement model for reliable output and launch control.
-4. Submit Planning -> Implementation gate packet to ML1.
+## Planning Outcome
+1. Exporter user scope and core tariff-lookup workflow are frozen.
+2. Jurisdiction, data, and rule boundaries for the six-jurisdiction MVP are frozen.
+3. Risk, communication, and measurement controls are frozen.
+4. Planning -> Implementation approval is recorded.
 
 ## Immediate Planning Sprint (2026-03-12 to 2026-03-20)
 

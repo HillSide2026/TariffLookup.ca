@@ -7,6 +7,12 @@ Stage: Planning
 ## Decision Use
 Use this file to sequence planning execution, assign owners, and track gate-readiness milestones.
 
+## Current Execution Note (2026-03-22)
+
+This workplan preserves the planning-stage six-jurisdiction scope that supported the 2026-03-20 approval packet.
+
+For current implementation tracking, use `EU_MVP_COMPLETION_TARGET.md` as the live completion target. The active stage is now European Union only and aims at the HS-6 floor of about `5,000` commodity groups.
+
 ## Planning Objective
 Prepare implementation authorization for one specific product concept: TariffLookup.ca.
 
@@ -78,8 +84,8 @@ Any scope expansion requires explicit ML1 approval before execution.
 | M2 - User/problem lock complete | 2026-03-14 | finalized | `WORKPLAN.md`, `ASSUMPTIONS_CONSTRAINTS.md` |
 | M3 - Data/rule and MVP scope freeze complete | 2026-03-16 | finalized | `SCOPE_DEFINITION.md`, `DEPENDENCIES.md` |
 | M4 - Risk and communication model finalized | 2026-03-18 | finalized | `RISK_REGISTER.md`, `COMMUNICATION_PLAN.md` |
-| M5 - Metric threshold packet submitted | 2026-03-19 | submitted | `ML1_METRIC_APPROVAL.md`, `OKR.md` |
-| M6 - Planning -> Implementation gate decision | 2026-03-20 | pending approval | Updated `../APPROVAL_RECORD.md` |
+| M5 - Metric threshold packet submitted | 2026-03-19 | approved | `ML1_METRIC_APPROVAL.md`, `OKR.md` |
+| M6 - Planning -> Implementation gate decision | 2026-03-20 | approved | Planning approval recorded in product artifacts |
 
 ## Immediate Planning Sprint (2026-03-12 to 2026-03-20)
 

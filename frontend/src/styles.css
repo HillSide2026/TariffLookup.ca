@@ -1,12 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  color: #10212b;
+  /* TariffLookup working brand tokens. */
+  --tl-color-deep-navy: #0f2a44;
+  --tl-color-maple-red: #d72638;
+  --tl-color-cool-white: #f7f9fc;
+  --tl-color-steel-blue: #4a6fa5;
+  --tl-color-soft-gray: #a7b0be;
+  --tl-color-dark-charcoal: #1f2933;
+  --tl-color-positive: #2bb673;
+  --tl-color-caution: #f59e0b;
+  --tl-color-danger: #e63946;
+  color: var(--tl-color-dark-charcoal);
   background:
-    radial-gradient(circle at top left, rgba(255, 216, 122, 0.28), transparent 34%),
-    radial-gradient(circle at right 15%, rgba(31, 122, 140, 0.18), transparent 28%),
-    linear-gradient(180deg, #f7f5ef 0%, #eef2ef 100%);
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
+    radial-gradient(circle at top left, rgba(74, 111, 165, 0.16), transparent 30%),
+    radial-gradient(circle at right 12%, rgba(215, 38, 56, 0.08), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, var(--tl-color-cool-white) 42%, #eef3f8 100%);
+  font-family: Inter, "Avenir Next", "Segoe UI", sans-serif;
+  color-scheme: light;
 }
 
 html,
@@ -18,4 +29,8 @@ body,
 body {
   margin: 0;
   min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(74, 111, 165, 0.16), transparent 30%),
+    radial-gradient(circle at right 12%, rgba(215, 38, 56, 0.08), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, var(--tl-color-cool-white) 42%, #eef3f8 100%);
 }

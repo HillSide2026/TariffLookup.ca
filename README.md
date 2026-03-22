@@ -21,6 +21,15 @@ The product is aimed at businesses and trade advisors who need a fast way to che
   - Brazil
   - China
 
+## Current Execution Target (2026-03-22)
+
+The current implementation stage is now tracked as an EU-only coverage program with an HS-6 floor of about `5,000` commodity groups.
+
+The current source of truth for completion tracking is:
+
+- `docs/product/EU_MVP_COMPLETION_TARGET.md`
+- `docs/data-sources/EU_COVERAGE_TARGET_STATE.md`
+
 ## Repository Purpose
 
 This repository is the software build workspace for TariffLookup.ca.
@@ -55,11 +64,12 @@ This repo now contains an active frontend and backend MVP, including:
 - browser-saved workflow defaults across the signed-in account surfaces
 - backend health, metrics, structured logging, and client-side failure logging for Step 5 operations
 - release, staging, and tariff-data refresh runbooks committed in `docs/engineering/`
+- `31` live normalized EU rows in `data/normalized/eu/tariff-records.json`
 
 ## Near-Term Priorities
 
 - deepen the description-to-HS classification workflow beyond the current prototype rules
-- expand real-data coverage beyond the first European Union slice
+- expand trustworthy EU coverage toward the HS-6 floor defined in `docs/product/EU_MVP_COMPLETION_TARGET.md`
 - provision the actual cloud-hosted staging services and stable staging URL
 - enter the staging env vars into Vercel and Render, then run the staging smoke test
 - connect the new health and metrics outputs to an external uptime or alerting destination

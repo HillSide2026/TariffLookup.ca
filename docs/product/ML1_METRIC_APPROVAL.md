@@ -7,10 +7,16 @@ Stage: Planning
 ## Decision Use
 Use this file for the explicit ML1 threshold decision that gates Planning -> Implementation authorization.
 
-Approval Status: Submitted (Pending ML1 Sign-off)
+## Current Execution Note (2026-03-22)
+
+This approval record preserves the planning-stage threshold package approved on 2026-03-20.
+
+The current execution completion target is now maintained in `EU_MVP_COMPLETION_TARGET.md`. Where this file still refers to the earlier six-jurisdiction scope, treat it as historical planning approval context rather than the live EU-only completion target.
+
+Approval Status: Approved
 
 Approved By: ML1
-Date: pending
+Date: 2026-03-20
 
 ## Budget Envelope Submitted for Approval
 - Currency: `CAD`
@@ -43,4 +49,4 @@ Metric formulas and rules are defined in `OKR.md`.
 | `project_budget_variance_pct` | Lower is better | `<= 10%` |
 
 ## Threshold Status
-- Thresholds and budget envelope are submitted and not yet active until ML1 approval is recorded.
+- Thresholds and budget envelope are approved and active as of 2026-03-20.

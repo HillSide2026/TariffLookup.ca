@@ -9,6 +9,13 @@ It is aligned to the MVP described in:
 - `docs/product/README.md`
 - `docs/product/SCOPE_DEFINITION.md`
 - `docs/product/ASSUMPTIONS_CONSTRAINTS.md`
+- `docs/product/EU_MVP_COMPLETION_TARGET.md`
+
+## Current Execution Target (2026-03-22)
+
+The current implementation stage is European Union only and is being tracked against an HS-6 floor of about `5,000` commodity groups.
+
+Use `docs/product/EU_MVP_COMPLETION_TARGET.md` and `docs/data-sources/EU_COVERAGE_TARGET_STATE.md` for current-stage completion tracking.
 
 ## MVP Summary
 
@@ -20,13 +27,8 @@ It is aligned to the MVP described in:
   - preferential tariff rate, if applicable
   - agreement basis
   - eligibility notes
-- Initial jurisdictions:
-  - United States
-  - European Union
-  - United Kingdom
-  - Japan
-  - Brazil
-  - China
+- Current execution jurisdiction: European Union
+- Current execution coverage target: HS-6 floor of about `5,000` commodity groups
 
 ## Initial Stack
 
@@ -139,7 +141,7 @@ The repository has already moved beyond the initial scaffolding target:
 - `node` and `npm` are available locally, and frontend/backend builds have been verified successfully
 - `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
 - `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
-- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 24 normalized European Union rows now committed for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, `7323.93`, `3924.90`, `9403.40`, `9401.61`, `6911.10`, `4419.90`, `7615.20`, `7615.10`, `8302.50`, `8306.29`, `9401.69`, and `9403.20`
+- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 31 normalized European Union rows now committed in `data/normalized/eu/tariff-records.json`
 - Step 4 auth and persistence are now working end to end with live Supabase sign-in, saved lookup writes, and dashboard history reads
 - Step 5 observability, health monitoring, release tooling, CI verification, and staging deployment configuration are now in place in the repo
 - actual cloud staging provisioning, stable public staging URLs, external alert delivery, and Stripe remain pending
@@ -204,13 +206,14 @@ Current groundwork already in place:
 - backend lookup logic now prefers normalized EU records when available, returns explicit `needs more detail` responses for known ambiguous EU codes, and labels any remaining seed fallback state explicitly
 - `docs/data-sources/EU_NORMALIZATION_QUEUE.md` now tracks normalized, blocked, and fallback EU prototype states
 - `docs/data-sources/EU_NORMALIZATION_RULES.md` now defines when a 6-digit EU row is safe to collapse into a normalized prototype record
+- `docs/product/EU_MVP_COMPLETION_TARGET.md` now defines the active EU-only completion target at the HS-6 floor of about `5,000` commodity groups
 
 - Document the first source-data package and refresh conventions under `docs/data-sources/`
 - Add initial schemas and normalization outputs under `data/schemas/` and `data/normalized/`
 - Define and document the first real product-description-to-HS-code classification path
 - Implement the European Union end-to-end with real tariff schedule data before expanding to the rest of the market set
 - Replace seed/demo result fields with real rate, agreement-basis, and eligibility-note generation for the European Union path first
-- expand beyond the first verified EU rows so the European Union path covers a materially useful set of production-priority codes without seed fallback
+- expand EU coverage from the current normalized baseline toward the HS-6 floor while keeping every active-catalog group explicitly categorized as normalized, blocked-with-guidance, or manual-review
 
 Exit criteria:
 

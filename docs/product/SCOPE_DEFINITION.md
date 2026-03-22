@@ -7,6 +7,12 @@ Stage: Planning
 ## Decision Use
 Use this file for supplemental scope rationale; canonical project scope is maintained in `WORKPLAN.md`.
 
+## Current Execution Note (2026-03-22)
+
+This file preserves the original planning-stage six-jurisdiction scope rationale.
+
+For current implementation execution, use `EU_MVP_COMPLETION_TARGET.md` as the active completion target. The current stage is European Union only and is measured against the HS-6 floor of about `5,000` commodity groups.
+
 ## Selected Product Concept
 TariffLookup.ca for Canadian exporters evaluating new destination markets.
 

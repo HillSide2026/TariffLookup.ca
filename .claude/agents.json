@@ -56,6 +56,246 @@
         "01_DOCTRINE/02_policies/DOCTRINE-2026-005-NO_FICTIONAL_EXECUTION_CONSTRUCTS.md (DOCTRINE-2026-005)"
       ],
       "capability_profile": "01_DOCTRINE/03_capability_profiles/AGENT-CAPABILITY-PROFILE-0001-DRAFT_WRITE_ACCESS.md"
+    },
+    {
+      "name": "mkt-chief-marketing-officer-agent",
+      "purpose": "Coordinate TariffLookup.ca marketing work across strategy, content, design, UX, website implementation, QA, and release-prep tasks.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/README.md",
+        "docs/product/SCOPE_DEFINITION.md",
+        "docs/product/ASSUMPTIONS_CONSTRAINTS.md",
+        "docs/product/WORKPLAN.md"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-marketing-strategy-agent",
+      "purpose": "Translate TariffLookup.ca product scope and current build state into executable campaign strategy, message hierarchy, audience framing, and CTA logic.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/README.md",
+        "docs/product/SCOPE_DEFINITION.md",
+        "docs/product/ASSUMPTIONS_CONSTRAINTS.md",
+        "docs/product/DEPENDENCIES.md"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-content-production-agent",
+      "purpose": "Draft TariffLookup.ca homepage, landing-page, email, release, and content-marketing copy from approved strategy and repo facts.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**",
+        "frontend/src/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/SCOPE_DEFINITION.md",
+        "docs/product/ASSUMPTIONS_CONSTRAINTS.md",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/pages/LoginPage.tsx"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-editorial-qa-agent",
+      "purpose": "Review TariffLookup.ca marketing drafts for factual support, product-state accuracy, clarity, and policy alignment before release prep.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/README.md",
+        "docs/product/ASSUMPTIONS_CONSTRAINTS.md",
+        "docs/engineering/RELEASE_CHECKLIST.md",
+        "frontend/src/pages/HomePage.tsx"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-ux-design-agent",
+      "purpose": "Produce TariffLookup.ca wireframes, layout specs, component definitions, and UI/UX handoff packets for the repo's React frontend and related landing pages.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**",
+        "frontend/src/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/SCOPE_DEFINITION.md",
+        "frontend/src/App.tsx",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/styles.css"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-design-production-agent",
+      "purpose": "Create TariffLookup.ca design briefs, asset specs, simple SVG or CSS-based assets, screenshot plans, and visual handoff packets.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**",
+        "frontend/src/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "frontend/src/styles.css",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/pages/LoginPage.tsx",
+        "frontend/src/pages/DashboardPage.tsx"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-thrive-themes-agent",
+      "purpose": "Produce WordPress or Thrive Architect build packets for external TariffLookup.ca marketing surfaces when ML1 explicitly wants a Thrive deliverable.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/product/SCOPE_DEFINITION.md",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/styles.css"
+      ],
+      "capability_profile": "repo-local-marketing-draft-write"
+    },
+    {
+      "name": "mkt-website-implementation-agent",
+      "purpose": "Diagnose and implement TariffLookup.ca website and landing-page changes, patch repo-controlled frontend surfaces, and prepare external implementation packets when needed.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "docs/**",
+        "frontend/**",
+        "backend/**",
+        "vercel.json",
+        "render.yaml"
+      ],
+      "required_doctrine_refs": [
+        "README.md",
+        "docs/brand/TARIFFLOOKUP_BRAND_SYSTEM.md",
+        "docs/engineering/STAGING_DEPLOYMENT.md",
+        "docs/engineering/RELEASE_CHECKLIST.md",
+        "frontend/src/App.tsx",
+        "frontend/src/pages/HomePage.tsx"
+      ],
+      "capability_profile": "repo-local-marketing-implementation-write"
+    },
+    {
+      "name": "eu-classification-quality-agent",
+      "purpose": "Improve TariffLookup.ca EU description-to-HS classification quality, tighten routing logic, and expand classifier regression coverage without expanding scope beyond the EU stage.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "backend/src/**",
+        "docs/data-sources/**"
+      ],
+      "required_doctrine_refs": [
+        "docs/data-sources/EU_COVERAGE_TARGET_STATE.md",
+        "backend/src/services/classification-service.ts",
+        "backend/src/routes/lookups.test.ts",
+        "frontend/src/pages/HomePage.test.tsx",
+        "docs/data-sources/EU_NORMALIZATION_QUEUE.md"
+      ],
+      "capability_profile": "repo-local-eu-quality-implementation-write"
+    },
+    {
+      "name": "eu-normalization-agent",
+      "purpose": "Maintain TariffLookup.ca's EU normalization workflow, evaluate official-source rows for safe normalization, update the live EU normalized dataset, and keep normalization artifacts in sync.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "backend/src/**",
+        "data/normalized/**",
+        "docs/data-sources/**",
+        "docs/engineering/**"
+      ],
+      "required_doctrine_refs": [
+        "docs/data-sources/EU_COVERAGE_TARGET_STATE.md",
+        "backend/src/services/eu-normalization-service.ts",
+        "backend/src/scripts/normalize-eu-source.ts",
+        "backend/src/services/eu-normalization-service.test.ts",
+        "data/normalized/eu/tariff-records.json",
+        "docs/engineering/TARIFF_DATA_REFRESH_RUNBOOK.md"
+      ],
+      "capability_profile": "repo-local-eu-normalization-implementation-write"
+    },
+    {
+      "name": "eu-ambiguity-resolution-agent",
+      "purpose": "Own TariffLookup.ca EU ambiguity handling, improve blocked-case guidance, and keep queue documentation aligned with live needs-more-detail behavior.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "backend/src/**",
+        "docs/data-sources/**",
+        "frontend/src/**"
+      ],
+      "required_doctrine_refs": [
+        "docs/data-sources/EU_COVERAGE_TARGET_STATE.md",
+        "backend/src/services/eu-coverage-service.ts",
+        "docs/data-sources/EU_NORMALIZATION_QUEUE.md",
+        "backend/src/routes/lookups.test.ts",
+        "frontend/src/pages/HomePage.test.tsx"
+      ],
+      "capability_profile": "repo-local-eu-guidance-implementation-write"
+    },
+    {
+      "name": "lookup-regression-agent",
+      "purpose": "Protect TariffLookup.ca lookup behavior with regression tests and release verification around EU classification, normalized rows, blocked guidance, and fallback behavior.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "backend/src/**",
+        "frontend/src/**",
+        "docs/engineering/**",
+        "docs/data-sources/**"
+      ],
+      "required_doctrine_refs": [
+        "docs/data-sources/EU_COVERAGE_TARGET_STATE.md",
+        "backend/src/routes/lookups.test.ts",
+        "backend/src/services/eu-normalization-service.test.ts",
+        "frontend/src/pages/HomePage.test.tsx",
+        "docs/engineering/RELEASE_CHECKLIST.md",
+        "docs/engineering/TARIFF_DATA_REFRESH_RUNBOOK.md",
+        "package.json"
+      ],
+      "capability_profile": "repo-local-eu-regression-implementation-write"
+    },
+    {
+      "name": "eu-coverage-orchestrator-agent",
+      "purpose": "Coordinate TariffLookup.ca's EU coverage work, track the active catalog against the normalized / blocked-with-guidance / manual-review target-state model, and break work into bounded next tasks.",
+      "allowed_write_paths": [
+        ".claude/**",
+        "backend/src/**",
+        "data/normalized/**",
+        "docs/data-sources/**",
+        "docs/engineering/**"
+      ],
+      "required_doctrine_refs": [
+        "docs/data-sources/EU_COVERAGE_TARGET_STATE.md",
+        "docs/data-sources/EU_NORMALIZATION_QUEUE.md",
+        "backend/src/services/classification-service.ts",
+        "backend/src/services/eu-normalization-service.ts",
+        "backend/src/services/eu-coverage-service.ts",
+        "backend/src/routes/lookups.test.ts",
+        "data/normalized/eu/tariff-records.json",
+        "docs/engineering/IMPLEMENTATION_ROADMAP.md"
+      ],
+      "capability_profile": "repo-local-eu-orchestration-draft-write"
     }
   ]
 }
