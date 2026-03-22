@@ -131,7 +131,7 @@ Supabase is reserved for user accounts, saved lookup history, and subscription s
 - Opportunity recommendation engine
 - Overbuilt role systems or broad integrations before MVP validation
 
-## Current Repository Status (2026-03-15)
+## Current Repository Status (2026-03-22)
 
 The repository has already moved beyond the initial scaffolding target:
 
@@ -144,7 +144,8 @@ The repository has already moved beyond the initial scaffolding target:
 - Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 31 normalized European Union rows now committed in `data/normalized/eu/tariff-records.json`
 - Step 4 auth and persistence are now working end to end with live Supabase sign-in, saved lookup writes, and dashboard history reads
 - Step 5 observability, health monitoring, release tooling, CI verification, and staging deployment configuration are now in place in the repo
-- actual cloud staging provisioning, stable public staging URLs, external alert delivery, and Stripe remain pending
+- the staging frontend is now live on Vercel at `https://tarifflookup-ca-staging.vercel.app`
+- the next staging blocker is backend provisioning on Render, followed by env wiring, smoke verification, external alert delivery, and Stripe deferral discipline
 
 ## Execution Status And Next Steps
 
@@ -201,7 +202,7 @@ Current groundwork already in place:
 
 - `data/raw/eu/source-manifest.json` defines the first official EU source package entry points
 - `data/raw/eu/access2markets-tariffs-2026-03-13.json` preserves the first official EU tariff payload snapshots used for normalization
-- `data/normalized/eu/tariff-records.json` now contains 24 verified local EU rows for `8208.30`, `0901.21`, `6109.10`, `9403.60`, `3923.21`, `9403.30`, `3924.10`, `4819.10`, `9403.50`, `7013.49`, `6302.60`, `6302.91`, `7323.93`, `3924.90`, `9403.40`, `9401.61`, `6911.10`, `4419.90`, `7615.20`, `7615.10`, `8302.50`, `8306.29`, `9401.69`, and `9403.20`
+- `data/normalized/eu/tariff-records.json` now contains 31 verified local EU rows, with completion tracking anchored to the active HS-6 catalog and target-state docs
 - `data/schemas/eu-normalized-tariff-record.schema.json` defines the first EU normalized tariff record shape
 - backend lookup logic now prefers normalized EU records when available, returns explicit `needs more detail` responses for known ambiguous EU codes, and labels any remaining seed fallback state explicitly
 - `docs/data-sources/EU_NORMALIZATION_QUEUE.md` now tracks normalized, blocked, and fallback EU prototype states
@@ -236,7 +237,7 @@ Exit criteria:
 
 ### Step 5: Prepare Reliability, Billing, and Launch Controls
 
-Status: current focus as of 2026-03-15
+Status: current focus as of 2026-03-22
 
 - [x] Logging checklist
 - [x] Add structured backend logs for lookup start, lookup completion, lookup failure, auth verification, and lookup-history persistence
@@ -252,9 +253,13 @@ Status: current focus as of 2026-03-15
 
 - [~] Staging deployment checklist
 - [x] Choose and document the frontend host, backend host, and staging environment shape
-- [ ] Provision a cloud-hosted staging environment and stable staging URL before public live-domain launch
+- [~] Provision a cloud-hosted staging environment and stable staging URL before public live-domain launch
+  Frontend complete: Vercel staging is live at `https://tarifflookup-ca-staging.vercel.app`
+  Next operator action: provision `tarifflookup-backend-staging` on Render and record its public API base URL
 - [~] Configure staging env vars for API base URL, Supabase credentials, and allowed frontend/backend origins
-- [~] Run a staging smoke test that covers sign-in, signed-in lookup, saved lookup history, and dashboard load
+  Next operator action: set `VITE_API_BASE_URL`, `VITE_SUPABASE_URL`, and `VITE_SUPABASE_ANON_KEY` in Vercel, then set the matching frontend-origin and Supabase variables in Render
+- [ ] Run a staging smoke test that covers sign-in, signed-in lookup, saved lookup history, and dashboard load
+  Blocked on: live Render backend URL plus completed staging env wiring
 - [ ] Use the staging URL for QA, pilot access, and release-candidate validation
 
 - [x] Release controls checklist
@@ -268,7 +273,8 @@ Step 5 execution notes:
 
 - repo-side staging config now exists in `vercel.json`, `render.yaml`, and `docs/engineering/STAGING_DEPLOYMENT.md`
 - `npm run verify:release`, `npm run check:env:*`, and `npm run smoke:staging` now provide the release-control surface
-- staging provisioning and stable public staging URLs are blocked on Vercel and Render account access outside the repo
+- the Vercel staging frontend is now provisioned and reachable at `https://tarifflookup-ca-staging.vercel.app`
+- the immediate next external step is to provision the Render backend, capture `STAGING_API_BASE_URL`, and wire the Vercel/Render/Supabase env vars together
 - Stripe intentionally remains deferred until staging is live and the workflow is supportable
 
 Exit criteria:
