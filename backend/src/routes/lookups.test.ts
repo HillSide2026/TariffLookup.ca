@@ -1191,4 +1191,235 @@ describe("lookup routes", () => {
       error: "Invalid lookup request",
     });
   });
+
+  // Batch 2 (2026-03-17) — regression fixtures for the 7 codes added in the household-packaging follow-on batch.
+  // These verify that every normalized record from that batch is reachable by HS code direct lookup.
+
+  it.each([
+    {
+      hsCode: "3923.29",
+      description: "other-plastic sacks and bags",
+      mfnTariffRate: "6.50%",
+      agreementBasis: "EU-Canada CETA tariff preference",
+    },
+    {
+      hsCode: "3923.30",
+      description: "plastic bottles and flasks",
+      mfnTariffRate: "6.50%",
+      agreementBasis: "EU-Canada CETA tariff preference",
+    },
+    {
+      hsCode: "4819.20",
+      description: "folding non-corrugated cartons",
+      mfnTariffRate: "0%",
+      agreementBasis:
+        "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    },
+    {
+      hsCode: "4819.40",
+      description: "other paper sacks and bags",
+      mfnTariffRate: "0%",
+      agreementBasis:
+        "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    },
+    {
+      hsCode: "4823.69",
+      description: "paper table articles",
+      mfnTariffRate: "0%",
+      agreementBasis:
+        "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    },
+    {
+      hsCode: "6302.31",
+      description: "cotton bedlinen printed",
+      mfnTariffRate: "12.00%",
+      agreementBasis: "EU-Canada CETA tariff preference",
+    },
+    {
+      hsCode: "9403.70",
+      description: "furniture of plastics",
+      mfnTariffRate: "0%",
+      agreementBasis:
+        "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    },
+  ])(
+    "uses a normalized eu row for batch-2 hs-code direct lookup: $hsCode ($description)",
+    async ({ hsCode, mfnTariffRate, agreementBasis }) => {
+      const response = await createApp().inject({
+        method: "POST",
+        url: "/api/lookups",
+        payload: {
+          hsCode,
+          destinationCountry: "European Union",
+        },
+      });
+
+      expect(response.statusCode).toBe(200);
+      expect(response.json()).toMatchObject({
+        query: {
+          hsCode,
+          destinationCountry: "European Union",
+          inputMode: "hsCode",
+        },
+        result: {
+          mfnTariffRate,
+          preferentialTariffRate: "0%",
+          agreementBasis,
+          source: "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
+        },
+        meta: {
+          source: "local-normalized-data",
+          coverageStatus: "normalized-record",
+        },
+      });
+    },
+  );
+
+  it("uses a normalized eu row for polypropylene bags resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "polypropylene shipping bag",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "3923.29",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "6.50%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for cotton bedlinen resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "cotton bed sheet set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "6302.31",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "12.00%",
+        preferentialTariffRate: "0%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for plastic patio furniture resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "plastic patio chair set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "9403.70",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for folding cardboard gift boxes resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "folding cardboard gift box set",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "4819.20",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
+
+  it("uses a normalized eu row for disposable paper napkins resolved from product description", async () => {
+    const response = await createApp().inject({
+      method: "POST",
+      url: "/api/lookups",
+      payload: {
+        productDescription: "disposable paper napkins bulk pack",
+        destinationCountry: "European Union",
+      },
+    });
+
+    expect(response.statusCode).toBe(200);
+    expect(response.json()).toMatchObject({
+      query: {
+        hsCode: "4823.69",
+        destinationCountry: "European Union",
+        inputMode: "description",
+      },
+      result: {
+        mfnTariffRate: "0%",
+        preferentialTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      meta: {
+        source: "local-normalized-data",
+        coverageStatus: "normalized-record",
+      },
+    });
+  });
 });

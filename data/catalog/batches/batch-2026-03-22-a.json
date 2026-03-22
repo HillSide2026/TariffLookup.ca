@@ -1,0 +1,57 @@
+{
+  "batchId": "batch-2026-03-22-a",
+  "status": "in_queue",
+  "createdAt": "2026-03-22",
+  "selectionCriteria": {
+    "method": "manual-bootstrapping",
+    "note": "First formal batch. Manually selected to continue chapters already opened. Diversity constraint (max 3 per chapter) waived for this bootstrapping batch; enforced from batch-2026-03-22-b onward.",
+    "coverageGapPriority": true,
+    "adjacencyPreference": true,
+    "maxCodesPerChapterPerBatch": "waived-for-bootstrapping"
+  },
+  "chapterDistribution": {
+    "09": 6,
+    "48": 2,
+    "61": 4,
+    "63": 3,
+    "70": 2,
+    "94": 3
+  },
+  "codes": [
+    { "hs6Code": "0901.12", "chapter": "09", "section": "II", "description": "Coffee, not roasted, decaffeinated", "fetchPriority": "medium", "adjacentTo": "0901.21" },
+    { "hs6Code": "0901.22", "chapter": "09", "section": "II", "description": "Coffee, roasted, decaffeinated", "fetchPriority": "medium", "adjacentTo": "0901.21" },
+    { "hs6Code": "0902.10", "chapter": "09", "section": "II", "description": "Green tea (not fermented), in immediate packings not exceeding 3 kg", "fetchPriority": "high", "adjacentTo": "0901.21" },
+    { "hs6Code": "0902.20", "chapter": "09", "section": "II", "description": "Other green tea (not fermented)", "fetchPriority": "high", "adjacentTo": "0902.10" },
+    { "hs6Code": "0902.30", "chapter": "09", "section": "II", "description": "Black tea (fermented) and partly fermented tea, in immediate packings not exceeding 3 kg", "fetchPriority": "high", "adjacentTo": "0902.20" },
+    { "hs6Code": "0902.40", "chapter": "09", "section": "II", "description": "Other black tea (fermented) and partly fermented tea", "fetchPriority": "high", "adjacentTo": "0902.30" },
+    { "hs6Code": "4819.30", "chapter": "48", "section": "X", "description": "Sacks and bags having a base of a width of 40 cm or more", "fetchPriority": "high", "adjacentTo": "4819.10" },
+    { "hs6Code": "4820.10", "chapter": "48", "section": "X", "description": "Registers, account books, note books, order books, receipt books, letter pads and similar articles of paper or paperboard", "fetchPriority": "medium", "adjacentTo": "4819.40" },
+    { "hs6Code": "6109.90", "chapter": "61", "section": "XI", "description": "T-shirts, singlets and other vests of other textile materials, knitted or crocheted", "fetchPriority": "high", "adjacentTo": "6109.10" },
+    { "hs6Code": "6110.20", "chapter": "61", "section": "XI", "description": "Jerseys, pullovers, sweatshirts, waistcoats and similar articles of cotton, knitted or crocheted", "fetchPriority": "high", "adjacentTo": "6109.10" },
+    { "hs6Code": "6110.30", "chapter": "61", "section": "XI", "description": "Jerseys, pullovers, sweatshirts, waistcoats and similar articles of man-made fibres, knitted or crocheted", "fetchPriority": "medium", "adjacentTo": "6110.20" },
+    { "hs6Code": "6115.95", "chapter": "61", "section": "XI", "description": "Other hosiery of cotton, knitted or crocheted", "fetchPriority": "medium", "adjacentTo": "6109.10" },
+    { "hs6Code": "6302.10", "chapter": "63", "section": "XI", "description": "Bedlinen, knitted or crocheted", "fetchPriority": "high", "adjacentTo": "6302.31" },
+    { "hs6Code": "6302.21", "chapter": "63", "section": "XI", "description": "Bedlinen of cotton, not knitted or crocheted, not printed", "fetchPriority": "high", "adjacentTo": "6302.31" },
+    { "hs6Code": "6304.91", "chapter": "63", "section": "XI", "description": "Other furnishing articles, not knitted or crocheted, of cotton", "fetchPriority": "medium", "adjacentTo": "6302.91" },
+    { "hs6Code": "7013.28", "chapter": "70", "section": "XIII", "description": "Other drinking glasses, other than of glass-ceramics", "fetchPriority": "high", "adjacentTo": "7013.49" },
+    { "hs6Code": "7013.37", "chapter": "70", "section": "XIII", "description": "Other glassware of a kind used for table or kitchen purposes of lead crystal", "fetchPriority": "high", "adjacentTo": "7013.49" },
+    { "hs6Code": "9401.30", "chapter": "94", "section": "XX", "description": "Swivel seats with variable height adjustment", "fetchPriority": "medium", "adjacentTo": "9401.61" },
+    { "hs6Code": "9401.71", "chapter": "94", "section": "XX", "description": "Upholstered seats with metal frames, other than garden seats or camping equipment", "fetchPriority": "medium", "adjacentTo": "9401.61" },
+    { "hs6Code": "9403.10", "chapter": "94", "section": "XX", "description": "Metal furniture of a kind used in offices", "fetchPriority": "medium", "adjacentTo": "9403.20" }
+  ],
+  "fetchInstructions": {
+    "apiPattern": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/{hs6CodeNoDot}/{origin}/{destination}?lang=EN",
+    "origin": "CA",
+    "destination": "DE",
+    "normalizationRules": [
+      "Only normalize when every returned branch shares the same base customs-duty outcome",
+      "Do not treat conditional end-use, airworthiness, quota, or control measures as base MFN duty",
+      "If branches diverge materially → route to blocked_with_guidance",
+      "Record raw API response in data/raw/eu/ before normalizing"
+    ]
+  },
+  "metricsRef": "data/catalog/eu-coverage-metrics.jsonl",
+  "completedCodes": [],
+  "blockedCodes": [],
+  "manualReviewCodes": []
+}
