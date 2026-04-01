@@ -237,13 +237,6 @@ function formatHistoryStatusMessage(
   return "Get access to save lookups to your account history.";
 }
 
-function getMarketSurfaceClasses(market: string) {
-  if (market === "European Union") {
-    return "border-[#4a6fa5]/25 bg-[#eef4ff] text-[#16395c]";
-  }
-
-  return "border-slate-200 bg-white text-slate-700";
-}
 
 export function HomePage() {
   const auth = useAuth();
@@ -405,22 +398,6 @@ export function HomePage() {
     );
   }
 
-  function handleDestinationChange(nextDestination: string) {
-    setDestinationCountry(nextDestination);
-
-    if (!userPreferences.rememberLastDestination) {
-      return;
-    }
-
-    const nextPreferences = {
-      ...userPreferences,
-      lastDestination: nextDestination,
-    };
-
-    setUserPreferences(nextPreferences);
-    saveUserPreferences(nextPreferences);
-  }
-
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -523,33 +500,34 @@ export function HomePage() {
   }
 
   return (
-    <div className="space-y-6 lg:space-y-8">
-      <section className="overflow-hidden rounded-[36px] border border-[rgba(15,42,68,0.1)] bg-white/88 p-6 shadow-[0_24px_60px_rgba(12,22,38,0.08)] backdrop-blur-xl sm:p-8">
-        <div className="grid gap-8 xl:grid-cols-[minmax(0,1.05fr)_minmax(420px,0.95fr)]">
+    <div className="divide-y" style={{ borderColor: "var(--tl-color-rule)" }}>
+      <section className="py-10 sm:py-14">
+        <div className="grid gap-10 xl:grid-cols-[minmax(0,1.05fr)_minmax(420px,0.95fr)]">
           <div className="max-w-3xl">
-            <div className="flex flex-wrap gap-2">
-              <span className="inline-flex rounded-full border border-[#4a6fa5]/20 bg-[#eef4ff] px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-[#16395c]">
+            <div className="flex flex-wrap gap-3">
+              <span className="border px-3 py-1 text-xs font-medium uppercase tracking-[0.22em]" style={{ fontFamily: "var(--tl-font-mono)", borderColor: "var(--tl-color-rule)", color: "var(--tl-color-ink-muted)" }}>
                 Instant clarity on tariffs
               </span>
-              <span className="inline-flex rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.22em] text-amber-900">
+              <span className="border border-amber-300 bg-amber-50 px-3 py-1 text-xs font-medium uppercase tracking-[0.22em] text-amber-900" style={{ fontFamily: "var(--tl-font-mono)" }}>
                 Early rollout
               </span>
             </div>
 
-            <h1 className="mt-5 text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl">
+            <h1 className="mt-5 text-5xl font-bold leading-[1.1] tracking-tight sm:text-6xl" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
               Get a clear first tariff answer before you commit to the market.
             </h1>
-            <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
+            <p className="mt-5 max-w-2xl text-lg leading-8" style={{ color: "var(--tl-color-ink-mid)" }}>
               TariffLookup.ca helps Canadian exporters start with a rough product
               description, resolve a probable HS code, and see a structured tariff
               answer without a messy manual research loop.
             </p>
 
-            <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            <div className="mt-6 grid gap-0 border-t sm:grid-cols-3" style={{ borderColor: "var(--tl-color-rule)" }}>
               {heroProofPoints.map((point) => (
                 <div
                   key={point}
-                  className="rounded-[24px] border border-slate-200 bg-slate-50 px-4 py-4 text-sm leading-6 text-slate-700"
+                  className="border-b py-4 pr-6 text-sm leading-6 sm:border-b-0 sm:border-r last:border-r-0"
+                  style={{ borderColor: "var(--tl-color-rule)", color: "var(--tl-color-ink-mid)" }}
                 >
                   {point}
                 </div>
@@ -573,56 +551,59 @@ export function HomePage() {
           </div>
 
           <div
-            className="rounded-[36px] bg-[#0f2a44] p-5 text-white shadow-[0_30px_70px_rgba(15,42,68,0.22)] sm:p-6"
+            className="bg-[#0d1117] p-6 text-white sm:p-8"
             id="lookup-console"
           >
-            <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-white/10 pb-5">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-300">
-                  Task-first hero
+                <p className="text-xs font-medium uppercase tracking-[0.24em] text-white/40" style={{ fontFamily: "var(--tl-font-mono)" }}>
+                  Lookup console
                 </p>
-                <h2 className="mt-2 text-2xl font-semibold tracking-tight text-white">
+                <h2 className="mt-2 text-2xl font-bold text-white" style={{ fontFamily: "var(--tl-font-display)" }}>
                   Run the lookup from the landing page
                 </h2>
               </div>
-              <span className="rounded-full border border-white/12 bg-white/8 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-slate-200">
+              <span className="border border-white/15 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-white/50" style={{ fontFamily: "var(--tl-font-mono)" }}>
                 {auth.isAuthenticated ? "Account-linked" : "Public mode"}
               </span>
             </div>
 
-            <form className="mt-6 grid gap-4" onSubmit={handleSubmit}>
+            <form className="mt-6 grid gap-5" onSubmit={handleSubmit}>
               <label className="flex flex-col gap-2 text-sm">
-                <span className="font-medium text-white/80">
+                <span className="text-xs font-medium uppercase tracking-[0.18em] text-white/50" style={{ fontFamily: "var(--tl-font-mono)" }}>
                   Product description
                 </span>
                 <textarea
-                  className="min-h-32 rounded-[24px] border border-white/10 bg-white/8 px-4 py-4 text-white outline-none placeholder:text-white/45 focus:border-white/25 focus:bg-white/10"
+                  className="min-h-32 border border-white/10 bg-white/5 px-4 py-4 text-white outline-none placeholder:text-white/30 focus:border-white/20 focus:bg-white/8"
+                  style={{ fontFamily: "var(--tl-font-mono)", fontSize: "0.875rem" }}
                   onChange={(event) => setProductDescription(event.target.value)}
                   placeholder="stainless steel kitchen knife blades"
                   value={productDescription}
                 />
               </label>
 
-              <div className="grid gap-4 lg:grid-cols-[1fr_1fr_auto]">
+              <div className="grid gap-5 lg:grid-cols-[1fr_1fr_auto]">
                 <label className="flex flex-col gap-2 text-sm">
-                  <span className="font-medium text-white/80">HS code</span>
+                  <span className="text-xs font-medium uppercase tracking-[0.18em] text-white/50" style={{ fontFamily: "var(--tl-font-mono)" }}>HS code</span>
                   <input
                     autoComplete="off"
-                    className="rounded-[20px] border border-white/10 bg-white/8 px-4 py-3 text-white outline-none placeholder:text-white/45 focus:border-white/25 focus:bg-white/10"
+                    className="border border-white/10 bg-white/5 px-4 py-3 text-white outline-none placeholder:text-white/30 focus:border-white/20 focus:bg-white/8"
+                    style={{ fontFamily: "var(--tl-font-mono)" }}
                     inputMode="decimal"
                     onChange={(event) => setHsCode(event.target.value)}
-                    placeholder="Optional if you know it"
+                    placeholder="Optional"
                     value={hsCode}
                   />
-                  <span className="text-xs text-white/50">
-                    Optional override when you already know the code.
+                  <span className="text-xs text-white/35" style={{ fontFamily: "var(--tl-font-mono)" }}>
+                    Override when you already know the code.
                   </span>
                 </label>
 
                 <label className="flex flex-col gap-2 text-sm">
-                  <span className="font-medium text-white/80">Destination</span>
+                  <span className="text-xs font-medium uppercase tracking-[0.18em] text-white/50" style={{ fontFamily: "var(--tl-font-mono)" }}>Destination</span>
                   <select
-                    className="rounded-[20px] border border-white/10 bg-white/8 px-4 py-3 text-white outline-none focus:border-white/25 focus:bg-white/10"
+                    className="border border-white/10 bg-white/5 px-4 py-3 text-white outline-none focus:border-white/20 focus:bg-white/8"
+                    style={{ fontFamily: "var(--tl-font-mono)" }}
                     onChange={(event) => handleDestinationChange(event.target.value)}
                     value={destinationCountry}
                   >
@@ -636,7 +617,7 @@ export function HomePage() {
 
                 <div className="flex items-end">
                   <button
-                    className="w-full rounded-[20px] bg-[#d72638] px-5 py-3 font-semibold text-white transition hover:bg-[#bf2232] disabled:cursor-not-allowed disabled:opacity-70 lg:w-auto"
+                    className="w-full bg-[#d72638] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#bf2232] disabled:cursor-not-allowed disabled:opacity-60 lg:w-auto"
                     disabled={isSubmitting}
                     type="submit"
                   >
@@ -646,25 +627,25 @@ export function HomePage() {
               </div>
             </form>
 
-            <div className="mt-5 space-y-3">
+            <div className="mt-6 space-y-3 border-t border-white/10 pt-5">
               {isLoadingMarkets ? (
-                <p className="text-sm text-slate-300">
+                <p className="text-xs text-white/40" style={{ fontFamily: "var(--tl-font-mono)" }}>
                   Loading supported markets...
                 </p>
               ) : null}
               {marketError ? (
-                <p className="rounded-[18px] border border-amber-200/30 bg-amber-300/10 px-4 py-3 text-sm text-amber-100">
+                <p className="border border-amber-400/20 bg-amber-400/8 px-4 py-3 text-sm text-amber-200">
                   {marketError}
                 </p>
               ) : null}
               {submissionError ? (
-                <p className="rounded-[18px] border border-rose-200/30 bg-rose-300/10 px-4 py-3 text-sm text-rose-100">
+                <p className="border border-rose-400/20 bg-rose-400/8 px-4 py-3 text-sm text-rose-200">
                   {submissionError}
                 </p>
               ) : null}
-              <p className="text-sm leading-6 text-slate-300">
+              <p className="text-xs leading-6 text-white/40" style={{ fontFamily: "var(--tl-font-mono)" }}>
                 Default destination:{" "}
-                <span className="font-semibold text-white">
+                <span className="text-white/70">
                   {userPreferences.defaultDestination}
                 </span>
                 .{" "}
@@ -677,31 +658,32 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="rounded-[36px] border border-[rgba(15,42,68,0.1)] bg-white/88 p-6 shadow-[0_24px_60px_rgba(12,22,38,0.08)] backdrop-blur-xl sm:p-8">
+      <section className="py-10 sm:py-14">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
+          <p className="text-xs font-medium uppercase tracking-[0.24em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
             02. Exporter stakes
           </p>
-          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
             Before you quote, expand, or commit, you need a clear tariff picture.
           </h2>
-          <p className="mt-4 text-base leading-7 text-slate-600">
+          <p className="mt-4 text-base leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
             This is not a broad trade-compliance promise. It is a focused answer
             to a specific exporter problem: tariff uncertainty slows good market
             decisions.
           </p>
         </div>
 
-        <div className="mt-6 grid gap-4 md:grid-cols-3">
+        <div className="mt-8 grid gap-0 border-t md:grid-cols-3" style={{ borderColor: "var(--tl-color-rule)" }}>
           {exporterStakes.map((stake) => (
             <article
               key={stake.title}
-              className="rounded-[28px] border border-slate-200 bg-slate-50 p-5"
+              className="border-b py-6 pr-8 md:border-b-0 md:border-r last:border-r-0"
+              style={{ borderColor: "var(--tl-color-rule)" }}
             >
-              <p className="text-lg font-semibold text-slate-950">
+              <p className="text-lg font-semibold" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
                 {stake.title}
               </p>
-              <p className="mt-3 text-sm leading-7 text-slate-600">
+              <p className="mt-3 text-sm leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
                 {stake.body}
               </p>
             </article>
@@ -709,29 +691,30 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="rounded-[36px] border border-[rgba(15,42,68,0.1)] bg-white/88 p-6 shadow-[0_24px_60px_rgba(12,22,38,0.08)] backdrop-blur-xl sm:p-8">
+      <section className="py-10 sm:py-14">
         <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
+          <p className="text-xs font-medium uppercase tracking-[0.24em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
             03. How it works
           </p>
-          <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+          <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
             One product. One destination. One structured answer.
           </h2>
         </div>
 
-        <div className="mt-6 grid gap-4 lg:grid-cols-3">
+        <div className="mt-8 grid gap-0 border-t lg:grid-cols-3" style={{ borderColor: "var(--tl-color-rule)" }}>
           {workflowSteps.map((step) => (
             <article
               key={step.step}
-              className="rounded-[30px] border border-slate-200 bg-slate-50 p-5"
+              className="border-b py-6 pr-8 lg:border-b-0 lg:border-r last:border-r-0"
+              style={{ borderColor: "var(--tl-color-rule)" }}
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
-                Step {step.step}
+              <p className="text-xs font-medium uppercase tracking-[0.24em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-maple-red)" }}>
+                {step.step}
               </p>
-              <p className="mt-3 text-xl font-semibold text-slate-950">
+              <p className="mt-3 text-xl font-semibold" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
                 {step.title}
               </p>
-              <p className="mt-3 text-sm leading-7 text-slate-600">
+              <p className="mt-3 text-sm leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
                 {step.body}
               </p>
             </article>
@@ -739,43 +722,43 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="rounded-[36px] border border-[rgba(15,42,68,0.1)] bg-white/88 p-6 shadow-[0_24px_60px_rgba(12,22,38,0.08)] backdrop-blur-xl sm:p-8">
-        <div className="grid gap-6 xl:grid-cols-[360px_minmax(0,1fr)]">
+      <section className="py-10 sm:py-14">
+        <div className="grid gap-10 xl:grid-cols-[360px_minmax(0,1fr)]">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
+            <p className="text-xs font-medium uppercase tracking-[0.24em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
               04. Real product proof
             </p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950">
+            <h2 className="mt-3 text-3xl font-bold tracking-tight" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
               Show the real states, not generic marketing claims.
             </h2>
-            <p className="mt-4 text-base leading-7 text-slate-600">
+            <p className="mt-4 text-base leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
               These scenarios are intentionally honest: verified EU coverage,
               ambiguity that needs more detail, and explicit fallback behavior.
             </p>
 
-            <div className="mt-6 grid gap-3">
+            <div className="mt-6 divide-y" style={{ borderColor: "var(--tl-color-rule)" }}>
               {starterScenarios.map((scenario) => (
                 <button
                   key={scenario.title}
-                  className="rounded-[24px] border border-slate-200 bg-slate-50 p-4 text-left transition hover:-translate-y-0.5 hover:border-slate-300 hover:bg-white"
+                  className="w-full py-4 text-left transition hover:pl-1"
                   onClick={() => loadStarterScenario(scenario)}
                   type="button"
                 >
                   <div className="flex items-center justify-between gap-3">
-                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">
+                    <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                       {scenario.outcomeLabel}
                     </p>
-                    <span className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-600">
+                    <span className="border px-2 py-0.5 text-xs font-medium" style={{ fontFamily: "var(--tl-font-mono)", borderColor: "var(--tl-color-rule)", color: "var(--tl-color-ink-muted)" }}>
                       {scenario.destinationCountry}
                     </span>
                   </div>
-                  <p className="mt-3 text-lg font-semibold text-slate-950">
+                  <p className="mt-2 text-lg font-semibold" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
                     {scenario.title}
                   </p>
-                  <p className="mt-2 text-sm leading-6 text-slate-600">
+                  <p className="mt-1 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                     {scenario.helper}
                   </p>
-                  <p className="mt-3 text-sm font-medium text-[#0f2a44]">
+                  <p className="mt-2 text-sm font-medium" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-deep-navy)" }}>
                     {scenario.hsCode
                       ? `Load HS ${scenario.hsCode}`
                       : scenario.productDescription}
@@ -786,15 +769,15 @@ export function HomePage() {
           </div>
 
           <div className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-              <div className="rounded-[26px] border border-slate-200 bg-slate-50 p-4">
-                <p className="text-sm font-medium text-slate-500">
+            <div className="grid gap-0 border-t md:grid-cols-2 xl:grid-cols-4" style={{ borderColor: "var(--tl-color-rule)" }}>
+              <div className="border-b py-5 pr-6 xl:border-b-0 xl:border-r" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                   Probable HS code
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-slate-900">
+                <p className="mt-3 text-3xl font-bold tracking-tight" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   {probableHsCode}
                 </p>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                   {classification
                     ? `${classification.confidence} confidence via ${formatMethodLabel(
                         classification.method,
@@ -805,13 +788,13 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[26px] border border-slate-200 bg-slate-50 p-4">
-                <p className="text-sm font-medium text-slate-500">MFN rate</p>
-                <p className="mt-3 text-2xl font-semibold text-slate-900">
+              <div className="border-b py-5 pr-6 xl:border-b-0 xl:border-r" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>MFN rate</p>
+                <p className="mt-3 text-3xl font-bold tracking-tight" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   {lookupResult?.mfnTariffRate ||
-                    (detailRequest ? "Need more detail" : "Pending lookup")}
+                    (detailRequest ? "—" : "—")}
                 </p>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                   {lookupResponse
                     ? `Returned for ${lookupResponse.query.destinationCountry}.`
                     : detailRequest
@@ -820,15 +803,15 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[26px] border border-slate-200 bg-slate-50 p-4">
-                <p className="text-sm font-medium text-slate-500">
+              <div className="border-b py-5 pr-6 xl:border-b-0 xl:border-r" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                   Preferential rate
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-slate-900">
+                <p className="mt-3 text-3xl font-bold tracking-tight" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   {lookupResult?.preferentialTariffRate ||
-                    (detailRequest ? "Need more detail" : "Pending lookup")}
+                    (detailRequest ? "—" : "—")}
                 </p>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                   {lookupResponse
                     ? "Loaded from the current lookup response."
                     : detailRequest
@@ -837,15 +820,15 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[26px] border border-slate-200 bg-slate-50 p-4">
-                <p className="text-sm font-medium text-slate-500">
+              <div className="py-5 pr-6" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                   Agreement basis
                 </p>
-                <p className="mt-3 text-lg font-semibold text-slate-900">
+                <p className="mt-3 text-xl font-semibold" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   {lookupResult?.agreementBasis ||
-                    (detailRequest ? "Need more detail" : "Pending lookup")}
+                    (detailRequest ? "—" : "—")}
                 </p>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                   {detailRequest
                     ? "More product detail is required before the EU agreement path can be stated safely."
                     : "Agreement context returned alongside the tariff rates."}
@@ -853,59 +836,60 @@ export function HomePage() {
               </div>
             </div>
 
-            <div className="rounded-[30px] border border-slate-200 bg-white p-5">
-              <p className="text-sm font-medium text-slate-500">
+            <div className="border-t pt-5" style={{ borderColor: "var(--tl-color-rule)" }}>
+              <p className="text-xs font-medium uppercase tracking-[0.18em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                 Eligibility notes
               </p>
               {lookupResult?.eligibilityNotes.length ? (
-                <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-700">
+                <ul className="mt-3 space-y-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                   {lookupResult.eligibilityNotes.map((note) => (
-                    <li key={note} className="rounded-[18px] bg-slate-50 px-3 py-2">
+                    <li key={note} className="border-l-2 border-[#d72638] pl-3">
                       {note}
                     </li>
                   ))}
                 </ul>
               ) : detailRequest ? (
                 <>
-                  <p className="mt-3 text-lg font-semibold text-slate-900">
+                  <p className="mt-3 text-lg font-semibold" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
                     More detail needed
                   </p>
-                  <ul className="mt-3 space-y-2 text-sm leading-6 text-slate-700">
+                  <ul className="mt-3 space-y-2 text-sm leading-6" style={{ color: "var(--tl-color-ink-mid)" }}>
                     {detailRequest.requestedDetails.map((note) => (
-                      <li key={note} className="rounded-[18px] bg-slate-50 px-3 py-2">
+                      <li key={note} className="border-l-2 border-[#d72638] pl-3">
                         {note}
                       </li>
                     ))}
                   </ul>
-                  <p className="mt-3 text-sm text-slate-600">
+                  <p className="mt-3 text-sm" style={{ color: "var(--tl-color-ink-mid)" }}>
                     Try: {detailRequest.suggestedPrompt}
                   </p>
-                  <label className="mt-3 block text-sm font-medium text-slate-700">
+                  <label className="mt-4 block text-sm font-medium" style={{ color: "var(--tl-color-ink)" }}>
                     Build a safer description for the next attempt
                     <textarea
-                      className="mt-2 min-h-28 w-full rounded-[20px] border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 outline-none transition focus:border-slate-400 focus:bg-white"
+                      className="mt-2 min-h-28 w-full border px-4 py-3 text-sm outline-none transition"
+                      style={{ borderColor: "var(--tl-color-rule)", backgroundColor: "var(--tl-color-paper-mid)", color: "var(--tl-color-ink)", fontFamily: "var(--tl-font-mono)" }}
                       onChange={(event) => setFollowUpDetail(event.target.value)}
                       value={followUpDetail}
                     />
                   </label>
                   <button
-                    className="mt-3 rounded-full bg-[#0f2a44] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-[#16395c]"
+                    className="mt-3 bg-[#0f2a44] px-4 py-2 text-sm font-medium text-white transition hover:bg-[#16395c]"
                     onClick={handleApplyFollowUpDetail}
                     type="button"
                   >
                     Use these details in the lookup form
                   </button>
-                  <p className="mt-2 text-xs leading-5 text-slate-500">
+                  <p className="mt-2 text-xs leading-5" style={{ color: "var(--tl-color-ink-muted)" }}>
                     If you started with an HS code, the app will switch back to a
                     description-first retry so you can narrow the branch more safely.
                   </p>
                 </>
               ) : (
                 <>
-                  <p className="mt-3 text-lg font-semibold text-slate-900">
+                  <p className="mt-3 text-lg font-semibold" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
                     Awaiting lookup
                   </p>
-                  <p className="mt-2 text-sm text-slate-600">
+                  <p className="mt-2 text-sm" style={{ color: "var(--tl-color-ink-mid)" }}>
                     Notes will explain the classification basis and tariff context.
                   </p>
                 </>
@@ -950,56 +934,56 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="rounded-[36px] border border-[rgba(15,42,68,0.1)] bg-white/88 p-6 shadow-[0_24px_60px_rgba(12,22,38,0.08)] backdrop-blur-xl sm:p-8">
-        <div className="grid gap-6 xl:grid-cols-[minmax(0,1.1fr)_360px]">
+      <section className="py-10 sm:py-14">
+        <div className="grid gap-10 xl:grid-cols-[minmax(0,1.1fr)_360px]">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-500">
+            <p className="text-xs font-medium uppercase tracking-[0.24em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
               05. Trust and scope boundaries
             </p>
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
+            <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
               Useful because it is careful, not because it pretends to cover everything perfectly.
             </h2>
-            <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600">
+            <p className="mt-4 max-w-3xl text-base leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
               TariffLookup should earn trust by being explicit about where coverage
               is verified, where more product detail is required, and where the
               current product is still operating in prototype mode.
             </p>
 
-            <div className="mt-6 grid gap-4 md:grid-cols-3">
-              <article className="rounded-[28px] border border-emerald-200 bg-emerald-50 p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-900">
+            <div className="mt-8 grid gap-0 border-t md:grid-cols-3" style={{ borderColor: "var(--tl-color-rule)" }}>
+              <article className="border-b py-6 pr-6 md:border-b-0 md:border-r" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.22em] text-emerald-700" style={{ fontFamily: "var(--tl-font-mono)" }}>
                   Verified today
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-slate-950">
+                <p className="mt-3 text-2xl font-bold" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   31 normalized EU rows
                 </p>
-                <p className="mt-3 text-sm leading-7 text-slate-700">
+                <p className="mt-3 text-sm leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
                   Official EU source packages are being normalized locally and used
                   directly in the verified slice.
                 </p>
               </article>
 
-              <article className="rounded-[28px] border border-amber-200 bg-amber-50 p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-900">
+              <article className="border-b py-6 pr-6 md:border-b-0 md:border-r" style={{ borderColor: "var(--tl-color-rule)" }}>
+                <p className="text-xs font-medium uppercase tracking-[0.22em] text-amber-700" style={{ fontFamily: "var(--tl-font-mono)" }}>
                   Honest boundaries
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-slate-950">
+                <p className="mt-3 text-2xl font-bold" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   Follow-up when needed
                 </p>
-                <p className="mt-3 text-sm leading-7 text-slate-700">
+                <p className="mt-3 text-sm leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
                   If one broad code covers multiple official branches, the product
                   asks for more detail instead of guessing.
                 </p>
               </article>
 
-              <article className="rounded-[28px] border border-slate-200 bg-slate-50 p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
+              <article className="py-6 pr-6">
+                <p className="text-xs font-medium uppercase tracking-[0.22em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
                   Why get access
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-slate-950">
+                <p className="mt-3 text-2xl font-bold" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink)" }}>
                   Save the work
                 </p>
-                <p className="mt-3 text-sm leading-7 text-slate-700">
+                <p className="mt-3 text-sm leading-7" style={{ color: "var(--tl-color-ink-mid)" }}>
                   Access turns one-off public lookups into saved account history and
                   repeat-use workflow continuity.
                 </p>
@@ -1007,66 +991,59 @@ export function HomePage() {
             </div>
           </div>
 
-          <div className="rounded-[30px] border border-slate-200 bg-slate-50 p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
+          <div className="border-t pt-8 xl:border-l xl:border-t-0 xl:pl-8 xl:pt-0" style={{ borderColor: "var(--tl-color-rule)" }}>
+            <p className="text-xs font-medium uppercase tracking-[0.22em]" style={{ fontFamily: "var(--tl-font-mono)", color: "var(--tl-color-ink-muted)" }}>
               Current market list
             </p>
-            <h3 className="mt-2 text-2xl font-semibold tracking-tight text-slate-950">
+            <h3 className="mt-2 text-xl font-bold tracking-tight" style={{ fontFamily: "var(--tl-font-display)", color: "var(--tl-color-ink)" }}>
               Coverage surfaces visible in the current app
             </h3>
-            <div className="mt-5 grid gap-3">
+            <div className="mt-5 divide-y" style={{ borderColor: "var(--tl-color-rule)" }}>
               {visibleMarkets.map((market) => (
                 <div
                   key={market}
-                  className={`rounded-[22px] border px-4 py-3 text-sm font-medium ${getMarketSurfaceClasses(
-                    market,
-                  )}`}
+                  className="py-3 text-sm font-medium"
+                  style={{ fontFamily: "var(--tl-font-mono)", color: market === "European Union" ? "var(--tl-color-deep-navy)" : "var(--tl-color-ink-mid)" }}
                 >
                   {market}
                 </div>
               ))}
             </div>
-            <div className="mt-5 rounded-[22px] border border-slate-200 bg-white px-4 py-4 text-sm leading-6 text-slate-600">
-              Preferred destination:{" "}
-              <span className="font-semibold text-slate-900">
-                {userPreferences.defaultDestination}
-              </span>
+            <div className="mt-5 border-t pt-4 text-sm leading-6" style={{ borderColor: "var(--tl-color-rule)", color: "var(--tl-color-ink-mid)", fontFamily: "var(--tl-font-mono)", fontSize: "0.75rem" }}>
+              Default: <span style={{ color: "var(--tl-color-ink)" }}>{userPreferences.defaultDestination}</span>
               <br />
-              Remember last destination:{" "}
-              <span className="font-semibold text-slate-900">
-                {userPreferences.rememberLastDestination ? "Enabled" : "Disabled"}
-              </span>
+              Remember last: <span style={{ color: "var(--tl-color-ink)" }}>{userPreferences.rememberLastDestination ? "On" : "Off"}</span>
             </div>
           </div>
         </div>
       </section>
 
       <section
-        className="overflow-hidden rounded-[36px] bg-[#0f2a44] p-6 text-white shadow-[0_30px_70px_rgba(15,42,68,0.22)] sm:p-8"
+        className="bg-[#0d1117] py-12 text-white sm:py-16"
         id="final-cta"
       >
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center">
+        <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-start">
           <div className="max-w-3xl">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-300">
+            <p className="text-xs font-medium uppercase tracking-[0.24em] text-white/40" style={{ fontFamily: "var(--tl-font-mono)" }}>
               06. Final call to action
             </p>
-            <h2 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
+            <h2 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl" style={{ fontFamily: "var(--tl-font-display)" }}>
               Get access to the product and keep your next tariff decision moving.
             </h2>
-            <p className="mt-4 text-base leading-8 text-slate-200">
+            <p className="mt-4 text-base leading-8 text-white/60">
               Start with one exporter question, keep the answer grounded in the
               product’s real coverage, and save the work as the EU coverage base
               expands.
             </p>
-            <div className="mt-7 flex flex-wrap gap-3">
+            <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                className="rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#0f2a44] transition hover:bg-slate-100"
+                className="bg-white px-5 py-3 text-sm font-semibold text-[#0d1117] transition hover:bg-[#f2efe8]"
                 to={auth.isAuthenticated ? "/dashboard" : "/login"}
               >
                 {accessSecondaryLabel}
               </Link>
               <a
-                className="rounded-full border border-white/20 bg-white/8 px-5 py-3 text-sm font-medium text-white transition hover:bg-white/12"
+                className="border border-white/20 px-5 py-3 text-sm font-medium text-white/70 transition hover:border-white/35 hover:text-white"
                 href="#lookup-console"
               >
                 Run a lookup first
@@ -1074,20 +1051,14 @@ export function HomePage() {
             </div>
           </div>
 
-          <div className="rounded-[30px] border border-white/12 bg-white/8 p-5">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-300">
+          <div className="border-t border-white/10 pt-8 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-white/40" style={{ fontFamily: "var(--tl-font-mono)" }}>
               What access adds
             </p>
-            <div className="mt-4 grid gap-3 text-sm leading-7 text-slate-100">
-              <div className="rounded-[20px] border border-white/10 bg-white/6 px-4 py-3">
-                Saved lookup history for repeat review
-              </div>
-              <div className="rounded-[20px] border border-white/10 bg-white/6 px-4 py-3">
-                Browser and account continuity across tariff checks
-              </div>
-              <div className="rounded-[20px] border border-white/10 bg-white/6 px-4 py-3">
-                A calmer path from first lookup to ongoing usage
-              </div>
+            <div className="mt-5 divide-y divide-white/8 text-sm leading-7 text-white/60">
+              <div className="py-3">Saved lookup history for repeat review</div>
+              <div className="py-3">Browser and account continuity across tariff checks</div>
+              <div className="py-3">A calmer path from first lookup to ongoing usage</div>
             </div>
           </div>
         </div>
