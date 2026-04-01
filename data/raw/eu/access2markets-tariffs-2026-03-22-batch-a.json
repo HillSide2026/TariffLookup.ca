@@ -1,0 +1,858 @@
+{
+  "retrievedAt": "2026-03-22",
+  "source": "European Commission Access2Markets tariff endpoint",
+  "batchId": "batch-2026-03-22-a",
+  "notes": [
+    "Destination Germany is used because the official endpoint requires an EU member-state destination code.",
+    "This raw Access2Markets batch was captured for 20 HS code(s) from CA to DE corresponding to batch-2026-03-22-a.",
+    "Records with a single clean branch or multiple branches sharing the same base ERGA OMNES duty are normalized.",
+    "Records where branches diverge materially by manufacturing method, material, or product type are routed to blocked_with_guidance.",
+    "API pattern: https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/{product}/CA/DE?lang=EN"
+  ],
+  "records": [
+    {
+      "query": { "product": "090112", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090112/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "9.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Decaffeinated",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 9.00% ERGA OMNES MFN, 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "090122", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090122/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "9.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Decaffeinated",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 9.00% ERGA OMNES MFN, 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "090210", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090210/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Green tea (not fermented) in immediate packings not exceeding 3 kg",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN (EU CCT duty-free for all tea subheadings under 0902). 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "090220", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090220/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other green tea (not fermented)",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "090230", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090230/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Black tea (fermented) and partly fermented tea in immediate packings not exceeding 3 kg",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "090240", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/090240/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/07/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other black tea (fermented) and partly fermented tea",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "481930", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/481930/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R0317890",
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "ERGA OMNES",
+              "type": "Suspension - goods for certain categories of ships, boats and other vessels and for drilling or production platforms",
+              "measureType": "117",
+              "regulationId": "R8726583",
+              "startDate": "01/07/2016",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": [
+                {
+                  "type": "B",
+                  "sequenceNumber": "1",
+                  "description": "Presentation of a certificate/licence/document",
+                  "certificateType": "C",
+                  "certificateNumber": "990",
+                  "certificateDescription": "End use authorisation ships and platforms"
+                }
+              ]
+            }
+          ],
+          "description": "Sacks and bags having a base of a width of 40 cm or more",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single product branch returned. 0% ERGA OMNES MFN. Ship/platform suspension measure is conditional and not used as base rate. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "482010", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/482010/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R0317890",
+              "startDate": "01/01/2005",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Registers, account books, note books, order books, receipt books, letter pads and similar articles",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "610990", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/610990/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of other textile materials",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for other-textile-material T-shirts. 12.00% ERGA OMNES MFN, consistent with HS 6109.10 (cotton). 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "611020", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/611020/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of cotton",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for cotton jerseys and pullovers. 12.00% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "611030", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/611030/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of man-made fibres",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for man-made fibre jerseys and pullovers. 12.00% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "611595", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/611595/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of cotton",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for other cotton hosiery. 12.00% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "630210", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630210/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Knitted or crocheted",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for knitted or crocheted bedlinen. 12.00% ERGA OMNES MFN, consistent with adjacent cotton bedlinen codes. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "630221", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630221/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of cotton, not printed",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for cotton bedlinen not knitted, not printed. 12.00% ERGA OMNES MFN, consistent with adjacent HS 6302.31 (printed, normalized). 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "630491", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/630491/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9617340",
+              "startDate": "01/01/1997",
+              "endDate": "01/01/3000",
+              "tariffFormula": "12.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of cotton, not knitted or crocheted",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned for other cotton furnishing articles, not knitted or crocheted. 12.00% ERGA OMNES MFN. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "701328", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/701328/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "6.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Of toughened (tempered) glass",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "15.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Hand-made",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "7.20%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "blocked_with_guidance",
+      "normalizationNotes": "Three branches returned with materially diverging ERGA OMNES duties: toughened glass 6.00%, hand-made 15.00%, other mechanically gathered 7.20%. Cannot normalize to a single shared base rate. Route to blocked_with_guidance."
+    },
+    {
+      "query": { "product": "701337", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/701337/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "15.00%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Hand-made",
+          "code": null
+        },
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "13.50%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Other",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "blocked_with_guidance",
+      "normalizationNotes": "Two branches returned with materially diverging ERGA OMNES duties: hand-made lead crystal 15.00% versus other (mechanically gathered) 13.50%. Cannot normalize to a single shared base rate. Route to blocked_with_guidance."
+    },
+    {
+      "query": { "product": "940130", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940130/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Swivel seats with variable height adjustment",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN, consistent with adjacent chapter 94 seat codes. 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "940171", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940171/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Upholstered seats with metal frames, other than garden seats or camping equipment",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN, consistent with HS 9401.61 (upholstered wooden-frame seats). 0% Canada CETA preference."
+    },
+    {
+      "query": { "product": "940310", "origin": "CA", "destination": "DE", "lang": "EN" },
+      "endpoint": "https://trade.ec.europa.eu/access-to-markets/api/tariffs/get/940310/CA/DE?lang=EN",
+      "retrievedAt": "2026-03-22",
+      "rawPayload": [
+        {
+          "measures": [
+            {
+              "origin": "ERGA OMNES",
+              "type": "Third country duty",
+              "measureType": "103",
+              "regulationId": "R9922040",
+              "startDate": "01/01/2000",
+              "endDate": "01/01/3000",
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            },
+            {
+              "origin": "Canada",
+              "type": "Tariff preference",
+              "measureType": "142",
+              "regulationId": "D1700370",
+              "startDate": "21/09/2017",
+              "endDate": null,
+              "tariffFormula": "0%",
+              "footnotes": [],
+              "conditions": []
+            }
+          ],
+          "description": "Metal furniture of a kind used in offices",
+          "code": null
+        }
+      ],
+      "normalizationOutcome": "normalizable",
+      "normalizationNotes": "Single branch returned. 0% ERGA OMNES MFN, consistent with HS 9403.20 (other metal furniture). 0% Canada CETA preference."
+    }
+  ]
+}

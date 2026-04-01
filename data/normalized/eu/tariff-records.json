@@ -461,5 +461,276 @@
     ],
     "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot)",
     "effectiveDate": "2026-03-17"
+  },
+  {
+    "hsCode": "0901.12",
+    "destinationCountry": "European Union",
+    "mfnRate": "9.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090112, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for unroasted decaffeinated coffee with a 9.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 9.00% MFN rate reflects the EU CCT surcharge applied to decaffeinated coffee relative to the 7.50% rate for non-decaffeinated unroasted coffee (HS 0901.11); both fall under the same regulation and are consistent across the snapshot."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "0901.22",
+    "destinationCountry": "European Union",
+    "mfnRate": "9.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090122, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for roasted decaffeinated coffee with a 9.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 9.00% MFN rate is consistent with the EU CCT treatment of decaffeinated coffee across both roasted (0901.22) and unroasted (0901.12) forms."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "0902.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090210, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for green tea (not fermented) in immediate packings not exceeding 3 kg with a 0% ERGA OMNES third-country duty.",
+      "All subheadings under HS 0902 carry a 0% EU MFN rate; the CETA preference is also 0%, so both rates are equal."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "0902.20",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090220, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for other green tea (not fermented) with a 0% ERGA OMNES third-country duty.",
+      "All subheadings under HS 0902 carry a 0% EU MFN rate; this normalized record covers bulk or loose-packed green tea beyond the 3 kg immediate-packing threshold."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "0902.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090230, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for black tea (fermented) and partly fermented tea in immediate packings not exceeding 3 kg with a 0% ERGA OMNES third-country duty.",
+      "All subheadings under HS 0902 carry a 0% EU MFN rate."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "0902.40",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 090240, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for other black tea (fermented) and partly fermented tea with a 0% ERGA OMNES third-country duty.",
+      "All subheadings under HS 0902 carry a 0% EU MFN rate; this normalized record covers bulk or loose-packed black tea beyond the 3 kg immediate-packing threshold."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "4819.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 481930, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for sacks and bags having a base width of 40 cm or more with a 0% ERGA OMNES third-country duty.",
+      "The same snapshot includes a conditional ship-platform suspension measure, but that conditional measure is not used as the base tariff rate in this normalized record.",
+      "This result is consistent with all other HS 4819.xx subheadings normalized in prior batches (4819.10, 4819.20, 4819.40), all of which carry 0% MFN."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "4820.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 482010, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for registers, account books, note books, order books, receipt books, letter pads and similar articles of paper or paperboard with a 0% ERGA OMNES third-country duty.",
+      "The 0% rate is consistent with the broader chapter 48 pattern for paper and paperboard articles in this snapshot."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6109.90",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 610990, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for T-shirts, singlets and other vests of other textile materials (non-cotton) with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with HS 6109.10 (cotton T-shirts), confirming the EU CCT applies the same rate across cotton and other-textile-material T-shirts within heading 6109."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6110.20",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 611020, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for jerseys, pullovers, sweatshirts, waistcoats and similar articles of cotton, knitted or crocheted, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with the EU CCT chapter 61 pattern for knitted cotton apparel."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6110.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 611030, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for jerseys, pullovers, sweatshirts, waistcoats and similar articles of man-made fibres, knitted or crocheted, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with HS 6110.20 (cotton) and the EU CCT chapter 61 pattern for knitted apparel."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6115.95",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 611595, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for other hosiery of cotton, knitted or crocheted, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with the EU CCT chapter 61 pattern for knitted cotton apparel and hosiery."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6302.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 630210, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for bedlinen, knitted or crocheted, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with all other HS 6302.xx bedlinen subheadings normalized in prior batches (6302.31, 6302.60, 6302.91) and with the EU CCT chapter 63 pattern for made-up textile articles."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6302.21",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 630221, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for bedlinen of cotton, not knitted or crocheted, not printed, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with HS 6302.31 (printed cotton bedlinen) normalized in batch 2, confirming the EU CCT applies the same rate to both printed and not-printed cotton bedlinen within heading 6302."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "6304.91",
+    "destinationCountry": "European Union",
+    "mfnRate": "12.00%",
+    "preferentialRate": "0%",
+    "agreement": "EU-Canada CETA tariff preference",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 630491, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for other furnishing articles, not knitted or crocheted, of cotton, with a 12.00% ERGA OMNES third-country duty and a 0% Canada tariff preference.",
+      "The 12.00% MFN rate is consistent with the EU CCT chapter 63 pattern for made-up cotton textile furnishing articles."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "9401.30",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940130, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for swivel seats with variable height adjustment with a 0% ERGA OMNES third-country duty.",
+      "The 0% MFN rate is consistent with all other HS 9401.xx seat subheadings normalized in prior batches (9401.61, 9401.69), confirming the EU CCT applies a 0% rate across chapter 94 seats."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "9401.71",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940171, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for upholstered seats with metal frames, other than garden seats or camping equipment, with a 0% ERGA OMNES third-country duty.",
+      "The 0% MFN rate is consistent with HS 9401.61 (upholstered seats with wooden frames) normalized in batch 1, confirming the EU CCT applies a 0% rate to upholstered seats regardless of frame material."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
+  },
+  {
+    "hsCode": "9403.10",
+    "destinationCountry": "European Union",
+    "mfnRate": "0%",
+    "preferentialRate": "0%",
+    "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome",
+    "eligibilityNotes": [
+      "Normalized from the European Commission Access2Markets tariff endpoint for HS 940310, origin Canada, destination Germany, retrieved 2026-03-22.",
+      "Germany is used as the representative EU member-state destination because the official endpoint requires a member-state code even though customs duties are part of the EU common customs tariff.",
+      "The source returns a single branch for metal furniture of a kind used in offices with a 0% ERGA OMNES third-country duty.",
+      "The 0% MFN rate is consistent with HS 9403.20 (other metal furniture) normalized in batch 1, confirming the EU CCT applies a 0% rate to metal furniture across office and other-use categories."
+    ],
+    "source": "European Commission Access2Markets tariff endpoint (CA -> DE snapshot, batch-2026-03-22-a)",
+    "effectiveDate": "2026-03-22"
   }
 ]
