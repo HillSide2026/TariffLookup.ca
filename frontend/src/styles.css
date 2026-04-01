@@ -1,28 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  /* TariffLookup brand tokens. */
-  --tl-color-deep-navy: #0f2a44;
-  --tl-color-maple-red: #d72638;
-  --tl-color-paper: #f2efe8;
-  --tl-color-paper-mid: #e8e4da;
-  --tl-color-rule: #c8c0b0;
-  --tl-color-steel-blue: #4a6fa5;
-  --tl-color-ink: #1a1612;
-  --tl-color-ink-mid: #3d3830;
-  --tl-color-ink-muted: #6b6358;
-  --tl-color-positive: #2bb673;
-  --tl-color-caution: #f59e0b;
-  --tl-color-danger: #e63946;
+  /* TariffLookup brand tokens — v1.0 */
+  --tl-bg: #f7f5ef;
+  --tl-surface: #ffffff;
+  --tl-border: #d6d0c4;
+  --tl-text: #1a1612;
+  --tl-text-muted: #6b6358;
+  --tl-primary: #0f2a44;
+  --tl-primary-hover: #123554;
+  --tl-accent: #b4232c;
+  --tl-positive: #2bb673;
+  --tl-caution: #f59e0b;
 
   /* Typography */
-  --tl-font-display: "Playfair Display", Georgia, serif;
-  --tl-font-body: "Source Serif 4", Georgia, serif;
+  --tl-font-ui: "IBM Plex Sans", system-ui, sans-serif;
   --tl-font-mono: "IBM Plex Mono", "Courier New", monospace;
+  --tl-font-marketing: "Source Serif 4", Georgia, serif;
 
-  color: var(--tl-color-ink);
-  background-color: var(--tl-color-paper);
-  font-family: var(--tl-font-body);
+  color: var(--tl-text);
+  background-color: var(--tl-bg);
+  font-family: var(--tl-font-ui);
   color-scheme: light;
 }
 
@@ -35,5 +33,5 @@ body,
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: var(--tl-color-paper);
+  background-color: var(--tl-bg);
 }
