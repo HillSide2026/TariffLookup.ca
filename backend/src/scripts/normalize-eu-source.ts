@@ -108,9 +108,9 @@ async function main() {
   }
 
   if (options.write) {
-    if (extraInCurrent.length > 0 || coreMismatches.length > 0) {
+    if (coreMismatches.length > 0) {
       console.log(
-        "- refusing to write because the current EU dataset has drift that needs manual review first",
+        "- refusing to write because shared HS codes differ between the live EU dataset and the normalization result",
       );
       process.exitCode = 1;
       return;
@@ -119,6 +119,12 @@ async function main() {
     if (missingFromCurrent.length === 0) {
       console.log("- no new normalized rows to write");
       return;
+    }
+
+    if (extraInCurrent.length > 0) {
+      console.log(
+        `- preserving ${extraInCurrent.length} live-only HS code(s) that are not present in the current raw-source manifest`,
+      );
     }
 
     const currentRecordsByHsCode = new Map(

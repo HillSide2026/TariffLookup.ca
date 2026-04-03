@@ -17,6 +17,8 @@ The current implementation stage is European Union only and is being tracked aga
 
 Use `docs/product/EU_MVP_COMPLETION_TARGET.md` and `docs/data-sources/EU_COVERAGE_TARGET_STATE.md` for current-stage completion tracking.
 
+Use `docs/engineering/DEVELOPMENT_WORKFLOW_PLAYBOOK.md` for the current agent-assisted execution pattern that improved EU coverage throughput.
+
 ## MVP Summary
 
 - Target users: Canadian exporters and trade consultants
@@ -141,7 +143,7 @@ The repository has already moved beyond the initial scaffolding target:
 - `node` and `npm` are available locally, and frontend/backend builds have been verified successfully
 - `data/seed/tariff-records.json` now provides a first local seed/demo tariff dataset for prototype lookups
 - `docs/data-sources/` now includes a seed-data note clarifying that the current records are demo-only and not production-grade tariff intelligence
-- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 31 normalized European Union rows now committed in `data/normalized/eu/tariff-records.json`
+- Step 3 has moved from initial EU ingestion into broader local EU coverage, with raw official Access2Markets snapshots and 89 normalized European Union rows now committed in `data/normalized/eu/tariff-records.json`
 - Step 4 auth and persistence are now working end to end with live Supabase sign-in, saved lookup writes, and dashboard history reads
 - Step 5 observability, health monitoring, release tooling, CI verification, and staging deployment configuration are now in place in the repo
 - the staging frontend is now live on Vercel at `https://tarifflookup-ca-staging.vercel.app`

@@ -588,6 +588,101 @@ describe("lookup routes", () => {
     });
   });
 
+  it("uses newly promoted eu rows for representative customs-code descriptions", async () => {
+    const testApp = createApp();
+    const cases = [
+      {
+        productDescription: "decaffeinated roasted coffee",
+        hsCode: "0901.22",
+        mfnTariffRate: "9.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "green tea in immediate packings",
+        hsCode: "0902.10",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "black tea in immediate packings",
+        hsCode: "0902.30",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "sacks and bags having a base width of 40 cm or more",
+        hsCode: "4819.30",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "polyester t-shirt",
+        hsCode: "6109.90",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "knitted bedlinen",
+        hsCode: "6302.10",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "cotton bedlinen not printed",
+        hsCode: "6302.21",
+        mfnTariffRate: "12.00%",
+        agreementBasis: "EU-Canada CETA tariff preference",
+      },
+      {
+        productDescription: "swivel height adjustable office chair",
+        hsCode: "9401.30",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+      {
+        productDescription: "upholstered metal frame chair",
+        hsCode: "9401.71",
+        mfnTariffRate: "0%",
+        agreementBasis:
+          "EU common customs tariff MFN already zero for the normalized base duty outcome",
+      },
+    ];
+
+    for (const testCase of cases) {
+      const response = await testApp.inject({
+        method: "POST",
+        url: "/api/lookups",
+        payload: {
+          productDescription: testCase.productDescription,
+          destinationCountry: "European Union",
+        },
+      });
+
+      expect(response.statusCode).toBe(200);
+      expect(response.json()).toMatchObject({
+        query: {
+          hsCode: testCase.hsCode,
+          destinationCountry: "European Union",
+          inputMode: "description",
+        },
+        result: {
+          mfnTariffRate: testCase.mfnTariffRate,
+          preferentialTariffRate: "0%",
+          agreementBasis: testCase.agreementBasis,
+        },
+        meta: {
+          source: "local-normalized-data",
+          coverageStatus: "normalized-record",
+          historyStatus: "anonymous",
+        },
+      });
+    }
+  });
+
   it("uses a normalized eu row for upholstered seats resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
@@ -1305,12 +1400,12 @@ describe("lookup routes", () => {
     });
   });
 
-  it("uses a normalized eu row for cotton bedlinen resolved from product description", async () => {
+  it("uses a normalized eu row for printed cotton bedlinen resolved from product description", async () => {
     const response = await createApp().inject({
       method: "POST",
       url: "/api/lookups",
       payload: {
-        productDescription: "cotton bed sheet set",
+        productDescription: "printed cotton bed sheet set",
         destinationCountry: "European Union",
       },
     });

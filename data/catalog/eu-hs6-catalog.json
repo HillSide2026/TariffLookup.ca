@@ -3,13 +3,33 @@
   "schemaVersion": "v1",
   "basis": "HS 2022",
   "stateModel": {
-    "states": ["not_started", "in_queue", "normalized", "blocked_with_guidance", "manual_review"],
-    "terminalStates": ["normalized", "blocked_with_guidance", "manual_review"],
+    "states": [
+      "not_started",
+      "in_queue",
+      "normalized",
+      "blocked_with_guidance",
+      "manual_review"
+    ],
+    "terminalStates": [
+      "normalized",
+      "blocked_with_guidance",
+      "manual_review"
+    ],
     "transitions": {
-      "not_started": ["in_queue"],
-      "in_queue": ["normalized", "blocked_with_guidance", "manual_review"],
-      "blocked_with_guidance": ["normalized"],
-      "manual_review": ["normalized"]
+      "not_started": [
+        "in_queue"
+      ],
+      "in_queue": [
+        "normalized",
+        "blocked_with_guidance",
+        "manual_review"
+      ],
+      "blocked_with_guidance": [
+        "normalized"
+      ],
+      "manual_review": [
+        "normalized"
+      ]
     }
   },
   "batchConfig": {
@@ -22,16 +42,16 @@
   "authoritativeSource": "European Commission Access2Markets tariff endpoint (CA → DE representative snapshot)",
   "totalEstimatedSubheadings": 5224,
   "coverageSummary": {
-    "normalized": 31,
+    "normalized": 89,
     "blockedWithGuidance": 5,
-    "manualReview": 0,
-    "inQueue": 20,
-    "notStarted": 5168
+    "manualReview": 22,
+    "inQueue": 2,
+    "notStarted": 5106
   },
   "currentBatch": {
     "batchId": "batch-2026-03-22-a",
     "status": "in_queue",
-    "codesCount": 20,
+    "codesCount": 2,
     "createdAt": "2026-03-22",
     "manifestPath": "data/catalog/batches/batch-2026-03-22-a.json"
   },
@@ -47,6 +67,18 @@
       "blockedReason": "Multiple frozen-fruit branches with diverging duty formulas; exact fruit, sugar/spirit addition, and prepared form required"
     },
     {
+      "hs6Code": "0901.12",
+      "description": "Coffee, not roasted, decaffeinated",
+      "chapter": "09",
+      "section": "II",
+      "state": "normalized",
+      "classifierProfileId": "0901.12",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "9.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
+    },
+    {
       "hs6Code": "0901.21",
       "description": "Roasted coffee, not decaffeinated",
       "chapter": "09",
@@ -59,58 +91,64 @@
       "agreement": "EU-Canada CETA"
     },
     {
-      "hs6Code": "0901.12",
-      "description": "Coffee, not roasted, decaffeinated",
-      "chapter": "09",
-      "section": "II",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
-    },
-    {
       "hs6Code": "0901.22",
       "description": "Coffee, roasted, decaffeinated",
       "chapter": "09",
       "section": "II",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "0901.22",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "9.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
     },
     {
       "hs6Code": "0902.10",
       "description": "Green tea (not fermented), in immediate packings not exceeding 3 kg",
       "chapter": "09",
       "section": "II",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "0902.10",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
     },
     {
       "hs6Code": "0902.20",
       "description": "Other green tea (not fermented)",
       "chapter": "09",
       "section": "II",
-      "state": "in_queue",
+      "state": "normalized",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
     },
     {
       "hs6Code": "0902.30",
       "description": "Black tea (fermented) and partly fermented tea, in immediate packings not exceeding 3 kg",
       "chapter": "09",
       "section": "II",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "0902.30",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
     },
     {
       "hs6Code": "0902.40",
       "description": "Other black tea (fermented) and partly fermented tea",
       "chapter": "09",
       "section": "II",
-      "state": "in_queue",
+      "state": "normalized",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
     },
     {
       "hs6Code": "3923.21",
@@ -185,6 +223,207 @@
       "agreement": "MFN already zero"
     },
     {
+      "hs6Code": "4811.10",
+      "description": "Tarred, bituminised or asphalted paper and paperboard",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.21",
+      "chapter": "48",
+      "section": "X",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch paper/packaging manual-review code 4811.21"
+    },
+    {
+      "hs6Code": "4811.29",
+      "chapter": "48",
+      "section": "X",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch paper/packaging manual-review code 4811.29"
+    },
+    {
+      "hs6Code": "4811.31",
+      "chapter": "48",
+      "section": "X",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch paper/packaging manual-review code 4811.31"
+    },
+    {
+      "hs6Code": "4811.39",
+      "chapter": "48",
+      "section": "X",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch paper/packaging manual-review code 4811.39"
+    },
+    {
+      "hs6Code": "4811.41",
+      "description": "Of a width not exceeding 10 cm, the coating of which consists of unvulcanised natural or synthetic rubber",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.49",
+      "description": "Other",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.51",
+      "description": "Bleached, weighing more than 150 g/m<sup>2</sup>",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.59",
+      "description": "Heavyweight thermal paper weighing more than 65 gr/m²; in rolls of a width of 20 cm or more, a weight of the roll (including the paper) of 50 kg or more and a diameter of the roll (including the paper) of 40 cm or more (‘jumbo rolls’); with or without a base coat on one or both sides; coated with a thermosensitive substance on one or both sides; and with or without a top coat",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.60",
+      "description": "Decor paper with the following characteristics<br>- weighing 30-150 g/m²; having an ash content between 5% and 50%;<br>- having a Klemm absorbency of at least 12 millimetres per 10 minutes or a resin pick-up of 20% to 200%;<br>- having a wet tensile strength of 6 to 12 Newton (N) per 15 millimetres;<br>- having a Gurley porosity of 3 to 80 seconds per 100 millilitres;<br>- having a smoothness of 20 to 300 according to the Bekk method;<br>- in reels with a width up to 300 centimetres;<br>- whether or not pre-impregnated with a combination of latices or natural binders (like starch);<br>- excluding wallpaper and similar wallcoverings;<br>- excluding papers saturated with water-based melamine, urea, phenol or any thermosetting, thermoplastic resin solutions (‘the product under investigation’).<br>",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4811.90",
+      "description": "Lightweight thermal paper weighing 65 gr/m² or less; in rolls of a width of 20 cm or more, a weight of the roll (including the paper) of 50 kg or more and a diameter of the roll (including the paper) of 40 cm or more (‘jumbo rolls’); with or without a base coat on one or both sides; coated with a thermosensitive substance on one or both sides; and with or without a top coat",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4814.10",
+      "chapter": "48",
+      "section": "X",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch paper/packaging manual-review code 4814.10"
+    },
+    {
+      "hs6Code": "4814.20",
+      "description": "Wallpaper and similar wallcoverings, consisting of paper coated or covered, on the face side, with a grained, embossed, coloured, design-printed or otherwise decorated layer of plastics",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4814.90",
+      "description": "Wallpaper and similar wallcoverings, consisting of grained, embossed, surface-coloured, design-printed or otherwise surface-decorated paper, coated or covered with transparent protective plastics",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4818.10",
+      "description": "Weighing, per ply, 25 g/m<sup>2</sup> or less",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4818.20",
+      "description": "Handkerchiefs and cleansing or facial tissues",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4818.30",
+      "description": "Tablecloths and serviettes",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4818.90",
+      "description": "Articles of a kind used for surgical, medical or hygienic purposes, not put up for retail sale",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
       "hs6Code": "4819.10",
       "description": "Cartons, boxes and cases of corrugated paper or paperboard",
       "chapter": "48",
@@ -209,6 +448,18 @@
       "agreement": "MFN already zero"
     },
     {
+      "hs6Code": "4819.30",
+      "description": "Sacks and bags having a base of a width of 40 cm or more",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": "4819.30",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
       "hs6Code": "4819.40",
       "description": "Other sacks and bags, including cones, of paper, paperboard or kraft",
       "chapter": "48",
@@ -221,6 +472,42 @@
       "agreement": "MFN already zero"
     },
     {
+      "hs6Code": "4820.10",
+      "description": "Registers, account books, note books, order books, receipt books, letter pads and similar articles of paper or paperboard",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": "4820.10",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4821.10",
+      "description": "Self-adhesive",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "4821.90",
+      "description": "Self-adhesive",
+      "chapter": "48",
+      "section": "X",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
       "hs6Code": "4823.69",
       "description": "Other trays, dishes, plates, cups and the like of paper or paperboard",
       "chapter": "48",
@@ -231,24 +518,6 @@
       "mfnRate": "0%",
       "preferentialRate": "0%",
       "agreement": "MFN already zero"
-    },
-    {
-      "hs6Code": "4819.30",
-      "description": "Sacks and bags having a base of a width of 40 cm or more",
-      "chapter": "48",
-      "section": "X",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
-    },
-    {
-      "hs6Code": "4820.10",
-      "description": "Registers, account books, note books, order books, receipt books, letter pads and similar articles of paper or paperboard",
-      "chapter": "48",
-      "section": "X",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
     },
     {
       "hs6Code": "6109.10",
@@ -267,36 +536,93 @@
       "description": "T-shirts, singlets and other vests of other textile materials, knitted or crocheted",
       "chapter": "61",
       "section": "XI",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "6109.90",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
     },
     {
       "hs6Code": "6110.20",
       "description": "Jerseys, pullovers, sweatshirts, waistcoats and similar articles of cotton, knitted or crocheted",
       "chapter": "61",
       "section": "XI",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "6110.20",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
     },
     {
       "hs6Code": "6110.30",
       "description": "Jerseys, pullovers, sweatshirts, waistcoats and similar articles of man-made fibres, knitted or crocheted",
       "chapter": "61",
       "section": "XI",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "state": "normalized",
+      "classifierProfileId": "6110.30",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
     },
     {
       "hs6Code": "6115.95",
       "description": "Other hosiery of cotton, knitted or crocheted",
       "chapter": "61",
       "section": "XI",
-      "state": "in_queue",
+      "state": "normalized",
+      "classifierProfileId": "6115.95",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
+    },
+    {
+      "hs6Code": "6302.10",
+      "description": "Bedlinen, knitted or crocheted",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": "6302.10",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
+    },
+    {
+      "hs6Code": "6302.21",
+      "description": "Bedlinen of cotton, not knitted or crocheted, not printed",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": "6302.21",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
+    },
+    {
+      "hs6Code": "6302.22",
+      "description": "Nonwovens",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03"
+    },
+    {
+      "hs6Code": "6302.29",
+      "description": "Of flax or ramie",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
     },
     {
       "hs6Code": "6302.31",
@@ -309,6 +635,63 @@
       "mfnRate": "12.00%",
       "preferentialRate": "0%",
       "agreement": "EU-Canada CETA"
+    },
+    {
+      "hs6Code": "6302.32",
+      "description": "Nonwovens",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03"
+    },
+    {
+      "hs6Code": "6302.39",
+      "description": "Of flax or ramie",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "6302.41",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch textiles manual-review code 6302.41"
+    },
+    {
+      "hs6Code": "6302.42",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch textiles manual-review code 6302.42"
+    },
+    {
+      "hs6Code": "6302.49",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch textiles manual-review code 6302.49"
+    },
+    {
+      "hs6Code": "6302.53",
+      "description": "Nonwovens",
+      "chapter": "63",
+      "section": "XI",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03"
     },
     {
       "hs6Code": "6302.60",
@@ -335,6 +718,42 @@
       "agreement": "EU-Canada CETA"
     },
     {
+      "hs6Code": "6304.11",
+      "description": "Knitted or crocheted",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "6304.19",
+      "description": "Hand-printed by the \"batik\" method",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "6304.91",
+      "description": "Other furnishing articles, not knitted or crocheted, of cotton",
+      "chapter": "63",
+      "section": "XI",
+      "state": "normalized",
+      "classifierProfileId": "6304.91",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "12.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA"
+    },
+    {
       "hs6Code": "6307.10",
       "description": "Floor-cloths, dish-cloths, dusters and similar cleaning cloths",
       "chapter": "63",
@@ -345,31 +764,13 @@
       "blockedReason": "Branches diverge across knitted/nonwoven/hand-made/other with materially different MFN outcomes; fabric construction and material type required"
     },
     {
-      "hs6Code": "6302.10",
-      "description": "Bedlinen, knitted or crocheted",
+      "hs6Code": "6307.90",
+      "description": "Knitted or crocheted",
       "chapter": "63",
       "section": "XI",
-      "state": "in_queue",
+      "state": "manual_review",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
-    },
-    {
-      "hs6Code": "6302.21",
-      "description": "Bedlinen of cotton, not knitted or crocheted, not printed",
-      "chapter": "63",
-      "section": "XI",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
-    },
-    {
-      "hs6Code": "6304.91",
-      "description": "Other furnishing articles, not knitted or crocheted, of cotton",
-      "chapter": "63",
-      "section": "XI",
-      "state": "in_queue",
-      "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03"
     },
     {
       "hs6Code": "6911.10",
@@ -394,6 +795,75 @@
       "blockedReason": "Splits by material and quality (porcelain, china, stoneware, earthenware, handmade) with different MFN outcomes; material type required"
     },
     {
+      "hs6Code": "7013.10",
+      "description": "Of glass ceramics",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "11.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "7013.21",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch glassware manual-review code 7013.21"
+    },
+    {
+      "hs6Code": "7013.22",
+      "description": "Gathered by hand",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "11.00%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "7013.28",
+      "description": "Other drinking glasses, other than of glass-ceramics",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "in_queue",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-03-22"
+    },
+    {
+      "hs6Code": "7013.29",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch glassware manual-review code 7013.29"
+    },
+    {
+      "hs6Code": "7013.31",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch glassware manual-review code 7013.31"
+    },
+    {
+      "hs6Code": "7013.37",
+      "description": "Other glassware of a kind used for table or kitchen purposes of lead crystal",
+      "chapter": "70",
+      "section": "XIII",
+      "state": "in_queue",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-03-22"
+    },
+    {
       "hs6Code": "7013.49",
       "description": "Other glassware of a kind used for table, kitchen or similar purposes",
       "chapter": "70",
@@ -406,22 +876,28 @@
       "agreement": "EU-Canada CETA"
     },
     {
-      "hs6Code": "7013.28",
-      "description": "Other drinking glasses, other than of glass-ceramics",
-      "chapter": "70",
-      "section": "XIII",
-      "state": "in_queue",
+      "hs6Code": "7323.91",
+      "description": "Of cast iron, not enamelled",
+      "chapter": "73",
+      "section": "XV",
+      "state": "normalized",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.20%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
     },
     {
-      "hs6Code": "7013.37",
-      "description": "Other glassware of a kind used for table or kitchen purposes of lead crystal",
-      "chapter": "70",
-      "section": "XIII",
-      "state": "in_queue",
+      "hs6Code": "7323.92",
+      "description": "Of cast iron, enamelled",
+      "chapter": "73",
+      "section": "XV",
+      "state": "normalized",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.20%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
     },
     {
       "hs6Code": "7323.93",
@@ -436,6 +912,30 @@
       "agreement": "EU-Canada CETA"
     },
     {
+      "hs6Code": "7323.94",
+      "description": "Of iron (other than cast iron) or steel, enamelled",
+      "chapter": "73",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.20%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "7323.99",
+      "description": "Ironing boards, including sleeve boards, whether or not free standing, and legs, tops and iron rests thereof",
+      "chapter": "73",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.20%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
       "hs6Code": "7615.10",
       "description": "Table, kitchen or other household articles of aluminium",
       "chapter": "76",
@@ -446,6 +946,15 @@
       "mfnRate": "6.00%",
       "preferentialRate": "0%",
       "agreement": "EU-Canada CETA"
+    },
+    {
+      "hs6Code": "7615.19",
+      "chapter": "76",
+      "section": "XV",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Legacy manual-review code 7615.19"
     },
     {
       "hs6Code": "7615.20",
@@ -460,6 +969,30 @@
       "agreement": "EU-Canada CETA"
     },
     {
+      "hs6Code": "8208.10",
+      "description": "For metalworking",
+      "chapter": "82",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "1.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "8208.20",
+      "description": "For woodworking",
+      "chapter": "82",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "1.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
       "hs6Code": "8208.30",
       "description": "Knives and cutting blades for kitchen appliances or for machines",
       "chapter": "82",
@@ -472,6 +1005,30 @@
       "agreement": "EU-Canada CETA"
     },
     {
+      "hs6Code": "8208.40",
+      "description": "For agricultural, horticultural or forestry machines",
+      "chapter": "82",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "1.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "8208.90",
+      "description": "Other",
+      "chapter": "82",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "1.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
       "hs6Code": "8215.99",
       "description": "Other spoons, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs",
       "chapter": "82",
@@ -480,6 +1037,27 @@
       "classifierProfileId": "8215.99",
       "lastUpdatedAt": "2026-03-13",
       "blockedReason": "Splits stainless-steel versus other base material with different MFN outcomes; utensil material required"
+    },
+    {
+      "hs6Code": "8302.41",
+      "description": "For doors",
+      "chapter": "83",
+      "section": "XV",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "2.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "8302.42",
+      "description": "For use in civil aircraft",
+      "chapter": "83",
+      "section": "XV",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03"
     },
     {
       "hs6Code": "8302.50",
@@ -516,6 +1094,111 @@
       "blockedReason": "Multiple motor branches and end-use contexts (civil aircraft, conveyor, general industrial); application and power rating required"
     },
     {
+      "hs6Code": "9401.10",
+      "description": "Seats of a kind used for aircraft",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.20",
+      "description": "Seats of a kind used for motor vehicles",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "9401.30",
+      "description": "Swivel seats with variable height adjustment",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": "9401.30",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.31",
+      "description": "Of wood",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.39",
+      "description": "Other",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.41",
+      "description": "Of wood",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.49",
+      "description": "Other",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.51",
+      "chapter": "94",
+      "section": "XX",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch furniture manual-review code 9401.51"
+    },
+    {
+      "hs6Code": "9401.59",
+      "description": "Other",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "5.60%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
       "hs6Code": "9401.61",
       "description": "Upholstered seats with wooden frames, other than garden seats or camping equipment",
       "chapter": "94",
@@ -538,6 +1221,60 @@
       "mfnRate": "0%",
       "preferentialRate": "0%",
       "agreement": "MFN already zero"
+    },
+    {
+      "hs6Code": "9401.71",
+      "description": "Upholstered seats with metal frames, other than garden seats or camping equipment",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": "9401.71",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.80",
+      "description": "Other seats",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
+    },
+    {
+      "hs6Code": "9401.91",
+      "description": "Of seats specially designed for the crew, for use in certain types of aircraft",
+      "chapter": "94",
+      "section": "XX",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03"
+    },
+    {
+      "hs6Code": "9401.99",
+      "description": "Of seats specially designed for the crew, for use in certain types of aircraft",
+      "chapter": "94",
+      "section": "XX",
+      "state": "manual_review",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03"
+    },
+    {
+      "hs6Code": "9403.10",
+      "description": "Metal furniture of a kind used in offices",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": "9403.10",
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "0%",
+      "preferentialRate": "0%",
+      "agreement": "EU common customs tariff MFN already zero for the normalized base duty outcome"
     },
     {
       "hs6Code": "9403.20",
@@ -612,130 +1349,630 @@
       "agreement": "MFN already zero"
     },
     {
-      "hs6Code": "9401.30",
-      "description": "Swivel seats with variable height adjustment",
+      "hs6Code": "9403.80",
       "chapter": "94",
       "section": "XX",
-      "state": "in_queue",
+      "state": "manual_review",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch furniture manual-review code 9403.80"
     },
     {
-      "hs6Code": "9401.71",
-      "description": "Upholstered seats with metal frames, other than garden seats or camping equipment",
+      "hs6Code": "9403.90",
       "chapter": "94",
       "section": "XX",
-      "state": "in_queue",
+      "state": "manual_review",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "description": "Overnight batch furniture manual-review code 9403.90"
     },
     {
-      "hs6Code": "9403.10",
-      "description": "Metal furniture of a kind used in offices",
+      "hs6Code": "9404.10",
+      "description": "Mattress supports",
       "chapter": "94",
       "section": "XX",
-      "state": "in_queue",
+      "state": "normalized",
       "classifierProfileId": null,
-      "lastUpdatedAt": "2026-03-22"
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
+    },
+    {
+      "hs6Code": "9404.21",
+      "description": "Of rubber",
+      "chapter": "94",
+      "section": "XX",
+      "state": "normalized",
+      "classifierProfileId": null,
+      "lastUpdatedAt": "2026-04-03",
+      "mfnRate": "3.70%",
+      "preferentialRate": "0%",
+      "agreement": "EU-Canada CETA tariff preference"
     }
   ],
   "chapters": {
-    "01": { "section": "I", "description": "Live animals", "estimatedSubheadings": 7, "activeCount": 0 },
-    "02": { "section": "I", "description": "Meat and edible meat offal", "estimatedSubheadings": 53, "activeCount": 0 },
-    "03": { "section": "I", "description": "Fish and crustaceans, molluscs and other aquatic invertebrates", "estimatedSubheadings": 61, "activeCount": 0 },
-    "04": { "section": "I", "description": "Dairy produce; birds' eggs; natural honey; edible products of animal origin", "estimatedSubheadings": 22, "activeCount": 0 },
-    "05": { "section": "I", "description": "Products of animal origin, not elsewhere specified or included", "estimatedSubheadings": 15, "activeCount": 0 },
-    "06": { "section": "II", "description": "Live trees and other plants; bulbs, roots; cut flowers and ornamental foliage", "estimatedSubheadings": 6, "activeCount": 0 },
-    "07": { "section": "II", "description": "Edible vegetables and certain roots and tubers", "estimatedSubheadings": 54, "activeCount": 0 },
-    "08": { "section": "II", "description": "Edible fruit and nuts; peel of citrus fruit or melons", "estimatedSubheadings": 46, "activeCount": 1 },
-    "09": { "section": "II", "description": "Coffee, tea, maté and spices", "estimatedSubheadings": 22, "activeCount": 7 },
-    "10": { "section": "II", "description": "Cereals", "estimatedSubheadings": 12, "activeCount": 0 },
-    "11": { "section": "II", "description": "Products of the milling industry; malt; starches; inulin; wheat gluten", "estimatedSubheadings": 17, "activeCount": 0 },
-    "12": { "section": "II", "description": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit", "estimatedSubheadings": 23, "activeCount": 0 },
-    "13": { "section": "II", "description": "Lac; gums, resins and other vegetable saps and extracts", "estimatedSubheadings": 6, "activeCount": 0 },
-    "14": { "section": "II", "description": "Vegetable plaiting materials; vegetable products not elsewhere specified", "estimatedSubheadings": 4, "activeCount": 0 },
-    "15": { "section": "III", "description": "Animal or vegetable fats and oils and their cleavage products", "estimatedSubheadings": 34, "activeCount": 0 },
-    "16": { "section": "IV", "description": "Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates", "estimatedSubheadings": 12, "activeCount": 0 },
-    "17": { "section": "IV", "description": "Sugars and sugar confectionery", "estimatedSubheadings": 14, "activeCount": 0 },
-    "18": { "section": "IV", "description": "Cocoa and cocoa preparations", "estimatedSubheadings": 8, "activeCount": 0 },
-    "19": { "section": "IV", "description": "Preparations of cereals, flour, starch or milk; pastrycooks' products", "estimatedSubheadings": 17, "activeCount": 0 },
-    "20": { "section": "IV", "description": "Preparations of vegetables, fruit, nuts or other parts of plants", "estimatedSubheadings": 34, "activeCount": 0 },
-    "21": { "section": "IV", "description": "Miscellaneous edible preparations", "estimatedSubheadings": 14, "activeCount": 0 },
-    "22": { "section": "IV", "description": "Beverages, spirits and vinegar", "estimatedSubheadings": 20, "activeCount": 0 },
-    "23": { "section": "IV", "description": "Residues and waste from the food industries; prepared animal fodder", "estimatedSubheadings": 10, "activeCount": 0 },
-    "24": { "section": "IV", "description": "Tobacco and manufactured tobacco substitutes", "estimatedSubheadings": 8, "activeCount": 0 },
-    "25": { "section": "V", "description": "Salt; sulphur; earths and stone; plastering materials, lime and cement", "estimatedSubheadings": 40, "activeCount": 0 },
-    "26": { "section": "V", "description": "Ores, slag and ash", "estimatedSubheadings": 21, "activeCount": 0 },
-    "27": { "section": "V", "description": "Mineral fuels, mineral oils and products of their distillation", "estimatedSubheadings": 36, "activeCount": 0 },
-    "28": { "section": "VI", "description": "Inorganic chemicals; organic or inorganic compounds of precious metals", "estimatedSubheadings": 165, "activeCount": 0 },
-    "29": { "section": "VI", "description": "Organic chemicals", "estimatedSubheadings": 1020, "activeCount": 0 },
-    "30": { "section": "VI", "description": "Pharmaceutical products", "estimatedSubheadings": 16, "activeCount": 0 },
-    "31": { "section": "VI", "description": "Fertilisers", "estimatedSubheadings": 14, "activeCount": 0 },
-    "32": { "section": "VI", "description": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments", "estimatedSubheadings": 22, "activeCount": 0 },
-    "33": { "section": "VI", "description": "Essential oils and resinoids; perfumery, cosmetic or toilet preparations", "estimatedSubheadings": 16, "activeCount": 0 },
-    "34": { "section": "VI", "description": "Soap, organic surface-active agents, washing preparations, lubricating preparations", "estimatedSubheadings": 12, "activeCount": 0 },
-    "35": { "section": "VI", "description": "Albuminoidal substances; modified starches; glues; enzymes", "estimatedSubheadings": 12, "activeCount": 0 },
-    "36": { "section": "VI", "description": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations", "estimatedSubheadings": 8, "activeCount": 0 },
-    "37": { "section": "VI", "description": "Photographic or cinematographic goods", "estimatedSubheadings": 8, "activeCount": 0 },
-    "38": { "section": "VI", "description": "Miscellaneous chemical products", "estimatedSubheadings": 65, "activeCount": 0 },
-    "39": { "section": "VII", "description": "Plastics and articles thereof", "estimatedSubheadings": 93, "activeCount": 5 },
-    "40": { "section": "VII", "description": "Rubber and articles thereof", "estimatedSubheadings": 37, "activeCount": 0 },
-    "41": { "section": "VIII", "description": "Raw hides and skins (other than furskins) and leather", "estimatedSubheadings": 14, "activeCount": 0 },
-    "42": { "section": "VIII", "description": "Articles of leather; saddlery and harness; travel goods, handbags; articles of animal gut", "estimatedSubheadings": 16, "activeCount": 0 },
-    "43": { "section": "VIII", "description": "Furskins and artificial fur; manufactures thereof", "estimatedSubheadings": 11, "activeCount": 0 },
-    "44": { "section": "IX", "description": "Wood and articles of wood; wood charcoal", "estimatedSubheadings": 50, "activeCount": 1 },
-    "45": { "section": "IX", "description": "Cork and articles of cork", "estimatedSubheadings": 7, "activeCount": 0 },
-    "46": { "section": "IX", "description": "Manufactures of straw, of esparto or of other plaiting materials", "estimatedSubheadings": 5, "activeCount": 0 },
-    "47": { "section": "X", "description": "Pulp of wood or of other fibrous cellulosic material", "estimatedSubheadings": 10, "activeCount": 0 },
-    "48": { "section": "X", "description": "Paper and paperboard; articles of paper pulp, of paper or of paperboard", "estimatedSubheadings": 74, "activeCount": 6 },
-    "49": { "section": "X", "description": "Printed books, newspapers, pictures and other products of the printing industry", "estimatedSubheadings": 16, "activeCount": 0 },
-    "50": { "section": "XI", "description": "Silk", "estimatedSubheadings": 16, "activeCount": 0 },
-    "51": { "section": "XI", "description": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric", "estimatedSubheadings": 24, "activeCount": 0 },
-    "52": { "section": "XI", "description": "Cotton", "estimatedSubheadings": 58, "activeCount": 0 },
-    "53": { "section": "XI", "description": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn", "estimatedSubheadings": 13, "activeCount": 0 },
-    "54": { "section": "XI", "description": "Man-made filaments; strip and the like of man-made textile materials", "estimatedSubheadings": 34, "activeCount": 0 },
-    "55": { "section": "XI", "description": "Man-made staple fibres", "estimatedSubheadings": 37, "activeCount": 0 },
-    "56": { "section": "XI", "description": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables", "estimatedSubheadings": 12, "activeCount": 0 },
-    "57": { "section": "XI", "description": "Carpets and other textile floor coverings", "estimatedSubheadings": 8, "activeCount": 0 },
-    "58": { "section": "XI", "description": "Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery", "estimatedSubheadings": 12, "activeCount": 0 },
-    "59": { "section": "XI", "description": "Impregnated, coated, covered or laminated textile fabrics", "estimatedSubheadings": 13, "activeCount": 0 },
-    "60": { "section": "XI", "description": "Knitted or crocheted fabrics", "estimatedSubheadings": 7, "activeCount": 0 },
-    "61": { "section": "XI", "description": "Articles of apparel and clothing accessories, knitted or crocheted", "estimatedSubheadings": 46, "activeCount": 5 },
-    "62": { "section": "XI", "description": "Articles of apparel and clothing accessories, not knitted or crocheted", "estimatedSubheadings": 55, "activeCount": 0 },
-    "63": { "section": "XI", "description": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags", "estimatedSubheadings": 27, "activeCount": 7 },
-    "64": { "section": "XII", "description": "Footwear, gaiters and the like; parts of such articles", "estimatedSubheadings": 16, "activeCount": 0 },
-    "65": { "section": "XII", "description": "Headgear and parts thereof", "estimatedSubheadings": 8, "activeCount": 0 },
-    "66": { "section": "XII", "description": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops and parts thereof", "estimatedSubheadings": 5, "activeCount": 0 },
-    "67": { "section": "XII", "description": "Prepared feathers and down and articles made of feathers or of down; artificial flowers", "estimatedSubheadings": 7, "activeCount": 0 },
-    "68": { "section": "XIII", "description": "Articles of stone, plaster, cement, asbestos, mica or similar materials", "estimatedSubheadings": 23, "activeCount": 0 },
-    "69": { "section": "XIII", "description": "Ceramic products", "estimatedSubheadings": 16, "activeCount": 2 },
-    "70": { "section": "XIII", "description": "Glass and glassware", "estimatedSubheadings": 29, "activeCount": 3 },
-    "71": { "section": "XIV", "description": "Natural or cultured pearls, precious or semi-precious stones, precious metals", "estimatedSubheadings": 37, "activeCount": 0 },
-    "72": { "section": "XV", "description": "Iron and steel", "estimatedSubheadings": 65, "activeCount": 0 },
-    "73": { "section": "XV", "description": "Articles of iron or steel", "estimatedSubheadings": 64, "activeCount": 1 },
-    "74": { "section": "XV", "description": "Copper and articles thereof", "estimatedSubheadings": 30, "activeCount": 0 },
-    "75": { "section": "XV", "description": "Nickel and articles thereof", "estimatedSubheadings": 12, "activeCount": 0 },
-    "76": { "section": "XV", "description": "Aluminium and articles thereof", "estimatedSubheadings": 28, "activeCount": 2 },
-    "77": { "section": "XV", "description": "Reserved for possible future use in the Harmonized System", "estimatedSubheadings": 0, "activeCount": 0 },
-    "78": { "section": "XV", "description": "Lead and articles thereof", "estimatedSubheadings": 8, "activeCount": 0 },
-    "79": { "section": "XV", "description": "Zinc and articles thereof", "estimatedSubheadings": 9, "activeCount": 0 },
-    "80": { "section": "XV", "description": "Tin and articles thereof", "estimatedSubheadings": 7, "activeCount": 0 },
-    "81": { "section": "XV", "description": "Other base metals; cermets; articles thereof", "estimatedSubheadings": 20, "activeCount": 0 },
-    "82": { "section": "XV", "description": "Tools, implements, cutlery, spoons and forks, of base metal", "estimatedSubheadings": 30, "activeCount": 2 },
-    "83": { "section": "XV", "description": "Miscellaneous articles of base metal", "estimatedSubheadings": 27, "activeCount": 2 },
-    "84": { "section": "XVI", "description": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof", "estimatedSubheadings": 614, "activeCount": 0 },
-    "85": { "section": "XVI", "description": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers", "estimatedSubheadings": 282, "activeCount": 1 },
-    "86": { "section": "XVII", "description": "Railway or tramway locomotives, rolling-stock and parts thereof", "estimatedSubheadings": 11, "activeCount": 0 },
-    "87": { "section": "XVII", "description": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof", "estimatedSubheadings": 49, "activeCount": 0 },
-    "88": { "section": "XVII", "description": "Aircraft, spacecraft, and parts thereof", "estimatedSubheadings": 10, "activeCount": 0 },
-    "89": { "section": "XVII", "description": "Ships, boats and floating structures", "estimatedSubheadings": 13, "activeCount": 0 },
-    "90": { "section": "XVIII", "description": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments", "estimatedSubheadings": 90, "activeCount": 0 },
-    "91": { "section": "XVIII", "description": "Clocks and watches and parts thereof", "estimatedSubheadings": 18, "activeCount": 0 },
-    "92": { "section": "XVIII", "description": "Musical instruments; parts and accessories of such articles", "estimatedSubheadings": 13, "activeCount": 0 },
-    "93": { "section": "XIX", "description": "Arms and ammunition; parts and accessories thereof", "estimatedSubheadings": 12, "activeCount": 0 },
-    "94": { "section": "XX", "description": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings", "estimatedSubheadings": 40, "activeCount": 11 },
-    "95": { "section": "XX", "description": "Toys, games and sports requisites; parts and accessories thereof", "estimatedSubheadings": 17, "activeCount": 0 },
-    "96": { "section": "XX", "description": "Miscellaneous manufactured articles", "estimatedSubheadings": 26, "activeCount": 0 },
-    "97": { "section": "XXI", "description": "Works of art, collectors' pieces and antiques", "estimatedSubheadings": 7, "activeCount": 0 }
+    "10": {
+      "section": "II",
+      "description": "Cereals",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "11": {
+      "section": "II",
+      "description": "Products of the milling industry; malt; starches; inulin; wheat gluten",
+      "estimatedSubheadings": 17,
+      "activeCount": 0
+    },
+    "12": {
+      "section": "II",
+      "description": "Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit",
+      "estimatedSubheadings": 23,
+      "activeCount": 0
+    },
+    "13": {
+      "section": "II",
+      "description": "Lac; gums, resins and other vegetable saps and extracts",
+      "estimatedSubheadings": 6,
+      "activeCount": 0
+    },
+    "14": {
+      "section": "II",
+      "description": "Vegetable plaiting materials; vegetable products not elsewhere specified",
+      "estimatedSubheadings": 4,
+      "activeCount": 0
+    },
+    "15": {
+      "section": "III",
+      "description": "Animal or vegetable fats and oils and their cleavage products",
+      "estimatedSubheadings": 34,
+      "activeCount": 0
+    },
+    "16": {
+      "section": "IV",
+      "description": "Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "17": {
+      "section": "IV",
+      "description": "Sugars and sugar confectionery",
+      "estimatedSubheadings": 14,
+      "activeCount": 0
+    },
+    "18": {
+      "section": "IV",
+      "description": "Cocoa and cocoa preparations",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "19": {
+      "section": "IV",
+      "description": "Preparations of cereals, flour, starch or milk; pastrycooks' products",
+      "estimatedSubheadings": 17,
+      "activeCount": 0
+    },
+    "20": {
+      "section": "IV",
+      "description": "Preparations of vegetables, fruit, nuts or other parts of plants",
+      "estimatedSubheadings": 34,
+      "activeCount": 0
+    },
+    "21": {
+      "section": "IV",
+      "description": "Miscellaneous edible preparations",
+      "estimatedSubheadings": 14,
+      "activeCount": 0
+    },
+    "22": {
+      "section": "IV",
+      "description": "Beverages, spirits and vinegar",
+      "estimatedSubheadings": 20,
+      "activeCount": 0
+    },
+    "23": {
+      "section": "IV",
+      "description": "Residues and waste from the food industries; prepared animal fodder",
+      "estimatedSubheadings": 10,
+      "activeCount": 0
+    },
+    "24": {
+      "section": "IV",
+      "description": "Tobacco and manufactured tobacco substitutes",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "25": {
+      "section": "V",
+      "description": "Salt; sulphur; earths and stone; plastering materials, lime and cement",
+      "estimatedSubheadings": 40,
+      "activeCount": 0
+    },
+    "26": {
+      "section": "V",
+      "description": "Ores, slag and ash",
+      "estimatedSubheadings": 21,
+      "activeCount": 0
+    },
+    "27": {
+      "section": "V",
+      "description": "Mineral fuels, mineral oils and products of their distillation",
+      "estimatedSubheadings": 36,
+      "activeCount": 0
+    },
+    "28": {
+      "section": "VI",
+      "description": "Inorganic chemicals; organic or inorganic compounds of precious metals",
+      "estimatedSubheadings": 165,
+      "activeCount": 0
+    },
+    "29": {
+      "section": "VI",
+      "description": "Organic chemicals",
+      "estimatedSubheadings": 1020,
+      "activeCount": 0
+    },
+    "30": {
+      "section": "VI",
+      "description": "Pharmaceutical products",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "31": {
+      "section": "VI",
+      "description": "Fertilisers",
+      "estimatedSubheadings": 14,
+      "activeCount": 0
+    },
+    "32": {
+      "section": "VI",
+      "description": "Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments",
+      "estimatedSubheadings": 22,
+      "activeCount": 0
+    },
+    "33": {
+      "section": "VI",
+      "description": "Essential oils and resinoids; perfumery, cosmetic or toilet preparations",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "34": {
+      "section": "VI",
+      "description": "Soap, organic surface-active agents, washing preparations, lubricating preparations",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "35": {
+      "section": "VI",
+      "description": "Albuminoidal substances; modified starches; glues; enzymes",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "36": {
+      "section": "VI",
+      "description": "Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "37": {
+      "section": "VI",
+      "description": "Photographic or cinematographic goods",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "38": {
+      "section": "VI",
+      "description": "Miscellaneous chemical products",
+      "estimatedSubheadings": 65,
+      "activeCount": 0
+    },
+    "39": {
+      "section": "VII",
+      "description": "Plastics and articles thereof",
+      "estimatedSubheadings": 93,
+      "activeCount": 5
+    },
+    "40": {
+      "section": "VII",
+      "description": "Rubber and articles thereof",
+      "estimatedSubheadings": 37,
+      "activeCount": 0
+    },
+    "41": {
+      "section": "VIII",
+      "description": "Raw hides and skins (other than furskins) and leather",
+      "estimatedSubheadings": 14,
+      "activeCount": 0
+    },
+    "42": {
+      "section": "VIII",
+      "description": "Articles of leather; saddlery and harness; travel goods, handbags; articles of animal gut",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "43": {
+      "section": "VIII",
+      "description": "Furskins and artificial fur; manufactures thereof",
+      "estimatedSubheadings": 11,
+      "activeCount": 0
+    },
+    "44": {
+      "section": "IX",
+      "description": "Wood and articles of wood; wood charcoal",
+      "estimatedSubheadings": 50,
+      "activeCount": 1
+    },
+    "45": {
+      "section": "IX",
+      "description": "Cork and articles of cork",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "46": {
+      "section": "IX",
+      "description": "Manufactures of straw, of esparto or of other plaiting materials",
+      "estimatedSubheadings": 5,
+      "activeCount": 0
+    },
+    "47": {
+      "section": "X",
+      "description": "Pulp of wood or of other fibrous cellulosic material",
+      "estimatedSubheadings": 10,
+      "activeCount": 0
+    },
+    "48": {
+      "section": "X",
+      "description": "Paper and paperboard; articles of paper pulp, of paper or of paperboard",
+      "estimatedSubheadings": 74,
+      "activeCount": 26
+    },
+    "49": {
+      "section": "X",
+      "description": "Printed books, newspapers, pictures and other products of the printing industry",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "50": {
+      "section": "XI",
+      "description": "Silk",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "51": {
+      "section": "XI",
+      "description": "Wool, fine or coarse animal hair; horsehair yarn and woven fabric",
+      "estimatedSubheadings": 24,
+      "activeCount": 0
+    },
+    "52": {
+      "section": "XI",
+      "description": "Cotton",
+      "estimatedSubheadings": 58,
+      "activeCount": 0
+    },
+    "53": {
+      "section": "XI",
+      "description": "Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn",
+      "estimatedSubheadings": 13,
+      "activeCount": 0
+    },
+    "54": {
+      "section": "XI",
+      "description": "Man-made filaments; strip and the like of man-made textile materials",
+      "estimatedSubheadings": 34,
+      "activeCount": 0
+    },
+    "55": {
+      "section": "XI",
+      "description": "Man-made staple fibres",
+      "estimatedSubheadings": 37,
+      "activeCount": 0
+    },
+    "56": {
+      "section": "XI",
+      "description": "Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "57": {
+      "section": "XI",
+      "description": "Carpets and other textile floor coverings",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "58": {
+      "section": "XI",
+      "description": "Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "59": {
+      "section": "XI",
+      "description": "Impregnated, coated, covered or laminated textile fabrics",
+      "estimatedSubheadings": 13,
+      "activeCount": 0
+    },
+    "60": {
+      "section": "XI",
+      "description": "Knitted or crocheted fabrics",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "61": {
+      "section": "XI",
+      "description": "Articles of apparel and clothing accessories, knitted or crocheted",
+      "estimatedSubheadings": 46,
+      "activeCount": 5
+    },
+    "62": {
+      "section": "XI",
+      "description": "Articles of apparel and clothing accessories, not knitted or crocheted",
+      "estimatedSubheadings": 55,
+      "activeCount": 0
+    },
+    "63": {
+      "section": "XI",
+      "description": "Other made-up textile articles; sets; worn clothing and worn textile articles; rags",
+      "estimatedSubheadings": 27,
+      "activeCount": 18
+    },
+    "64": {
+      "section": "XII",
+      "description": "Footwear, gaiters and the like; parts of such articles",
+      "estimatedSubheadings": 16,
+      "activeCount": 0
+    },
+    "65": {
+      "section": "XII",
+      "description": "Headgear and parts thereof",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "66": {
+      "section": "XII",
+      "description": "Umbrellas, sun umbrellas, walking-sticks, seat-sticks, whips, riding-crops and parts thereof",
+      "estimatedSubheadings": 5,
+      "activeCount": 0
+    },
+    "67": {
+      "section": "XII",
+      "description": "Prepared feathers and down and articles made of feathers or of down; artificial flowers",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "68": {
+      "section": "XIII",
+      "description": "Articles of stone, plaster, cement, asbestos, mica or similar materials",
+      "estimatedSubheadings": 23,
+      "activeCount": 0
+    },
+    "69": {
+      "section": "XIII",
+      "description": "Ceramic products",
+      "estimatedSubheadings": 16,
+      "activeCount": 2
+    },
+    "70": {
+      "section": "XIII",
+      "description": "Glass and glassware",
+      "estimatedSubheadings": 29,
+      "activeCount": 8
+    },
+    "71": {
+      "section": "XIV",
+      "description": "Natural or cultured pearls, precious or semi-precious stones, precious metals",
+      "estimatedSubheadings": 37,
+      "activeCount": 0
+    },
+    "72": {
+      "section": "XV",
+      "description": "Iron and steel",
+      "estimatedSubheadings": 65,
+      "activeCount": 0
+    },
+    "73": {
+      "section": "XV",
+      "description": "Articles of iron or steel",
+      "estimatedSubheadings": 64,
+      "activeCount": 5
+    },
+    "74": {
+      "section": "XV",
+      "description": "Copper and articles thereof",
+      "estimatedSubheadings": 30,
+      "activeCount": 0
+    },
+    "75": {
+      "section": "XV",
+      "description": "Nickel and articles thereof",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "76": {
+      "section": "XV",
+      "description": "Aluminium and articles thereof",
+      "estimatedSubheadings": 28,
+      "activeCount": 3
+    },
+    "77": {
+      "section": "XV",
+      "description": "Reserved for possible future use in the Harmonized System",
+      "estimatedSubheadings": 0,
+      "activeCount": 0
+    },
+    "78": {
+      "section": "XV",
+      "description": "Lead and articles thereof",
+      "estimatedSubheadings": 8,
+      "activeCount": 0
+    },
+    "79": {
+      "section": "XV",
+      "description": "Zinc and articles thereof",
+      "estimatedSubheadings": 9,
+      "activeCount": 0
+    },
+    "80": {
+      "section": "XV",
+      "description": "Tin and articles thereof",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "81": {
+      "section": "XV",
+      "description": "Other base metals; cermets; articles thereof",
+      "estimatedSubheadings": 20,
+      "activeCount": 0
+    },
+    "82": {
+      "section": "XV",
+      "description": "Tools, implements, cutlery, spoons and forks, of base metal",
+      "estimatedSubheadings": 30,
+      "activeCount": 6
+    },
+    "83": {
+      "section": "XV",
+      "description": "Miscellaneous articles of base metal",
+      "estimatedSubheadings": 27,
+      "activeCount": 4
+    },
+    "84": {
+      "section": "XVI",
+      "description": "Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",
+      "estimatedSubheadings": 614,
+      "activeCount": 0
+    },
+    "85": {
+      "section": "XVI",
+      "description": "Electrical machinery and equipment and parts thereof; sound recorders and reproducers",
+      "estimatedSubheadings": 282,
+      "activeCount": 1
+    },
+    "86": {
+      "section": "XVII",
+      "description": "Railway or tramway locomotives, rolling-stock and parts thereof",
+      "estimatedSubheadings": 11,
+      "activeCount": 0
+    },
+    "87": {
+      "section": "XVII",
+      "description": "Vehicles other than railway or tramway rolling-stock, and parts and accessories thereof",
+      "estimatedSubheadings": 49,
+      "activeCount": 0
+    },
+    "88": {
+      "section": "XVII",
+      "description": "Aircraft, spacecraft, and parts thereof",
+      "estimatedSubheadings": 10,
+      "activeCount": 0
+    },
+    "89": {
+      "section": "XVII",
+      "description": "Ships, boats and floating structures",
+      "estimatedSubheadings": 13,
+      "activeCount": 0
+    },
+    "90": {
+      "section": "XVIII",
+      "description": "Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical instruments",
+      "estimatedSubheadings": 90,
+      "activeCount": 0
+    },
+    "91": {
+      "section": "XVIII",
+      "description": "Clocks and watches and parts thereof",
+      "estimatedSubheadings": 18,
+      "activeCount": 0
+    },
+    "92": {
+      "section": "XVIII",
+      "description": "Musical instruments; parts and accessories of such articles",
+      "estimatedSubheadings": 13,
+      "activeCount": 0
+    },
+    "93": {
+      "section": "XIX",
+      "description": "Arms and ammunition; parts and accessories thereof",
+      "estimatedSubheadings": 12,
+      "activeCount": 0
+    },
+    "94": {
+      "section": "XX",
+      "description": "Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings",
+      "estimatedSubheadings": 40,
+      "activeCount": 26
+    },
+    "95": {
+      "section": "XX",
+      "description": "Toys, games and sports requisites; parts and accessories thereof",
+      "estimatedSubheadings": 17,
+      "activeCount": 0
+    },
+    "96": {
+      "section": "XX",
+      "description": "Miscellaneous manufactured articles",
+      "estimatedSubheadings": 26,
+      "activeCount": 0
+    },
+    "97": {
+      "section": "XXI",
+      "description": "Works of art, collectors' pieces and antiques",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "01": {
+      "section": "I",
+      "description": "Live animals",
+      "estimatedSubheadings": 7,
+      "activeCount": 0
+    },
+    "02": {
+      "section": "I",
+      "description": "Meat and edible meat offal",
+      "estimatedSubheadings": 53,
+      "activeCount": 0
+    },
+    "03": {
+      "section": "I",
+      "description": "Fish and crustaceans, molluscs and other aquatic invertebrates",
+      "estimatedSubheadings": 61,
+      "activeCount": 0
+    },
+    "04": {
+      "section": "I",
+      "description": "Dairy produce; birds' eggs; natural honey; edible products of animal origin",
+      "estimatedSubheadings": 22,
+      "activeCount": 0
+    },
+    "05": {
+      "section": "I",
+      "description": "Products of animal origin, not elsewhere specified or included",
+      "estimatedSubheadings": 15,
+      "activeCount": 0
+    },
+    "06": {
+      "section": "II",
+      "description": "Live trees and other plants; bulbs, roots; cut flowers and ornamental foliage",
+      "estimatedSubheadings": 6,
+      "activeCount": 0
+    },
+    "07": {
+      "section": "II",
+      "description": "Edible vegetables and certain roots and tubers",
+      "estimatedSubheadings": 54,
+      "activeCount": 0
+    },
+    "08": {
+      "section": "II",
+      "description": "Edible fruit and nuts; peel of citrus fruit or melons",
+      "estimatedSubheadings": 46,
+      "activeCount": 1
+    },
+    "09": {
+      "section": "II",
+      "description": "Coffee, tea, maté and spices",
+      "estimatedSubheadings": 22,
+      "activeCount": 7
+    }
   }
 }

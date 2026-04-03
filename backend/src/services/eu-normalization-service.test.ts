@@ -10,7 +10,7 @@ const normalizedDatasetPath = fileURLToPath(
 );
 
 describe("normalizeEuSourcePackage", () => {
-  it("derives the current normalized eu slice, blocked codes, and manual-review queue from the official snapshot", async () => {
+  it("derives the official-snapshot normalized eu slice while allowing the live dataset to be ahead of the raw source package", async () => {
     const { sourcePackage } = await loadMergedEuRawSourcePackage();
     const currentNormalizedDataset = JSON.parse(
       await readFile(normalizedDatasetPath, "utf8"),
@@ -28,10 +28,30 @@ describe("normalizeEuSourcePackage", () => {
       hsCode: "6307.10",
       productCode: "630710",
     });
-    expect(result.manualReview).toHaveLength(2);
+    expect(result.manualReview).toHaveLength(22);
     expect(result.manualReview.map((candidate) => candidate.hsCode)).toEqual([
+      "4811.21",
+      "4811.29",
+      "4811.31",
+      "4811.39",
+      "4814.10",
+      "6302.22",
+      "6302.32",
+      "6302.41",
+      "6302.42",
+      "6302.49",
       "6302.53",
+      "6307.90",
+      "7013.21",
+      "7013.29",
+      "7013.31",
       "7615.19",
+      "8302.42",
+      "9401.51",
+      "9401.91",
+      "9401.99",
+      "9403.80",
+      "9403.90",
     ]);
 
     const normalizedCore = result.normalized.map((candidate) => ({
@@ -46,8 +66,38 @@ describe("normalizeEuSourcePackage", () => {
       preferentialRate: record.preferentialRate,
       agreement: record.agreement,
     })).sort((left, right) => left.hsCode.localeCompare(right.hsCode));
+    const currentCoreByHsCode = new Map(
+      currentCore.map((record) => [record.hsCode, record]),
+    );
 
-    expect(normalizedCore).toEqual(currentCore);
+    for (const record of normalizedCore) {
+      expect(currentCoreByHsCode.get(record.hsCode)).toEqual(record);
+    }
+
+    const liveOnlyHsCodes = currentCore
+      .filter((record) => !normalizedCore.some((candidate) => candidate.hsCode === record.hsCode))
+      .map((record) => record.hsCode);
+
+    expect(liveOnlyHsCodes).toEqual([
+      "090112",
+      "090122",
+      "090210",
+      "090220",
+      "090230",
+      "090240",
+      "481930",
+      "482010",
+      "610990",
+      "611020",
+      "611030",
+      "611595",
+      "630210",
+      "630221",
+      "630491",
+      "940130",
+      "940171",
+      "940310",
+    ]);
   });
 
   it("uses manual overrides for narrow generic-branch rows that are now safely exposed", async () => {

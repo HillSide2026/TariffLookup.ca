@@ -21,6 +21,11 @@
       "kind": "raw-api-snapshot",
       "path": "data/raw/eu/access2markets-tariffs-2026-03-17-household-packaging-batch-1.json",
       "description": "Raw official Access2Markets tariff payloads captured for a follow-on EU intake batch."
+    },
+    {
+      "kind": "raw-api-snapshot",
+      "path": "data/raw/eu/access2markets-tariffs-2026-04-03-overnight-60.json",
+      "description": "Raw official Access2Markets tariff payloads captured for a follow-on EU intake batch."
     }
   ],
   "sources": [
@@ -55,6 +60,6 @@
       "purpose": "Classification certainty reference for difficult product-description-to-code cases."
     }
   ],
-  "lastReviewed": "2026-03-17",
+  "lastReviewed": "2026-04-03",
   "owner": "TariffLookup.ca engineering"
 }

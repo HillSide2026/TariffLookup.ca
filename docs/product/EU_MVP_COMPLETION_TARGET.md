@@ -1,7 +1,7 @@
 # EU MVP Completion Target
 
 Status: Active execution target  
-Last updated: 2026-03-22  
+Last updated: 2026-04-03  
 Owner: ML1  
 Applies to: current implementation stage for TariffLookup.ca
 
@@ -49,13 +49,13 @@ The current stage reaches its completion gate when all of the following are true
 
 ## Current Baseline
 
-As of 2026-03-22:
+As of 2026-04-03:
 
-- live normalized EU rows: `31`
-- current merged EU working set in the repo: `34`
-- current gap to the HS-6 floor, measured against live normalized rows only: about `4,969`
+- live normalized EU rows: `89`
+- current active EU catalog entries in the repo: `118` (`89` normalized, `5` blocked_with_guidance, `22` manual_review, `2` in_queue)
+- current gap to the HS-6 floor, measured against live normalized rows only: about `4,911`
 
-That `4,969` figure is a raw gap-to-floor number, not a promise that every remaining group should be normalized directly without blocked or manual-review states.
+That `4,911` figure is a raw gap-to-floor number, not a promise that every remaining group should be normalized directly without blocked or manual-review states.
 
 ## Tracking Rule
 

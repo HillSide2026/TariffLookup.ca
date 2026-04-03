@@ -8,16 +8,19 @@ This runbook defines the Step 5 refresh procedure for tariff-data updates.
 2. Update the relevant source manifest entries and provenance notes in
    `docs/data-sources/`.
 3. Normalize the approved rows into `data/normalized/`.
-4. Keep blocked or ambiguous rows documented in the normalization queue instead
+4. Run `npm --prefix backend run generate:eu-docs` to regenerate the catalog-derived
+   EU coverage docs.
+5. Keep blocked or ambiguous rows documented in the normalization queue instead
    of forcing a false-positive normalized record.
 
 ## Verification workflow
 
 1. Run backend tests.
-2. Run frontend tests.
-3. Run backend and frontend builds.
-4. Spot-check at least one normalized lookup for each changed jurisdiction.
-5. Update the roadmap or source-package docs if the normalization scope changed.
+2. Run `npm --prefix backend run check:eu-docs`.
+3. Run frontend tests.
+4. Run backend and frontend builds.
+5. Spot-check at least one normalized lookup for each changed jurisdiction.
+6. Update the roadmap or source-package docs if the normalization scope changed.
 
 ## Release workflow
 

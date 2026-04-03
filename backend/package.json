@@ -9,7 +9,9 @@
     "start": "node dist/server.js",
     "test": "vitest run",
     "intake:eu": "npm run build && node dist/scripts/intake-eu-source-batch.js",
-    "normalize:eu": "npm run build && node dist/scripts/normalize-eu-source.js"
+    "normalize:eu": "npm run build && node dist/scripts/normalize-eu-source.js",
+    "generate:eu-docs": "npm run build && node dist/scripts/generate-eu-coverage-docs.js",
+    "check:eu-docs": "npm run build && node dist/scripts/generate-eu-coverage-docs.js --check"
   },
   "dependencies": {
     "fastify": "^5.0.0",

@@ -1,0 +1,219 @@
+{
+  "batchId": "batch-2026-04-03-a",
+  "status": "captured",
+  "createdAt": "2026-04-03",
+  "goal": "60-code overnight intake plan toward 100 live normalized EU rows",
+  "selectionCriteria": {
+    "method": "manual-priority-v1",
+    "coverageGapPriority": true,
+    "adjacencyPreference": true,
+    "directHsFirst": true,
+    "classifierPromotionOnlyWhenSafe": true,
+    "maxCodesPerChapterPerBatch": 3
+  },
+  "chapterDistribution": {
+    "48": 20,
+    "63": 10,
+    "70": 5,
+    "73": 2,
+    "82": 6,
+    "83": 2,
+    "94": 15
+  },
+  "families": [
+    {
+      "family": "paper/packaging",
+      "chapters": [
+        {
+          "chapter": "48",
+          "codes": [
+            "4811.10",
+            "4811.21",
+            "4811.29",
+            "4811.31",
+            "4811.39",
+            "4811.41",
+            "4811.49",
+            "4811.51",
+            "4811.59",
+            "4811.60",
+            "4811.90",
+            "4814.10",
+            "4814.20",
+            "4814.90",
+            "4818.10",
+            "4818.20",
+            "4818.30",
+            "4818.90",
+            "4821.10",
+            "4821.90"
+          ]
+        }
+      ]
+    },
+    {
+      "family": "textiles",
+      "chapters": [
+        {
+          "chapter": "63",
+          "codes": [
+            "6302.22",
+            "6302.29",
+            "6302.32",
+            "6302.39",
+            "6302.41",
+            "6302.42",
+            "6302.49",
+            "6304.11",
+            "6304.19",
+            "6307.90"
+          ]
+        }
+      ]
+    },
+    {
+      "family": "furniture",
+      "chapters": [
+        {
+          "chapter": "94",
+          "codes": [
+            "9401.10",
+            "9401.20",
+            "9401.31",
+            "9401.39",
+            "9401.41",
+            "9401.49",
+            "9401.51",
+            "9401.59",
+            "9401.80",
+            "9401.91",
+            "9401.99",
+            "9403.80",
+            "9403.90",
+            "9404.10",
+            "9404.21"
+          ]
+        }
+      ]
+    },
+    {
+      "family": "glassware",
+      "chapters": [
+        {
+          "chapter": "70",
+          "codes": [
+            "7013.10",
+            "7013.21",
+            "7013.22",
+            "7013.29",
+            "7013.31"
+          ]
+        }
+      ]
+    },
+    {
+      "family": "household articles",
+      "chapters": [
+        {
+          "chapter": "73",
+          "codes": [
+            "7323.91",
+            "7323.92",
+            "7323.94",
+            "7323.99"
+          ]
+        },
+        {
+          "chapter": "82",
+          "codes": [
+            "8208.10",
+            "8208.20",
+            "8208.40",
+            "8208.90"
+          ]
+        },
+        {
+          "chapter": "83",
+          "codes": [
+            "8302.41",
+            "8302.42"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Use direct HS lookup first for every code in this slate.",
+    "Only add narrow description classifier coverage for a code after its lookup behavior is stable and unambiguous.",
+    "Raw intake captured on 2026-04-03 and normalization outcome synced into the live EU dataset; new entries remain direct-HS-first until classifier promotion is explicitly approved."
+  ],
+  "capturedAt": "2026-04-03",
+  "normalizedCount": 40,
+  "manualReviewCount": 20,
+  "blockedCount": 0,
+  "completedCodes": [
+    "4811.10",
+    "4811.41",
+    "4811.49",
+    "4811.51",
+    "4811.59",
+    "4811.60",
+    "4811.90",
+    "4814.20",
+    "4814.90",
+    "4818.10",
+    "4818.20",
+    "4818.30",
+    "4818.90",
+    "4821.10",
+    "4821.90",
+    "6302.29",
+    "6302.39",
+    "6304.11",
+    "6304.19",
+    "7013.10",
+    "7013.22",
+    "7323.91",
+    "7323.92",
+    "7323.94",
+    "7323.99",
+    "8208.10",
+    "8208.20",
+    "8208.40",
+    "8208.90",
+    "8302.41",
+    "9401.10",
+    "9401.20",
+    "9401.31",
+    "9401.39",
+    "9401.41",
+    "9401.49",
+    "9401.59",
+    "9401.80",
+    "9404.10",
+    "9404.21"
+  ],
+  "manualReviewCodes": [
+    "4811.21",
+    "4811.29",
+    "4811.31",
+    "4811.39",
+    "4814.10",
+    "6302.22",
+    "6302.32",
+    "6302.41",
+    "6302.42",
+    "6302.49",
+    "6307.90",
+    "7013.21",
+    "7013.29",
+    "7013.31",
+    "8302.42",
+    "9401.51",
+    "9401.91",
+    "9401.99",
+    "9403.80",
+    "9403.90"
+  ],
+  "blockedCodes": []
+}

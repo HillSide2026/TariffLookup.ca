@@ -64,7 +64,7 @@ This repo now contains an active frontend and backend MVP, including:
 - browser-saved workflow defaults across the signed-in account surfaces
 - backend health, metrics, structured logging, and client-side failure logging for Step 5 operations
 - release, staging, and tariff-data refresh runbooks committed in `docs/engineering/`
-- `31` live normalized EU rows in `data/normalized/eu/tariff-records.json`
+- `89` live normalized EU rows in `data/normalized/eu/tariff-records.json`
 
 ## Near-Term Priorities
 

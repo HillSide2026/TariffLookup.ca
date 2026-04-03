@@ -17,7 +17,8 @@
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
-import { join, resolve } from "path";
+import { dirname, join, resolve } from "path";
+import { fileURLToPath } from "url";
 
 // ---- Types ----------------------------------------------------------------
 
@@ -241,7 +242,8 @@ function main() {
   const batchSize =
     batchSizeArg >= 0 ? parseInt(args[batchSizeArg + 1] ?? "20", 10) : 20;
 
-  const repoRoot = resolve(__dirname, "../../..");
+  const scriptDir = dirname(fileURLToPath(import.meta.url));
+  const repoRoot = resolve(scriptDir, "../../..");
   const catalogPath = join(repoRoot, "data/catalog/eu-hs6-catalog.json");
   const batchesDir = join(repoRoot, "data/catalog/batches");
 

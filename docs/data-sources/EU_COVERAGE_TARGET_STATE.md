@@ -1,7 +1,7 @@
 # EU Coverage Target State
 
 Status: Active working target state  
-Last updated: 2026-03-22  
+Last updated: 2026-04-03  
 Owner: ML1  
 Scope: European Union coverage only for the current stage
 
@@ -13,20 +13,26 @@ It exists so product, data, and QA work can optimize toward one explicit goal in
 
 ## Current Baseline
 
-As of 2026-03-22, the EU normalization pipeline reports:
+As of 2026-04-03, the live EU catalog and normalized dataset currently reflect:
 
-- `34` merged EU raw-query rows in the current working source set
-- `31` safe normalized candidates already live in `data/normalized/eu/tariff-records.json`
-- `1` blocked row
-- `2` manual-review rows
+- `94` merged EU raw-query rows in the current official-source working set
+- `118` active EU catalog entries currently tracked in `data/catalog/eu-hs6-catalog.json`
+- `89` safe normalized candidates already live in `data/normalized/eu/tariff-records.json`
+- `5` blocked rows
+- `22` manual-review rows
+- `2` rows still in queue for the remaining glassware batch
 
 Current live trusted EU dataset:
 
-- `31` normalized EU rows in `data/normalized/eu/tariff-records.json`
+- `89` normalized EU rows in `data/normalized/eu/tariff-records.json`
 
 Current floor gap:
 
-- about `4,969` additional groups remain before the product reaches the HS-6 floor of about `5,000` groups, measured against the current normalized-row baseline only
+- about `4,911` additional groups remain before the product reaches the HS-6 floor of about `5,000` groups, measured against the current normalized-row baseline only
+
+Current raw-source note:
+
+- the merged official raw-source package in the repo currently reproduces `71` normalized rows, `1` blocked row, and `22` manual-review rows, so the live dataset is ahead of the current raw-source package by `18` promoted rows and must still be tracked explicitly
 
 ## Coverage Floor
 
